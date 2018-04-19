@@ -1,0 +1,2222 @@
+<?xml version="1.0"?>
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml"
+             xml:lang="en"><head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to brigitte bottollier."></meta><meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC:Creator" content="brigitte bottollier" />
+<meta name="DC:Creator" content="UNREGISTERED" />
+<meta name="DC:Title" content="ANALYSE DE LA VARIANCE (ANOVA)" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+
+<title>
+ANALYSE DE LA VARIANCE (ANOVA)
+</title>
+
+<!-- Made with executable version 6.0 Release 3 Build 3 -->
+
+<!-- The following insertion allows you to add your own code directly to this head tag from the configuration screen -->
+
+
+
+<style type="text/css">
+
+
+/* This is the CSS stylesheet used in the exercise. */
+/* Elements in square brackets are replaced by data based on configuration settings when the exercise is built. */
+
+
+body{
+	font-family: Comic Sans MS;
+	background-color: #a5a914;
+	color: #000000;
+ 
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: small;
+}
+
+p{
+	text-align: left;
+	margin: 0px;
+	font-size: small;
+}
+
+div,span,td{
+	font-size: small;
+	color: #000000;
+}
+
+.RTLText{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", Comic Sans MS; 
+}
+
+.CentredRTLText{
+	text-align: center;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", Comic Sans MS; 
+}
+
+button p.RTLText{
+	text-align: center;
+}
+
+.RTLGapBox{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Times New Roman", Comic Sans MS;
+}
+
+.Guess{
+	font-weight: bold;
+}
+
+.CorrectAnswer{
+	font-weight: bold;
+}
+
+div.Titles{
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+button{
+	display: inline;
+}
+
+.ExerciseTitle{
+	font-size: large;
+	color: #000000;
+}
+
+.ExerciseSubtitle{
+	color: #000000;
+}
+
+div#Timer{
+	padding: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+span#TimerText{
+	padding: 6px;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: bold;
+	display: none;
+}
+
+span.Instructions{
+
+}
+
+div.ExerciseText{
+
+}
+
+.FeedbackText{
+	color: #000000;
+}
+
+span.LeftItem{
+	font-size: small;
+	color: #000000;
+}
+
+span.RightItem{
+	font-weight: bold;
+	font-size: small;
+	color: #000000;
+}
+
+span.CorrectMark{
+
+}
+
+div.Feedback {
+	background-color: #a5a914;
+	left: 33%;
+	width: 34%;
+	top: 33%;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	text-align: center;
+	color: #000000;
+	position: absolute;
+	display: none;
+	font-size: small;
+}
+
+
+
+
+div.ExerciseDiv{
+	color: #000000;
+}
+
+/* JMatch flashcard styles */
+table.FlashcardTable{
+	background-color: transparent;
+	color: #000000;
+	border-color: #000000;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 90%;
+	position: relative;
+	align: center;
+	padding: 0px;
+}
+
+table.FlashcardTable tr{
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Showing{
+	font-size: large;
+	text-align: center;
+	width: 50%;
+	display: table-cell;
+	padding: 2em;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Hidden{
+	display: none;
+}
+
+/* JMix styles */
+div#SegmentDiv{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+a.ExSegment{
+	font-size: medium;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+span.RemainingWordList{
+	font-style: italic;
+}
+
+div.DropLine {
+	position: absolute;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	width: 80%;
+}
+
+/* JCloze styles */
+
+input{
+	font-family: Comic Sans MS;
+	font-size: larger;
+}
+
+.ClozeWordList{
+	text-align: center;
+	font-weight: bold;
+}
+
+div.ClozeBody{
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 2.0
+}
+
+span.GapSpan{
+	font-weight: bold;
+}
+
+/* JCross styles */
+
+table.CrosswordGrid{
+	margin: auto auto 1em auto;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+table.CrosswordGrid td{
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+	font-size: large;
+	padding: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+table.CrosswordGrid td.BlankCell{
+	background-color: #000000;
+	color: #000000;
+}
+
+table.CrosswordGrid td.LetterOnlyCell{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+
+table.CrosswordGrid td.NumLetterCell{
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 1px;
+	font-weight: bold;
+}
+
+.NumLetterCellText{
+	cursor: pointer;
+}
+
+.GridNum{
+	vertical-align: super;
+	font-size: x-small;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+table#Clues{
+	margin: auto;
+	vertical-align: top;
+}
+
+table#Clues td{
+	vertical-align: top;
+}
+
+table.ClueList{
+  margin: auto;
+}
+
+td.ClueNum{
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+td.Clue{
+	text-align: left;
+}
+
+div#ClueEntry{
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+/* Keypad styles */
+
+div.Keypad{
+	text-align: center;
+}
+
+div.Keypad button{
+	font-family: Comic Sans MS;
+	font-size: 120%;
+	background-color: #ffffff;
+	color: #000000;
+	width: 2em;
+}
+
+/* JQuiz styles */
+
+div.QuestionNavigation{
+	text-align: center;
+}
+
+.QNum{
+	margin: 0em 1em 0.5em 1em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+textarea{
+	font-family: Comic Sans MS;
+	font-size: larger;
+}
+
+.QuestionText{
+
+}
+
+.Answer{
+	font-size: 120%;
+	letter-spacing: 0.1em;
+}
+
+.Highlight{
+	color: #000000;
+	background-color: #ffff00;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+ol.QuizQuestions{
+	text-align: left;
+	list-style-type: none;
+}
+
+li.QuizQuestion{
+	padding: 1em;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+ol.MCAnswers{
+	text-align: left;
+	list-style-type: upper-alpha;
+	padding: 1em;
+}
+
+ol.MCAnswers li{
+	margin-bottom: 1em;
+}
+
+ol.MSelAnswers{
+	text-align: left;
+	list-style-type: lower-alpha;
+	padding: 1em;
+}
+
+div.ShortAnswer{
+	padding: 1em;
+}
+
+div.StdDiv{
+	background-color: fbdec4;
+	text-align: center;
+	font-size: small;
+	color: #000000;
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+	margin: 1px;
+}
+
+.FuncButton {
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: #000000;
+	background-color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonUp {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+
+	background-color: #000000;
+	color: fbdec4;
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonDown {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	background-color: #000000;
+	color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: fbdec4;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: small;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	background-color: fbdec4;
+	color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+/*EndNavBarStyle*/
+
+a{
+	color: #0000ff;
+}
+
+a: visited{
+	color: #0000cc;
+}
+
+a:hover{
+	color: #0000ff;
+}
+
+div.CardStyle {
+	position: absolute;
+	font-family: Comic Sans MS;
+	font-size: small;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+	left: -50px;
+	top: -50px;
+	overflow: visible;
+}
+
+.rtl{
+	text-align: right;
+	font-size: large;
+}
+
+
+</style>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+
+function Client(){
+//if not a DOM browser, hopeless
+	this.min = false; if (document.getElementById){this.min = true;};
+
+	this.ua = navigator.userAgent;
+	this.name = navigator.appName;
+	this.ver = navigator.appVersion;  
+
+//Get data about the browser
+	this.mac = (this.ver.indexOf('Mac') != -1);
+	this.win = (this.ver.indexOf('Windows') != -1);
+
+//Look for Gecko
+	this.gecko = (this.ua.indexOf('Gecko') > 1);
+	if (this.gecko){
+		this.geckoVer = parseInt(this.ua.substring(this.ua.indexOf('Gecko')+6, this.ua.length));
+		if (this.geckoVer < 20020000){this.min = false;}
+	}
+	
+//Look for Firebird
+	this.firebird = (this.ua.indexOf('Firebird') > 1);
+	
+//Look for Safari
+	this.safari = (this.ua.indexOf('Safari') > 1);
+	if (this.safari){
+		this.gecko = false;
+	}
+	
+//Look for IE
+	this.ie = (this.ua.indexOf('MSIE') > 0);
+	if (this.ie){
+		this.ieVer = parseFloat(this.ua.substring(this.ua.indexOf('MSIE')+5, this.ua.length));
+		if (this.ieVer < 5.5){this.min = false;}
+	}
+	
+//Look for Opera
+	this.opera = (this.ua.indexOf('Opera') > 0);
+	if (this.opera){
+		this.operaVer = parseFloat(this.ua.substring(this.ua.indexOf('Opera')+6, this.ua.length));
+		if (this.operaVer < 7.04){this.min = false;}
+	}
+	if (this.min == false){
+		alert('Your browser may not be able to handle this page.');
+	}
+	
+//Special case for the horrible ie5mac
+	this.ie5mac = (this.ie&&this.mac&&(this.ieVer<6));
+}
+
+var C = new Client();
+
+//for (prop in C){
+//	alert(prop + ': ' + C[prop]);
+//}
+
+
+
+//CODE FOR HANDLING NAV BUTTONS AND FUNCTION BUTTONS
+
+//[strNavBarJS]
+function NavBtnOver(Btn){
+	if (Btn.className != 'NavButtonDown'){Btn.className = 'NavButtonUp';}
+}
+
+function NavBtnOut(Btn){
+	Btn.className = 'NavButton';
+}
+
+function NavBtnDown(Btn){
+	Btn.className = 'NavButtonDown';
+}
+//[/strNavBarJS]
+
+function FuncBtnOver(Btn){
+	if (Btn.className != 'FuncButtonDown'){Btn.className = 'FuncButtonUp';}
+}
+
+function FuncBtnOut(Btn){
+	Btn.className = 'FuncButton';
+}
+
+function FuncBtnDown(Btn){
+	Btn.className = 'FuncButtonDown';
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		if (document.getElementById('CheckButton2') != null){
+			document.getElementById('CheckButton2').focus();
+		}
+		else{
+			document.getElementsByTagName('button')[0].focus();
+		}
+	}
+}
+
+
+
+
+//CODE FOR HANDLING DISPLAY OF POPUP FEEDBACK BOX
+
+var topZ = 1000;
+
+function ShowMessage(Feedback){
+	var Output = Feedback + '<br /><br />';
+	document.getElementById('FeedbackContent').innerHTML = Output;
+	var FDiv = document.getElementById('FeedbackDiv');
+	topZ++;
+	FDiv.style.zIndex = topZ;
+	FDiv.style.top = TopSettingWithScrollOffset(30) + 'px';
+//IE can't focus a hidden div; Moz needs to focus before display to avoid jumping
+	if (C.gecko){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	FDiv.style.display = 'block';
+
+	ShowElements(false, 'input');
+	ShowElements(false, 'select');
+	ShowElements(false, 'object');
+	if (C.ie){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	
+//
+}
+
+function ShowElements(Show, TagName){
+//Special for IE bug -- hide all the form elements that will show through the popup
+	if (C.ie){
+		var Els = document.getElementsByTagName(TagName);
+		for (var i=0; i<Els.length; i++){
+			if (Show == true){
+				Els[i].style.display = 'inline';
+			}
+			else{
+				Els[i].style.display = 'none';
+			}
+		}
+	} 
+}
+
+function HideFeedback(){
+	document.getElementById('FeedbackDiv').style.display = 'none';
+	ShowElements(true, 'input');
+	ShowElements(true, 'select');
+	ShowElements(true, 'object');
+	if (Finished == true){
+		Finish();
+	}
+}
+
+
+//GENERAL UTILITY FUNCTIONS AND VARIABLES
+
+//PAGE DIMENSION FUNCTIONS
+function PageDim(){
+//Get the page width and height
+	this.W = 600;
+	this.H = 400;
+	this.W = document.getElementsByTagName('body')[0].clientWidth;
+	this.H = document.getElementsByTagName('body')[0].clientHeight;
+}
+
+var pg = null;
+
+function GetPageXY(El) {
+	var XY = {x: 0, y: 0};
+	while(El){
+		XY.x += El.offsetLeft;
+		XY.y += El.offsetTop;
+		El = El.offsetParent;
+	}
+	return XY;
+}
+
+function GetScrollTop(){
+	if (document.documentElement && document.documentElement.scrollTop){
+		return document.documentElement.scrollTop;
+	}
+	else{
+		if (document.body){
+ 			return document.body.scrollTop;
+		}
+		else{
+			return window.pageYOffset;
+		}
+	}
+}
+
+function GetViewportHeight(){
+	if (window.innerWidth){
+		return window.innerWidth;
+	}
+	else{
+		return document.getElementsByTagName('body')[0].clientHeight;
+	}
+}
+
+function TopSettingWithScrollOffset(TopPercent){
+	var T = Math.floor(GetViewportHeight() * (TopPercent/100));
+	return GetScrollTop() + T; 
+}
+
+//CODE FOR AVOIDING LOSS OF DATA WHEN BACKSPACE KEY INVOKES history.back()
+var InTextBox = false;
+
+function SuppressBackspace(e){ 
+	if (InTextBox == true){return;}
+	if (C.ie) {
+		thisKey = window.event.keyCode;
+	}
+	else {
+		thisKey = e.keyCode;
+	}
+
+	var Suppress = false;
+
+	if (thisKey == 8) {
+		Suppress = true;
+	}
+
+	if (Suppress == true){
+		if (C.ie){
+			window.event.returnValue = false;	
+			window.event.cancelBubble = true;
+		}
+		else{
+			e.preventDefault();
+		}
+	}
+}
+
+if (C.ie){
+	document.attachEvent('onkeydown',SuppressBackspace);
+	window.attachEvent('onkeydown',SuppressBackspace);
+}
+else{
+	window.addEventListener('keypress',SuppressBackspace,false);
+}
+
+function ReduceItems(InArray, ReduceToSize){
+	var ItemToDump=0;
+	var j=0;
+	while (InArray.length > ReduceToSize){
+		ItemToDump = Math.floor(InArray.length*Math.random());
+		InArray.splice(ItemToDump, 1);
+	}
+}
+
+function Shuffle(InArray){
+	Temp = new Array();
+	var Len = InArray.length;
+
+	var j = Len;
+
+	for (var i=0; i<Len; i++){
+		Temp[i] = InArray[i];
+	}
+
+	for (i=0; i<Len; i++){
+		Num = Math.floor(j  *  Math.random());
+		InArray[i] = Temp[Num];
+
+		for (var k=Num; k < j; k++) {
+			Temp[k] = Temp[k+1];
+		}
+		j--;
+	}
+	return InArray;
+}
+
+function WriteToInstructions(Feedback) {
+//	Feedback = '<span class="FeedbackText">' + Feedback + '</span>';
+	document.getElementById('InstructionsDiv').innerHTML = Feedback;
+
+}
+
+
+
+
+function EscapeDoubleQuotes(InString){
+	return InString.replace(/"/g, '&quot;')
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		document.getElementsByTagName('button')[0].focus();
+	}
+}
+
+function TrimString(InString){
+        var x = 0;
+
+        if (InString.length != 0) {
+                while ((InString.charAt(InString.length - 1) == '\u0020') || (InString.charAt(InString.length - 1) == '\u000A') || (InString.charAt(InString.length - 1) == '\u000D')){
+                        InString = InString.substring(0, InString.length - 1)
+                }
+
+                while ((InString.charAt(0) == '\u0020') || (InString.charAt(0) == '\u000A') || (InString.charAt(0) == '\u000D')){
+                        InString = InString.substring(1, InString.length)
+                }
+
+                while (InString.indexOf('  ') != -1) {
+                        x = InString.indexOf('  ')
+                        InString = InString.substring(0, x) + InString.substring(x+1, InString.length)
+                 }
+
+                return InString;
+        }
+
+        else {
+                return '';
+        }
+}
+
+function FindLongest(InArray){
+	if (InArray.length < 1){return -1;}
+
+	var Longest = 0;
+	for (var i=1; i<InArray.length; i++){
+		if (InArray[i].length > InArray[Longest].length){
+			Longest = i;
+		}
+	}
+	return Longest;
+}
+
+//UNICODE CHARACTER FUNCTIONS
+function IsCombiningDiacritic(CharNum){
+	var Result = (((CharNum >= 0x0300)&&(CharNum <= 0x370))||((CharNum >= 0x20d0)&&(CharNum <= 0x20ff)));
+	Result = Result || (((CharNum >= 0x3099)&&(CharNum <= 0x309a))||((CharNum >= 0xfe20)&&(CharNum <= 0xfe23)));
+	return Result;
+}
+
+function IsCJK(CharNum){
+	return ((CharNum >= 0x3000)&&(CharNum < 0xd800));
+}
+
+//SETUP FUNCTIONS
+//BROWSER WILL REFILL TEXT BOXES FROM CACHE IF NOT PREVENTED
+function ClearTextBoxes(){
+	var NList = document.getElementsByTagName('input');
+	for (var i=0; i<NList.length; i++){
+		if ((NList[i].id.indexOf('Guess') > -1)||(NList[i].id.indexOf('Gap') > -1)){
+			NList[i].value = '';
+		}
+		if (NList[i].id.indexOf('Chk') > -1){
+			NList[i].checked = '';
+		}
+	}
+}
+
+//EXTENSION TO ARRAY OBJECT
+function Array_IndexOf(Input){
+	var Result = -1;
+	for (var i=0; i<this.length; i++){
+		if (this[i] == Input){
+			Result = i;
+		}
+	}
+	return Result;
+}
+Array.prototype.indexOf = Array_IndexOf;
+
+//IE HAS RENDERING BUG WITH BOTTOM NAVBAR
+function RemoveBottomNavBarForIE(){
+	if ((C.ie)&&(document.getElementById('Reading') != null)){
+		if (document.getElementById('BottomNavBar') != null){
+			document.getElementById('TheBody').removeChild(document.getElementById('BottomNavBar'));
+		}
+	}
+}
+
+
+
+
+//HOTPOTNET-RELATED CODE
+
+var HPNStartTime = (new Date()).getTime();
+var SubmissionTimeout = 30000;
+var Detail = ''; //Global that is used to submit tracking data
+
+function Finish(){
+//If there's a form, fill it out and submit it
+	if (document.store != null){
+		Frm = document.store;
+		Frm.starttime.value = HPNStartTime;
+		Frm.endtime.value = (new Date()).getTime();
+		Frm.mark.value = Score;
+		Frm.detail.value = Detail;
+		Frm.submit();
+	}
+}
+
+
+
+//JQUIZ CORE JAVASCRIPT CODE
+
+var CurrQNum = 0;
+var CorrectIndicator = ' Oui';
+var IncorrectIndicator = ' Non';
+var YourScoreIs = 'Votre score est de';
+var ContinuousScoring = true;
+var CorrectFirstTime = 'Questions r&#x00E9;pondues correctement au premier essai';
+var ShowCorrectFirstTime = true;
+var ShuffleQs = true;
+var ShuffleAs = true;
+var DefaultRight = 'Bonne r&#x00E9;ponse';
+var DefaultWrong = 'D&#x00E9;sol&#x00E9;, essayez &#x00E0; nouveau!';
+var QsToShow = 32;
+var Score = 0;
+var Finished = false;
+var Qs = null;
+var QArray = new Array();
+var ShowingAllQuestions = false;
+var ShowAllQuestionsCaption = 'Afficher toutes les questions';
+var ShowOneByOneCaption = 'Voir les questions une par une';
+var State = new Array();
+var Feedback = '';
+var TimeOver = false;
+
+//The following variable can be used to add a message explaining that
+//the question is finished, so no further marking will take place.
+var strQuestionFinished = '';
+
+function CompleteEmptyFeedback(){
+	var QNum, ANum;
+	for (QNum=0; QNum<I.length; QNum++){
+//Only do this if not multi-select
+		if (I[QNum][2] != '3'){
+  		for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+  			if (I[QNum][3][ANum][1].length < 1){
+  				if (I[QNum][3][ANum][2] > 0){
+  					I[QNum][3][ANum][1] = DefaultRight;
+  				}
+  				else{
+  					I[QNum][3][ANum][1] = DefaultWrong;
+  				}
+  			}
+  		}
+		}
+	}
+}
+
+function SetUpQuestions(){
+	var AList = new Array(); 
+	var QList = new Array();
+	var i, j;
+	Qs = document.getElementById('Questions');
+	while (Qs.getElementsByTagName('li').length > 0){
+		QList.push(Qs.removeChild(Qs.getElementsByTagName('li')[0]));
+	}
+	var DumpItem = 0;
+	while (QsToShow < QList.length){
+		DumpItem = Math.floor(QList.length*Math.random());
+		for (j=DumpItem; j<(QList.length-1); j++){
+			QList[j] = QList[j+1];
+		}
+		QList.length = QList.length-1;
+	}
+	if (ShuffleQs == true){
+		QList = Shuffle(QList);
+	}
+	if (ShuffleAs == true){
+		var As;
+		for (var i=0; i<QList.length; i++){
+			As = QList[i].getElementsByTagName('ol')[0];
+			if (As != null){
+  			AList.length = 0;
+				while (As.getElementsByTagName('li').length > 0){
+					AList.push(As.removeChild(As.getElementsByTagName('li')[0]));
+				}
+				AList = Shuffle(AList);
+				for (j=0; j<AList.length; j++){
+					As.appendChild(AList[j]);
+				}
+			}
+		}
+	}
+	
+	for (i=0; i<QList.length; i++){
+		Qs.appendChild(QList[i]);
+		QArray[QArray.length] = QList[i];
+	}
+
+//Show the first item
+	QArray[0].style.display = '';
+	
+//Now hide all except the first item
+	for (i=1; i<QArray.length; i++){
+		QArray[i].style.display = 'none';
+	}		
+	SetQNumReadout();
+}
+
+function ChangeQ(ChangeBy){
+	if (((CurrQNum + ChangeBy) < 0)||((CurrQNum + ChangeBy) >= QArray.length)){return;}
+	QArray[CurrQNum].style.display = 'none';
+	CurrQNum += ChangeBy;
+	QArray[CurrQNum].style.display = '';
+	SetQNumReadout();
+//if there's a textbox, set the focus in it
+	if (QArray[CurrQNum].getElementsByTagName('input')[0] != null){
+		QArray[CurrQNum].getElementsByTagName('input')[0].focus();
+	}
+}
+
+function SetQNumReadout(){
+	document.getElementById('QNumReadout').innerHTML = (CurrQNum+1) + ' / ' + QArray.length;
+}
+
+I=new Array();
+I[0]=new Array();I[0][0]=100;
+I[0][1]='';
+I[0][2]='2';
+I[0][3]=new Array();
+I[0][3][0]=new Array('40','',1,100,1);
+I[0][3][1]=new Array('quarante','',1,100,1);
+I[1]=new Array();I[1][0]=100;
+I[1][1]='';
+I[1][2]='1';
+I[1][3]=new Array();
+I[1][3][0]=new Array('40','',1,100,1);
+I[1][3][1]=new Array('quarante','',1,100,1);
+I[2]=new Array();I[2][0]=100;
+I[2][1]='';
+I[2][2]='1';
+I[2][3]=new Array();
+I[2][3][0]=new Array('42','',1,100,1);
+I[2][3][1]=new Array('quarante-deux','',1,100,1);
+I[3]=new Array();I[3][0]=100;
+I[3][1]='';
+I[3][2]='1';
+I[3][3]=new Array();
+I[3][3][0]=new Array('35','',1,100,1);
+I[3][3][1]=new Array('trente-cinq','',1,100,1);
+I[4]=new Array();I[4][0]=100;
+I[4][1]='';
+I[4][2]='1';
+I[4][3]=new Array();
+I[4][3][0]=new Array('15','',1,100,1);
+I[4][3][1]=new Array('quinze','',1,100,1);
+I[5]=new Array();I[5][0]=100;
+I[5][1]='';
+I[5][2]='1';
+I[5][3]=new Array();
+I[5][3][0]=new Array('33','',1,100,1);
+I[5][3][1]=new Array('trente-trois','',1,100,1);
+I[6]=new Array();I[6][0]=100;
+I[6][1]='';
+I[6][2]='1';
+I[6][3]=new Array();
+I[6][3][0]=new Array('22','',1,100,1);
+I[6][3][1]=new Array('vingt-deux','',1,100,1);
+I[7]=new Array();I[7][0]=100;
+I[7][1]='';
+I[7][2]='1';
+I[7][3]=new Array();
+I[7][3][0]=new Array('24','',1,100,1);
+I[7][3][1]=new Array('vingt-quatre','',1,100,1);
+I[8]=new Array();I[8][0]=100;
+I[8][1]='';
+I[8][2]='1';
+I[8][3]=new Array();
+I[8][3][0]=new Array('12','',1,100,1);
+I[8][3][1]=new Array('douze','',1,100,1);
+I[9]=new Array();I[9][0]=100;
+I[9][1]='';
+I[9][2]='1';
+I[9][3]=new Array();
+I[9][3][0]=new Array('19','',1,100,1);
+I[9][3][1]=new Array('dix-neuf','',1,100,1);
+I[10]=new Array();I[10][0]=100;
+I[10][1]='';
+I[10][2]='3';
+I[10][3]=new Array();
+I[10][3][0]=new Array('le g\u00E9notype des animaux','',0,0,1);
+I[10][3][1]=new Array('l\'\u00E2ge des animaux','',0,0,1);
+I[10][3][2]=new Array('le sexe des animaux','',0,0,1);
+I[10][3][3]=new Array('le poids des animaux','',0,0,1);
+I[10][3][4]=new Array('le nombre d\'animaux par lot','',0,0,1);
+I[10][3][5]=new Array('le type d\'aliment','',1,100,1);
+I[10][3][6]=new Array('le type de ration','',1,100,1);
+I[10][3][7]=new Array('le gain pond\u00E9ral mensuel d\'un animal','',0,0,1);
+I[10][3][8]=new Array('le m\u00E9tabolisme individuel de l\'animal','',0,0,1);
+I[10][3][9]=new Array('le type d\'appareil de mesure du poids de l\'animal','',0,0,1);
+I[10][3][10]=new Array('la reproductibilit\u00E9 et la r\u00E9p\u00E9tabilit\u00E9 de l\'exp\u00E9rimentateur','',0,0,1);
+I[11]=new Array();I[11][0]=100;
+I[11][1]='';
+I[11][2]='3';
+I[11][3]=new Array();
+I[11][3][0]=new Array('le g\u00E9notype des animaux','',1,100,1);
+I[11][3][1]=new Array('l\'\u00E2ge des animaux','',1,100,1);
+I[11][3][2]=new Array('le sexe des animaux','',1,100,1);
+I[11][3][3]=new Array('le poids des animaux','',1,100,1);
+I[11][3][4]=new Array('le nombre d\'animaux par lot','',0,0,1);
+I[11][3][5]=new Array('le type d\'aliment','',0,0,1);
+I[11][3][6]=new Array('le type de ration','',0,0,1);
+I[11][3][7]=new Array('le gain pond\u00E9ral mensuel d\'un animal','',0,0,1);
+I[11][3][8]=new Array('le m\u00E9tabolisme individuel de l\'animal','',0,0,1);
+I[11][3][9]=new Array('le type d\'appareil de mesure du poids de l\'animal','',1,100,1);
+I[11][3][10]=new Array('la reproductibilit\u00E9 et la r\u00E9p\u00E9tabilit\u00E9 de l\'exp\u00E9rimentateur','',0,0,1);
+I[12]=new Array();I[12][0]=100;
+I[12][1]='';
+I[12][2]='3';
+I[12][3]=new Array();
+I[12][3][0]=new Array('le g\u00E9notype des animaux','',0,0,1);
+I[12][3][1]=new Array('l\'\u00E2ge des animaux','',0,0,1);
+I[12][3][2]=new Array('le sexe des animaux','',0,0,1);
+I[12][3][3]=new Array('le poids des animaux','',0,0,1);
+I[12][3][4]=new Array('le nombre d\'animaux par lot','',0,0,1);
+I[12][3][5]=new Array('le type d\'aliment','',0,0,1);
+I[12][3][6]=new Array('le type de ration','',0,0,1);
+I[12][3][7]=new Array('le gain pond\u00E9ral mensuel d\'un animal','',1,100,1);
+I[12][3][8]=new Array('le m\u00E9tabolisme individuel de l\'animal','',0,0,1);
+I[12][3][9]=new Array('le type d\'appareil de mesure du poids de l\'animal','',0,0,1);
+I[12][3][10]=new Array('la reproductibilit\u00E9 et la r\u00E9p\u00E9tabilit\u00E9 de l\'exp\u00E9rimentateur','',0,0,1);
+I[13]=new Array();I[13][0]=100;
+I[13][1]='';
+I[13][2]='3';
+I[13][3]=new Array();
+I[13][3][0]=new Array('le g\u00E9notype des animaux','',0,0,1);
+I[13][3][1]=new Array('l\'\u00E2ge des animaux','',0,0,1);
+I[13][3][2]=new Array('le sexe des animaux','',0,0,1);
+I[13][3][3]=new Array('le poids des animaux','',0,0,1);
+I[13][3][4]=new Array('le nombre d\'animaux par lot','',0,0,1);
+I[13][3][5]=new Array('le type d\'aliment','',0,0,1);
+I[13][3][6]=new Array('le type de ration','',0,0,1);
+I[13][3][7]=new Array('le gain pond\u00E9ral mensuel d\'un animal','',0,0,1);
+I[13][3][8]=new Array('le m\u00E9tabolisme individuel de l\'animal','',1,100,1);
+I[13][3][9]=new Array('le type d\'appareil de mesure du poids de l\'animal','',0,0,1);
+I[13][3][10]=new Array('la reproductibilit\u00E9 et la r\u00E9p\u00E9tabilit\u00E9 de l\'exp\u00E9rimentateur','',1,100,1);
+I[14]=new Array();I[14][0]=100;
+I[14][1]='';
+I[14][2]='3';
+I[14][3]=new Array();
+I[14][3][0]=new Array('1 facteur  \u00E0 3 modalit\u00E9s avec 12 r\u00E9p\u00E9titions','',0,0,1);
+I[14][3][1]=new Array('2 facteurs \u00E0 12 et 3 modalit\u00E9s sans r\u00E9p\u00E9tition','',0,0,1);
+I[14][3][2]=new Array('2 facteurs \u00E0 4 et 3 modalit\u00E9s avec 3 r\u00E9p\u00E9titions','facteur 1: type d\'aliment \u00E0 4 modalit\u00E9 facteur 2: type de ration \u00E0 3 modalit\u00E9s   12 combinaisons r\u00E9p\u00E9t\u00E9es 3 fois = 36 individus',1,100,1);
+I[14][3][3]=new Array('3 facteurs \u00E0 4, 3 et 3 modalit\u00E9s sans r\u00E9p\u00E9tition','',0,0,1);
+I[14][3][4]=new Array('3 facteurs \u00E0 12 r\u00E9p\u00E9titions','',0,0,1);
+I[14][3][5]=new Array('2 facteurs \u00E0 3 et 3 modalit\u00E9s avec 4 r\u00E9p\u00E9titions','',0,0,1);
+I[15]=new Array();I[15][0]=100;
+I[15][1]='';
+I[15][2]='3';
+I[15][3]=new Array();
+I[15][3][0]=new Array('la pratique culturale de l\'agriculteur','',1,100,1);
+I[15][3][1]=new Array('le type d\'engrais','',0,0,1);
+I[15][3][2]=new Array('la dose d\'engrais','',1,100,1);
+I[15][3][3]=new Array('le type de pesticide','',1,100,1);
+I[15][3][4]=new Array('la dose de pesticide','',0,0,1);
+I[15][3][5]=new Array('la m\u00E9thode d\'estimation du rendement','',0,0,1);
+I[15][3][6]=new Array('le type de culture','',0,0,1);
+I[15][3][7]=new Array('le type de parcelle','',0,0,1);
+I[16]=new Array();I[16][0]=100;
+I[16][1]='';
+I[16][2]='3';
+I[16][3]=new Array();
+I[16][3][0]=new Array('la dose d\'engrais','',0,0,1);
+I[16][3][1]=new Array('le rendement en Qtx/Ha','',1,100,1);
+I[16][3][2]=new Array('le rendement en Kg MS/Kg de produit r\u00E9colt\u00E9','',1,100,1);
+I[16][3][3]=new Array('la fa\u00E7on de labourer, de semer, d\'irriguer et de r\u00E9colter','',0,0,1);
+I[16][3][4]=new Array('la dose de pesticide','',0,0,1);
+I[17]=new Array();I[17][0]=100;
+I[17][1]='';
+I[17][2]='3';
+I[17][3]=new Array();
+I[17][3][0]=new Array('l\'exposition, les caract\u00E9ristiques g\u00E9ologiques et la pente des parcelles','Oui, dans la mesure du possible, on choisira des parcelles les plus homog\u00E8nes afin que les rendements ne soient affect\u00E9s que par les facteurs de l\'\u00E9tude.',1,100,1);
+I[17][3][1]=new Array('le type d\'engrais','Oui, l\'engrais doit \u00EAtre le m\u00EAme, seules les doses changent. Si cet engrais n\u00E9cessite une pr\u00E9paration pr\u00E9alable, elle doit \u00EAtre la m\u00EAme en amont et seules les doses appliqu\u00E9es varient.',1,100,1);
+I[17][3][2]=new Array('le type de pesticide','Non, mais pour un type d\'engrais test\u00E9 la pr\u00E9paration doit \u00EAtre identique pour toutes les parcelles concern\u00E9es.',0,0,1);
+I[17][3][3]=new Array('le type de semence','Oui, l\'\u00E9tude doit porter sur un m\u00EAme type de culture, bl\u00E9 ou ma\u00EFs ou orge...etc. La semence utilis\u00E9e est la m\u00EAme pour toute l\'\u00E9tude sur les 48 parcelles.',1,100,1);
+I[17][3][4]=new Array('les m\u00E9thodes de pes\u00E9e','Oui, le choix de l\'appareil de mesure des poids doit \u00EAtre identique , il faut pr\u00E9voir un type d\'appareil pour estimer les Quintaux et un autre type d\'appareil pour les Kg',1,100,1);
+I[17][3][5]=new Array('le syst\u00E8me d\'irrigation','Non, il fait partie des pratiques culturales, facteur de l\'\u00E9tude',0,0,1);
+I[18]=new Array();I[18][0]=100;
+I[18][1]='';
+I[18][2]='3';
+I[18][3]=new Array();
+I[18][3][0]=new Array('les fluctuations dans le rendement de la r\u00E9colte  de l\'agriculteur sur le rendement en Qtx/Ha','',1,100,1);
+I[18][3][1]=new Array('les fluctuations dans le rendement de la r\u00E9colte sur le rendement en Kg MS / Kg de mati\u00E8re fra\u00EEche','Non, cette mesure est ind\u00E9pendante du rendement de la r\u00E9colte',0,0,1);
+I[18][3][2]=new Array('les erreurs de pes\u00E9e','Oui, l\'exp\u00E9rimentateur n\'est jamais reproductible et r\u00E9p\u00E9table \u00E0 100%',1,100,1);
+I[18][3][3]=new Array('la mini h\u00E9t\u00E9rog\u00E9n\u00E9it\u00E9 sur une m\u00EAme parcelle','',1,100,1);
+I[18][3][4]=new Array('l\'h\u00E9t\u00E9rog\u00E9n\u00E9it\u00E9 entre des individus','Oui, car m\u00EAme si des parcelles ont des caract\u00E9ristiques identiques, elles pr\u00E9sentent toujours des diff\u00E9rences non contr\u00F4lables.',1,100,1);
+I[18][3][5]=new Array('les fluctuations associ\u00E9es aux doses dispens\u00E9es sur le terrain','Oui en ce qui concerne les volumes dispens\u00E9s, mais non en ce qui concerne les concentrations si l\'on a pris soin d\'utiliser une m\u00EAme  solution "m\u00E8re".',1,100,1);
+I[19]=new Array();I[19][0]=100;
+I[19][1]='';
+I[19][2]='3';
+I[19][3]=new Array();
+I[19][3][0]=new Array('1 facteur  \u00E0 8 modalit\u00E9s avec 6 r\u00E9p\u00E9titions','',0,0,1);
+I[19][3][1]=new Array('2 facteurs \u00E0 sans r\u00E9p\u00E9tition','',0,0,1);
+I[19][3][2]=new Array('2 facteurs \u00E0 4 et 2 modalit\u00E9s avec 6 r\u00E9p\u00E9titions','',0,0,1);
+I[19][3][3]=new Array('3 facteurs \u00E0 4, 6 et 2 modalit\u00E9s sans r\u00E9p\u00E9tition','',0,0,1);
+I[19][3][4]=new Array('3 facteurs \u00E0 2, 3 et 4 modalit\u00E9s et 2 r\u00E9p\u00E9titions','le facteur 1: type de pratique \u00E0 3 modalit\u00E9s le facteur 2: doses d\'engrais \u00E0 4 modalit\u00E9s le facleur 3:  type de pesticide \u00E0 2 modalit\u00E9s 24 combinaisons r\u00E9p\u00E9t\u00E9es 2 fois pour obtenir 48 parcelles.',1,100,1);
+I[19][3][5]=new Array('2 facteurs \u00E0 3 et 3 modalit\u00E9s avec 4 r\u00E9p\u00E9titions','',0,0,1);
+I[20]=new Array();I[20][0]=100;
+I[20][1]='';
+I[20][2]='3';
+I[20][3]=new Array();
+I[20][3][0]=new Array('du X\u00B2 bilat\u00E9ral ','',0,0,1);
+I[20][3][1]=new Array('du X\u00B2 unilat\u00E9ral','Ho: les variances sont \u00E9gales H1: au moins une des variances est sup\u00E9rieure aux autres',1,100,1);
+I[20][3][2]=new Array('F bilat\u00E9ral','',0,0,1);
+I[20][3][3]=new Array('F unilat\u00E9ral','',0,0,1);
+I[20][3][4]=new Array('t bilat\u00E9ral','',0,0,1);
+I[20][3][5]=new Array('t unilat\u00E9ral','',0,0,1);
+I[21]=new Array();I[21][0]=100;
+I[21][1]='';
+I[21][2]='3';
+I[21][3]=new Array();
+I[21][3][0]=new Array('du X\u00B2 bilat\u00E9ral ','',0,0,1);
+I[21][3][1]=new Array('du X\u00B2 unilat\u00E9ral','',0,0,1);
+I[21][3][2]=new Array('F bilat\u00E9ral','',0,0,1);
+I[21][3][3]=new Array('F unilat\u00E9ral','H0 : le rapport des variances est \u00E9gal \u00E0 1 H1: le rapport des variances est sup\u00E9rieur \u00E0 1',1,100,1);
+I[21][3][4]=new Array('t bilat\u00E9ral','',0,0,1);
+I[21][3][5]=new Array('t unilat\u00E9ral','',0,0,1);
+I[22]=new Array();I[22][0]=100;
+I[22][1]='';
+I[22][2]='3';
+I[22][3]=new Array();
+I[22][3][0]=new Array('du X\u00B2 bilat\u00E9ral ','',0,0,1);
+I[22][3][1]=new Array('du X\u00B2 unilat\u00E9ral','',0,0,1);
+I[22][3][2]=new Array('F bilat\u00E9ral','',0,0,1);
+I[22][3][3]=new Array('F unilat\u00E9ral','',0,0,1);
+I[22][3][4]=new Array('t bilat\u00E9ral','H0: les moyennes font parties de la m\u00EAme distribution des moyennes d\'\u00E9chantillons issus d\'une population centr\u00E9e sur une m\u00EAme valeur \u00B5  H1: les moyennes font parties de 2 distributions diff\u00E9rentes des moyennes d\'\u00E9chantillons issus de 2 populations centr\u00E9e sur des valeurs de \u00B5 diff\u00E9rentes',1,100,1);
+I[22][3][5]=new Array('t unilat\u00E9ral','',0,0,1);
+I[23]=new Array();I[23][0]=100;
+I[23][1]='';
+I[23][2]='3';
+I[23][3]=new Array();
+I[23][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',1,100,1);
+I[23][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',0,0,1);
+I[23][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[23][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',0,0,1);
+I[23][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',0,0,1);
+I[24]=new Array();I[24][0]=100;
+I[24][1]='';
+I[24][2]='3';
+I[24][3]=new Array();
+I[24][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[24][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',1,100,1);
+I[24][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[24][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',0,0,1);
+I[24][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',0,0,1);
+I[25]=new Array();I[25][0]=100;
+I[25][1]='';
+I[25][2]='3';
+I[25][3]=new Array();
+I[25][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[25][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',0,0,1);
+I[25][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',1,100,1);
+I[25][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',0,0,1);
+I[25][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',0,0,1);
+I[26]=new Array();I[26][0]=100;
+I[26][1]='';
+I[26][2]='3';
+I[26][3]=new Array();
+I[26][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[26][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',0,0,1);
+I[26][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[26][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',1,100,1);
+I[26][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',0,0,1);
+I[27]=new Array();I[27][0]=100;
+I[27][1]='';
+I[27][2]='3';
+I[27][3]=new Array();
+I[27][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[27][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',0,0,1);
+I[27][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[27][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',0,0,1);
+I[27][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',1,100,1);
+I[28]=new Array();I[28][0]=100;
+I[28][1]='';
+I[28][2]='3';
+I[28][3]=new Array();
+I[28][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[28][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',1,100,1);
+I[28][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[28][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',0,0,1);
+I[28][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',0,0,1);
+I[29]=new Array();I[29][0]=100;
+I[29][1]='';
+I[29][2]='3';
+I[29][3]=new Array();
+I[29][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[29][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',0,0,1);
+I[29][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[29][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j +  </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j+ </span><span style=\'font-family:Symbol\'>g</span>k  +eijk','',1,100,1);
+I[29][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',0,0,1);
+I[30]=new Array();I[30][0]=100;
+I[30][1]='';
+I[30][2]='3';
+I[30][3]=new Array();
+I[30][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[30][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',0,0,1);
+I[30][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[30][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',0,0,1);
+I[30][3][4]=new Array('Xijkl = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k +</span><span style=\'font-family:Symbol\'>l</span>s + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',1,100,1);
+I[31]=new Array();I[31][0]=100;
+I[31][1]='';
+I[31][2]='3';
+I[31][3]=new Array();
+I[31][3][0]=new Array('Xij = \u00B5 +</span><span style=\'font-family:Symbol\'>a</span>j + eij','',0,0,1);
+I[31][3][1]=new Array('Xij = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + eij','',0,0,1);
+I[31][3][2]=new Array('Xijr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + eijr','',0,0,1);
+I[31][3][3]=new Array('Xijk = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijk','',1,100,1);
+I[31][3][4]=new Array('Xijkr = \u00B5 + </span><span style=\'font-family:Symbol\'>a</span>i + </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k + </span><span style=\'font-family:Symbol\'>a</span>i </span><span style=\'font-family:Symbol\'>b</span>j </span><span style=\'font-family:Symbol\'>g</span>k +eijkr','',0,0,1);
+
+
+function StartUp(){
+	RemoveBottomNavBarForIE();
+
+//If there's only one question, no need for question navigation controls
+	if (QsToShow < 2){
+		document.getElementById('QNav').style.display = 'none';
+	}
+	
+
+	
+
+	
+	CompleteEmptyFeedback();
+
+	SetUpQuestions();
+	ClearTextBoxes();
+	CreateStatusArray();
+	
+
+	
+//Check search string for q parameter
+	if (document.location.search.length > 0){
+		if (ShuffleQs == false){
+			var JumpTo = parseInt(document.location.search.substring(1,document.location.search.length))-1;
+			if (JumpTo <= QsToShow){
+				ChangeQ(JumpTo);
+			}
+		}
+	}
+}
+
+function ShowHideQuestions(){
+	FuncBtnOut(document.getElementById('ShowMethodButton'));
+	document.getElementById('ShowMethodButton').style.display = 'none';
+	if (ShowingAllQuestions == false){
+		for (var i=0; i<QArray.length; i++){
+				QArray[i].style.display = '';
+			}
+		document.getElementById('Questions').style.listStyleType = 'decimal';
+		document.getElementById('OneByOneReadout').style.display = 'none';
+		document.getElementById('ShowMethodButton').innerHTML = ShowOneByOneCaption;
+		ShowingAllQuestions = true;
+	}
+	else{
+		for (var i=0; i<QArray.length; i++){
+				if (i != CurrQNum){
+					QArray[i].style.display = 'none';
+				}
+			}
+		document.getElementById('Questions').style.listStyleType = 'none';
+		document.getElementById('OneByOneReadout').style.display = '';
+		document.getElementById('ShowMethodButton').innerHTML = ShowAllQuestionsCaption;
+		ShowingAllQuestions = false;	
+	}
+	document.getElementById('ShowMethodButton').style.display = 'inline';
+}
+
+function CreateStatusArray(){
+	var QNum, ANum;
+//For each item in the item array
+	for (QNum=0; QNum<I.length; QNum++){
+//Check if the question still exists (hasn't been nuked by showing a random selection)
+		if (document.getElementById('Q_' + QNum) != null){
+			State[QNum] = new Array();
+			State[QNum][0] = -1; //Score for this q; -1 shows question not done yet
+			State[QNum][1] = new Array(); //answers
+			for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+				State[QNum][1][ANum] = 0; //answer not chosen yet; when chosen, will store its position in the series of choices
+			}
+			State[QNum][2] = 0; //tries at this q so far
+			State[QNum][3] = 0; //incrementing percent-correct values of selected answers
+			State[QNum][4] = 0; //penalties incurred for hints
+			State[QNum][5] = ''; //Sequence of answers chosen by number
+		}
+		else{
+			State[QNum] = null;
+		}
+	}
+}
+
+
+
+function CheckMCAnswer(QNum, ANum, Btn){
+//if question doesn't exist, bail
+	if (State[QNum].length < 1){return;}
+	
+//Get the feedback
+	Feedback = I[QNum][3][ANum][1];
+	
+//Now show feedback and bail if question already complete
+	if (State[QNum][0] > -1){
+//Add an extra message explaining that the question
+// is finished if defined by the user
+		if (strQuestionFinished.length > 0){Feedback += '<br />' + strQuestionFinished;}
+//Show the feedback
+		ShowMessage(Feedback);
+		return;
+	}
+	
+//Hide the button while processing
+	Btn.style.display = 'none';
+
+//Increment the number of tries
+	State[QNum][2]++;
+	
+//Add the percent-correct value of this answer
+	State[QNum][3] += I[QNum][3][ANum][3];
+	
+//Store the try number in the answer part of the State array, for tracking purposes
+	State[QNum][1][ANum] = State[QNum][2];
+	State[QNum][5] += String.fromCharCode(65+ANum) + ',';
+	
+//Should this answer be accepted as correct?
+	if (I[QNum][3][ANum][2] < 1){
+//It's wrong
+
+//Mark the answer
+		Btn.innerHTML = IncorrectIndicator;
+		
+//Check whether this leaves just one MC answer unselected, in which case the Q is terminated
+		var RemainingAnswer = FinalAnswer(QNum);
+		if (RemainingAnswer > -1){
+//Behave as if the last answer had been selected, but give no credit for it
+//Increment the number of tries
+			State[QNum][2]++;		
+		
+//Calculate the score for this question
+			CalculateMCQuestionScore(QNum);
+
+//Get the overall score and add it to the feedback
+			CalculateOverallScore();
+			if ((ContinuousScoring == true)||(Finished == true)){
+				Feedback += '<br />' + YourScoreIs + ' ' + Score + '%.';
+				WriteToInstructions(YourScoreIs + ' ' + Score + '%.');
+			}
+		}
+	}
+	else{
+//It's right
+//Mark the answer
+		Btn.innerHTML = CorrectIndicator;
+				
+//Calculate the score for this question
+		CalculateMCQuestionScore(QNum);
+
+//Get the overall score and add it to the feedback
+		if (ContinuousScoring == true){
+			CalculateOverallScore();
+			if ((ContinuousScoring == true)||(Finished == true)){
+				Feedback += '<br />' + YourScoreIs + ' ' + Score + '%.';
+				WriteToInstructions(YourScoreIs + ' ' + Score + '%.');
+			}
+		}
+	}
+	
+//Show the button again
+	Btn.style.display = 'inline';
+	
+//Finally, show the feedback	
+	ShowMessage(Feedback);
+	
+//Check whether all questions are now done
+	CheckFinished();
+}
+
+function CalculateMCQuestionScore(QNum){
+	var Tries = State[QNum][2] + State[QNum][4]; //include tries and hint penalties
+	var PercentCorrect = State[QNum][3];
+	var TotAns = GetTotalMCAnswers(QNum);
+	var HintPenalties = State[QNum][4];
+	
+//Make sure it's not already complete
+
+	if (State[QNum][0] < 0){
+//Allow for Hybrids
+		if (HintPenalties >= 1){
+			State[QNum][0] = 0;
+		}
+		else{
+//This line calculates the score for this question
+			State[QNum][0] = ((TotAns-((Tries*100)/State[QNum][3]))/(TotAns-1));
+		}
+		if (State[QNum][0] < 0){
+			State[QNum][0] = 0;
+		}
+	}
+}
+
+function GetTotalMCAnswers(QNum){
+	var Result = 0;
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		if (I[QNum][3][ANum][4] == 1){ //This is an MC answer
+			Result++;
+		}
+	}
+	return Result;
+}
+
+function FinalAnswer(QNum){
+	var UnchosenAnswers = 0;
+	var FinalAnswer = -1;
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		if (I[QNum][3][ANum][4] == 1){ //This is an MC answer
+			if (State[QNum][1][ANum] < 1){ //This answer hasn't been chosen yet
+				UnchosenAnswers++;
+				FinalAnswer = ANum;
+			}
+		}
+	}
+	if (UnchosenAnswers == 1){
+		return FinalAnswer;
+	}
+	else{
+		return -1;
+	}
+}
+
+
+
+
+
+function CheckMultiSelAnswer(QNum){
+//bail if question doesn't exist or exercise finished
+	if ((State[QNum].length < 1)||(Finished == true)){return;}
+
+//Increment the tries for this question
+	State[QNum][2]++;
+	
+	var ShouldBeChecked;
+	var Matches = 0;
+	State[QNum][5] += '|';
+	
+//Check if there are any mismatches
+	Feedback = '';
+	var CheckBox = null;
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		CheckBox = document.getElementById('Q_' + QNum + '_' + ANum + '_Chk');
+		if (CheckBox.checked == true){
+			State[QNum][5] += 'Y';
+		}
+		else{
+			State[QNum][5] += 'N';
+		}
+		ShouldBeChecked = (I[QNum][3][ANum][2] == 1);
+		if (ShouldBeChecked == CheckBox.checked){
+			Matches++;
+		}
+		else{
+			Feedback = I[QNum][3][ANum][1];
+		}
+	}
+//Add the hit readout
+	Feedback = Matches + ' / ' + I[QNum][3].length + '<br />' + Feedback;
+	if (Matches == I[QNum][3].length){
+//It's right
+		CalculateMultiSelQuestionScore(QNum);
+		if (ContinuousScoring == true){
+			CalculateOverallScore();
+			if ((ContinuousScoring == true)||(Finished == true)){
+				Feedback += '<br />' + YourScoreIs + ' ' + Score + '%.';
+				WriteToInstructions(YourScoreIs + ' ' + Score + '%.');
+			}
+		}
+	}
+//If it's wrong, no need to do anything but show the feedback
+	ShowMessage(Feedback);
+	
+//Check whether all questions are now done
+	CheckFinished();
+}
+
+function CalculateMultiSelQuestionScore(QNum){
+	var Tries = State[QNum][2];
+	var TotAns = State[QNum][1].length;
+	
+//Make sure it's not already complete
+	if (State[QNum][0] < 0){
+		State[QNum][0] = (TotAns - (Tries-1)) / TotAns;
+		if (State[QNum][0] < 0){
+			State[QNum][0] = 0;
+		}
+	}
+}
+
+
+
+function CalculateOverallScore(){
+	var TotalWeighting = 0;
+	var TotalScore = 0;
+	
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] > -1){
+				TotalWeighting += I[QNum][0];
+				TotalScore += (I[QNum][0] * State[QNum][0]);
+			}
+		}
+	}
+	Score = Math.floor((TotalScore/TotalWeighting)*100);
+}
+
+function CheckFinished(){
+	var FB = '';
+	var AllDone = true;
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] < 0){
+				AllDone = false;
+			}
+		}
+	}
+	if (AllDone == true){
+	
+//Report final score and submit if necessary
+		CalculateOverallScore();
+		FB = YourScoreIs + ' ' + Score + '%.';
+		if (ShowCorrectFirstTime == true){
+			var CFT = 0;
+			for (QNum=0; QNum<State.length; QNum++){
+				if (State[QNum] != null){
+					if (State[QNum][0] >= 1){
+						CFT++;
+					}
+				}
+			}
+			FB += '<br />' + CorrectFirstTime + ' ' + CFT + '/' + QsToShow;
+		}
+		WriteToInstructions(FB);
+		
+		Finished == true;
+
+		TimeOver = true;
+		Locked = true;
+		
+
+
+		Finished = true;
+		Detail = '<?xml version="1.0"?><hpnetresult><fields>';
+		for (QNum=0; QNum<State.length; QNum++){
+			if (State[QNum] != null){
+				if (State[QNum][5].length > 0){
+					Detail += '<field><fieldname>Question #' + (QNum+1) + '</fieldname><fieldtype>question-tracking</fieldtype><fieldlabel>Q ' + (QNum+1) + '</fieldlabel><fieldlabelid>QuestionTrackingField</fieldlabelid><fielddata>' + State[QNum][5] + '</fielddata></field>';
+				}
+			}
+		}
+		Detail += '</fields></hpnetresult>';
+		setTimeout('Finish()', SubmissionTimeout);
+	}
+}
+
+
+
+
+
+//CORE CODE FOR CHECKING SHORT ANSWER GUESSES AGAINST ANSWER ARRAYS
+
+var CaseSensitive = false;
+var ShowAlsoCorrect = true;
+var PleaseEnter = 'SVP, tapez votre suggestion';
+var HybridTries = 2;
+var PartlyIncorrect = 'une partie de la r&#x00E9;ponse est fausse';
+var CorrectList = 'Liste des r&#x00E9;ponses accept&#x00E9;es';
+var NextCorrect = 'La prochaine lettre est ajout&#x00E9;e';
+var CurrBox = null;
+
+function TrackFocus(BoxID){
+	InTextBox = true;
+	CurrBox = document.getElementById(BoxID);
+}
+
+function LeaveGap(){
+	InTextBox = false;
+}
+
+function TypeChars(Chars){
+	if (CurrBox != null){
+//		if (CurrBox.style.display != 'none'){
+			CurrBox.value += Chars;
+			CurrBox.focus();
+//		}
+	}
+}
+
+function CheckGuess(Guess, Answer, CaseSensitive, PercentCorrect, Feedback){
+	this.Guess = Guess;
+	this.Answer = Answer;
+	this.PercentCorrect = PercentCorrect;
+	this.Feedback = Feedback;
+	if (CaseSensitive == false){
+		this.WorkingGuess = Guess.toLowerCase();
+		this.WorkingAnswer = Answer.toLowerCase();
+	}
+	else{
+		this.WorkingGuess = Guess;
+		this.WorkingAnswer = Answer;				
+	}
+	this.Hint = '';
+	this.HintPenalty = 1/Answer.length;
+	this.CorrectStart = '';
+	this.WrongMiddle = '';
+	this.CorrectEnd = '';
+	this.PercentMatch = 0;
+	this.DoCheck();
+}
+
+function CheckGuess_DoCheck(){
+//Check if it's an exact match
+	if (this.WorkingAnswer == this.WorkingGuess){
+		this.PercentMatch = 100;
+		this.CorrectStart = this.Guess;
+	return;
+	}
+//Figure out how much of the beginning is correct
+	var i = 0;
+	var CorrectChars = 0;
+	while (this.WorkingAnswer.charAt(i) == this.WorkingGuess.charAt(i)){
+		i++;
+		CorrectChars++;
+	}
+//Stash the hint
+	this.Hint = this.Answer.charAt(i);
+	
+	this.CorrectStart = this.Guess.substring(0, i);
+	
+//If there's more to the answer, look at the rest of it
+	if (i<this.Guess.length){
+	
+//Figure out how much of the end is correct
+		var j = this.WorkingGuess.length-1;
+		var k = this.WorkingAnswer.length-1;
+		while ((j>=i)&&((this.WorkingAnswer.charAt(k) == this.WorkingGuess.charAt(j))&&(CorrectChars < this.Answer.length))){
+			CorrectChars++;
+			j--;
+			k--;
+		}
+		this.CorrectEnd = this.Guess.substring(j+1, this.Guess.length);
+		this.WrongMiddle = this.Guess.substring(i, j+1);
+	}
+	if (TrimString(this.WrongMiddle).length < 1){this.WrongMiddle = '_';}
+//Calculate match score based on how much of the guess is correct
+	if (CorrectChars < this.Answer.length){
+		this.PercentMatch = Math.floor(100*CorrectChars)/this.Answer.length;
+	}
+	else{
+		this.PercentMatch = Math.floor((100 * CorrectChars)/this.Guess.length);
+	}	
+}
+
+CheckGuess.prototype.DoCheck = CheckGuess_DoCheck;
+
+function CheckAnswerArray(CaseSensitive){
+	this.CaseSensitive = CaseSensitive;
+	this.Answers = new Array();
+	this.Score = 0;
+	this.Feedback = '';
+	this.Hint = '';
+	this.HintPenalty = 0;
+	this.MatchedAnswerLength = 1;
+	this.CompleteMatch = false;
+	this.MatchNum = -1;
+}
+
+function CheckAnswerArray_AddAnswer(Guess, Answer, PercentCorrect, Feedback){
+	this.Answers.push(new CheckGuess(Guess, Answer, this.CaseSensitive, PercentCorrect, Feedback));
+}
+
+CheckAnswerArray.prototype.AddAnswer = CheckAnswerArray_AddAnswer;
+
+function CheckAnswerArray_ClearAll(){
+	this.Answers.length = 0;
+}
+
+CheckAnswerArray.prototype.ClearAll = CheckAnswerArray_ClearAll;
+
+function CheckAnswerArray_GetBestMatch(){
+//First check for a 100% match
+	for (var i=0; i<this.Answers.length; i++){
+		if (this.Answers[i].PercentMatch == 100){
+			this.Feedback = this.Answers[i].Feedback;
+			this.Score = this.Answers[i].PercentCorrect;
+			this.CompleteMatch = true;
+			this.MatchNum = i;
+			return;
+		}
+	}
+//Now check for the best alternative match
+	var PercentMatch = 0;
+	var BestMatch = -1;
+	for (i=0; i<this.Answers.length; i++){
+		if ((this.Answers[i].PercentMatch > PercentMatch)&&(this.Answers[i].PercentCorrect == 100)){
+			BestMatch = i;
+			PercentMatch = this.Answers[i].PercentMatch;
+		}
+	}
+	if (BestMatch > -1){
+		this.Score = this.Answers[BestMatch].PercentMatch;
+		this.Feedback = PartlyIncorrect + ' ';
+		this.Feedback += '<span class="Answer">' + this.Answers[BestMatch].CorrectStart;
+		this.Feedback += '<span class="Highlight">' + this.Answers[BestMatch].WrongMiddle + '</span>';
+		this.Feedback += this.Answers[BestMatch].CorrectEnd + '</span>';
+		this.Hint = '<span class="Answer">' + this.Answers[BestMatch].CorrectStart;
+		this.Hint += '<span class="Highlight">' + this.Answers[BestMatch].Hint + '</span></span>';
+		this.HintPenalty = this.Answers[BestMatch].HintPenalty;
+	}
+	else{
+		this.Score = 0;
+		this.Feedback = '';
+	}
+}
+
+CheckAnswerArray.prototype.GetBestMatch = CheckAnswerArray_GetBestMatch;
+
+function CheckShortAnswer(QNum){
+//bail if question doesn't exist or exercise finished
+	if ((State[QNum].length < 1)||(Finished == true)){return;}
+	
+//bail if question already complete
+	if (State[QNum][0] > -1){return;}
+
+//Get the guess
+	var G = document.getElementById('Q_' + QNum + '_Guess').value;
+	
+//If no guess, bail with message; no penalty
+	if (G.length < 1){
+		ShowMessage(PleaseEnter);
+		return;
+	}
+
+//Increment tries
+	State[QNum][2]++;
+	
+//Create a check object
+	var CA = new CheckAnswerArray(CaseSensitive);
+
+	CA.ClearAll();
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		CA.AddAnswer(G, I[QNum][3][ANum][0], I[QNum][3][ANum][3], I[QNum][3][ANum][1]);
+	}
+	CA.GetBestMatch();
+	
+//Store any match in the state tracking field
+	if (CA.MatchNum > -1){
+		State[QNum][5] += String.fromCharCode(65+CA.MatchNum) + ',';
+	}
+
+//Add the percent correct value for this answer to the Q State (works for all
+//situations, wrong or right
+	State[QNum][3] += CA.Score;
+	
+//Now branch, based on the nature of the match
+//Is it a complete match?
+	if (CA.CompleteMatch == true){
+		
+//Is it with a wrong answer, or a right answer?
+		if (CA.Score == 100){
+//It's right
+			CalculateShortAnsQuestionScore(QNum);
+//Get correct answer list if required, assuming there are any other correct alternatives
+			if (ShowAlsoCorrect == true){
+				var AlsoCorrectList = GetCorrectList(QNum, G, false);
+				if (AlsoCorrectList.length > 0){
+					CA.Feedback += '<br />' + CorrectList + '<br />' +  '<span class="Answer">' + AlsoCorrectList + '</span>';
+				}
+			}	
+		
+//Get the overall score and add it to the feedback
+			if (ContinuousScoring == true){
+				CalculateOverallScore();
+				CA.Feedback += '<br />' + YourScoreIs + ' ' + Score + '%.';
+				WriteToInstructions(YourScoreIs + ' ' + Score + '%.');
+			}
+			ShowMessage(CA.Feedback);
+//Put the answer in
+			ReplaceGuessBox(QNum, G);
+			CheckFinished();
+			return;
+		}
+	}
+	
+//Otherwise, it's a match to a predicted wrong/partially correct, or a partial
+//match to a right answer
+	if (CA.Feedback.length < 1){CA.Feedback = DefaultWrong;} 
+	ShowMessage(CA.Feedback);
+
+//If necessary, switch a hybrid question to m/c
+	if (State[QNum][2] >= HybridTries){
+		SwitchHybridDisplay(QNum);
+	}
+}
+
+function CalculateShortAnsQuestionScore(QNum){
+	var Tries = State[QNum][2] + State[QNum][4]; //include tries and hint penalties;
+	var PercentCorrect = State[QNum][3];
+	var HintPenalties = State[QNum][4];
+
+//Make sure it's not already complete
+	if (State[QNum][0] < 0){
+		if (HintPenalties >= 1){
+			State[QNum][0] = 0;
+		}
+		else{
+			State[QNum][0] = (PercentCorrect/(100*Tries));
+		}
+		if (State[QNum][0] < 0){
+			State[QNum][0] = 0;
+		}
+	}
+}
+
+function SwitchHybridDisplay(QNum){
+	if (document.getElementById('Q_' + QNum + '_Hybrid_MC') != null){
+		document.getElementById('Q_' + QNum + '_Hybrid_MC').style.display = '';
+		if (document.getElementById('Q_' + QNum + '_SA') != null){
+			document.getElementById('Q_' + QNum + '_SA').style.display = 'none';
+		}
+	}
+}
+
+function GetCorrectArray(QNum){
+	var Result = new Array();
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		if (I[QNum][3][ANum][2] == 1){ //This is an acceptable correct answer
+			Result.push(I[QNum][3][ANum][0]);
+		}
+	}	
+	return Result;
+}
+
+function GetCorrectList(QNum, Answer, IncludeAnswer){
+	var As = GetCorrectArray(QNum);
+	var Result = '';
+	for (var ANum=0; ANum<As.length; ANum++){
+		if ((IncludeAnswer == true)||(As[ANum] != Answer)){
+			Result += As[ANum] + '<br />';
+		}
+	}
+	return Result;
+}
+
+function GetFirstCorrectAnswer(QNum){
+	var As = GetCorrectArray(QNum);
+	if (As.length > 0){
+		return As[0];
+	}
+	else{
+		return '';
+	}
+}
+
+function ReplaceGuessBox(QNum, Ans){
+	if (document.getElementById('Q_' + QNum + '_SA') != null){
+		var El = document.getElementById('Q_' + QNum + '_SA');
+		while (El.childNodes.length > 0){
+			El.removeChild(El.childNodes[0]);
+		}
+		var A = document.createElement('span');
+		A.setAttribute('class', 'Answer');
+		var T = document.createTextNode(Ans);
+		A.appendChild(T);
+		El.appendChild(A);
+	}
+}
+
+
+
+function ShowAnswers(QNum){
+//bail if question doesn't exist or exercise finished
+	if ((State[QNum].length < 1)||(Finished == true)){return;}
+	
+//Get the answer list to display
+	var Ans = GetCorrectList(QNum, '', false);
+	Ans = CorrectList + '<br /><span class="Answer">' + Ans + '</span>';
+	
+//Display feedback
+	ShowMessage(Ans);
+	
+//Set the score for this question to 0 if no 
+	if (State[QNum][0] < 1){
+		State[QNum][0] = 0;
+	}
+
+//Get the first correct answer
+	var FirstAns = GetFirstCorrectAnswer(QNum);
+	
+//Replace the textbox
+	ReplaceGuessBox(QNum, FirstAns);
+	
+//This may be the last, so check finished status
+	CheckFinished();
+}
+
+
+
+
+
+
+
+
+
+
+
+//-->
+
+//]]>
+
+</script>
+
+
+</head>
+
+<body onload="StartUp()" id="TheBody">
+
+<!-- BeginTopNavButtons -->
+
+
+<div class="NavButtonBar" id="TopNavBar">
+
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index6.doc'; return false;"> Index </button>
+
+
+
+
+</div>
+
+
+
+<!-- EndTopNavButtons -->
+
+<div class="Titles">
+	<h2 class="ExerciseTitle">ANALYSE DE LA VARIANCE (ANOVA)</h2>
+	<h3 class="ExerciseSubtitle">Questions &#x00E0; r&#x00E9;ponse courte et Questions &#x00E0; choix multiple.</h3>
+
+
+</div>
+
+<div id="InstructionsDiv" class="StdDiv">
+	<p id="Instructions">Tapez votre r&#x00E9;ponse ou cochez la (les) bonne(s) r&#x00E9;ponse(s).</p>
+</div>
+
+
+
+
+<div id="MainDiv" class="StdDiv">
+ 
+<div id="QNav" class="QuestionNavigation">
+
+<p style="text-align: right;">
+<button id="ShowMethodButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ShowHideQuestions(); return false;">Afficher toutes les questions</button>
+</p>
+
+<div id="OneByOneReadout">
+<button id="PrevQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(-1); return false;">&lt;=</button>
+
+<span id="QNumReadout" class="QNum">&nbsp;</span>
+
+<button id="NextQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(1); return false;">=&gt;</button>
+<br />
+</div>
+
+</div>
+ 
+<ol class="QuizQuestions" id="Questions">
+<li class="QuizQuestion" id="Q_0" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 1 facteur &#x00E0; 8 modalit&#x00E9;s avec 6 r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_0_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_0_Guess" onfocus="TrackFocus('Q_0_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(0)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(0)">Afficher la r&#x00E9;ponse</button></div></form></div><ol class="MCAnswers" id="Q_0_Hybrid_MC" style="display: none;"><li id="Q_0_0"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_0_0_Btn" onclick="CheckMCAnswer(0,0,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;40</li><li id="Q_0_1"><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" id="Q_0_1_Btn" onclick="CheckMCAnswer(0,1,this)">&nbsp;&nbsp;?&nbsp;&nbsp;</button>&nbsp;&nbsp;quarante</li></ol></li>
+<li class="QuizQuestion" id="Q_1" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 2 facteurs &#x00E0; 4 et 2 modalit&#x00E9;s avec 6 r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_1_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_1_Guess" onfocus="TrackFocus('Q_1_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(1)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(1)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_2" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 1 facteur &#x00E0; 6 modalit&#x00E9;s avec 8 r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_2_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_2_Guess" onfocus="TrackFocus('Q_2_Guess')" onblur="LeaveGap()" class="GapBox" size="13"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(2)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(2)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_3" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 2 facteurs &#x00E0; 6 et 8 modalit&#x00E9;s sans r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_3_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_3_Guess" onfocus="TrackFocus('Q_3_Guess')" onblur="LeaveGap()" class="GapBox" size="11"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(3)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(3)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_4" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 3 facteurs &#x00E0; 2, 4 et 6 modalit&#x00E9;s sans r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_4_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_4_Guess" onfocus="TrackFocus('Q_4_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(4)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(4)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_5" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 1 facteur &#x00E0; 3 modalit&#x00E9;s avec 12 r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_5_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_5_Guess" onfocus="TrackFocus('Q_5_Guess')" onblur="LeaveGap()" class="GapBox" size="12"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(5)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(5)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_6" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 2 facteurs &#x00E0; 3 et 12 modalit&#x00E9;s sans r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_6_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_6_Guess" onfocus="TrackFocus('Q_6_Guess')" onblur="LeaveGap()" class="GapBox" size="10"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(6)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(6)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_7" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 2 facteurs &#x00E0; 3 et 4 modalit&#x00E9;s avec 3 r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_7_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_7_Guess" onfocus="TrackFocus('Q_7_Guess')" onblur="LeaveGap()" class="GapBox" size="12"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(7)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(7)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_8" style="display: none;"><p class="QuestionText">Le ddl de l'analyse statistique lors de la comparaison de 2 moyennes suite &#x00E0; l'ANOVA d'une &#x00E9;tude &#x00E0; 3 facteurs &#x00E0; 3, 3 et 4 modalit&#x00E9;s sans r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_8_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_8_Guess" onfocus="TrackFocus('Q_8_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(8)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(8)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_9" style="display: none;"><p class="QuestionText">Le ddl du test de Bartlett v&#x00E9;rifiant l'hypoth&#x00E8;se d'invariance de la variance dans le cas d'une &#x00E9;tude &#x00E0; 2 facteurs &#x00E0; 4 et 5 modalit&#x00E9;s avec 3 r&#x00E9;p&#x00E9;titions est &#x00E9;gal &#x00E0; :</p><div class="ShortAnswer" id="Q_9_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_9_Guess" onfocus="TrackFocus('Q_9_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(9)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(9)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_10" style="display: none;"><p class="QuestionText">On partage 36 animaux d'une m&#x00EA;me souche, des m&#x00E2;les &#x00E2;g&#x00E9;s de 2 ans, d'un poids compris entre 100 et 110 Kg en 12 lots de 3 b&#x00EA;tes. Chaque lot est aliment&#x00E9; par un type d'aliment parmi 4 types et &#x00E0; une quantit&#x00E9; de ration parmi 3 quantit&#x00E9;s. Tous les 1er du mois, avant la distribution de l'alimentation l'exp&#x00E9;rimentateur mesure le gain pond&#x00E9;ral individuel par une pes&#x00E9;e. Dans cette &#x00E9;tude le(s) facteur(s) &#x00E9;tudi&#x00E9;(s) sont:</p><ol class="MSelAnswers"><li id="Q_10_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_0_Chk" class="MSelCheckbox" />le g&#x00E9;notype des animaux</div></form></li><li id="Q_10_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_1_Chk" class="MSelCheckbox" />l'&#x00E2;ge des animaux</div></form></li><li id="Q_10_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_2_Chk" class="MSelCheckbox" />le sexe des animaux</div></form></li><li id="Q_10_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_3_Chk" class="MSelCheckbox" />le poids des animaux</div></form></li><li id="Q_10_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_4_Chk" class="MSelCheckbox" />le nombre d'animaux par lot</div></form></li><li id="Q_10_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_5_Chk" class="MSelCheckbox" />le type d'aliment</div></form></li><li id="Q_10_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_6_Chk" class="MSelCheckbox" />le type de ration</div></form></li><li id="Q_10_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_7_Chk" class="MSelCheckbox" />le gain pond&#x00E9;ral mensuel d'un animal</div></form></li><li id="Q_10_8"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_8_Chk" class="MSelCheckbox" />le m&#x00E9;tabolisme individuel de l'animal</div></form></li><li id="Q_10_9"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_9_Chk" class="MSelCheckbox" />le type d'appareil de mesure du poids de l'animal</div></form></li><li id="Q_10_10"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_10_Chk" class="MSelCheckbox" />la reproductibilit&#x00E9; et la r&#x00E9;p&#x00E9;tabilit&#x00E9; de l'exp&#x00E9;rimentateur</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(10)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_11" style="display: none;"><p class="QuestionText">On partage 36 animaux d'une m&#x00EA;me souche, des m&#x00E2;les &#x00E2;g&#x00E9;s de 2 ans, d'un poids compris entre 100 et 110 Kg en 12 lots de 3 b&#x00EA;tes. Chaque lot est aliment&#x00E9; par un type d'aliment parmi 4 types et &#x00E0; une quantit&#x00E9; de ration parmi 3 quantit&#x00E9;s. Tous les 1er du mois, avant la distribution de l'alimentation l'exp&#x00E9;rimentateur mesure le gain pond&#x00E9;ral individuel par une pes&#x00E9;e. Dans cette &#x00E9;tude le(s) facteur(s) contr&#x00F4;l&#x00E9;s(s) sont:</p><ol class="MSelAnswers"><li id="Q_11_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_0_Chk" class="MSelCheckbox" />le g&#x00E9;notype des animaux</div></form></li><li id="Q_11_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_1_Chk" class="MSelCheckbox" />l'&#x00E2;ge des animaux</div></form></li><li id="Q_11_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_2_Chk" class="MSelCheckbox" />le sexe des animaux</div></form></li><li id="Q_11_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_3_Chk" class="MSelCheckbox" />le poids des animaux</div></form></li><li id="Q_11_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_4_Chk" class="MSelCheckbox" />le nombre d'animaux par lot</div></form></li><li id="Q_11_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_5_Chk" class="MSelCheckbox" />le type d'aliment</div></form></li><li id="Q_11_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_6_Chk" class="MSelCheckbox" />le type de ration</div></form></li><li id="Q_11_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_7_Chk" class="MSelCheckbox" />le gain pond&#x00E9;ral mensuel d'un animal</div></form></li><li id="Q_11_8"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_8_Chk" class="MSelCheckbox" />le m&#x00E9;tabolisme individuel de l'animal</div></form></li><li id="Q_11_9"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_9_Chk" class="MSelCheckbox" />le type d'appareil de mesure du poids de l'animal</div></form></li><li id="Q_11_10"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_10_Chk" class="MSelCheckbox" />la reproductibilit&#x00E9; et la r&#x00E9;p&#x00E9;tabilit&#x00E9; de l'exp&#x00E9;rimentateur</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(11)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_12" style="display: none;"><p class="QuestionText">On partage 36 animaux d'une m&#x00EA;me souche, des m&#x00E2;les &#x00E2;g&#x00E9;s de 2 ans, d'un poids compris entre 100 et 110 Kg en 12 lots de 3 b&#x00EA;tes. Chaque lot est aliment&#x00E9; par un type d'aliment parmi 4 types et &#x00E0; une quantit&#x00E9; de ration parmi 3 quantit&#x00E9;s. Tous les 1er du mois, avant la distribution de l'alimentation l'exp&#x00E9;rimentateur mesure le gain pond&#x00E9;ral individuel par une pes&#x00E9;e. Dans cette &#x00E9;tude la (les) variables(s) &#x00E9;tudi&#x00E9;e(s) sont:</p><ol class="MSelAnswers"><li id="Q_12_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_0_Chk" class="MSelCheckbox" />le g&#x00E9;notype des animaux</div></form></li><li id="Q_12_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_1_Chk" class="MSelCheckbox" />l'&#x00E2;ge des animaux</div></form></li><li id="Q_12_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_2_Chk" class="MSelCheckbox" />le sexe des animaux</div></form></li><li id="Q_12_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_3_Chk" class="MSelCheckbox" />le poids des animaux</div></form></li><li id="Q_12_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_4_Chk" class="MSelCheckbox" />le nombre d'animaux par lot</div></form></li><li id="Q_12_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_5_Chk" class="MSelCheckbox" />le type d'aliment</div></form></li><li id="Q_12_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_6_Chk" class="MSelCheckbox" />le type de ration</div></form></li><li id="Q_12_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_7_Chk" class="MSelCheckbox" />le gain pond&#x00E9;ral mensuel d'un animal</div></form></li><li id="Q_12_8"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_8_Chk" class="MSelCheckbox" />le m&#x00E9;tabolisme individuel de l'animal</div></form></li><li id="Q_12_9"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_9_Chk" class="MSelCheckbox" />le type d'appareil de mesure du poids de l'animal</div></form></li><li id="Q_12_10"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_10_Chk" class="MSelCheckbox" />la reproductibilit&#x00E9; et la r&#x00E9;p&#x00E9;tabilit&#x00E9; de l'exp&#x00E9;rimentateur</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(12)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_13" style="display: none;"><p class="QuestionText">On partage 36 animaux d'une m&#x00EA;me souche, des m&#x00E2;les &#x00E2;g&#x00E9;s de 2 ans, d'un poids compris entre 100 et 110 Kg en 12 lots de 3 b&#x00EA;tes. Chaque lot est aliment&#x00E9; par un type d'aliment parmi 4 types et &#x00E0; une quantit&#x00E9; de ration parmi 3 quantit&#x00E9;s. Tous les 1er du mois, avant la distribution de l'alimentation l'exp&#x00E9;rimentateur mesure le gain pond&#x00E9;ral individuel par une pes&#x00E9;e. Dans cette &#x00E9;tude le(s) facteur(s) non contr&#x00F4;l&#x00E9;s(s) responsable(s) de l'erreur exp&#x00E9;rimentale sont:</p><ol class="MSelAnswers"><li id="Q_13_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_0_Chk" class="MSelCheckbox" />le g&#x00E9;notype des animaux</div></form></li><li id="Q_13_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_1_Chk" class="MSelCheckbox" />l'&#x00E2;ge des animaux</div></form></li><li id="Q_13_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_2_Chk" class="MSelCheckbox" />le sexe des animaux</div></form></li><li id="Q_13_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_3_Chk" class="MSelCheckbox" />le poids des animaux</div></form></li><li id="Q_13_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_4_Chk" class="MSelCheckbox" />le nombre d'animaux par lot</div></form></li><li id="Q_13_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_5_Chk" class="MSelCheckbox" />le type d'aliment</div></form></li><li id="Q_13_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_6_Chk" class="MSelCheckbox" />le type de ration</div></form></li><li id="Q_13_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_7_Chk" class="MSelCheckbox" />le gain pond&#x00E9;ral mensuel d'un animal</div></form></li><li id="Q_13_8"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_8_Chk" class="MSelCheckbox" />le m&#x00E9;tabolisme individuel de l'animal</div></form></li><li id="Q_13_9"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_9_Chk" class="MSelCheckbox" />le type d'appareil de mesure du poids de l'animal</div></form></li><li id="Q_13_10"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_10_Chk" class="MSelCheckbox" />la reproductibilit&#x00E9; et la r&#x00E9;p&#x00E9;tabilit&#x00E9; de l'exp&#x00E9;rimentateur</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(13)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_14" style="display: none;"><p class="QuestionText">On partage 36 animaux d'une m&#x00EA;me souche, des m&#x00E2;les &#x00E2;g&#x00E9;s de 2 ans, d'un poids compris entre 100 et 110 Kg en 12 lots de 3 b&#x00EA;tes. Chaque lot est aliment&#x00E9; par un type d'aliment parmi 4 types et &#x00E0; une quantit&#x00E9; de ration parmi 3 quantit&#x00E9;s. Tous les 1er du mois, avant la distribution de l'alimentation l'exp&#x00E9;rimentateur mesure le gain pond&#x00E9;ral individuel par une pes&#x00E9;e. Cette &#x00E9;tude rel&#x00E8;ve d'une ANOVA &#x00E0; :</p><ol class="MSelAnswers"><li id="Q_14_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_0_Chk" class="MSelCheckbox" />1 facteur &#x00E0; 3 modalit&#x00E9;s avec 12 r&#x00E9;p&#x00E9;titions</div></form></li><li id="Q_14_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_1_Chk" class="MSelCheckbox" />2 facteurs &#x00E0; 12 et 3 modalit&#x00E9;s sans r&#x00E9;p&#x00E9;tition</div></form></li><li id="Q_14_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_2_Chk" class="MSelCheckbox" />2 facteurs &#x00E0; 4 et 3 modalit&#x00E9;s avec 3 r&#x00E9;p&#x00E9;titions</div></form></li><li id="Q_14_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_3_Chk" class="MSelCheckbox" />3 facteurs &#x00E0; 4, 3 et 3 modalit&#x00E9;s sans r&#x00E9;p&#x00E9;tition</div></form></li><li id="Q_14_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_4_Chk" class="MSelCheckbox" />3 facteurs &#x00E0; 12 r&#x00E9;p&#x00E9;titions</div></form></li><li id="Q_14_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_5_Chk" class="MSelCheckbox" />2 facteurs &#x00E0; 3 et 3 modalit&#x00E9;s avec 4 r&#x00E9;p&#x00E9;titions</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(14)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_15" style="display: none;"><p class="QuestionText">3 agriculteurs ayant 3 pratiques culturales diff&#x00E9;rentes (pour labourer, semer, irriguer, r&#x00E9;colter) utilisent 4 doses d'engrais et 2 types de pesticides sur les rendements en Quintaux/Ha et en Kg de MS/Kg d'un type de culture sur 48 parcelles. Dans cette &#x00E9;tude le(s) facteur(s) &#x00E9;tudi&#x00E9;(s) sont:</p><ol class="MSelAnswers"><li id="Q_15_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_0_Chk" class="MSelCheckbox" />la pratique culturale de l'agriculteur</div></form></li><li id="Q_15_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_1_Chk" class="MSelCheckbox" />le type d'engrais</div></form></li><li id="Q_15_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_2_Chk" class="MSelCheckbox" />la dose d'engrais</div></form></li><li id="Q_15_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_3_Chk" class="MSelCheckbox" />le type de pesticide</div></form></li><li id="Q_15_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_4_Chk" class="MSelCheckbox" />la dose de pesticide</div></form></li><li id="Q_15_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_5_Chk" class="MSelCheckbox" />la m&#x00E9;thode d'estimation du rendement</div></form></li><li id="Q_15_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_6_Chk" class="MSelCheckbox" />le type de culture</div></form></li><li id="Q_15_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_7_Chk" class="MSelCheckbox" />le type de parcelle</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(15)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_16" style="display: none;"><p class="QuestionText">3 agriculteurs ayant 3 pratiques culturales diff&#x00E9;rentes (pour labourer, semer, irriguer, r&#x00E9;colter) utilisent 4 doses d'engrais et 2 types de pesticides sur les rendements en Quintaux/Ha et en Kg de MS/Kg d'un type de culture sur 48 parcelles. Dans cette &#x00E9;tude la (les) variable(s) &#x00E9;tudi&#x00E9;e(s) sont:</p><ol class="MSelAnswers"><li id="Q_16_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_0_Chk" class="MSelCheckbox" />la dose d'engrais</div></form></li><li id="Q_16_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_1_Chk" class="MSelCheckbox" />le rendement en Qtx/Ha</div></form></li><li id="Q_16_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_2_Chk" class="MSelCheckbox" />le rendement en Kg MS/Kg de produit r&#x00E9;colt&#x00E9;</div></form></li><li id="Q_16_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_3_Chk" class="MSelCheckbox" />la fa&#x00E7;on de labourer, de semer, d'irriguer et de r&#x00E9;colter</div></form></li><li id="Q_16_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_4_Chk" class="MSelCheckbox" />la dose de pesticide</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(16)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_17" style="display: none;"><p class="QuestionText">3 agriculteurs ayant 3 pratiques culturales diff&#x00E9;rentes (pour labourer, semer, irriguer, r&#x00E9;colter) utilisent 4 doses d'engrais et 2 types de pesticides sur les rendements en Quintaux/Ha et en Kg de MS/Kg d'un type de culture sur 48 parcelles. Dans cette &#x00E9;tude le (s) facteurs(s) &#x00E0; contr&#x00F4;ler sont:</p><ol class="MSelAnswers"><li id="Q_17_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_0_Chk" class="MSelCheckbox" />l'exposition, les caract&#x00E9;ristiques g&#x00E9;ologiques et la pente des parcelles</div></form></li><li id="Q_17_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_1_Chk" class="MSelCheckbox" />le type d'engrais</div></form></li><li id="Q_17_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_2_Chk" class="MSelCheckbox" />le type de pesticide</div></form></li><li id="Q_17_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_3_Chk" class="MSelCheckbox" />le type de semence</div></form></li><li id="Q_17_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_4_Chk" class="MSelCheckbox" />les m&#x00E9;thodes de pes&#x00E9;e</div></form></li><li id="Q_17_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_5_Chk" class="MSelCheckbox" />le syst&#x00E8;me d'irrigation</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(17)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_18" style="display: none;"><p class="QuestionText">3 agriculteurs ayant 3 pratiques culturales diff&#x00E9;rentes (pour labourer, semer, irriguer, r&#x00E9;colter) utilisent 4 doses d'engrais et 2 types de pesticides sur les rendements en Quintaux/Ha et en Kg de MS/Kg d'un type de culture sur 48 parcelles. Dans cette &#x00E9;tude le (s) facteurs(s) responsables de l'erreur exp&#x00E9;rimentale sont:</p><ol class="MSelAnswers"><li id="Q_18_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_0_Chk" class="MSelCheckbox" />les fluctuations dans le rendement de la r&#x00E9;colte de l'agriculteur sur le rendement en Qtx/Ha</div></form></li><li id="Q_18_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_1_Chk" class="MSelCheckbox" />les fluctuations dans le rendement de la r&#x00E9;colte sur le rendement en Kg MS / Kg de mati&#x00E8;re fra&#x00EE;che</div></form></li><li id="Q_18_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_2_Chk" class="MSelCheckbox" />les erreurs de pes&#x00E9;e</div></form></li><li id="Q_18_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_3_Chk" class="MSelCheckbox" />la mini h&#x00E9;t&#x00E9;rog&#x00E9;n&#x00E9;it&#x00E9; sur une m&#x00EA;me parcelle</div></form></li><li id="Q_18_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_4_Chk" class="MSelCheckbox" />l'h&#x00E9;t&#x00E9;rog&#x00E9;n&#x00E9;it&#x00E9; entre des individus</div></form></li><li id="Q_18_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_5_Chk" class="MSelCheckbox" />les fluctuations associ&#x00E9;es aux doses dispens&#x00E9;es sur le terrain</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(18)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_19" style="display: none;"><p class="QuestionText">3 agriculteurs ayant 3 pratiques culturales diff&#x00E9;rentes (pour labourer, semer, irriguer, r&#x00E9;colter) utilisent 4 doses d'engrais et 2 types de pesticides sur les rendements en Quintaux/Ha et en Kg de MS/Kg d'un type de culture sur 48 parcelles. Cette &#x00E9;tude rel&#x00E8;ve d'une ANOVA &#x00E0; :</p><ol class="MSelAnswers"><li id="Q_19_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_0_Chk" class="MSelCheckbox" />1 facteur &#x00E0; 8 modalit&#x00E9;s avec 6 r&#x00E9;p&#x00E9;titions</div></form></li><li id="Q_19_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_1_Chk" class="MSelCheckbox" />2 facteurs &#x00E0; sans r&#x00E9;p&#x00E9;tition</div></form></li><li id="Q_19_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_2_Chk" class="MSelCheckbox" />2 facteurs &#x00E0; 4 et 2 modalit&#x00E9;s avec 6 r&#x00E9;p&#x00E9;titions</div></form></li><li id="Q_19_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_3_Chk" class="MSelCheckbox" />3 facteurs &#x00E0; 4, 6 et 2 modalit&#x00E9;s sans r&#x00E9;p&#x00E9;tition</div></form></li><li id="Q_19_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_4_Chk" class="MSelCheckbox" />3 facteurs &#x00E0; 2, 3 et 4 modalit&#x00E9;s et 2 r&#x00E9;p&#x00E9;titions</div></form></li><li id="Q_19_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_5_Chk" class="MSelCheckbox" />2 facteurs &#x00E0; 3 et 3 modalit&#x00E9;s avec 4 r&#x00E9;p&#x00E9;titions</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(19)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_20" style="display: none;"><p class="QuestionText">Le test statistique permettant de v&#x00E9;rifier l'hypoth&#x00E8;se d'invariance des variances r&#x00E9;siduelles d'un plan exp&#x00E9;rimental relevant d'une ANOVA est un test:</p><ol class="MSelAnswers"><li id="Q_20_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_0_Chk" class="MSelCheckbox" />du X&#x00B2; bilat&#x00E9;ral </div></form></li><li id="Q_20_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_1_Chk" class="MSelCheckbox" />du X&#x00B2; unilat&#x00E9;ral</div></form></li><li id="Q_20_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_2_Chk" class="MSelCheckbox" />F bilat&#x00E9;ral</div></form></li><li id="Q_20_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_3_Chk" class="MSelCheckbox" />F unilat&#x00E9;ral</div></form></li><li id="Q_20_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_4_Chk" class="MSelCheckbox" />t bilat&#x00E9;ral</div></form></li><li id="Q_20_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_5_Chk" class="MSelCheckbox" />t unilat&#x00E9;ral</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(20)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_21" style="display: none;"><p class="QuestionText">Le test statistique mettant en &#x00E9;vidence l 'effet d'un facteur &#x00E9;tudi&#x00E9; d'un plan exp&#x00E9;rimental relevant d'une ANOVA est un test:</p><ol class="MSelAnswers"><li id="Q_21_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_0_Chk" class="MSelCheckbox" />du X&#x00B2; bilat&#x00E9;ral </div></form></li><li id="Q_21_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_1_Chk" class="MSelCheckbox" />du X&#x00B2; unilat&#x00E9;ral</div></form></li><li id="Q_21_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_2_Chk" class="MSelCheckbox" />F bilat&#x00E9;ral</div></form></li><li id="Q_21_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_3_Chk" class="MSelCheckbox" />F unilat&#x00E9;ral</div></form></li><li id="Q_21_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_4_Chk" class="MSelCheckbox" />t bilat&#x00E9;ral</div></form></li><li id="Q_21_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_5_Chk" class="MSelCheckbox" />t unilat&#x00E9;ral</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(21)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_22" style="display: none;"><p class="QuestionText">Le test statistique de comparaison de 2 moyennes suite &#x00E0; l' ANOVA d'un plan exp&#x00E9;rimental est un test:</p><ol class="MSelAnswers"><li id="Q_22_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_0_Chk" class="MSelCheckbox" />du X&#x00B2; bilat&#x00E9;ral </div></form></li><li id="Q_22_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_1_Chk" class="MSelCheckbox" />du X&#x00B2; unilat&#x00E9;ral</div></form></li><li id="Q_22_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_2_Chk" class="MSelCheckbox" />F bilat&#x00E9;ral</div></form></li><li id="Q_22_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_3_Chk" class="MSelCheckbox" />F unilat&#x00E9;ral</div></form></li><li id="Q_22_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_4_Chk" class="MSelCheckbox" />t bilat&#x00E9;ral</div></form></li><li id="Q_22_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_5_Chk" class="MSelCheckbox" />t unilat&#x00E9;ral</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(22)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_23" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 1 facteur avec r&#x00E9;p&#x00E9;titions est de la forme:</p><ol class="MSelAnswers"><li id="Q_23_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_23_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_23_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_23_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_23_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(23)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_24" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 2 facteurs sans r&#x00E9;p&#x00E9;tition est de la forme:</p><ol class="MSelAnswers"><li id="Q_24_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_24_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_24_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_24_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_24_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(24)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_25" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 2 facteurs avec r&#x00E9;p&#x00E9;titions est de la forme:</p><ol class="MSelAnswers"><li id="Q_25_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_25_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_25_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_25_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_25_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(25)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_26" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 3 facteurs sans r&#x00E9;p&#x00E9;titions est de la forme:</p><ol class="MSelAnswers"><li id="Q_26_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_26_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_26_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_26_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_26_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(26)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_27" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 3 facteurs avec r&#x00E9;p&#x00E9;titions est de la forme:</p><ol class="MSelAnswers"><li id="Q_27_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_27_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_27_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_27_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_27_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(27)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_28" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 1 facteur &#x00E9;tudi&#x00E9; dispos&#x00E9; en blocs est de la forme:</p><ol class="MSelAnswers"><li id="Q_28_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_28_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_28_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_28_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_28_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(28)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_29" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 2 facteurs &#x00E9;tudi&#x00E9;s dispos&#x00E9;s en blocs ( on sait qu'il n'y a pas d'interaction entre les blocs et les facteurs) est de la forme:</p><ol class="MSelAnswers"><li id="Q_29_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_29_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_29_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_29_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j+ </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_29_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(29)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_30" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 3 facteurs dispos&#x00E9;s en blocs (on sait qu'il n'y a pas d'interactions entre les blocs et les facteurs) est de la forme:</p><ol class="MSelAnswers"><li id="Q_30_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_30_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_30_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_30_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_30_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_4_Chk" class="MSelCheckbox" />Xijkl = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k +</span><span style='font-family:Symbol'>l</span>s + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(30)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_31" style="display: none;"><p class="QuestionText">Le mod&#x00E8;le math&#x00E9;matique associ&#x00E9; &#x00E0; un plan d'exp&#x00E9;rience &#x00E0; 2 facteurs dispos&#x00E9;s en blocs, est de la forme:</p><ol class="MSelAnswers"><li id="Q_31_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_0_Chk" class="MSelCheckbox" />Xij = &#x00B5; +</span><span style='font-family:Symbol'>a</span>j + eij</div></form></li><li id="Q_31_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_1_Chk" class="MSelCheckbox" />Xij = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + eij</div></form></li><li id="Q_31_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_2_Chk" class="MSelCheckbox" />Xijr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + eijr</div></form></li><li id="Q_31_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_3_Chk" class="MSelCheckbox" />Xijk = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijk</div></form></li><li id="Q_31_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_4_Chk" class="MSelCheckbox" />Xijkr = &#x00B5; + </span><span style='font-family:Symbol'>a</span>i + </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k + </span><span style='font-family:Symbol'>a</span>i </span><span style='font-family:Symbol'>b</span>j </span><span style='font-family:Symbol'>g</span>k +eijkr</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(31)">V&#x00E9;rifier</button></li></ol>
+
+
+
+</div>
+
+
+
+<div class="Feedback" id="FeedbackDiv">
+<div class="FeedbackText" id="FeedbackContent"></div>
+<button id="FeedbackOKButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="HideFeedback(); return false;">&nbsp;OK&nbsp;</button>
+</div>
+
+<!-- BeginBottomNavButtons -->
+
+
+<div class="NavButtonBar" id="BottomNavBar">
+
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index6.doc'; return false;"> Index </button>
+
+
+
+
+</div>
+
+
+
+<!-- EndBottomNavButtons -->
+
+<!-- BeginSubmissionForm -->
+
+<!-- EndSubmissionForm -->
+
+</body>
+
+</html>

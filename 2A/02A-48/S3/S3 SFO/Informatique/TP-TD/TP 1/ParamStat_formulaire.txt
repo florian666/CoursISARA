@@ -1,0 +1,71 @@
+﻿Public Class Formulaire
+
+
+    Private Sub btnCalculer_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCalculer.Click
+
+        Dim sNotes As String
+        Dim tabString() As String
+        Dim N As Integer
+        Dim tabNotes() As Double
+        Dim i As Integer
+        Dim dSomme As Double
+        Dim dSomme_carres As Double
+        Dim dMoyenne As Double
+        Dim dVariance As Double
+        Dim dSigma As Double
+
+        'Récupérer les notes de la TextBox (chaînes de caractères)
+        sNotes = tbxNotes.Text
+
+        'Si sNotes n'est pas vide
+        If (sNotes <> "") Then
+
+            'Extraire les notes (-> tableau de chaînes)
+            tabString = sNotes.Split(";")
+
+            'Renseigner le nombre de notes
+            N = tabString.Length
+
+            'Renseigner le tableau (en bouclant N fois pour récupérer les N valeurs)
+	    ReDim tabNotes(N - 1)
+            For i = 0 To N - 1
+                tabNotes(i) = tabString(i)
+            Next
+
+	    'Remarque IMPORTANTE :
+	    'l'instruction "ReDim" sert à dimensionner le tableau "en dynamique" :
+	    'en effet, la taille N du tableau est inconnue lors des déclarations initiales ;
+            'une fois que N est connu, on redimensionne tabNotes
+	    'A contrario, le tableau tabString contenant des chaînes de caractères (et pas des nombres),
+	    'son redimensionnement n'est pas indispensable !
+            
+            'Calculer la somme des notes et la somme du carré des notes (une seule boucle -> cf. algo)
+            dSomme = 0
+            dSomme_carres = 0
+            For i = 0 To N - 1
+                dSomme = dSomme + tabNotes(i)
+                dSomme_carres = dSomme_carres + (tabNotes(i)) ^ 2
+            Next
+
+            'Calculer la moyenne
+            dMoyenne = dSomme / N
+
+            'Calculer la variance
+            dVariance = (1 / N) * dSomme_carres - dMoyenne ^ 2
+
+            'Calculer l'écart-type
+            dSigma = dVariance ^ (1 / 2)
+
+            'Renseigner les contrôles (en arrondissant à 2 chiffres après la virgule grâce à la fonction "Math.Round")
+            tbxMoy.Text = Math.Round(dMoyenne, 2)
+            tbxVar.Text = Math.Round(dVariance, 2)
+            tbxSigma.Text = Math.Round(dSigma, 2)
+
+        Else
+            MsgBox("Traitement impossible : aucune note n'est saisie !")
+        End If
+
+    End Sub
+
+
+End Class

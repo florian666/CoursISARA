@@ -1,0 +1,86 @@
+Tp de Mr Hallier  
+Manipulation « Terre - humidité »
+
+L’humidité résiduelle se mesure par une différence de masses entre l’échantillon de départ et l’échantillon passé dans une étuve à 103°C. On mesure ainsi la différence de masse pour connaître le taux d’humidité résiduelle de l’échantillon.
+On pèse environ exactement 5g de terre à 1mg près que l’on place dans un vase à humidité. On note la masse m0. 
+On met ce vase dans le déssicateur à 103°C, couvercle ouvert sous le vase. 
+On laisse le tout environ 4 h dans la machine. 
+Une fois le temps écoulé, on referme le vase avec son couvercle, on sort le tout du déssicateur, on laisse refroidir le vase jusqu’à la température ambiante. 
+On pèse le vase et son couvercle à 1mg près. On note la masse m1.
+L’humidité résiduelle se calcule par H (%) = (m0 – m1) / m0 * 100
+
+Manipulation « Terre - Carbone organique »
+
+La méthode possède une limite lorsque la terre est trop riche en maière organique (la solution deviendra verte au cours du refroidissement)  
+La méthode est très onéreuse du fait de l'utilisation de beaucoups de produits tels que le bichromate ou la solution de sel de Morh. Mais il existe des méthodes plus simple et moins chères.
+Il faut faire très attention lors de la manipulation car on détruit complètement la matière organique par la chauffe.
+Cette méthode est dangereuse du fait du bichromate de potassium, puis après la chauffe et la manipulation où il ne faut surtout pas de contact avec la peau car la solution est très corrosive. 
+Le bichromate peut aussi réagir avec quelques corps chimiques comme les nitrates et les carbonates : éléments que l'on retrouve assez facilement dans le sol. Cependant, il ne s'agirait pas d'erreurs notables quand la concentration reste au dessous d'un certain seuil.
+De plus, la méthode de "Anne" n'est pas forcément facile puisqu'il faut être précis dans les quantités et le temps qu'on laisse le ballon sur la flamme.
+Même si la manipulation reste onéreuse, vu le nombre qu'il faut en faire, c'est plus rentable que d'acheter une machine.
+
+L'autre méthode est la pyrolyse Rock-Eval II, un analyseur, qui permet de directement de connaître la teneur en carbonique organique, de l'échantillon par pyrolyse et oxydation. 
+De plus, il s'agit d'une machine complète composée de la partie pyrolyse et de l'oxydation ainsi que le contrôle des températures associées. Grâce à la machine, on peut donc faire beaucoup plus d'analyse sans uiliser beaucoup de produits chimiques mais l'utilisation de l'hélium comme gaz vecteur doit être le plus pur possible. On peut effectuer une analyse toute les 20 minutes. 
+Un inconvénient reste l'investissement financier qu'il faut effectuer et le nombre n'analyses à faire pour la rentabiliser.
+
+Manipulation "Terre - Granulométrie"
+
+Les pourcentage de Sable/Limon/Argile dans le sol reste en accord avec l'horizon prélevé qui avait une dominance de limon et sable (ici, sable fins et limons grossiers). L'endroit du prélèvemet est un sol profond avec une dominance limoneux-sableux (01 - Géologie du département de l’Ain / Caractéristiques des sols de Dombes - Synagri.com [sans date]) L'endroit prélevé correspond exactement au type 1a du document il s'agit d'un sol bru avec des limon et faiblement de l'argile; complètement en concordance des résultats de la granulométrie.
+Il y a faiblement de l'argile à cause d'un lessivage des argiles du fait d'un pH bas. Or le pH-eau du sol est de 7.33, ce qui veut dire qu'il a été enrichi en carbonate de calcium, mais l'argile lessivé s'est accumulé ailleurs, dans des horizons inférieurs.
+
+01 - Géologie du département de l’Ain / Caractéristiques des sols de Dombes - Synagri.com. [en ligne]. Disponible sur : http://rhone-alpes.synagri.com/portail/01---geologie-du-departement-de-l-ain-caracteristiques-des-sols-de-dombes [Consulté le 28 novembre 2017].
+
+Manipulation "Aliment - azote total
+
+L'azote est indispensable pour la vie sur Terre. L'azote sert lors de la fabrication d'enzymes complexes pour la chrlorophylle, les protéines et l'ADN . En effet, l'azote est le principal composant des acides aminés. Or seul le monde végétal ne peut produire directement des protéines à partir d'azote ammoniacal ou nitrique (NH4+ ou NO3-). (Frédéric).
+Le règne animal est donc très dépendant du règne végétal et surtout des plantes fixatrice d'azote atmosphérique.
+L'azote, sous forme nitrite/nitrate/ammonium, il est toxique pour le corps humain et néfaste pour l'environnement. AInsi, on ne peut pas assimiler l'azote, il faut passer par les protéines produites par les plantes.
+
+Une carence en azote entraine des problèmes au niveau de la synthèse des protéines et donc un problèmle général sur l'individu. (Azote) 
+L'excès d'azote soluble dans le sol n'est pas non plus un bonne chose car, avec l'eau et la chaleur, la matière organique est minéralisé très vite.
+
+FRÉDÉRIC. Azote. [en ligne]. Disponible sur : http://fertilisation-edu.fr/nutrition-des-plantes/le-role-des-elements-nutritifs/azote.html [Consulté le 3 décembre 2017].
+Azote. Azote dans le vivant. Disponible sur : http://docs.eclm.fr/pdf_annexe/4AzoteDansLeVivant.pdf [Consulté le 3 décembre 2017]
+
+
+Tp de Mme Laurent  
+Manipulation "Lait - Antibiotiques"  
+
+Dans un lait vendu en magasin, il ne doit pas y avoir d'antibiotiques dedans, dans le but de conserver la santé du consommateur. Cependant, en laboratoire, il existe des tests pour les antibiotiques pour déterminer si l'éleveur n'a pas fraudé car lors de la traite, le lait qui contient des antibiotiques doit étre séparé et jeté.
+On essaie de cultiver des bactéries, s'il n'y a aucuns antibiotiques, la bactérie pourra se développer, tandis que s'il y a de l'antiobiotique, la bactérie sera génée et ne se développera ou très peu, dans le TP, la bactérie est très sensible, c'est à dire qu'il ne faudra pas qu'il y ait une concentration d'antiobiotique très élevé pour que la bactérie ne se développe pas.
+De plus, s'il y a un développement des bactéries, le pH baisse, on a donc un indicateur coloré qui permet de repérer cette baisse de pH. Si c'est acide, le colorateur deviendra violet, sinon il n'y aura pas de changement de couleur d'origine.
+Si il y a un virage au violet, il y aura donc des bactéries dans le lait et donc aucun antiobiotique.
+
+Dans le TP, il y a eu un virage au violet, ce qui signifie que les bactéries se sont développées, il n'y a donc pas d'antiobiotiques dans les échantillons.
+Le résultat est normal, les éleveurs ont intérêt à respecter sous risques de pénalités lourde sur le prix du lait.
+
+Manipulation "Lait - Tenur en MS, eau et cendre dns le lait"
+
+Por récupérer le taux de MS, d'eau et de cendres, on pèse d'abord le lait, que l'on déshydrate complètement, on connait donc la quantité d'eau évaporée et la quantité de MS. Pour avoir le taux de cendre, on fait de la pyrolyse, pour bruler tout ce qu'il reste d'organique dans le lait et après pesée, on connait les cendres dans le lait
+On étudie la concentration en eau, en cendre et en matière sèche pour éviter les fraudes. On peut rajouter de l'eau dans le lait pour faire un plus grand volume, cependant le taux de matière sèche sera beaucoup plus faible, on pourra donc dire que l'éleveur a fraudé. On aurait pu rajouter du sel pour augmenter le taux de cendre dans le lait. On peut donc faire fraudé sur 2 paramètres : l'eau et les cendres mais on ne peut pas frauder sur le taux de matière sèche du lait. Si les deux paramètres sont anormaux, on peut donc dire que l'éleveur a fraudé.  
+Lors du TP, les taux de matière sèche, eau et cendres sont normaux (Composition du lait), on a un peu plus de matière sèche, un peu moins d'eau .
+Si on ajoute de l'eau, il y a mouillage du lait et donc fraude.
+
+Composition du lait. [en ligne]. Disponible sur : /content/composition-du-lait [Consulté le 8 décembre 2017].
+
+Manipulation "Lait - Acidité titrable"
+
+Pour connaître l'acidité titrable du lait, on ajoute un indicateur coloré, on dose directement le lait, avec de l'hydroxyde de sodium à 0.1N jusqu'à obtenir le volume équivalent. L'acidité est donc Veq * 0.9.
+La flore bactérienne, en trop grand nombre, produit de l'acide lactique que l'on va pouvoir doser dans le lait. Le degrès d'acidité permet de donner le dégrès de conservation du lait. Moins le lait est frais, plus il contiendra d'acide lactique.
+Lors du Tp, on a une valeur autour de 19.8°D, ce qui signifie que le lait est en cours de "déconservation".
+Les lactobacilles transforment le lactose en acide lactique mais ne se développent qu'au bout d'un certain temps.
+Les résulats obtenus lors du TP semble concordant car on devrait trouver entre 16 et 18°D mais comme le lait a été ouvert un peu avant, ce taux d'acidité a obligatoirement monté, on arrive donc à 19.8°D du TP.
+
+Manipulation "Lait - Traitements thermiques"
+
+Il existe différents types de pasteurisation permettant de détruire la presque totalité de la flore bactérienne et de la flore pathogène. La chaleur permet de détruire ces bactéries mais aussi les enzymes. Cependant, les enzymes résistent un peu plus que les bactéries. On peut donc doser les enzymes pour savoir si on a assez chauffé et donc savoir si les pathogènes que l'on a voulu éliminé le sont réellement.
+On essaie donc de doser par la couleur, la quantité de phosphatase hydrolysée. Si le lait tourne au jaune, plus ou moins fort, il y a de la phosphatase et le lait n'a pas été (assez) chauffé. Si il n'y a aucun virage de couleur, toute la phasphatase a été détruite lors de la pasteurisation.
+On essaie aussi de doser la péroxydase qui s'oxyde avec l'H2O2. Si la lait tourne au rouge brique, il y a de la péroxydase, on peut donc déterminer à quelle température a été chauffé le lait. Seule les températures au dessus de 80°C détruisent la péroxydase.
+Avec le test sur les deux enzymes, on peut donc déterminer le type de stérilisation qui a été effectué.
+
+
+Manipulation "Dosage Matière Grasse du lait"
+
+On dissout la caséine car elle permet "d'agglomérer" la maitère grasse. Si on laisse la protéine, on ne pourra pas doser la matière grasse. Puis on essaie de séparer la matière grasse de la phase acqueuse du lait pour qu'elle remonte dans le tube dans le but de directement lire la quantité qu'il y en a dans un volume donné.  
+L'isoamylique permet de séparer la matière grasse en changeant la densité de celle-ci.  
+On lit la quantité de matière grasse par différence de hauteur en le haut et la limite inférieur de la matière grasse dans la colonne.  

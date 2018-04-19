@@ -1,0 +1,2257 @@
+<?xml version="1.0"?>
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml"
+             xml:lang="en"><head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to brigitte bottollier."></meta><meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC:Creator" content="brigitte bottollier" />
+<meta name="DC:Creator" content="UNREGISTERED" />
+<meta name="DC:Title" content="LES TESTS STATISTIQUES" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+
+<title>
+LES TESTS STATISTIQUES
+</title>
+
+<!-- Made with executable version 6.0 Release 3 Build 3 -->
+
+<!-- The following insertion allows you to add your own code directly to this head tag from the configuration screen -->
+
+
+
+<style type="text/css">
+
+
+/* This is the CSS stylesheet used in the exercise. */
+/* Elements in square brackets are replaced by data based on configuration settings when the exercise is built. */
+
+
+body{
+	font-family: Comic Sans MS;
+	background-color: #a5a914;
+	color: #000000;
+ 
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: small;
+}
+
+p{
+	text-align: left;
+	margin: 0px;
+	font-size: small;
+}
+
+div,span,td{
+	font-size: small;
+	color: #000000;
+}
+
+.RTLText{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", Comic Sans MS; 
+}
+
+.CentredRTLText{
+	text-align: center;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", Comic Sans MS; 
+}
+
+button p.RTLText{
+	text-align: center;
+}
+
+.RTLGapBox{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Times New Roman", Comic Sans MS;
+}
+
+.Guess{
+	font-weight: bold;
+}
+
+.CorrectAnswer{
+	font-weight: bold;
+}
+
+div.Titles{
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+button{
+	display: inline;
+}
+
+.ExerciseTitle{
+	font-size: large;
+	color: #000000;
+}
+
+.ExerciseSubtitle{
+	color: #000000;
+}
+
+div#Timer{
+	padding: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+span#TimerText{
+	padding: 6px;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: bold;
+	display: none;
+}
+
+span.Instructions{
+
+}
+
+div.ExerciseText{
+
+}
+
+.FeedbackText{
+	color: #000000;
+}
+
+span.LeftItem{
+	font-size: small;
+	color: #000000;
+}
+
+span.RightItem{
+	font-weight: bold;
+	font-size: small;
+	color: #000000;
+}
+
+span.CorrectMark{
+
+}
+
+div.Feedback {
+	background-color: #a5a914;
+	left: 33%;
+	width: 34%;
+	top: 33%;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	text-align: center;
+	color: #000000;
+	position: absolute;
+	display: none;
+	font-size: small;
+}
+
+
+
+
+div.ExerciseDiv{
+	color: #000000;
+}
+
+/* JMatch flashcard styles */
+table.FlashcardTable{
+	background-color: transparent;
+	color: #000000;
+	border-color: #000000;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 90%;
+	position: relative;
+	align: center;
+	padding: 0px;
+}
+
+table.FlashcardTable tr{
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Showing{
+	font-size: large;
+	text-align: center;
+	width: 50%;
+	display: table-cell;
+	padding: 2em;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Hidden{
+	display: none;
+}
+
+/* JMix styles */
+div#SegmentDiv{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+a.ExSegment{
+	font-size: medium;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+span.RemainingWordList{
+	font-style: italic;
+}
+
+div.DropLine {
+	position: absolute;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	width: 80%;
+}
+
+/* JCloze styles */
+
+input{
+	font-family: Comic Sans MS;
+	font-size: larger;
+}
+
+.ClozeWordList{
+	text-align: center;
+	font-weight: bold;
+}
+
+div.ClozeBody{
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 2.0
+}
+
+span.GapSpan{
+	font-weight: bold;
+}
+
+/* JCross styles */
+
+table.CrosswordGrid{
+	margin: auto auto 1em auto;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+table.CrosswordGrid td{
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+	font-size: large;
+	padding: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+table.CrosswordGrid td.BlankCell{
+	background-color: #000000;
+	color: #000000;
+}
+
+table.CrosswordGrid td.LetterOnlyCell{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+
+table.CrosswordGrid td.NumLetterCell{
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 1px;
+	font-weight: bold;
+}
+
+.NumLetterCellText{
+	cursor: pointer;
+}
+
+.GridNum{
+	vertical-align: super;
+	font-size: x-small;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+table#Clues{
+	margin: auto;
+	vertical-align: top;
+}
+
+table#Clues td{
+	vertical-align: top;
+}
+
+table.ClueList{
+  margin: auto;
+}
+
+td.ClueNum{
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+td.Clue{
+	text-align: left;
+}
+
+div#ClueEntry{
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+/* Keypad styles */
+
+div.Keypad{
+	text-align: center;
+}
+
+div.Keypad button{
+	font-family: Comic Sans MS;
+	font-size: 120%;
+	background-color: #ffffff;
+	color: #000000;
+	width: 2em;
+}
+
+/* JQuiz styles */
+
+div.QuestionNavigation{
+	text-align: center;
+}
+
+.QNum{
+	margin: 0em 1em 0.5em 1em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+textarea{
+	font-family: Comic Sans MS;
+	font-size: larger;
+}
+
+.QuestionText{
+
+}
+
+.Answer{
+	font-size: 120%;
+	letter-spacing: 0.1em;
+}
+
+.Highlight{
+	color: #000000;
+	background-color: #ffff00;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+ol.QuizQuestions{
+	text-align: left;
+	list-style-type: none;
+}
+
+li.QuizQuestion{
+	padding: 1em;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+ol.MCAnswers{
+	text-align: left;
+	list-style-type: upper-alpha;
+	padding: 1em;
+}
+
+ol.MCAnswers li{
+	margin-bottom: 1em;
+}
+
+ol.MSelAnswers{
+	text-align: left;
+	list-style-type: lower-alpha;
+	padding: 1em;
+}
+
+div.ShortAnswer{
+	padding: 1em;
+}
+
+div.StdDiv{
+	background-color: fbdec4;
+	text-align: center;
+	font-size: small;
+	color: #000000;
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+	margin: 1px;
+}
+
+.FuncButton {
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: #000000;
+	background-color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonUp {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+
+	background-color: #000000;
+	color: fbdec4;
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonDown {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	background-color: #000000;
+	color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: fbdec4;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: small;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	background-color: fbdec4;
+	color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+/*EndNavBarStyle*/
+
+a{
+	color: #0000ff;
+}
+
+a: visited{
+	color: #0000cc;
+}
+
+a:hover{
+	color: #0000ff;
+}
+
+div.CardStyle {
+	position: absolute;
+	font-family: Comic Sans MS;
+	font-size: small;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+	left: -50px;
+	top: -50px;
+	overflow: visible;
+}
+
+.rtl{
+	text-align: right;
+	font-size: large;
+}
+
+
+</style>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+
+function Client(){
+//if not a DOM browser, hopeless
+	this.min = false; if (document.getElementById){this.min = true;};
+
+	this.ua = navigator.userAgent;
+	this.name = navigator.appName;
+	this.ver = navigator.appVersion;  
+
+//Get data about the browser
+	this.mac = (this.ver.indexOf('Mac') != -1);
+	this.win = (this.ver.indexOf('Windows') != -1);
+
+//Look for Gecko
+	this.gecko = (this.ua.indexOf('Gecko') > 1);
+	if (this.gecko){
+		this.geckoVer = parseInt(this.ua.substring(this.ua.indexOf('Gecko')+6, this.ua.length));
+		if (this.geckoVer < 20020000){this.min = false;}
+	}
+	
+//Look for Firebird
+	this.firebird = (this.ua.indexOf('Firebird') > 1);
+	
+//Look for Safari
+	this.safari = (this.ua.indexOf('Safari') > 1);
+	if (this.safari){
+		this.gecko = false;
+	}
+	
+//Look for IE
+	this.ie = (this.ua.indexOf('MSIE') > 0);
+	if (this.ie){
+		this.ieVer = parseFloat(this.ua.substring(this.ua.indexOf('MSIE')+5, this.ua.length));
+		if (this.ieVer < 5.5){this.min = false;}
+	}
+	
+//Look for Opera
+	this.opera = (this.ua.indexOf('Opera') > 0);
+	if (this.opera){
+		this.operaVer = parseFloat(this.ua.substring(this.ua.indexOf('Opera')+6, this.ua.length));
+		if (this.operaVer < 7.04){this.min = false;}
+	}
+	if (this.min == false){
+		alert('Your browser may not be able to handle this page.');
+	}
+	
+//Special case for the horrible ie5mac
+	this.ie5mac = (this.ie&&this.mac&&(this.ieVer<6));
+}
+
+var C = new Client();
+
+//for (prop in C){
+//	alert(prop + ': ' + C[prop]);
+//}
+
+
+
+//CODE FOR HANDLING NAV BUTTONS AND FUNCTION BUTTONS
+
+//[strNavBarJS]
+function NavBtnOver(Btn){
+	if (Btn.className != 'NavButtonDown'){Btn.className = 'NavButtonUp';}
+}
+
+function NavBtnOut(Btn){
+	Btn.className = 'NavButton';
+}
+
+function NavBtnDown(Btn){
+	Btn.className = 'NavButtonDown';
+}
+//[/strNavBarJS]
+
+function FuncBtnOver(Btn){
+	if (Btn.className != 'FuncButtonDown'){Btn.className = 'FuncButtonUp';}
+}
+
+function FuncBtnOut(Btn){
+	Btn.className = 'FuncButton';
+}
+
+function FuncBtnDown(Btn){
+	Btn.className = 'FuncButtonDown';
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		if (document.getElementById('CheckButton2') != null){
+			document.getElementById('CheckButton2').focus();
+		}
+		else{
+			document.getElementsByTagName('button')[0].focus();
+		}
+	}
+}
+
+
+
+
+//CODE FOR HANDLING DISPLAY OF POPUP FEEDBACK BOX
+
+var topZ = 1000;
+
+function ShowMessage(Feedback){
+	var Output = Feedback + '<br /><br />';
+	document.getElementById('FeedbackContent').innerHTML = Output;
+	var FDiv = document.getElementById('FeedbackDiv');
+	topZ++;
+	FDiv.style.zIndex = topZ;
+	FDiv.style.top = TopSettingWithScrollOffset(30) + 'px';
+//IE can't focus a hidden div; Moz needs to focus before display to avoid jumping
+	if (C.gecko){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	FDiv.style.display = 'block';
+
+	ShowElements(false, 'input');
+	ShowElements(false, 'select');
+	ShowElements(false, 'object');
+	if (C.ie){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	
+//
+}
+
+function ShowElements(Show, TagName){
+//Special for IE bug -- hide all the form elements that will show through the popup
+	if (C.ie){
+		var Els = document.getElementsByTagName(TagName);
+		for (var i=0; i<Els.length; i++){
+			if (Show == true){
+				Els[i].style.display = 'inline';
+			}
+			else{
+				Els[i].style.display = 'none';
+			}
+		}
+	} 
+}
+
+function HideFeedback(){
+	document.getElementById('FeedbackDiv').style.display = 'none';
+	ShowElements(true, 'input');
+	ShowElements(true, 'select');
+	ShowElements(true, 'object');
+	if (Finished == true){
+		Finish();
+	}
+}
+
+
+//GENERAL UTILITY FUNCTIONS AND VARIABLES
+
+//PAGE DIMENSION FUNCTIONS
+function PageDim(){
+//Get the page width and height
+	this.W = 600;
+	this.H = 400;
+	this.W = document.getElementsByTagName('body')[0].clientWidth;
+	this.H = document.getElementsByTagName('body')[0].clientHeight;
+}
+
+var pg = null;
+
+function GetPageXY(El) {
+	var XY = {x: 0, y: 0};
+	while(El){
+		XY.x += El.offsetLeft;
+		XY.y += El.offsetTop;
+		El = El.offsetParent;
+	}
+	return XY;
+}
+
+function GetScrollTop(){
+	if (document.documentElement && document.documentElement.scrollTop){
+		return document.documentElement.scrollTop;
+	}
+	else{
+		if (document.body){
+ 			return document.body.scrollTop;
+		}
+		else{
+			return window.pageYOffset;
+		}
+	}
+}
+
+function GetViewportHeight(){
+	if (window.innerWidth){
+		return window.innerWidth;
+	}
+	else{
+		return document.getElementsByTagName('body')[0].clientHeight;
+	}
+}
+
+function TopSettingWithScrollOffset(TopPercent){
+	var T = Math.floor(GetViewportHeight() * (TopPercent/100));
+	return GetScrollTop() + T; 
+}
+
+//CODE FOR AVOIDING LOSS OF DATA WHEN BACKSPACE KEY INVOKES history.back()
+var InTextBox = false;
+
+function SuppressBackspace(e){ 
+	if (InTextBox == true){return;}
+	if (C.ie) {
+		thisKey = window.event.keyCode;
+	}
+	else {
+		thisKey = e.keyCode;
+	}
+
+	var Suppress = false;
+
+	if (thisKey == 8) {
+		Suppress = true;
+	}
+
+	if (Suppress == true){
+		if (C.ie){
+			window.event.returnValue = false;	
+			window.event.cancelBubble = true;
+		}
+		else{
+			e.preventDefault();
+		}
+	}
+}
+
+if (C.ie){
+	document.attachEvent('onkeydown',SuppressBackspace);
+	window.attachEvent('onkeydown',SuppressBackspace);
+}
+else{
+	window.addEventListener('keypress',SuppressBackspace,false);
+}
+
+function ReduceItems(InArray, ReduceToSize){
+	var ItemToDump=0;
+	var j=0;
+	while (InArray.length > ReduceToSize){
+		ItemToDump = Math.floor(InArray.length*Math.random());
+		InArray.splice(ItemToDump, 1);
+	}
+}
+
+function Shuffle(InArray){
+	Temp = new Array();
+	var Len = InArray.length;
+
+	var j = Len;
+
+	for (var i=0; i<Len; i++){
+		Temp[i] = InArray[i];
+	}
+
+	for (i=0; i<Len; i++){
+		Num = Math.floor(j  *  Math.random());
+		InArray[i] = Temp[Num];
+
+		for (var k=Num; k < j; k++) {
+			Temp[k] = Temp[k+1];
+		}
+		j--;
+	}
+	return InArray;
+}
+
+function WriteToInstructions(Feedback) {
+//	Feedback = '<span class="FeedbackText">' + Feedback + '</span>';
+	document.getElementById('InstructionsDiv').innerHTML = Feedback;
+
+}
+
+
+
+
+function EscapeDoubleQuotes(InString){
+	return InString.replace(/"/g, '&quot;')
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		document.getElementsByTagName('button')[0].focus();
+	}
+}
+
+function TrimString(InString){
+        var x = 0;
+
+        if (InString.length != 0) {
+                while ((InString.charAt(InString.length - 1) == '\u0020') || (InString.charAt(InString.length - 1) == '\u000A') || (InString.charAt(InString.length - 1) == '\u000D')){
+                        InString = InString.substring(0, InString.length - 1)
+                }
+
+                while ((InString.charAt(0) == '\u0020') || (InString.charAt(0) == '\u000A') || (InString.charAt(0) == '\u000D')){
+                        InString = InString.substring(1, InString.length)
+                }
+
+                while (InString.indexOf('  ') != -1) {
+                        x = InString.indexOf('  ')
+                        InString = InString.substring(0, x) + InString.substring(x+1, InString.length)
+                 }
+
+                return InString;
+        }
+
+        else {
+                return '';
+        }
+}
+
+function FindLongest(InArray){
+	if (InArray.length < 1){return -1;}
+
+	var Longest = 0;
+	for (var i=1; i<InArray.length; i++){
+		if (InArray[i].length > InArray[Longest].length){
+			Longest = i;
+		}
+	}
+	return Longest;
+}
+
+//UNICODE CHARACTER FUNCTIONS
+function IsCombiningDiacritic(CharNum){
+	var Result = (((CharNum >= 0x0300)&&(CharNum <= 0x370))||((CharNum >= 0x20d0)&&(CharNum <= 0x20ff)));
+	Result = Result || (((CharNum >= 0x3099)&&(CharNum <= 0x309a))||((CharNum >= 0xfe20)&&(CharNum <= 0xfe23)));
+	return Result;
+}
+
+function IsCJK(CharNum){
+	return ((CharNum >= 0x3000)&&(CharNum < 0xd800));
+}
+
+//SETUP FUNCTIONS
+//BROWSER WILL REFILL TEXT BOXES FROM CACHE IF NOT PREVENTED
+function ClearTextBoxes(){
+	var NList = document.getElementsByTagName('input');
+	for (var i=0; i<NList.length; i++){
+		if ((NList[i].id.indexOf('Guess') > -1)||(NList[i].id.indexOf('Gap') > -1)){
+			NList[i].value = '';
+		}
+		if (NList[i].id.indexOf('Chk') > -1){
+			NList[i].checked = '';
+		}
+	}
+}
+
+//EXTENSION TO ARRAY OBJECT
+function Array_IndexOf(Input){
+	var Result = -1;
+	for (var i=0; i<this.length; i++){
+		if (this[i] == Input){
+			Result = i;
+		}
+	}
+	return Result;
+}
+Array.prototype.indexOf = Array_IndexOf;
+
+//IE HAS RENDERING BUG WITH BOTTOM NAVBAR
+function RemoveBottomNavBarForIE(){
+	if ((C.ie)&&(document.getElementById('Reading') != null)){
+		if (document.getElementById('BottomNavBar') != null){
+			document.getElementById('TheBody').removeChild(document.getElementById('BottomNavBar'));
+		}
+	}
+}
+
+
+
+
+//HOTPOTNET-RELATED CODE
+
+var HPNStartTime = (new Date()).getTime();
+var SubmissionTimeout = 30000;
+var Detail = ''; //Global that is used to submit tracking data
+
+function Finish(){
+//If there's a form, fill it out and submit it
+	if (document.store != null){
+		Frm = document.store;
+		Frm.starttime.value = HPNStartTime;
+		Frm.endtime.value = (new Date()).getTime();
+		Frm.mark.value = Score;
+		Frm.detail.value = Detail;
+		Frm.submit();
+	}
+}
+
+
+
+//JQUIZ CORE JAVASCRIPT CODE
+
+var CurrQNum = 0;
+var CorrectIndicator = ' Oui';
+var IncorrectIndicator = ' Non';
+var YourScoreIs = 'Votre score est de';
+var ContinuousScoring = true;
+var CorrectFirstTime = 'Questions r&#x00E9;pondues correctement au premier essai';
+var ShowCorrectFirstTime = true;
+var ShuffleQs = true;
+var ShuffleAs = true;
+var DefaultRight = 'Bonne r&#x00E9;ponse';
+var DefaultWrong = 'D&#x00E9;sol&#x00E9;, essayez &#x00E0; nouveau!';
+var QsToShow = 84;
+var Score = 0;
+var Finished = false;
+var Qs = null;
+var QArray = new Array();
+var ShowingAllQuestions = false;
+var ShowAllQuestionsCaption = 'Afficher toutes les questions';
+var ShowOneByOneCaption = 'Voir les questions une par une';
+var State = new Array();
+var Feedback = '';
+var TimeOver = false;
+
+//The following variable can be used to add a message explaining that
+//the question is finished, so no further marking will take place.
+var strQuestionFinished = '';
+
+function CompleteEmptyFeedback(){
+	var QNum, ANum;
+	for (QNum=0; QNum<I.length; QNum++){
+//Only do this if not multi-select
+		if (I[QNum][2] != '3'){
+  		for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+  			if (I[QNum][3][ANum][1].length < 1){
+  				if (I[QNum][3][ANum][2] > 0){
+  					I[QNum][3][ANum][1] = DefaultRight;
+  				}
+  				else{
+  					I[QNum][3][ANum][1] = DefaultWrong;
+  				}
+  			}
+  		}
+		}
+	}
+}
+
+function SetUpQuestions(){
+	var AList = new Array(); 
+	var QList = new Array();
+	var i, j;
+	Qs = document.getElementById('Questions');
+	while (Qs.getElementsByTagName('li').length > 0){
+		QList.push(Qs.removeChild(Qs.getElementsByTagName('li')[0]));
+	}
+	var DumpItem = 0;
+	while (QsToShow < QList.length){
+		DumpItem = Math.floor(QList.length*Math.random());
+		for (j=DumpItem; j<(QList.length-1); j++){
+			QList[j] = QList[j+1];
+		}
+		QList.length = QList.length-1;
+	}
+	if (ShuffleQs == true){
+		QList = Shuffle(QList);
+	}
+	if (ShuffleAs == true){
+		var As;
+		for (var i=0; i<QList.length; i++){
+			As = QList[i].getElementsByTagName('ol')[0];
+			if (As != null){
+  			AList.length = 0;
+				while (As.getElementsByTagName('li').length > 0){
+					AList.push(As.removeChild(As.getElementsByTagName('li')[0]));
+				}
+				AList = Shuffle(AList);
+				for (j=0; j<AList.length; j++){
+					As.appendChild(AList[j]);
+				}
+			}
+		}
+	}
+	
+	for (i=0; i<QList.length; i++){
+		Qs.appendChild(QList[i]);
+		QArray[QArray.length] = QList[i];
+	}
+
+//Show the first item
+	QArray[0].style.display = '';
+	
+//Now hide all except the first item
+	for (i=1; i<QArray.length; i++){
+		QArray[i].style.display = 'none';
+	}		
+	SetQNumReadout();
+}
+
+function ChangeQ(ChangeBy){
+	if (((CurrQNum + ChangeBy) < 0)||((CurrQNum + ChangeBy) >= QArray.length)){return;}
+	QArray[CurrQNum].style.display = 'none';
+	CurrQNum += ChangeBy;
+	QArray[CurrQNum].style.display = '';
+	SetQNumReadout();
+//if there's a textbox, set the focus in it
+	if (QArray[CurrQNum].getElementsByTagName('input')[0] != null){
+		QArray[CurrQNum].getElementsByTagName('input')[0].focus();
+	}
+}
+
+function SetQNumReadout(){
+	document.getElementById('QNumReadout').innerHTML = (CurrQNum+1) + ' / ' + QArray.length;
+}
+
+I=new Array();
+I[0]=new Array();I[0][0]=100;
+I[0][1]='';
+I[0][2]='1';
+I[0][3]=new Array();
+I[0][3][0]=new Array('125.30','',1,100,1);
+I[1]=new Array();I[1][0]=100;
+I[1][1]='';
+I[1][2]='1';
+I[1][3]=new Array();
+I[1][3][0]=new Array('143','',1,100,1);
+I[2]=new Array();I[2][0]=100;
+I[2][1]='';
+I[2][2]='1';
+I[2][3]=new Array();
+I[2][3][0]=new Array('125.40','',1,100,1);
+I[3]=new Array();I[3][0]=100;
+I[3][1]='';
+I[3][2]='1';
+I[3][3]=new Array();
+I[3][3][0]=new Array('286','',1,100,1);
+I[4]=new Array();I[4][0]=100;
+I[4][1]='';
+I[4][2]='1';
+I[4][3]=new Array();
+I[4][3][0]=new Array('0.3973','',1,100,1);
+I[5]=new Array();I[5][0]=100;
+I[5][1]='';
+I[5][2]='1';
+I[5][3]=new Array();
+I[5][3][0]=new Array('0.0558','',1,100,1);
+I[6]=new Array();I[6][0]=100;
+I[6][1]='';
+I[6][2]='1';
+I[6][3]=new Array();
+I[6][3][0]=new Array('0.3938','',1,100,1);
+I[7]=new Array();I[7][0]=100;
+I[7][1]='';
+I[7][2]='1';
+I[7][3]=new Array();
+I[7][3][0]=new Array('0.0564','',1,100,1);
+I[8]=new Array();I[8][0]=100;
+I[8][1]='';
+I[8][2]='1';
+I[8][3]=new Array();
+I[8][3][0]=new Array('3.60','',1,100,1);
+I[8][3][1]=new Array('-3.60','',1,100,1);
+I[9]=new Array();I[9][0]=100;
+I[9][1]='';
+I[9][2]='1';
+I[9][3]=new Array();
+I[9][3][0]=new Array('3.09','',1,100,1);
+I[9][3][1]=new Array('-3.09','',1,100,1);
+I[10]=new Array();I[10][0]=100;
+I[10][1]='';
+I[10][2]='1';
+I[10][3]=new Array();
+I[10][3][0]=new Array('1.18','',1,100,1);
+I[11]=new Array();I[11][0]=100;
+I[11][1]='';
+I[11][2]='1';
+I[11][3]=new Array();
+I[11][3][0]=new Array('4.48','',1,100,1);
+I[11][3][1]=new Array('-4.48','',1,100,1);
+I[12]=new Array();I[12][0]=100;
+I[12][1]='';
+I[12][2]='1';
+I[12][3]=new Array();
+I[12][3][0]=new Array('2.58','',1,100,1);
+I[12][3][1]=new Array('-2.58','',1,100,1);
+I[13]=new Array();I[13][0]=100;
+I[13][1]='';
+I[13][2]='1';
+I[13][3]=new Array();
+I[13][3][0]=new Array('2.80','',1,100,1);
+I[13][3][1]=new Array('-2.80','',1,100,1);
+I[14]=new Array();I[14][0]=100;
+I[14][1]='';
+I[14][2]='1';
+I[14][3]=new Array();
+I[14][3][0]=new Array('2.37','',1,100,1);
+I[15]=new Array();I[15][0]=100;
+I[15][1]='';
+I[15][2]='1';
+I[15][3]=new Array();
+I[15][3][0]=new Array('3.97','',1,100,1);
+I[16]=new Array();I[16][0]=100;
+I[16][1]='';
+I[16][2]='1';
+I[16][3]=new Array();
+I[16][3][0]=new Array('0.68','',1,100,1);
+I[17]=new Array();I[17][0]=100;
+I[17][1]='';
+I[17][2]='1';
+I[17][3]=new Array();
+I[17][3][0]=new Array('1.74','',1,100,1);
+I[17][3][1]=new Array('-1.74','',1,100,1);
+I[18]=new Array();I[18][0]=100;
+I[18][1]='';
+I[18][2]='1';
+I[18][3]=new Array();
+I[18][3][0]=new Array('2.58','',1,100,1);
+I[18][3][1]=new Array('-2.58','',1,100,1);
+I[19]=new Array();I[19][0]=100;
+I[19][1]='';
+I[19][2]='1';
+I[19][3]=new Array();
+I[19][3][0]=new Array('2.40','',1,100,1);
+I[19][3][1]=new Array('-2.40','',1,100,1);
+I[20]=new Array();I[20][0]=100;
+I[20][1]='';
+I[20][2]='1';
+I[20][3]=new Array();
+I[20][3][0]=new Array('impossible','',1,100,1);
+I[21]=new Array();I[21][0]=100;
+I[21][1]='';
+I[21][2]='1';
+I[21][3]=new Array();
+I[21][3][0]=new Array('2.98','',1,100,1);
+I[21][3][1]=new Array('-2.98','',1,100,1);
+I[22]=new Array();I[22][0]=100;
+I[22][1]='';
+I[22][2]='1';
+I[22][3]=new Array();
+I[22][3][0]=new Array('2.33','',1,100,1);
+I[22][3][1]=new Array('-2.33','',1,100,1);
+I[23]=new Array();I[23][0]=100;
+I[23][1]='';
+I[23][2]='1';
+I[23][3]=new Array();
+I[23][3][0]=new Array('impossible','',1,100,1);
+I[24]=new Array();I[24][0]=100;
+I[24][1]='';
+I[24][2]='1';
+I[24][3]=new Array();
+I[24][3][0]=new Array('2.33','',1,100,1);
+I[24][3][1]=new Array('-2.33','',1,100,1);
+I[25]=new Array();I[25][0]=100;
+I[25][1]='';
+I[25][2]='1';
+I[25][3]=new Array();
+I[25][3][0]=new Array('2.01','',1,100,1);
+I[26]=new Array();I[26][0]=100;
+I[26][1]='';
+I[26][2]='1';
+I[26][3]=new Array();
+I[26][3][0]=new Array('0.04','',1,100,1);
+I[27]=new Array();I[27][0]=100;
+I[27][1]='';
+I[27][2]='1';
+I[27][3]=new Array();
+I[27][3][0]=new Array('2.50','',1,100,1);
+I[27][3][1]=new Array('-2.50','',1,100,1);
+I[28]=new Array();I[28][0]=100;
+I[28][1]='';
+I[28][2]='1';
+I[28][3]=new Array();
+I[28][3][0]=new Array('2.33','',1,100,1);
+I[28][3][1]=new Array('-2.33','',1,100,1);
+I[29]=new Array();I[29][0]=100;
+I[29][1]='';
+I[29][2]='1';
+I[29][3]=new Array();
+I[29][3][0]=new Array('impossible','',1,100,1);
+I[30]=new Array();I[30][0]=100;
+I[30][1]='';
+I[30][2]='1';
+I[30][3]=new Array();
+I[30][3][0]=new Array('3.29','',1,100,1);
+I[31]=new Array();I[31][0]=100;
+I[31][1]='';
+I[31][2]='1';
+I[31][3]=new Array();
+I[31][3][0]=new Array('2.67','',1,100,1);
+I[32]=new Array();I[32][0]=100;
+I[32][1]='';
+I[32][2]='1';
+I[32][3]=new Array();
+I[32][3][0]=new Array('2.05','',1,100,1);
+I[33]=new Array();I[33][0]=100;
+I[33][1]='';
+I[33][2]='1';
+I[33][3]=new Array();
+I[33][3][0]=new Array('3.21','',1,100,1);
+I[34]=new Array();I[34][0]=100;
+I[34][1]='';
+I[34][2]='1';
+I[34][3]=new Array();
+I[34][3][0]=new Array('1.96','',1,100,1);
+I[34][3][1]=new Array('-1.96','',1,100,1);
+I[35]=new Array();I[35][0]=100;
+I[35][1]='';
+I[35][2]='1';
+I[35][3]=new Array();
+I[35][3][0]=new Array('2.44','',1,100,1);
+I[35][3][1]=new Array('-2.44','',1,100,1);
+I[36]=new Array();I[36][0]=100;
+I[36][1]='';
+I[36][2]='1';
+I[36][3]=new Array();
+I[36][3][0]=new Array('1.88','',1,100,1);
+I[36][3][1]=new Array('-1.88','',1,100,1);
+I[37]=new Array();I[37][0]=100;
+I[37][1]='';
+I[37][2]='1';
+I[37][3]=new Array();
+I[37][3][0]=new Array('1.62','',1,100,1);
+I[37][3][1]=new Array('-1.62','',1,100,1);
+I[38]=new Array();I[38][0]=100;
+I[38][1]='';
+I[38][2]='1';
+I[38][3]=new Array();
+I[38][3][0]=new Array('1.96','',1,100,1);
+I[38][3][1]=new Array('-1.96','',1,100,1);
+I[39]=new Array();I[39][0]=100;
+I[39][1]='';
+I[39][2]='1';
+I[39][3]=new Array();
+I[39][3][0]=new Array('1.84','',1,100,1);
+I[39][3][1]=new Array('-1.84','',1,100,1);
+I[40]=new Array();I[40][0]=100;
+I[40][1]='';
+I[40][2]='1';
+I[40][3]=new Array();
+I[40][3][0]=new Array('2.05','',1,100,1);
+I[40][3][1]=new Array('-2.05','',1,100,1);
+I[41]=new Array();I[41][0]=100;
+I[41][1]='';
+I[41][2]='1';
+I[41][3]=new Array();
+I[41][3][0]=new Array('2.18','',1,100,1);
+I[41][3][1]=new Array('-2.18','',1,100,1);
+I[42]=new Array();I[42][0]=100;
+I[42][1]='';
+I[42][2]='1';
+I[42][3]=new Array();
+I[42][3][0]=new Array('2.43','',1,100,1);
+I[42][3][1]=new Array('-2.43','',1,100,1);
+I[43]=new Array();I[43][0]=100;
+I[43][1]='';
+I[43][2]='1';
+I[43][3]=new Array();
+I[43][3][0]=new Array('2.33','',1,100,1);
+I[43][3][1]=new Array('-2.33','',1,100,1);
+I[44]=new Array();I[44][0]=100;
+I[44][1]='';
+I[44][2]='1';
+I[44][3]=new Array();
+I[44][3][0]=new Array('1.96','',1,100,1);
+I[44][3][1]=new Array('-1.96','',1,100,1);
+I[45]=new Array();I[45][0]=100;
+I[45][1]='';
+I[45][2]='1';
+I[45][3]=new Array();
+I[45][3][0]=new Array('1.80','',1,100,1);
+I[45][3][1]=new Array('-1.80','',1,100,1);
+I[46]=new Array();I[46][0]=100;
+I[46][1]='';
+I[46][2]='1';
+I[46][3]=new Array();
+I[46][3][0]=new Array('2.17','',1,100,1);
+I[46][3][1]=new Array('-2.17','',1,100,1);
+I[47]=new Array();I[47][0]=100;
+I[47][1]='';
+I[47][2]='1';
+I[47][3]=new Array();
+I[47][3][0]=new Array('2.33','',1,100,1);
+I[47][3][1]=new Array('-2.33','',1,100,1);
+I[48]=new Array();I[48][0]=100;
+I[48][1]='';
+I[48][2]='1';
+I[48][3]=new Array();
+I[48][3][0]=new Array('1.150','',1,100,1);
+I[49]=new Array();I[49][0]=100;
+I[49][1]='';
+I[49][2]='1';
+I[49][3]=new Array();
+I[49][3][0]=new Array('0.912','',1,100,1);
+I[50]=new Array();I[50][0]=100;
+I[50][1]='';
+I[50][2]='1';
+I[50][3]=new Array();
+I[50][3][0]=new Array('2.326','',1,100,1);
+I[50][3][1]=new Array('-2.326','',1,100,1);
+I[51]=new Array();I[51][0]=100;
+I[51][1]='';
+I[51][2]='1';
+I[51][3]=new Array();
+I[51][3][0]=new Array('2.52','',1,100,1);
+I[51][3][1]=new Array('-2.52','',1,100,1);
+I[52]=new Array();I[52][0]=100;
+I[52][1]='';
+I[52][2]='1';
+I[52][3]=new Array();
+I[52][3][0]=new Array('1.82','',1,100,1);
+I[52][3][1]=new Array('-1.82','',1,100,1);
+I[53]=new Array();I[53][0]=100;
+I[53][1]='';
+I[53][2]='1';
+I[53][3]=new Array();
+I[53][3][0]=new Array('1.25','',1,100,1);
+I[54]=new Array();I[54][0]=100;
+I[54][1]='';
+I[54][2]='1';
+I[54][3]=new Array();
+I[54][3][0]=new Array('3.09','',1,100,1);
+I[55]=new Array();I[55][0]=100;
+I[55][1]='';
+I[55][2]='1';
+I[55][3]=new Array();
+I[55][3][0]=new Array('1.71','',1,100,1);
+I[55][3][1]=new Array('-1.71','',1,100,1);
+I[56]=new Array();I[56][0]=100;
+I[56][1]='';
+I[56][2]='1';
+I[56][3]=new Array();
+I[56][3][0]=new Array('2.06','',1,100,1);
+I[56][3][1]=new Array('-2.06','',1,100,1);
+I[57]=new Array();I[57][0]=100;
+I[57][1]='';
+I[57][2]='1';
+I[57][3]=new Array();
+I[57][3][0]=new Array('1.94','',1,100,1);
+I[57][3][1]=new Array('-1.94','',1,100,1);
+I[58]=new Array();I[58][0]=100;
+I[58][1]='';
+I[58][2]='1';
+I[58][3]=new Array();
+I[58][3][0]=new Array('72.80','',1,100,1);
+I[59]=new Array();I[59][0]=100;
+I[59][1]='';
+I[59][2]='1';
+I[59][3]=new Array();
+I[59][3][0]=new Array('1.94','',1,100,1);
+I[59][3][1]=new Array('-1.94','',1,100,1);
+I[60]=new Array();I[60][0]=100;
+I[60][1]='';
+I[60][2]='1';
+I[60][3]=new Array();
+I[60][3][0]=new Array('1.96','',1,100,1);
+I[60][3][1]=new Array('-1.96','',1,100,1);
+I[61]=new Array();I[61][0]=100;
+I[61][1]='';
+I[61][2]='1';
+I[61][3]=new Array();
+I[61][3][0]=new Array('1.96','',1,100,1);
+I[61][3][1]=new Array('-1.96','',1,100,1);
+I[62]=new Array();I[62][0]=100;
+I[62][1]='';
+I[62][2]='1';
+I[62][3]=new Array();
+I[62][3][0]=new Array('1.90','',1,100,1);
+I[62][3][1]=new Array('-1.90','',1,100,1);
+I[63]=new Array();I[63][0]=100;
+I[63][1]='';
+I[63][2]='1';
+I[63][3]=new Array();
+I[63][3][0]=new Array('1.841','',1,100,1);
+I[64]=new Array();I[64][0]=100;
+I[64][1]='';
+I[64][2]='1';
+I[64][3]=new Array();
+I[64][3][0]=new Array('1.38','',1,100,1);
+I[65]=new Array();I[65][0]=100;
+I[65][1]='';
+I[65][2]='1';
+I[65][3]=new Array();
+I[65][3][0]=new Array('1.64','',1,100,1);
+I[65][3][1]=new Array('-1.64','',1,100,1);
+I[66]=new Array();I[66][0]=100;
+I[66][1]='';
+I[66][2]='1';
+I[66][3]=new Array();
+I[66][3][0]=new Array('2.31','',1,100,1);
+I[66][3][1]=new Array('-2.31','',1,100,1);
+I[67]=new Array();I[67][0]=100;
+I[67][1]='';
+I[67][2]='1';
+I[67][3]=new Array();
+I[67][3][0]=new Array('1.86','',1,100,1);
+I[67][3][1]=new Array('-1.86','',1,100,1);
+I[68]=new Array();I[68][0]=100;
+I[68][1]='';
+I[68][2]='1';
+I[68][3]=new Array();
+I[68][3][0]=new Array('1.80','',1,100,1);
+I[68][3][1]=new Array('-1.80','',1,100,1);
+I[69]=new Array();I[69][0]=100;
+I[69][1]='';
+I[69][2]='1';
+I[69][3]=new Array();
+I[69][3][0]=new Array('-1.94','',1,100,1);
+I[69][3][1]=new Array('1.94','',1,100,1);
+I[70]=new Array();I[70][0]=100;
+I[70][1]='';
+I[70][2]='1';
+I[70][3]=new Array();
+I[70][3][0]=new Array('-1.65','',1,100,1);
+I[70][3][1]=new Array('1.65','',1,100,1);
+I[71]=new Array();I[71][0]=100;
+I[71][1]='';
+I[71][2]='1';
+I[71][3]=new Array();
+I[71][3][0]=new Array('1.96','',1,100,1);
+I[71][3][1]=new Array('-1.96','',1,100,1);
+I[72]=new Array();I[72][0]=100;
+I[72][1]='';
+I[72][2]='1';
+I[72][3]=new Array();
+I[72][3][0]=new Array('2.14','',1,100,1);
+I[72][3][1]=new Array('-2.14','',1,100,1);
+I[73]=new Array();I[73][0]=100;
+I[73][1]='';
+I[73][2]='1';
+I[73][3]=new Array();
+I[73][3][0]=new Array('1.94','',1,100,1);
+I[73][3][1]=new Array('-1.94','',1,100,1);
+I[74]=new Array();I[74][0]=100;
+I[74][1]='';
+I[74][2]='1';
+I[74][3]=new Array();
+I[74][3][0]=new Array('1.96','',1,100,1);
+I[74][3][1]=new Array('-1.96','',1,100,1);
+I[75]=new Array();I[75][0]=100;
+I[75][1]='';
+I[75][2]='1';
+I[75][3]=new Array();
+I[75][3][0]=new Array('1.65','',1,100,1);
+I[75][3][1]=new Array('-1.65','',1,100,1);
+I[76]=new Array();I[76][0]=100;
+I[76][1]='';
+I[76][2]='1';
+I[76][3]=new Array();
+I[76][3][0]=new Array('1.13','',1,100,1);
+I[76][3][1]=new Array('-1.13','',1,100,1);
+I[77]=new Array();I[77][0]=100;
+I[77][1]='';
+I[77][2]='1';
+I[77][3]=new Array();
+I[77][3][0]=new Array('3.94','',1,100,1);
+I[78]=new Array();I[78][0]=100;
+I[78][1]='';
+I[78][2]='1';
+I[78][3]=new Array();
+I[78][3][0]=new Array('9.49','',1,100,1);
+I[79]=new Array();I[79][0]=100;
+I[79][1]='';
+I[79][2]='1';
+I[79][3]=new Array();
+I[79][3][0]=new Array('33.33','',1,100,1);
+I[80]=new Array();I[80][0]=100;
+I[80][1]='';
+I[80][2]='1';
+I[80][3]=new Array();
+I[80][3][0]=new Array('6.57','',1,100,1);
+I[81]=new Array();I[81][0]=100;
+I[81][1]='';
+I[81][2]='1';
+I[81][3]=new Array();
+I[81][3][0]=new Array('7.26','',1,100,1);
+I[82]=new Array();I[82][0]=100;
+I[82][1]='';
+I[82][2]='1';
+I[82][3]=new Array();
+I[82][3][0]=new Array('1.679','',1,100,1);
+I[83]=new Array();I[83][0]=100;
+I[83][1]='';
+I[83][2]='1';
+I[83][3]=new Array();
+I[83][3][0]=new Array('2.53','',1,100,1);
+
+
+function StartUp(){
+	RemoveBottomNavBarForIE();
+
+//If there's only one question, no need for question navigation controls
+	if (QsToShow < 2){
+		document.getElementById('QNav').style.display = 'none';
+	}
+	
+
+	
+
+	
+	CompleteEmptyFeedback();
+
+	SetUpQuestions();
+	ClearTextBoxes();
+	CreateStatusArray();
+	
+
+	
+//Check search string for q parameter
+	if (document.location.search.length > 0){
+		if (ShuffleQs == false){
+			var JumpTo = parseInt(document.location.search.substring(1,document.location.search.length))-1;
+			if (JumpTo <= QsToShow){
+				ChangeQ(JumpTo);
+			}
+		}
+	}
+}
+
+function ShowHideQuestions(){
+	FuncBtnOut(document.getElementById('ShowMethodButton'));
+	document.getElementById('ShowMethodButton').style.display = 'none';
+	if (ShowingAllQuestions == false){
+		for (var i=0; i<QArray.length; i++){
+				QArray[i].style.display = '';
+			}
+		document.getElementById('Questions').style.listStyleType = 'decimal';
+		document.getElementById('OneByOneReadout').style.display = 'none';
+		document.getElementById('ShowMethodButton').innerHTML = ShowOneByOneCaption;
+		ShowingAllQuestions = true;
+	}
+	else{
+		for (var i=0; i<QArray.length; i++){
+				if (i != CurrQNum){
+					QArray[i].style.display = 'none';
+				}
+			}
+		document.getElementById('Questions').style.listStyleType = 'none';
+		document.getElementById('OneByOneReadout').style.display = '';
+		document.getElementById('ShowMethodButton').innerHTML = ShowAllQuestionsCaption;
+		ShowingAllQuestions = false;	
+	}
+	document.getElementById('ShowMethodButton').style.display = 'inline';
+}
+
+function CreateStatusArray(){
+	var QNum, ANum;
+//For each item in the item array
+	for (QNum=0; QNum<I.length; QNum++){
+//Check if the question still exists (hasn't been nuked by showing a random selection)
+		if (document.getElementById('Q_' + QNum) != null){
+			State[QNum] = new Array();
+			State[QNum][0] = -1; //Score for this q; -1 shows question not done yet
+			State[QNum][1] = new Array(); //answers
+			for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+				State[QNum][1][ANum] = 0; //answer not chosen yet; when chosen, will store its position in the series of choices
+			}
+			State[QNum][2] = 0; //tries at this q so far
+			State[QNum][3] = 0; //incrementing percent-correct values of selected answers
+			State[QNum][4] = 0; //penalties incurred for hints
+			State[QNum][5] = ''; //Sequence of answers chosen by number
+		}
+		else{
+			State[QNum] = null;
+		}
+	}
+}
+
+
+
+
+
+function CalculateOverallScore(){
+	var TotalWeighting = 0;
+	var TotalScore = 0;
+	
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] > -1){
+				TotalWeighting += I[QNum][0];
+				TotalScore += (I[QNum][0] * State[QNum][0]);
+			}
+		}
+	}
+	Score = Math.floor((TotalScore/TotalWeighting)*100);
+}
+
+function CheckFinished(){
+	var FB = '';
+	var AllDone = true;
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] < 0){
+				AllDone = false;
+			}
+		}
+	}
+	if (AllDone == true){
+	
+//Report final score and submit if necessary
+		CalculateOverallScore();
+		FB = YourScoreIs + ' ' + Score + '%.';
+		if (ShowCorrectFirstTime == true){
+			var CFT = 0;
+			for (QNum=0; QNum<State.length; QNum++){
+				if (State[QNum] != null){
+					if (State[QNum][0] >= 1){
+						CFT++;
+					}
+				}
+			}
+			FB += '<br />' + CorrectFirstTime + ' ' + CFT + '/' + QsToShow;
+		}
+		WriteToInstructions(FB);
+		
+		Finished == true;
+
+		TimeOver = true;
+		Locked = true;
+		
+
+
+		Finished = true;
+		Detail = '<?xml version="1.0"?><hpnetresult><fields>';
+		for (QNum=0; QNum<State.length; QNum++){
+			if (State[QNum] != null){
+				if (State[QNum][5].length > 0){
+					Detail += '<field><fieldname>Question #' + (QNum+1) + '</fieldname><fieldtype>question-tracking</fieldtype><fieldlabel>Q ' + (QNum+1) + '</fieldlabel><fieldlabelid>QuestionTrackingField</fieldlabelid><fielddata>' + State[QNum][5] + '</fielddata></field>';
+				}
+			}
+		}
+		Detail += '</fields></hpnetresult>';
+		setTimeout('Finish()', SubmissionTimeout);
+	}
+}
+
+
+
+
+
+//CORE CODE FOR CHECKING SHORT ANSWER GUESSES AGAINST ANSWER ARRAYS
+
+var CaseSensitive = false;
+var ShowAlsoCorrect = true;
+var PleaseEnter = 'SVP, tapez votre suggestion';
+var HybridTries = 2;
+var PartlyIncorrect = 'une partie de la r&#x00E9;ponse est fausse';
+var CorrectList = 'Liste des r&#x00E9;ponses accept&#x00E9;es';
+var NextCorrect = 'La prochaine lettre est ajout&#x00E9;e';
+var CurrBox = null;
+
+function TrackFocus(BoxID){
+	InTextBox = true;
+	CurrBox = document.getElementById(BoxID);
+}
+
+function LeaveGap(){
+	InTextBox = false;
+}
+
+function TypeChars(Chars){
+	if (CurrBox != null){
+//		if (CurrBox.style.display != 'none'){
+			CurrBox.value += Chars;
+			CurrBox.focus();
+//		}
+	}
+}
+
+function CheckGuess(Guess, Answer, CaseSensitive, PercentCorrect, Feedback){
+	this.Guess = Guess;
+	this.Answer = Answer;
+	this.PercentCorrect = PercentCorrect;
+	this.Feedback = Feedback;
+	if (CaseSensitive == false){
+		this.WorkingGuess = Guess.toLowerCase();
+		this.WorkingAnswer = Answer.toLowerCase();
+	}
+	else{
+		this.WorkingGuess = Guess;
+		this.WorkingAnswer = Answer;				
+	}
+	this.Hint = '';
+	this.HintPenalty = 1/Answer.length;
+	this.CorrectStart = '';
+	this.WrongMiddle = '';
+	this.CorrectEnd = '';
+	this.PercentMatch = 0;
+	this.DoCheck();
+}
+
+function CheckGuess_DoCheck(){
+//Check if it's an exact match
+	if (this.WorkingAnswer == this.WorkingGuess){
+		this.PercentMatch = 100;
+		this.CorrectStart = this.Guess;
+	return;
+	}
+//Figure out how much of the beginning is correct
+	var i = 0;
+	var CorrectChars = 0;
+	while (this.WorkingAnswer.charAt(i) == this.WorkingGuess.charAt(i)){
+		i++;
+		CorrectChars++;
+	}
+//Stash the hint
+	this.Hint = this.Answer.charAt(i);
+	
+	this.CorrectStart = this.Guess.substring(0, i);
+	
+//If there's more to the answer, look at the rest of it
+	if (i<this.Guess.length){
+	
+//Figure out how much of the end is correct
+		var j = this.WorkingGuess.length-1;
+		var k = this.WorkingAnswer.length-1;
+		while ((j>=i)&&((this.WorkingAnswer.charAt(k) == this.WorkingGuess.charAt(j))&&(CorrectChars < this.Answer.length))){
+			CorrectChars++;
+			j--;
+			k--;
+		}
+		this.CorrectEnd = this.Guess.substring(j+1, this.Guess.length);
+		this.WrongMiddle = this.Guess.substring(i, j+1);
+	}
+	if (TrimString(this.WrongMiddle).length < 1){this.WrongMiddle = '_';}
+//Calculate match score based on how much of the guess is correct
+	if (CorrectChars < this.Answer.length){
+		this.PercentMatch = Math.floor(100*CorrectChars)/this.Answer.length;
+	}
+	else{
+		this.PercentMatch = Math.floor((100 * CorrectChars)/this.Guess.length);
+	}	
+}
+
+CheckGuess.prototype.DoCheck = CheckGuess_DoCheck;
+
+function CheckAnswerArray(CaseSensitive){
+	this.CaseSensitive = CaseSensitive;
+	this.Answers = new Array();
+	this.Score = 0;
+	this.Feedback = '';
+	this.Hint = '';
+	this.HintPenalty = 0;
+	this.MatchedAnswerLength = 1;
+	this.CompleteMatch = false;
+	this.MatchNum = -1;
+}
+
+function CheckAnswerArray_AddAnswer(Guess, Answer, PercentCorrect, Feedback){
+	this.Answers.push(new CheckGuess(Guess, Answer, this.CaseSensitive, PercentCorrect, Feedback));
+}
+
+CheckAnswerArray.prototype.AddAnswer = CheckAnswerArray_AddAnswer;
+
+function CheckAnswerArray_ClearAll(){
+	this.Answers.length = 0;
+}
+
+CheckAnswerArray.prototype.ClearAll = CheckAnswerArray_ClearAll;
+
+function CheckAnswerArray_GetBestMatch(){
+//First check for a 100% match
+	for (var i=0; i<this.Answers.length; i++){
+		if (this.Answers[i].PercentMatch == 100){
+			this.Feedback = this.Answers[i].Feedback;
+			this.Score = this.Answers[i].PercentCorrect;
+			this.CompleteMatch = true;
+			this.MatchNum = i;
+			return;
+		}
+	}
+//Now check for the best alternative match
+	var PercentMatch = 0;
+	var BestMatch = -1;
+	for (i=0; i<this.Answers.length; i++){
+		if ((this.Answers[i].PercentMatch > PercentMatch)&&(this.Answers[i].PercentCorrect == 100)){
+			BestMatch = i;
+			PercentMatch = this.Answers[i].PercentMatch;
+		}
+	}
+	if (BestMatch > -1){
+		this.Score = this.Answers[BestMatch].PercentMatch;
+		this.Feedback = PartlyIncorrect + ' ';
+		this.Feedback += '<span class="Answer">' + this.Answers[BestMatch].CorrectStart;
+		this.Feedback += '<span class="Highlight">' + this.Answers[BestMatch].WrongMiddle + '</span>';
+		this.Feedback += this.Answers[BestMatch].CorrectEnd + '</span>';
+		this.Hint = '<span class="Answer">' + this.Answers[BestMatch].CorrectStart;
+		this.Hint += '<span class="Highlight">' + this.Answers[BestMatch].Hint + '</span></span>';
+		this.HintPenalty = this.Answers[BestMatch].HintPenalty;
+	}
+	else{
+		this.Score = 0;
+		this.Feedback = '';
+	}
+}
+
+CheckAnswerArray.prototype.GetBestMatch = CheckAnswerArray_GetBestMatch;
+
+function CheckShortAnswer(QNum){
+//bail if question doesn't exist or exercise finished
+	if ((State[QNum].length < 1)||(Finished == true)){return;}
+	
+//bail if question already complete
+	if (State[QNum][0] > -1){return;}
+
+//Get the guess
+	var G = document.getElementById('Q_' + QNum + '_Guess').value;
+	
+//If no guess, bail with message; no penalty
+	if (G.length < 1){
+		ShowMessage(PleaseEnter);
+		return;
+	}
+
+//Increment tries
+	State[QNum][2]++;
+	
+//Create a check object
+	var CA = new CheckAnswerArray(CaseSensitive);
+
+	CA.ClearAll();
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		CA.AddAnswer(G, I[QNum][3][ANum][0], I[QNum][3][ANum][3], I[QNum][3][ANum][1]);
+	}
+	CA.GetBestMatch();
+	
+//Store any match in the state tracking field
+	if (CA.MatchNum > -1){
+		State[QNum][5] += String.fromCharCode(65+CA.MatchNum) + ',';
+	}
+
+//Add the percent correct value for this answer to the Q State (works for all
+//situations, wrong or right
+	State[QNum][3] += CA.Score;
+	
+//Now branch, based on the nature of the match
+//Is it a complete match?
+	if (CA.CompleteMatch == true){
+		
+//Is it with a wrong answer, or a right answer?
+		if (CA.Score == 100){
+//It's right
+			CalculateShortAnsQuestionScore(QNum);
+//Get correct answer list if required, assuming there are any other correct alternatives
+			if (ShowAlsoCorrect == true){
+				var AlsoCorrectList = GetCorrectList(QNum, G, false);
+				if (AlsoCorrectList.length > 0){
+					CA.Feedback += '<br />' + CorrectList + '<br />' +  '<span class="Answer">' + AlsoCorrectList + '</span>';
+				}
+			}	
+		
+//Get the overall score and add it to the feedback
+			if (ContinuousScoring == true){
+				CalculateOverallScore();
+				CA.Feedback += '<br />' + YourScoreIs + ' ' + Score + '%.';
+				WriteToInstructions(YourScoreIs + ' ' + Score + '%.');
+			}
+			ShowMessage(CA.Feedback);
+//Put the answer in
+			ReplaceGuessBox(QNum, G);
+			CheckFinished();
+			return;
+		}
+	}
+	
+//Otherwise, it's a match to a predicted wrong/partially correct, or a partial
+//match to a right answer
+	if (CA.Feedback.length < 1){CA.Feedback = DefaultWrong;} 
+	ShowMessage(CA.Feedback);
+
+//If necessary, switch a hybrid question to m/c
+	if (State[QNum][2] >= HybridTries){
+		SwitchHybridDisplay(QNum);
+	}
+}
+
+function CalculateShortAnsQuestionScore(QNum){
+	var Tries = State[QNum][2] + State[QNum][4]; //include tries and hint penalties;
+	var PercentCorrect = State[QNum][3];
+	var HintPenalties = State[QNum][4];
+
+//Make sure it's not already complete
+	if (State[QNum][0] < 0){
+		if (HintPenalties >= 1){
+			State[QNum][0] = 0;
+		}
+		else{
+			State[QNum][0] = (PercentCorrect/(100*Tries));
+		}
+		if (State[QNum][0] < 0){
+			State[QNum][0] = 0;
+		}
+	}
+}
+
+function SwitchHybridDisplay(QNum){
+	if (document.getElementById('Q_' + QNum + '_Hybrid_MC') != null){
+		document.getElementById('Q_' + QNum + '_Hybrid_MC').style.display = '';
+		if (document.getElementById('Q_' + QNum + '_SA') != null){
+			document.getElementById('Q_' + QNum + '_SA').style.display = 'none';
+		}
+	}
+}
+
+function GetCorrectArray(QNum){
+	var Result = new Array();
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		if (I[QNum][3][ANum][2] == 1){ //This is an acceptable correct answer
+			Result.push(I[QNum][3][ANum][0]);
+		}
+	}	
+	return Result;
+}
+
+function GetCorrectList(QNum, Answer, IncludeAnswer){
+	var As = GetCorrectArray(QNum);
+	var Result = '';
+	for (var ANum=0; ANum<As.length; ANum++){
+		if ((IncludeAnswer == true)||(As[ANum] != Answer)){
+			Result += As[ANum] + '<br />';
+		}
+	}
+	return Result;
+}
+
+function GetFirstCorrectAnswer(QNum){
+	var As = GetCorrectArray(QNum);
+	if (As.length > 0){
+		return As[0];
+	}
+	else{
+		return '';
+	}
+}
+
+function ReplaceGuessBox(QNum, Ans){
+	if (document.getElementById('Q_' + QNum + '_SA') != null){
+		var El = document.getElementById('Q_' + QNum + '_SA');
+		while (El.childNodes.length > 0){
+			El.removeChild(El.childNodes[0]);
+		}
+		var A = document.createElement('span');
+		A.setAttribute('class', 'Answer');
+		var T = document.createTextNode(Ans);
+		A.appendChild(T);
+		El.appendChild(A);
+	}
+}
+
+
+
+function ShowAnswers(QNum){
+//bail if question doesn't exist or exercise finished
+	if ((State[QNum].length < 1)||(Finished == true)){return;}
+	
+//Get the answer list to display
+	var Ans = GetCorrectList(QNum, '', false);
+	Ans = CorrectList + '<br /><span class="Answer">' + Ans + '</span>';
+	
+//Display feedback
+	ShowMessage(Ans);
+	
+//Set the score for this question to 0 if no 
+	if (State[QNum][0] < 1){
+		State[QNum][0] = 0;
+	}
+
+//Get the first correct answer
+	var FirstAns = GetFirstCorrectAnswer(QNum);
+	
+//Replace the textbox
+	ReplaceGuessBox(QNum, FirstAns);
+	
+//This may be the last, so check finished status
+	CheckFinished();
+}
+
+
+
+
+
+
+
+
+
+
+
+//-->
+
+//]]>
+
+</script>
+
+
+</head>
+
+<body onload="StartUp()" id="TheBody">
+
+<!-- BeginTopNavButtons -->
+
+
+<div class="NavButtonBar" id="TopNavBar">
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="history.back(); return false;">&lt;=</button>
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index5.htm'; return false;"> Index </button>
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='nextpage.htm'; return false;">=&gt;</button>
+
+
+</div>
+
+
+
+<!-- EndTopNavButtons -->
+
+<div class="Titles">
+	<h2 class="ExerciseTitle">LES TESTS STATISTIQUES</h2>
+	<h3 class="ExerciseSubtitle">Questions &#x00E0; r&#x00E9;ponse courte</h3>
+
+
+</div>
+
+<div id="InstructionsDiv" class="StdDiv">
+	<p id="Instructions">Tapez votre r&#x00E9;ponse.</p>
+</div>
+
+
+
+
+<div id="MainDiv" class="StdDiv">
+ 
+<div id="QNav" class="QuestionNavigation">
+
+<p style="text-align: right;">
+<button id="ShowMethodButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ShowHideQuestions(); return false;">Afficher toutes les questions</button>
+</p>
+
+<div id="OneByOneReadout">
+<button id="PrevQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(-1); return false;">&lt;=</button>
+
+<span id="QNumReadout" class="QNum">&nbsp;</span>
+
+<button id="NextQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(1); return false;">=&gt;</button>
+<br />
+</div>
+
+</div>
+ 
+<ol class="QuizQuestions" id="Questions">
+<li class="QuizQuestion" id="Q_0" style="display: none;"><p class="QuestionText">Dans une fabrication une doseuse est r&#x00E9;gl&#x00E9;e sur 125g, avecun &#x00E9;cart type de 1g, le fabicant craint un d&#x00E9;r&#x00E9;glage de la machine entra&#x00EE;nant un surdosage &#x00E9;gal &#x00E0; 70% de l'&#x00E9;cart type. Sur 500 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 30 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort un d&#x00E9;r&#x00E9;glage dans 5% des contr&#x00F4;les.<br />Calculer la valeur critique de ce plan d'&#x00E9;chantillonnage(au 1/100&#x00E8;me)</p><div class="ShortAnswer" id="Q_0_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_0_Guess" onfocus="TrackFocus('Q_0_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(0)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(0)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_1" style="display: none;"><p class="QuestionText">Dans une fabrication une doseuse est r&#x00E9;gl&#x00E9;e sur 125g, avecun &#x00E9;cart type de 1g, le fabicant craint un d&#x00E9;r&#x00E9;glage de la machine entra&#x00EE;nant un surdosage &#x00E9;gal &#x00E0; 70% de l'&#x00E9;cart type.. Sur 500 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 30 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort un d&#x00E9;r&#x00E9;glage dans 5% des contr&#x00F4;les.<br />Calculer sur 10000 contr&#x00F4;les le nombre de fois o&#x00F9; il ne d&#x00E9;tectera pas de d&#x00E9;r&#x00E9;glage (&#x00E0; l'unit&#x00E9;).</p><div class="ShortAnswer" id="Q_1_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_1_Guess" onfocus="TrackFocus('Q_1_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(1)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(1)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_2" style="display: none;"><p class="QuestionText">Dans une fabrication une doseuse est r&#x00E9;gl&#x00E9;e sur 125.7g, avecun &#x00E9;cart type de 1g, le fabicant craint un d&#x00E9;r&#x00E9;glage de la machine entra&#x00EE;nant un sous dosage du produit &#x00E0; 125g. Sur 500 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 30 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort un d&#x00E9;r&#x00E9;glage dans 5% des contr&#x00F4;les.<br />Calculer la valeur critique de ce plan d'&#x00E9;chantillonnage(au 1/100&#x00E8;me)</p><div class="ShortAnswer" id="Q_2_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_2_Guess" onfocus="TrackFocus('Q_2_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(2)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(2)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_3" style="display: none;"><p class="QuestionText">Dans une fabrication une doseuse est r&#x00E9;gl&#x00E9;e sur 125.7g, avecun &#x00E9;cart type de 1g, le fabicant craint un d&#x00E9;r&#x00E9;glage de la machine entra&#x00EE;nant un sous dosage du produit &#x00E0; 125g. Sur 500 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 30 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort un d&#x00E9;r&#x00E9;glage dans 5% des contr&#x00F4;les.<br />Calculer sur 20000 contr&#x00F4;les le nombre de fois o&#x00F9; il ne d&#x00E9;tectera pas de d&#x00E9;r&#x00E9;glage (&#x00E0; l'unit&#x00E9;)</p><div class="ShortAnswer" id="Q_3_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_3_Guess" onfocus="TrackFocus('Q_3_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(3)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(3)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_4" style="display: none;"><p class="QuestionText">Dans une fabrication on observe habituellement 30% des pi&#x00E8;ces avec un d&#x00E9;faut mineur d'&#x00E9;tiquetage, le fabicant craint un d&#x00E9;r&#x00E9;glage de la machine entra&#x00EE;nant une apparition du d&#x00E9;faut dans 1 cas sur 2. Sur 1000 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 60 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort un d&#x00E9;r&#x00E9;glage dans 5% des contr&#x00F4;les.<br />Calculer la valeur critique de ce plan d'&#x00E9;chantillonnage(au 1/10000&#x00E8;me)</p><div class="ShortAnswer" id="Q_4_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_4_Guess" onfocus="TrackFocus('Q_4_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(4)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(4)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_5" style="display: none;"><p class="QuestionText">Dans une fabrication on observe habituellemnt 30% des pi&#x00E8;ces avec un d&#x00E9;faut mineur d'&#x00E9;tiquetage, le fabicant craint un d&#x00E9;r&#x00E9;glage de la machine entra&#x00EE;nant une apparition du d&#x00E9;faut dans 1 cas sur 2. Sur 1000 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 60 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort un d&#x00E9;r&#x00E9;glage dans 5% des contr&#x00F4;les.<br />Calculer le risque du client (au 1/10000&#x00E8;me)</p><div class="ShortAnswer" id="Q_5_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_5_Guess" onfocus="TrackFocus('Q_5_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(5)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(5)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_6" style="display: none;"><p class="QuestionText">Dans une fabrication on observe un probl&#x00E8;me sur 50% des pi&#x00E8;ces , le fabicant am&#x00E9;liore le r&#x00E9;glage de la machine et suppose avoir ramen&#x00E9; ce taux &#x00E0; 30%. Sur 1000 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 60 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort une am&#x00E9;lioration dans 5% des contr&#x00F4;les.<br />Calculer la valeur critique de ce plan d'&#x00E9;chantillonnage(au 1/10000&#x00E8;me)</p><div class="ShortAnswer" id="Q_6_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_6_Guess" onfocus="TrackFocus('Q_6_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(6)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(6)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_7" style="display: none;"><p class="QuestionText">Dans une fabrication on observe un probl&#x00E8;me sur 50% des pi&#x00E8;ces , le fabicant am&#x00E9;liore le r&#x00E9;glage de la machine et suppose avoir ramen&#x00E9; ce taux &#x00E0; 30%. Sur 1000 produits fabriqu&#x00E9;s il d&#x00E9;cide de contr&#x00F4;ler 60 pi&#x00E8;ces et accepte de d&#x00E9;tecter &#x00E0; tort une am&#x00E9;lioration dans 5% des contr&#x00F4;les.<br />Calculer le risque du client (au 1/10000&#x00E8;me).</p><div class="ShortAnswer" id="Q_7_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_7_Guess" onfocus="TrackFocus('Q_7_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(7)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(7)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_8" style="display: none;"><p class="QuestionText">Une entreprise emballe des tranches de saucisson ( par 5) pour proposer des paquets de 64g. Le poids des tranches suit une loi Normale d'&#x00E9;cart type &#x00E9;gal &#x00E0; 5. Sur une fabrication de 400 paquets on en contr&#x00F4;le 36 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 61g. <br />Calculez (au 1/100&#x00E8;me), pour un risque de 0.1%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " les tranches sont-elles d&#x00E9;coup&#x00E9;es trop finement?"</p><div class="ShortAnswer" id="Q_8_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_8_Guess" onfocus="TrackFocus('Q_8_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(8)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(8)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_9" style="display: none;"><p class="QuestionText">Une entreprise emballe des tranches de saucisson ( par 5) pour proposer des paquets de 64g. Le poids des tranches suit une loi Normale d'&#x00E9;cart type &#x00E9;gal &#x00E0; 5. Sur une fabrication de 400 paquets on en contr&#x00F4;le 36 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 61g. <br />Donnez (au 1/100&#x00E8;me), pour un risque de 0.1%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " les tranches sont-elles d&#x00E9;coup&#x00E9;es trop finement?"</p><div class="ShortAnswer" id="Q_9_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_9_Guess" onfocus="TrackFocus('Q_9_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(9)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(9)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_10" style="display: none;"><p class="QuestionText">Une entreprise emballe des tranches de saucisson ( par 5) pour proposer des paquets de 64g. Le poids des tranches suit une loi Normale d'&#x00E9;cart type &#x00E9;gal &#x00E0; 5. . Sur une fabrication de 400 paquets on en contr&#x00F4;le 18 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 61g. <br />Calculez (au 1/100&#x00E8;me), pour un risque de 2%, l'&#x00E9;cart type des moyennes des &#x00E9;chantillons contr&#x00F4;l&#x00E9;s.</p><div class="ShortAnswer" id="Q_10_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_10_Guess" onfocus="TrackFocus('Q_10_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(10)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(10)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_11" style="display: none;"><p class="QuestionText">Une entreprise emballe des tranches de saucisson ( par 5) pour proposer des paquets de 64g. Le poids des tranches suit une loi Normale d'&#x00E9;cart type &#x00E9;gal &#x00E0; 5. Sur une fabrication de 100 paquets on en contr&#x00F4;le 36 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 61g. <br />Calculez (au 1/100&#x00E8;me), pour un risque de 1%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids de chaque paquet est-il aux normes?"</p><div class="ShortAnswer" id="Q_11_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_11_Guess" onfocus="TrackFocus('Q_11_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(11)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(11)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_12" style="display: none;"><p class="QuestionText">Une entreprise emballe des tranches de saucisson( par 5) pour proposer des paquets de 64g. Le poids des tranches suit une loi Normale d'&#x00E9;cart type &#x00E9;gal &#x00E0; 5. Sur une fabrication de 100 paquets on en contr&#x00F4;le 36 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 61g. <br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.01, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids de chaque paquet est-il aux normes?"</p><div class="ShortAnswer" id="Q_12_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_12_Guess" onfocus="TrackFocus('Q_12_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(12)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(12)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_13" style="display: none;"><p class="QuestionText">Une entreprise emballe des tranches de saucisson( par 5) pour proposer des paquets de 64g. Le poids des tranches suit une loi Normale d'&#x00E9;cart type &#x00E9;gal &#x00E0; 5. Sur une fabrication de 100 paquets on en contr&#x00F4;le 18 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 61g. <br />Calculez (au 1/100&#x00E8;me), pour un risque de 5%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids de chaque paquet est-il aux normes?"</p><div class="ShortAnswer" id="Q_13_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_13_Guess" onfocus="TrackFocus('Q_13_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(13)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(13)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_14" style="display: none;"><p class="QuestionText">Une entreprise emballe 16 mini bouch&#x00E9;es &#x00E0; garnir pour proposer des paquets de 90g. Le poids des mini bouch&#x00E9;es suit une loi Normale . Sur une fabrication de 400 paquets on en contr&#x00F4;le 36 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 92g avec une SCE &#x00E9;gale &#x00E0; 900. <br />Calculez (au 1/100&#x00E8;me), pour un risque de 2%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids de chaque paquet est-il aux normes?"</p><div class="ShortAnswer" id="Q_14_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_14_Guess" onfocus="TrackFocus('Q_14_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(14)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(14)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_15" style="display: none;"><p class="QuestionText">Une entreprise emballe 16 mini bouch&#x00E9;es &#x00E0; garnir pour proposer des paquets de 90g. Le poids des mini bouch&#x00E9;es suit une loi Normale . Sur une fabrication de 400 paquets on en contr&#x00F4;le 18 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 92g avec une SCE &#x00E9;gale &#x00E0; 900. <br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.001, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids de chaque paquet est-il aux normes?"</p><div class="ShortAnswer" id="Q_15_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_15_Guess" onfocus="TrackFocus('Q_15_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(15)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(15)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_16" style="display: none;"><p class="QuestionText">Une entreprise emballe 16 mini bouch&#x00E9;es &#x00E0; garnir pour proposer des paquets de 90g. Le poids des mini bouch&#x00E9;es suit une loi Normale . Sur une fabrication de 100 paquets on en contr&#x00F4;le 36 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 92g avec une SCE &#x00E9;gale &#x00E0; 900. <br />Calculez (au 1/100&#x00E8;me), pour un risque de 1%, l'&#x00E9;cart type des moyennes des &#x00E9;chantillons contr&#x00F4;l&#x00E9;s.</p><div class="ShortAnswer" id="Q_16_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_16_Guess" onfocus="TrackFocus('Q_16_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(16)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(16)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_17" style="display: none;"><p class="QuestionText">Une entreprise emballe 16 mini bouch&#x00E9;es &#x00E0; garnir pour proposer des paquets de 90g. Le poids des mini bouch&#x00E9;es suit une loi Normale . Sur une fabrication de 100 paquets on en contr&#x00F4;le 18 et le contr&#x00F4;leur trouve un poids moyen du paquet &#x00E9;gal &#x00E0; 92g avec une SCE &#x00E9;gale &#x00E0; 900. <br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.05, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids indiqu&#x00E9; sur chaque paquet est-il sous estim&#x00E9;?"</p><div class="ShortAnswer" id="Q_17_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_17_Guess" onfocus="TrackFocus('Q_17_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(17)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(17)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_18" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur en vitamine B1 = 1.125mg avec un &#x00E9;cart type &#x00E9;gal &#x00E0; 0.05 mg. Sur 400 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 1.105 mg.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.01, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids affich&#x00E9; sur chaque paquet est-il vrai?"</p><div class="ShortAnswer" id="Q_18_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_18_Guess" onfocus="TrackFocus('Q_18_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(18)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(18)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_19" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur en vitamine B1 = 1.125mg avec un &#x00E9;cart type &#x00E9;gal &#x00E0; 0.05 mg. Sur 400 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 1.105 mg.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E9; 0.01, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids affich&#x00E9; sur chaque paquet est-il vrai?"</p><div class="ShortAnswer" id="Q_19_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_19_Guess" onfocus="TrackFocus('Q_19_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(19)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(19)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_20" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur en vitamine B1 = 1.125mg avec un &#x00E9;cart type &#x00E9;gal &#x00E0; 0.05 mg. Sur 400 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 18 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 1.105 mg.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.001, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids affich&#x00E9; sur chaque paquet est-il vrai?"</p><div class="ShortAnswer" id="Q_20_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_20_Guess" onfocus="TrackFocus('Q_20_Guess')" onblur="LeaveGap()" class="GapBox" size="10"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(20)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(20)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_21" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur en vitamine B1 = 1.125mg avec un &#x00E9;cart type &#x00E9;gal &#x00E0; 0.05 mg. Sur 100 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 1.105 mg.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.01, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids r&#x00E9;el de vitamine B1dans chaque paquet est-il plus faible?"</p><div class="ShortAnswer" id="Q_21_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_21_Guess" onfocus="TrackFocus('Q_21_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(21)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(21)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_22" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur en vitamine B1 = 1.125mg avec un &#x00E9;cart type &#x00E9;gal &#x00E0; 0.05 mg. Sur 100 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 1.105 mg.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.01, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids r&#x00E9;el de vitamine B1dans chaque paquet est-il plus faible?"</p><div class="ShortAnswer" id="Q_22_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_22_Guess" onfocus="TrackFocus('Q_22_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(22)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(22)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_23" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur en vitamine B1 = 1.125mg avec un &#x00E9;cart type &#x00E9;gal &#x00E0; 0.05 mg. Sur 100 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 18 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 1.105 mg.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.05, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids affich&#x00E9; sur chaque paquet est-il vrai?"</p><div class="ShortAnswer" id="Q_23_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_23_Guess" onfocus="TrackFocus('Q_23_Guess')" onblur="LeaveGap()" class="GapBox" size="10"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(23)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(23)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_24" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur lipides = 2.25g (pour 30g de produit). Sur 400 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 2.21g et une SCE = 0.5.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 2%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids affich&#x00E9; sur chaque paquet est-il vrai?"</p><div class="ShortAnswer" id="Q_24_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_24_Guess" onfocus="TrackFocus('Q_24_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(24)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(24)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_25" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur lipides = 2.25g (pour 30g de produit). Sur 400 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 2.21g et une SCE = 0.5.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.02, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids r&#x00E9;el de lipides dans chaque paquet est-il vrai?"</p><div class="ShortAnswer" id="Q_25_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_25_Guess" onfocus="TrackFocus('Q_25_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(25)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(25)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_26" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur lipides = 2.25g (pour 30g de produit). Sur 400 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 18 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 2.21g et une SCE = 0.5.<br />Calculez (au 1/100&#x00E8;me), pour un risque de 0.1%, l'&#x00E9;cart type des moyennes des &#x00E9;chantillons contr&#x00F4;l&#x00E9;s.<br /></p><div class="ShortAnswer" id="Q_26_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_26_Guess" onfocus="TrackFocus('Q_26_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(26)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(26)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_27" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur lipides = 2.25g (pour 30g de produit). Sur 100 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 2.21g et une SCE = 0.5.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.01, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids r&#x00E9;el de lipides dans chaque paquet est-il plus faible?"</p><div class="ShortAnswer" id="Q_27_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_27_Guess" onfocus="TrackFocus('Q_27_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(27)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(27)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_28" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur lipides = 2.25g (pour 30g de produit). Sur 100 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 36 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 2.21g et une SCE = 0.5.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.01, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids r&#x00E9;el de lipides dans chaque paquet est-il plus faible?"</p><div class="ShortAnswer" id="Q_28_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_28_Guess" onfocus="TrackFocus('Q_28_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(28)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(28)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_29" style="display: none;"><p class="QuestionText">Un fabricant de c&#x00E9;r&#x00E9;ales affiche sur ses paquets une teneur lipides = 2.25g (pour 30g de produit). Sur 100 paquets fabriqu&#x00E9;s un contr&#x00F4;leur pr&#x00E9;l&#x00E8;ve 18 paquets et trouve une teneur moyenne &#x00E9;gale &#x00E0; 2.21g et une SCE = 0.5.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.05, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question " le poids r&#x00E9;el de lipides dans chaque paquet est-il plus faible?"</p><div class="ShortAnswer" id="Q_29_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_29_Guess" onfocus="TrackFocus('Q_29_Guess')" onblur="LeaveGap()" class="GapBox" size="10"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(29)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(29)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_30" style="display: none;"><p class="QuestionText">Dans une population de 13000 salari&#x00E9;s d'un groupe, seulement 30% des individus sont satisfaits de l'organisation de l'entreprise. Une nouvelle organisation est alors propos&#x00E9;e mais avant de la mettre en place un sondage sur 600 personnes est effectu&#x00E9; pour voir si cette &#x00E9;ventuelle nouvelle organisation modifie l'opinion des salari&#x00E9;s. Les r&#x00E9;sultats du sondage ont donn&#x00E9; 210 personnes favorables &#x00E0; la nouvelle proposition.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.001, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_30_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_30_Guess" onfocus="TrackFocus('Q_30_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(30)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(30)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_31" style="display: none;"><p class="QuestionText">Dans une population de 13000 salari&#x00E9;s d'un groupe, seulement 30% des individus sont satisfaits de l'organisation de l'entreprise. Une nouvelle organisation est alors propos&#x00E9;e mais avant de la mettre en place un sondage sur 600 personnes est effectu&#x00E9; pour voir si cette &#x00E9;ventuelle nouvelle organisation modifie l'opinion des salari&#x00E9;s. Les r&#x00E9;sultats du sondage ont donn&#x00E9; 210 personnes favorables &#x00E0; la nouvelle proposition.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.001, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_31_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_31_Guess" onfocus="TrackFocus('Q_31_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(31)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(31)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_32" style="display: none;"><p class="QuestionText">Dans une population de 13000 salari&#x00E9;s d'un groupe, seulement 30% des individus sont satisfaits de l'organisation de l'entreprise. Une nouvelle organisation est alors propos&#x00E9;e mais avant de la mettre en place un sondage sur 600 personnes est effectu&#x00E9; pour voir si cette &#x00E9;ventuelle nouvelle organisation pourrait &#x00EA;tre plus satisfaisante. Les r&#x00E9;sultats du sondage ont donn&#x00E9; 216 personnes favorables &#x00E0; la nouvelle proposition.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.02, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_32_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_32_Guess" onfocus="TrackFocus('Q_32_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(32)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(32)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_33" style="display: none;"><p class="QuestionText">Dans une population de 13000 salari&#x00E9;s d'un groupe, seulement 30% des individus sont satisfaits de l'organisation de l'entreprise. Une nouvelle organisation est alors propos&#x00E9;e mais avant de la mettre en place un sondage sur 600 personnes est effectu&#x00E9; pour voir si cette &#x00E9;ventuelle nouvelle organisation pourrait &#x00EA;tre plus satisfaisante. Les r&#x00E9;sultats du sondage ont donn&#x00E9; 216 personnes favorables &#x00E0; la nouvelle proposition.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.02, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_33_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_33_Guess" onfocus="TrackFocus('Q_33_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(33)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(33)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_34" style="display: none;"><p class="QuestionText">Une entreprise enregistre habituellement 4% de ses produits qui pr&#x00E9;sentent un d&#x00E9;faut mineur. Elle souhaite v&#x00E9;rifier si ce taux reste constant et pr&#x00E9;l&#x00E8;ve 900 unit&#x00E9;s sur les 8000 fabriqu&#x00E9;es et observe un taux de d&#x00E9;faut &#x00E9;gal &#x00E0; 5.5%. <br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.05, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_34_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_34_Guess" onfocus="TrackFocus('Q_34_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(34)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(34)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_35" style="display: none;"><p class="QuestionText">Une entreprise enregistre habituellement 4% de ses produits qui pr&#x00E9;sentent un d&#x00E9;faut mineur. Elle souhaite v&#x00E9;rifier si ce taux reste constant et pr&#x00E9;l&#x00E8;ve 900 unit&#x00E9;s sur les 8000 fabriqu&#x00E9;es et observe un taux de d&#x00E9;faut &#x00E9;gal &#x00E0; 5.5%.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.05, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_35_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_35_Guess" onfocus="TrackFocus('Q_35_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(35)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(35)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_36" style="display: none;"><p class="QuestionText">Une entreprise enregistre habituellement 4% de ses produits qui pr&#x00E9;sentent un d&#x00E9;faut mineur. Craignant une augmentation de ce taux elle pr&#x00E9;l&#x00E8;ve 900 unit&#x00E9;s sur les 8000 fabriqu&#x00E9;es et observe un taux de d&#x00E9;faut &#x00E9;gal &#x00E0; 5%. <br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.03, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_36_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_36_Guess" onfocus="TrackFocus('Q_36_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(36)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(36)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_37" style="display: none;"><p class="QuestionText">Une entreprise enregistre habituellement 4% de ses produits qui pr&#x00E9;sentent un d&#x00E9;faut mineur. Craignant une augmentation de ce taux elle pr&#x00E9;l&#x00E8;ve 900 unit&#x00E9;s sur les 8000 fabriqu&#x00E9;es et observe un taux de d&#x00E9;faut &#x00E9;gal &#x00E0; 5%. <br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.03, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_37_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_37_Guess" onfocus="TrackFocus('Q_37_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(37)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(37)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_38" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 24g et 30g pour les cha&#x00EE;nes 1 et 2 respectivement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 498g, et, sur les 450 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 34 et trouve un poids moyen de 510g.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.05, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude<br /></p><div class="ShortAnswer" id="Q_38_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_38_Guess" onfocus="TrackFocus('Q_38_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(38)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(38)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_39" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 24g et 30g pour les cha&#x00EE;nes 1 et 2 respectivement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 498g, et, sur les 450 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 34 et trouve un poids moyen de 510g.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.05, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_39_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_39_Guess" onfocus="TrackFocus('Q_39_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(39)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(39)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_40" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 20g et 30g pour les cha&#x00EE;nes 1 et 2 respectivement et une distribution des poids normale. Afin de d&#x00E9;cider si une des cha&#x00EE;nes surdose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 16 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 493g, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 510g.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.02, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_40_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_40_Guess" onfocus="TrackFocus('Q_40_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(40)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(40)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_41" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 20g et 30g pour les cha&#x00EE;nes 1 et 2 respectivement et une distribution des poids normale. Afin de d&#x00E9;cider si une des cha&#x00EE;nes surdose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 16 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 493g, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 510g.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 0.02, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_41_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_41_Guess" onfocus="TrackFocus('Q_41_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(41)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(41)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_42" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 5g et 6g pour les cha&#x00EE;nes 1 et 2 respectivement et une distribution des poids normale. Afin de d&#x00E9;cider si une des cha&#x00EE;nes surdose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 63.2g, et, sur les 200 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 34 et trouve un poids moyen de 66g.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 1%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_42_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_42_Guess" onfocus="TrackFocus('Q_42_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(42)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(42)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_43" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 5g et 6g pour les cha&#x00EE;nes 1 et 2 respectivement et une distribution des poids normale. Afin de d&#x00E9;cider si une des cha&#x00EE;nes surdose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 63.2g, et, sur les 200 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 34 et trouve un poids moyen de 66g.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 1%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_43_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_43_Guess" onfocus="TrackFocus('Q_43_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(43)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(43)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_44" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 5g et 6g pour les cha&#x00EE;nes 1 et 2 respectivement et une distribution des poids normale. Afin de d&#x00E9;cider si les cha&#x00EE;nes sont &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 64g, et, sur les 200 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 66.8g.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_44_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_44_Guess" onfocus="TrackFocus('Q_44_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(44)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(44)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_45" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Des &#x00E9;tudes ant&#x00E9;rieures avaient donn&#x00E9; une dispersion de 5g et 6g pour les cha&#x00EE;nes 1 et 2 respectivement et une distribution des poids normale. Afin de d&#x00E9;cider si les cha&#x00EE;nes sont &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 64g, et, sur les 200 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 66.8g.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_45_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_45_Guess" onfocus="TrackFocus('Q_45_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(45)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(45)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_46" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Afin de d&#x00E9;cider si les cha&#x00EE;nes sont &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 420 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 420 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 40 et trouve un poids moyen de 92.5g et une SCE = 950.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 2%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_46_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_46_Guess" onfocus="TrackFocus('Q_46_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(46)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(46)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_47" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Afin de d&#x00E9;cider si les cha&#x00EE;nes sont &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 420 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 420 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 40 et trouve un poids moyen de 92.5g et une SCE = 950.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 2%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_47_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_47_Guess" onfocus="TrackFocus('Q_47_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(47)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(47)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_48" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Afin de d&#x00E9;cider si les cha&#x00EE;nes sont &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 420 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 420 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 40 et trouve un poids moyen de 92.5g et une SCE = 950.<br />Calculez (au 1/1000&#x00E8;me) l'&#x00E9;cart type de la diff&#x00E9;rence des moyennes.</p><div class="ShortAnswer" id="Q_48_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_48_Guess" onfocus="TrackFocus('Q_48_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(48)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(48)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_49" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Afin de d&#x00E9;cider si une des cha&#x00EE;nes sous dose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 40 et trouve un poids moyen de 92.3g et une SCE = 950.<br />Calculez (au 1/1000&#x00E8;me) l'&#x00E9;cart type de la diff&#x00E9;rence des moyennes.</p><div class="ShortAnswer" id="Q_49_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_49_Guess" onfocus="TrackFocus('Q_49_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(49)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(49)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_50" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Afin de d&#x00E9;cider si une des cha&#x00EE;nes sous dose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 40 et trouve un poids moyen de 92.3g et une SCE = 950.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 1%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_50_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_50_Guess" onfocus="TrackFocus('Q_50_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(50)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(50)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_51" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes. Afin de d&#x00E9;cider si une des cha&#x00EE;nes sous dose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 36 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 40 et trouve un poids moyen de 92.3g et une SCE = 950.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 1%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_51_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_51_Guess" onfocus="TrackFocus('Q_51_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(51)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(51)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_52" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si une des cha&#x00EE;nes sous dose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 12 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 15 et trouve un poids moyen de 96g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_52_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_52_Guess" onfocus="TrackFocus('Q_52_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(52)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(52)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_53" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si une des cha&#x00EE;nes sous dose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 12 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 15 et trouve un poids moyen de 96g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique qui permet de comparer les variances</p><div class="ShortAnswer" id="Q_53_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_53_Guess" onfocus="TrackFocus('Q_53_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(53)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(53)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_54" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si une des cha&#x00EE;nes sous dose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 12 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 15 et trouve un poids moyen de 96g et une SCE = 920.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de comparer les variances</p><div class="ShortAnswer" id="Q_54_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_54_Guess" onfocus="TrackFocus('Q_54_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(54)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(54)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_55" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si une des cha&#x00EE;nes sous dose les paquets, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 12 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 15 et trouve un poids moyen de 96g et une SCE = 920.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_55_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_55_Guess" onfocus="TrackFocus('Q_55_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(55)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(55)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_56" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 12 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 15 et trouve un poids moyen de 96g et une SCE = 920.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_56_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_56_Guess" onfocus="TrackFocus('Q_56_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(56)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(56)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_57" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 12 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 15 et trouve un poids moyen de 96g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_57_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_57_Guess" onfocus="TrackFocus('Q_57_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(57)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(57)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_58" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 12 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 15 et trouve un poids moyen de 96g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), l'estimation de la variance des poids dans la population des paquets fabriqu&#x00E9;s.</p><div class="ShortAnswer" id="Q_58_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_58_Guess" onfocus="TrackFocus('Q_58_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(58)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(58)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_59" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 94g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_59_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_59_Guess" onfocus="TrackFocus('Q_59_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(59)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(59)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_60" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 400 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 400 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 94g et une SCE = 920.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude </p><div class="ShortAnswer" id="Q_60_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_60_Guess" onfocus="TrackFocus('Q_60_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(60)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(60)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_61" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 93.5g et une SCE = 920.<br />Donnez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique th&#x00E9;orique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude </p><div class="ShortAnswer" id="Q_61_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_61_Guess" onfocus="TrackFocus('Q_61_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(61)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(61)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_62" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 93.5g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), pour un risque &#x00E9;gal &#x00E0; 5%, le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question sous-entendue dans cette &#x00E9;tude .</p><div class="ShortAnswer" id="Q_62_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_62_Guess" onfocus="TrackFocus('Q_62_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(62)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(62)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_63" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 93.5g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), l'&#x00E9;cart type de la diff&#x00E9;rence des moyennes.</p><div class="ShortAnswer" id="Q_63_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_63_Guess" onfocus="TrackFocus('Q_63_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(63)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(63)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_64" style="display: none;"><p class="QuestionText">Le fabricant de p&#x00E2;tes Kiluscru compare 2 cha&#x00EE;nes de mises en paquets des p&#x00E2;tes, le poids des paquets &#x00E9;tant distribu&#x00E9; normalement. Afin de d&#x00E9;cider si les 2 cha&#x00EE;nes &#x00E9;taient &#x00E9;quivalentes, on pr&#x00E9;l&#x00E8;ve sur les 100 paquets de la premi&#x00E8;re 18 paquets dont le poids moyen est &#x00E9;gal &#x00E0; 90g avec une SCE = 900, et, sur les 100 paquets de la deuxi&#x00E8;me on en pr&#x00E9;l&#x00E8;ve 25 et trouve un poids moyen de 93.5g et une SCE = 920.<br />Calculez (au 1/100&#x00E8;me), le crit&#x00E8;re statistique qui permet le test de comparaison des variances.</p><div class="ShortAnswer" id="Q_64_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_64_Guess" onfocus="TrackFocus('Q_64_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(64)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(64)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_65" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance modifie ou pas le temps de m&#x00E9;morisation de 100 individus, on fait subir &#x00E0; 9 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient:<br /><table border="1" cellpadding="2" cellspacing="2" width="100%"><tbody><tr><td>Avant</td><td>52</td><td>53</td><td>58</td><td>59</td><td>51</td><td>54</td><td>52</td><td>57</td><td>56</td></tr><tr><td>Apr&#x00E8;s</td><td>51</td><td>54</td><td>58</td><td>58</td><td>52</td><td>55</td><td>53</td><td>58</td><td>58</td></tr></tbody></table><br />Calculez ( au 1/100&#x00E8;me) le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e dans cette &#x00E9;tude.<br /></p><div class="ShortAnswer" id="Q_65_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_65_Guess" onfocus="TrackFocus('Q_65_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(65)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(65)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_66" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance modifie ou pas le temps de m&#x00E9;morisation de 100 individus, on fait subir &#x00E0; 9 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient:<br /><table border="1" cellpadding="2" cellspacing="2" width="100%"><tbody><tr><td>Avant</td><td>52</td><td>53</td><td>58</td><td>59</td><td>51</td><td>54</td><td>52</td><td>57</td><td>56</td></tr><tr><td>Apr&#x00E8;s</td><td>51</td><td>54</td><td>58</td><td>58</td><td>52</td><td>55</td><td>53</td><td>58</td><td>58</td></tr></tbody></table><br />Donnez ( au 1/100&#x00E8;me) le crit&#x00E8;re statistique th&#x00E9;orique pour un risque de 5%, qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e dans cette &#x00E9;tude.<br /></p><div class="ShortAnswer" id="Q_66_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_66_Guess" onfocus="TrackFocus('Q_66_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(66)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(66)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_67" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance d&#x00E9;grade le temps de m&#x00E9;morisation de 50 individus, on fait subir &#x00E0; 9 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient:<br /><table border="1" cellpadding="2" cellspacing="2" width="100%"><tbody><tr><td>Avant</td><td>52</td><td>53</td><td>58</td><td>59</td><td>51</td><td>54</td><td>52</td><td>57</td><td>56</td></tr><tr><td>Apr&#x00E8;s</td><td>51</td><td>54</td><td>58</td><td>58</td><td>52</td><td>55</td><td>53</td><td>58</td><td>58</td></tr></tbody></table><br />Donnez ( au 1/100&#x00E8;me) le crit&#x00E8;re statistique th&#x00E9;orique, pour un risque de 5%, qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e dans cette &#x00E9;tude.<br /></p><div class="ShortAnswer" id="Q_67_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_67_Guess" onfocus="TrackFocus('Q_67_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(67)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(67)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_68" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance d&#x00E9;grade le temps de m&#x00E9;morisation de 50 individus, on fait subir &#x00E0; 9 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient:<br /><table border="1" cellpadding="2" cellspacing="2" width="100%"><tbody><tr><td>Avant</td><td>52</td><td>53</td><td>58</td><td>59</td><td>51</td><td>54</td><td>52</td><td>57</td><td>56</td></tr><tr><td>Apr&#x00E8;s</td><td>51</td><td>54</td><td>58</td><td>58</td><td>52</td><td>55</td><td>53</td><td>58</td><td>58</td></tr></tbody></table><br />Calculez ( au 1/100&#x00E8;me) le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e dans cette &#x00E9;tude.<br /></p><div class="ShortAnswer" id="Q_68_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_68_Guess" onfocus="TrackFocus('Q_68_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(68)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(68)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_69" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance am&#x00E9;liore de 12.6 points le score de m&#x00E9;morisation de 400 individus, on fait subir &#x00E0; 36 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient: moyenne des diff&#x00E9;rences = 12 points et SCE = 120<br />Calculez (au 1/100&#x00E8;me) le crit&#x00E8;re statisique qui permet de r&#x00E9;pondre &#x00E0; la question de cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_69_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_69_Guess" onfocus="TrackFocus('Q_69_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(69)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(69)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_70" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance am&#x00E9;liore d'au moins 12.6 points le score de m&#x00E9;morisation de 400 individus, on fait subir &#x00E0; 36 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient: moyenne des diff&#x00E9;rences = 12 points et SCE = 120<br />Donnez (au 1/100&#x00E8;me) le crit&#x00E8;re statistique th&#x00E9;orique pour un risque de 5%,qui permet de r&#x00E9;pondre &#x00E0; la question de cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_70_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_70_Guess" onfocus="TrackFocus('Q_70_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(70)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(70)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_71" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance modifie de 12.6 points le score de m&#x00E9;morisation de 200 individus, on fait subir &#x00E0; 36 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient: moyenne des diff&#x00E9;rences = 12 points et SCE = 120<br />Donnez (au 1/100&#x00E8;me) le crit&#x00E8;re statistique th&#x00E9;orique pour un risque de 5%,qui permet de r&#x00E9;pondre &#x00E0; la question de cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_71_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_71_Guess" onfocus="TrackFocus('Q_71_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(71)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(71)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_72" style="display: none;"><p class="QuestionText">Afin de v&#x00E9;rifier si l'effet d'une substance modifie de 12.6 points le score de m&#x00E9;morisation de 200 individus, on fait subir &#x00E0; 36 d'entre eux un test de m&#x00E9;moire avant et apr&#x00E8;s la prise de la substance et on obtient: moyenne des diff&#x00E9;rences = 12 points et SCE = 120<br />Calculez (au 1/100&#x00E8;me) le crit&#x00E8;re statisique qui permet de r&#x00E9;pondre &#x00E0; la question de cette &#x00E9;tude</p><div class="ShortAnswer" id="Q_72_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_72_Guess" onfocus="TrackFocus('Q_72_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(72)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(72)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_73" style="display: none;"><p class="QuestionText">On effectue un sondage sur un &#x00E9;chantillon de 500 individus issus d'une population de 13000 individus, 69 poss&#x00E8;dent une caract&#x00E9;ristique donn&#x00E9;e alors que dans un autre sondage sur un &#x00E9;chantillon de 800 individus issus de la m&#x00EA;me population, 82 poss&#x00E8;dent cette caract&#x00E9;ristique. On se demande si les sondages sont &#x00E9;quivalents.<br />Calculer (au 1/100&#x00E8;me) le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e.</p><div class="ShortAnswer" id="Q_73_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_73_Guess" onfocus="TrackFocus('Q_73_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(73)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(73)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_74" style="display: none;"><p class="QuestionText">On effectue un sondage sur un &#x00E9;chantillon de 500 individus issus d'une population de 13000 individus, 69 poss&#x00E8;dent une caract&#x00E9;ristique donn&#x00E9;e alors que dans un autre sondage sur un &#x00E9;chantillon de 800 individus issus de la m&#x00EA;me population, 82 poss&#x00E8;dent cette caract&#x00E9;ristique. On se demande si les sondages sont &#x00E9;quivalents.<br />Donnez (au 1/100&#x00E8;me) le crit&#x00E8;re statistique th&#x00E9;orique au risque de 5%, qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e.</p><div class="ShortAnswer" id="Q_74_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_74_Guess" onfocus="TrackFocus('Q_74_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(74)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(74)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_75" style="display: none;"><p class="QuestionText">On effectue un sondage sur un &#x00E9;chantillon de 2600 individus issus d'une population de 13000 individus, 350 poss&#x00E8;dent une caract&#x00E9;ristique donn&#x00E9;e alors que dans un autre sondage sur un &#x00E9;chantillon de 3200 individus issus de la m&#x00EA;me population, 460 poss&#x00E8;dent cette caract&#x00E9;ristique. On se demande si le 2&#x00E8;me sondage donne un r&#x00E9;sultat sup&#x00E9;rieur.<br />Donnez (au 1/100&#x00E8;me) le crit&#x00E8;re statistique th&#x00E9;orique au risque de 5%, qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e.</p><div class="ShortAnswer" id="Q_75_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_75_Guess" onfocus="TrackFocus('Q_75_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(75)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(75)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_76" style="display: none;"><p class="QuestionText">On effectue un sondage sur un &#x00E9;chantillon de 2600 individus issus d'une population de 13000 individus, 350 poss&#x00E8;dent une caract&#x00E9;ristique donn&#x00E9;e alors que dans un autre sondage sur un &#x00E9;chantillon de 3200 individus issus de la m&#x00EA;me population, 460 poss&#x00E8;dent cette caract&#x00E9;ristique. On se demande si le 2&#x00E8;me sondage donne un r&#x00E9;sultat sup&#x00E9;rieur.<br />Calculer (au 1/100&#x00E8;me) le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question pos&#x00E9;e.</p><div class="ShortAnswer" id="Q_76_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_76_Guess" onfocus="TrackFocus('Q_76_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(76)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(76)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_77" style="display: none;"><p class="QuestionText">On veut comparer la dispersion des rendements de 5 types de parcelles, pour cela on dispose de la s&#x00E9;rie:<br /> (SCEj;nj) = {(1000;40);(1500;45);(1800;46);(1300;50);(2000;52)}<br />On consid&#x00E8;re que les &#x00E9;chantillons sont ind&#x00E9;pendants et le rendement d'une parcelle suit une loi Normale.<br />Calculez (au 1/100&#x00E8;me) le crit&#x00E8;re statistique qui permet de r&#x00E9;pondre &#x00E0; la question de l'&#x00E9;tude.</p><div class="ShortAnswer" id="Q_77_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_77_Guess" onfocus="TrackFocus('Q_77_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(77)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(77)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_78" style="display: none;"><p class="QuestionText">On veut comparer la dispersion des rendements de 5 types de parcelles, pour cela on dispose de la s&#x00E9;rie:<br /> (SCEj;nj) = {(1000;40);(1500;45);(1800;46);(1300;50);(2000;52)}<br />On consid&#x00E8;re que les &#x00E9;chantillons sont ind&#x00E9;pendants et le rendement d'une parcelle suit une loi Normale.<br />Donnez (au 1/100&#x00E8;me) le crit&#x00E8;re statistique th&#x00E9;orique, pour un risque de 5%, qui permet de r&#x00E9;pondre &#x00E0; la question de l'&#x00E9;tude.</p><div class="ShortAnswer" id="Q_78_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_78_Guess" onfocus="TrackFocus('Q_78_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(78)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(78)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_79" style="display: none;"><p class="QuestionText">On veut comparer la dispersion des rendements de 5 types de parcelles, pour cela on dispose de la s&#x00E9;rie:<br /> (SCEj;nj) = {(1000;40);(1500;45);(1800;46);(1300;50);(2000;52)}<br />On consid&#x00E8;re que les &#x00E9;chantillons sont ind&#x00E9;pendants et le rendement d'une parcelle suit une loi Normale.<br />Donnez (au 1/100&#x00E8;me) l'estimation de la variance intra groupe.</p><div class="ShortAnswer" id="Q_79_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_79_Guess" onfocus="TrackFocus('Q_79_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(79)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(79)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_80" style="display: none;"><p class="QuestionText">On dispose d'un &#x00E9;chantillon al&#x00E9;atoire de 16 pr&#x00E9;l&#x00E8;vements ind&#x00E9;pendants tir&#x00E9;s d'une population normale, la somme des valeurs est &#x00E9;gale &#x00E0; 7892.6 et la somme des carr&#x00E9;s des valeurs est &#x00E9;gale &#x00E0; 3895948. On souhaite v&#x00E9;rifier si la variance dans la population est inf&#x00E9;rieure &#x00E0; la valeur 400 pour un risque de 5%.<br />Calculer le crit&#x00E8;re statistique (au 1/100&#x00E8;me) qui permet de r&#x00E9;pondre &#x00E0; la question de l'&#x00E9;tude.<br /></p><div class="ShortAnswer" id="Q_80_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_80_Guess" onfocus="TrackFocus('Q_80_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(80)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(80)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_81" style="display: none;"><p class="QuestionText">On dispose d'un &#x00E9;chantillon al&#x00E9;atoire de 16 pr&#x00E9;l&#x00E8;vements ind&#x00E9;pendants tir&#x00E9;s d'une population normale, la somme des valeurs est &#x00E9;gale &#x00E0; 7892.6 et la somme des carr&#x00E9;s des valeurs est &#x00E9;gale &#x00E0; 3895948. On souhaite v&#x00E9;rifier si la variance dans la population est inf&#x00E9;rieure &#x00E0; la valeur 400 pour un risque de 5%.<br />Donnez le crit&#x00E8;re statistique th&#x00E9;orique (au 1/100&#x00E8;me) qui permet de r&#x00E9;pondre &#x00E0; la question de l'&#x00E9;tude.</p><div class="ShortAnswer" id="Q_81_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_81_Guess" onfocus="TrackFocus('Q_81_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(81)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(81)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_82" style="display: none;"><p class="QuestionText">Deux &#x00E9;chantillons al&#x00E9;atoires sont tir&#x00E9;s de fa&#x00E7;on ind&#x00E9;pendante dans deux populations normales d'o&#x00F9; sont pr&#x00E9;lev&#x00E9;es n1 = n2 = 20 unit&#x00E9;s ind&#x00E9;pendantes. On obtient respectivement pour les &#x00E9;chantillons 1 et 2: somme des valeurs = 158.9 et 161.4; somme des carr&#x00E9;s des valeurs = 1262.95 et 1303.32.<br />Calculez le crit&#x00E8;re statistique ( au 1/1000&#x00E8;me) qui permet la comparaison des 2 variances en adoptant un risque de 1&#x00E8;re esp&#x00E8;ce = 0.05</p><div class="ShortAnswer" id="Q_82_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_82_Guess" onfocus="TrackFocus('Q_82_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(82)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(82)">Afficher la r&#x00E9;ponse</button></div></form></div></li>
+<li class="QuizQuestion" id="Q_83" style="display: none;"><p class="QuestionText">Deux &#x00E9;chantillons al&#x00E9;atoires sont tir&#x00E9;s de fa&#x00E7;on ind&#x00E9;pendante dans deux populations normales d'o&#x00F9; sont pr&#x00E9;lev&#x00E9;es n1 = n2 = 20 unit&#x00E9;s ind&#x00E9;pendantes. On obtient respectivement pour les &#x00E9;chantillons 1 et 2: somme des valeurs = 158.9 et 161.4; somme des carr&#x00E9;s des valeurs = 1262.95 et 1303.32.<br />Donnez le crit&#x00E8;re statistique th&#x00E9;orique( au 1/100&#x00E8;me) du test bilat&#x00E9;ral qui permet la comparaison des 2 variances en adoptant un risque de 1&#x00E8;re esp&#x00E8;ce = 0.05</p><div class="ShortAnswer" id="Q_83_SA"><form method="post" action="" onsubmit="return false;"><div><input type="text" id="Q_83_Guess" onfocus="TrackFocus('Q_83_Guess')" onblur="LeaveGap()" class="GapBox" size="9"></input><br /><br /><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckShortAnswer(83)">V&#x00E9;rifier</button><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowAnswers(83)">Afficher la r&#x00E9;ponse</button></div></form></div></li></ol>
+
+
+
+</div>
+
+
+
+<div class="Feedback" id="FeedbackDiv">
+<div class="FeedbackText" id="FeedbackContent"></div>
+<button id="FeedbackOKButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="HideFeedback(); return false;">&nbsp;OK&nbsp;</button>
+</div>
+
+<!-- BeginBottomNavButtons -->
+
+
+<div class="NavButtonBar" id="BottomNavBar">
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="history.back(); return false;">&lt;=</button>
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index5.htm'; return false;"> Index </button>
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='nextpage.htm'; return false;">=&gt;</button>
+
+
+</div>
+
+
+
+<!-- EndBottomNavButtons -->
+
+<!-- BeginSubmissionForm -->
+
+<!-- EndSubmissionForm -->
+
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Titre 1 Car";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{color:#CC33CC;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texte de bulles Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.Titre1Car
+	{mso-style-name:"Titre 1 Car";
+	mso-style-link:"Titre 1";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.style4, li.style4, div.style4
+	{mso-style-name:style4;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#333333;
+	font-weight:bold;}
+span.style71
+	{mso-style-name:style71;}
+span.TextedebullesCar
+	{mso-style-name:"Texte de bulles Car";
+	mso-style-link:"Texte de bulles";
+	font-family:"Tahoma","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=FR link="#CC33CC" vlink=purple>
+
+<div class=Section1>
+
+<p class=MsoNormal><a href="http://www.jybaudot.fr/Tests/anova.html">http://www.jybaudot.fr/Tests/anova.html</a></p>
+
+<p class=MsoNormal style='line-height:normal;background:white'><b><span
+style='font-size:18.0pt;font-family:"Arial","sans-serif"'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='line-height:normal;background:white'><b><span
+style='font-size:18.0pt;font-family:"Arial","sans-serif"'>Analyse de la
+variance à un facteur contrôlé</span></b></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0 width=695 style='width:521.25pt'>
+ <tr>
+  <td width=680 style='width:510.0pt;padding:7.5pt 7.5pt 7.5pt 7.5pt'>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>L’analyse de la variance est
+  une technique statistique fondamentale. Comme son nom ne l’indique pas, elle
+  vise à comparer des <a href="http://www.jybaudot.fr/Stats/moyenne.html">moyennes</a>
+  sur plusieurs échantillons.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+  12.0pt;font-family:"Arial","sans-serif";color:#333333'>Conditions
+  d’utilisation et contre-indications</span></u></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Une comparaison de <u><a
+  href="http://www.jybaudot.fr/Tests/compmoyind.html">moyennes sur deux
+  échantillons</a></u> est possible grâce au <u><a
+  href="http://www.jybaudot.fr/Tests/tstudent.html">test de Student</a> </u>ou
+  d’un <u><a href="http://www.jybaudot.fr/Tests/testz.html">test z</a> </u>utilisant
+  la <u><a href="http://www.jybaudot.fr/Stats/loinormale.html">loi normale</a></u>.
+  Une analyse d’au moins trois échantillons indépendants nécessite quant à elle
+  une ANOVA (ANalysis Of VAriance).</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>La variable qualitative
+  utilisée pour différencier les échantillons est nommée «&nbsp;facteur&nbsp;».
+  Ses modalités sont des «&nbsp;niveaux&nbsp;».</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Deux vérifications préalables&nbsp;:
+  première condition, les échantillons suivent une <u>loi normale</u> et
+  deuxième condition (plus importante), ils présentent des <u>variances</u>
+  identiques. En revanche, les effectifs ne sont pas obligatoirement égaux
+  entre échantillons.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>L’hypothèse à vérifier (H0)
+  est que tous les échantillons ont la même moyenne. L’hypothèse alternative
+  est qu’au moins un échantillon joue les trouble-fête avec une moyenne
+  sensiblement différente des autres.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Tout ceci est bien joli mais
+  dans quelles circonstances utilise-t-on ce bel outil&nbsp;? À l’instar de la
+  plupart des tests, ce peut être une étape dans un processus d’analyse ou une
+  étude à part entière.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Si ce n’est qu’une étape, on
+  espère soit ne pas rejeter l’hypothèse nulle&nbsp;(pour retenir une <u><a
+  href="http://www.jybaudot.fr/Previsions/desaison.html">saisonnalité</a></u>
+  additive, par exemple) soit &nbsp;la rejeter (s’assurer des différences
+  préalablement à une <u><a
+  href="http://www.jybaudot.fr/Factorielles/afdlin.html">analyse factorielle
+  discriminante</a></u>). </span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>S’il s’agit d’une étude à
+  part entière, on espère généralement rejeter l’hypothèse nulle sauf cas
+  particuliers (contrôles de qualité…). Le but est en principe d’identifier un
+  facteur de variabilité, notamment dans le cadre de plans d’expériences.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+  12.0pt;font-family:"Arial","sans-serif";color:#333333'>Principe</span></u></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Le principe est celui de la
+  décomposition de la <u><a href="http://www.jybaudot.fr/Stats/dispersion.html">variance</a></u>
+  (intra-classe et interclasse). L’ANOVA utilise le mécanisme du <u><a
+  href="http://www.jybaudot.fr/Tests/testf.html">F de Fisher</a></u> non pas
+  pour comparer deux variances d’échantillons mais bien les deux composantes
+  d’une même variance. Le test ne «&nbsp;fonctionnera&nbsp;» que si les
+  moyennes sont les mêmes dans tous les échantillons.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+  12.0pt;font-family:"Arial","sans-serif";color:#333333'>Procédure</span></u></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>D’abord, on identifie le
+  facteur et on sélectionne les données.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Si l’on ne bâcle pas son
+  analyse, deux étapes préalables&nbsp;: <u><a
+  href="http://www.jybaudot.fr/Tests/testsnormalite.html">tests de normalité</a></u>
+  et surtout tests d’homogénéité des variances (homoscédasticité). S’ils se
+  révèlent négatifs, on se dirige vers d’autres méthodes, non paramétriques
+  (Kruskal Wallis).</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>On pose les hypothèses.
+  H0&nbsp;: les moyennes sont égales. H1&nbsp;: au moins une moyenne est
+  différente des autres.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>On utilise la procédure de
+  son logiciel favori («&nbsp;ANOVA à 1 facteur&nbsp;» ou «&nbsp;One-way
+  ANOVA&nbsp;» selon sa langue de prédilection).</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>On examine le <u><a
+  href="http://www.jybaudot.fr/Tests/tabanova.html">tableau de l’analyse de la
+  variance</a></u> (sur ce lien, exemple du tableau SPSS) et on interprète. On
+  rejette H0 si F est supérieur à sa valeur critique.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+  12.0pt;font-family:"Arial","sans-serif";color:#333333'>Exemple</span></u></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Trois unités de production
+  montrent des différences sur les quatre trimestres d’une année. Notons au
+  passage que si la production diminue à Bombay et augmente à Calcutta, l’ANOVA
+  ne s’en préoccupe pas du tout. Elle permet de comparer des moyennes, pas des
+  tendances (du moins sur cet exemple)…</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;line-height:normal'><b><span
+  style='font-size:12.0pt;font-family:"Arial","sans-serif";color:#333333'><img
+  border=0 width=324 height=104 id="Image 1" src="./anova.htm_files/image001.jpg"
+  alt=Exemple></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Ne cherchant pas
+  l’originalité, on opte pour un seuil de risque de 5%.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>L’utilitaire d’analyse
+  d’Excel fournit des statistiques descriptives sommaires puis un tableau
+  d’ANOVA relativement bien «&nbsp;soigné&nbsp;» (à comparer aux autres
+  logiciels essayés sur ce site. On regrette juste le terme «&nbsp;nombre
+  d’échantillons&nbsp;» au lieu de «&nbsp;taille d’échantillons&nbsp;»)&nbsp;:</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'><img border=0 width=643
+  height=236 id="Image 2" src="./anova.htm_files/image002.jpg"
+  alt="Anova sur Excel"></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Deux informations valant
+  mieux qu’une, Excel nous fournit la p-value (un peu supérieure à 0,05&nbsp;:
+  on ne rejette pas H0) mais aussi les valeurs constatée et critique du F.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Quelques logiciels exigent
+  une entrée en liste. Minitab permet également une entrée des données en
+  tableau (choisir alors «&nbsp;ANOVA à 1 facteur désempilé&nbsp;»).</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Les résultats présentés par
+  ce logiciel ont un petit air «&nbsp;brut de fonderie&nbsp;» mais les limites
+  de confiance ne sont pas dénuées d’intérêt…</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'><img border=0 width=593
+  height=370 id="Image 3" src="./anova.htm_files/image003.jpg"
+  alt="Exemple sur Minitab"></span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>Cet exemple est celui d’une
+  ANOVA à un facteur, en l’occurrence une ville qui représente une unité de
+  production. Il est tout à fait possible, même sur Excel, de procéder à une
+  ANOVA à deux facteurs.</span></b></p>
+  <p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+  font-family:"Arial","sans-serif";color:#333333'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

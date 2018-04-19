@@ -1,0 +1,1511 @@
+<?xml version="1.0"?>
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml"
+             xml:lang="en"><head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to brigitte bottollier."></meta><meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC:Creator" content="brigitte bottollier" />
+<meta name="DC:Creator" content="UNREGISTERED" />
+<meta name="DC:Title" content="REGRESSIONS LINEAIRES SIMPLE et MULTIPLE" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+
+<title>
+REGRESSIONS LINEAIRES SIMPLE et MULTIPLE 
+</title>
+
+<!-- Made with executable version 6.0 Release 3 Build 3 -->
+
+<!-- The following insertion allows you to add your own code directly to this head tag from the configuration screen -->
+
+
+
+<style type="text/css">
+
+
+/* This is the CSS stylesheet used in the exercise. */
+/* Elements in square brackets are replaced by data based on configuration settings when the exercise is built. */
+
+
+body{
+	font-family: Comic Sans MS;
+	background-color: #a5a914;
+	color: #000000;
+ 
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: small;
+}
+
+p{
+	text-align: left;
+	margin: 0px;
+	font-size: small;
+}
+
+div,span,td{
+	font-size: small;
+	color: #000000;
+}
+
+.RTLText{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", Comic Sans MS; 
+}
+
+.CentredRTLText{
+	text-align: center;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", Comic Sans MS; 
+}
+
+button p.RTLText{
+	text-align: center;
+}
+
+.RTLGapBox{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Times New Roman", Comic Sans MS;
+}
+
+.Guess{
+	font-weight: bold;
+}
+
+.CorrectAnswer{
+	font-weight: bold;
+}
+
+div.Titles{
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+button{
+	display: inline;
+}
+
+.ExerciseTitle{
+	font-size: large;
+	color: #000000;
+}
+
+.ExerciseSubtitle{
+	color: #000000;
+}
+
+div#Timer{
+	padding: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+span#TimerText{
+	padding: 6px;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: bold;
+	display: none;
+}
+
+span.Instructions{
+
+}
+
+div.ExerciseText{
+
+}
+
+.FeedbackText{
+	color: #000000;
+}
+
+span.LeftItem{
+	font-size: small;
+	color: #000000;
+}
+
+span.RightItem{
+	font-weight: bold;
+	font-size: small;
+	color: #000000;
+}
+
+span.CorrectMark{
+
+}
+
+div.Feedback {
+	background-color: #a5a914;
+	left: 33%;
+	width: 34%;
+	top: 33%;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	text-align: center;
+	color: #000000;
+	position: absolute;
+	display: none;
+	font-size: small;
+}
+
+
+
+
+div.ExerciseDiv{
+	color: #000000;
+}
+
+/* JMatch flashcard styles */
+table.FlashcardTable{
+	background-color: transparent;
+	color: #000000;
+	border-color: #000000;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 90%;
+	position: relative;
+	align: center;
+	padding: 0px;
+}
+
+table.FlashcardTable tr{
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Showing{
+	font-size: large;
+	text-align: center;
+	width: 50%;
+	display: table-cell;
+	padding: 2em;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Hidden{
+	display: none;
+}
+
+/* JMix styles */
+div#SegmentDiv{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+a.ExSegment{
+	font-size: medium;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+span.RemainingWordList{
+	font-style: italic;
+}
+
+div.DropLine {
+	position: absolute;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	width: 80%;
+}
+
+/* JCloze styles */
+
+input{
+	font-family: Comic Sans MS;
+	font-size: larger;
+}
+
+.ClozeWordList{
+	text-align: center;
+	font-weight: bold;
+}
+
+div.ClozeBody{
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 2.0
+}
+
+span.GapSpan{
+	font-weight: bold;
+}
+
+/* JCross styles */
+
+table.CrosswordGrid{
+	margin: auto auto 1em auto;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+table.CrosswordGrid td{
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+	font-size: large;
+	padding: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+table.CrosswordGrid td.BlankCell{
+	background-color: #000000;
+	color: #000000;
+}
+
+table.CrosswordGrid td.LetterOnlyCell{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+
+table.CrosswordGrid td.NumLetterCell{
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 1px;
+	font-weight: bold;
+}
+
+.NumLetterCellText{
+	cursor: pointer;
+}
+
+.GridNum{
+	vertical-align: super;
+	font-size: x-small;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+table#Clues{
+	margin: auto;
+	vertical-align: top;
+}
+
+table#Clues td{
+	vertical-align: top;
+}
+
+table.ClueList{
+  margin: auto;
+}
+
+td.ClueNum{
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+td.Clue{
+	text-align: left;
+}
+
+div#ClueEntry{
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+/* Keypad styles */
+
+div.Keypad{
+	text-align: center;
+}
+
+div.Keypad button{
+	font-family: Comic Sans MS;
+	font-size: 120%;
+	background-color: #ffffff;
+	color: #000000;
+	width: 2em;
+}
+
+/* JQuiz styles */
+
+div.QuestionNavigation{
+	text-align: center;
+}
+
+.QNum{
+	margin: 0em 1em 0.5em 1em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+textarea{
+	font-family: Comic Sans MS;
+	font-size: larger;
+}
+
+.QuestionText{
+
+}
+
+.Answer{
+	font-size: 120%;
+	letter-spacing: 0.1em;
+}
+
+.Highlight{
+	color: #000000;
+	background-color: #ffff00;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+ol.QuizQuestions{
+	text-align: left;
+	list-style-type: none;
+}
+
+li.QuizQuestion{
+	padding: 1em;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+ol.MCAnswers{
+	text-align: left;
+	list-style-type: upper-alpha;
+	padding: 1em;
+}
+
+ol.MCAnswers li{
+	margin-bottom: 1em;
+}
+
+ol.MSelAnswers{
+	text-align: left;
+	list-style-type: lower-alpha;
+	padding: 1em;
+}
+
+div.ShortAnswer{
+	padding: 1em;
+}
+
+div.StdDiv{
+	background-color: fbdec4;
+	text-align: center;
+	font-size: small;
+	color: #000000;
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+	margin: 1px;
+}
+
+.FuncButton {
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: #000000;
+	background-color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonUp {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+
+	background-color: #000000;
+	color: fbdec4;
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonDown {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	background-color: #000000;
+	color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: fbdec4;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: small;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	background-color: fbdec4;
+	color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+/*EndNavBarStyle*/
+
+a{
+	color: #0000ff;
+}
+
+a: visited{
+	color: #0000cc;
+}
+
+a:hover{
+	color: #0000ff;
+}
+
+div.CardStyle {
+	position: absolute;
+	font-family: Comic Sans MS;
+	font-size: small;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+	left: -50px;
+	top: -50px;
+	overflow: visible;
+}
+
+.rtl{
+	text-align: right;
+	font-size: large;
+}
+
+
+</style>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+
+function Client(){
+//if not a DOM browser, hopeless
+	this.min = false; if (document.getElementById){this.min = true;};
+
+	this.ua = navigator.userAgent;
+	this.name = navigator.appName;
+	this.ver = navigator.appVersion;  
+
+//Get data about the browser
+	this.mac = (this.ver.indexOf('Mac') != -1);
+	this.win = (this.ver.indexOf('Windows') != -1);
+
+//Look for Gecko
+	this.gecko = (this.ua.indexOf('Gecko') > 1);
+	if (this.gecko){
+		this.geckoVer = parseInt(this.ua.substring(this.ua.indexOf('Gecko')+6, this.ua.length));
+		if (this.geckoVer < 20020000){this.min = false;}
+	}
+	
+//Look for Firebird
+	this.firebird = (this.ua.indexOf('Firebird') > 1);
+	
+//Look for Safari
+	this.safari = (this.ua.indexOf('Safari') > 1);
+	if (this.safari){
+		this.gecko = false;
+	}
+	
+//Look for IE
+	this.ie = (this.ua.indexOf('MSIE') > 0);
+	if (this.ie){
+		this.ieVer = parseFloat(this.ua.substring(this.ua.indexOf('MSIE')+5, this.ua.length));
+		if (this.ieVer < 5.5){this.min = false;}
+	}
+	
+//Look for Opera
+	this.opera = (this.ua.indexOf('Opera') > 0);
+	if (this.opera){
+		this.operaVer = parseFloat(this.ua.substring(this.ua.indexOf('Opera')+6, this.ua.length));
+		if (this.operaVer < 7.04){this.min = false;}
+	}
+	if (this.min == false){
+		alert('Your browser may not be able to handle this page.');
+	}
+	
+//Special case for the horrible ie5mac
+	this.ie5mac = (this.ie&&this.mac&&(this.ieVer<6));
+}
+
+var C = new Client();
+
+//for (prop in C){
+//	alert(prop + ': ' + C[prop]);
+//}
+
+
+
+//CODE FOR HANDLING NAV BUTTONS AND FUNCTION BUTTONS
+
+//[strNavBarJS]
+function NavBtnOver(Btn){
+	if (Btn.className != 'NavButtonDown'){Btn.className = 'NavButtonUp';}
+}
+
+function NavBtnOut(Btn){
+	Btn.className = 'NavButton';
+}
+
+function NavBtnDown(Btn){
+	Btn.className = 'NavButtonDown';
+}
+//[/strNavBarJS]
+
+function FuncBtnOver(Btn){
+	if (Btn.className != 'FuncButtonDown'){Btn.className = 'FuncButtonUp';}
+}
+
+function FuncBtnOut(Btn){
+	Btn.className = 'FuncButton';
+}
+
+function FuncBtnDown(Btn){
+	Btn.className = 'FuncButtonDown';
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		if (document.getElementById('CheckButton2') != null){
+			document.getElementById('CheckButton2').focus();
+		}
+		else{
+			document.getElementsByTagName('button')[0].focus();
+		}
+	}
+}
+
+
+
+
+//CODE FOR HANDLING DISPLAY OF POPUP FEEDBACK BOX
+
+var topZ = 1000;
+
+function ShowMessage(Feedback){
+	var Output = Feedback + '<br /><br />';
+	document.getElementById('FeedbackContent').innerHTML = Output;
+	var FDiv = document.getElementById('FeedbackDiv');
+	topZ++;
+	FDiv.style.zIndex = topZ;
+	FDiv.style.top = TopSettingWithScrollOffset(30) + 'px';
+//IE can't focus a hidden div; Moz needs to focus before display to avoid jumping
+	if (C.gecko){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	FDiv.style.display = 'block';
+
+	ShowElements(false, 'input');
+	ShowElements(false, 'select');
+	ShowElements(false, 'object');
+	if (C.ie){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	
+//
+}
+
+function ShowElements(Show, TagName){
+//Special for IE bug -- hide all the form elements that will show through the popup
+	if (C.ie){
+		var Els = document.getElementsByTagName(TagName);
+		for (var i=0; i<Els.length; i++){
+			if (Show == true){
+				Els[i].style.display = 'inline';
+			}
+			else{
+				Els[i].style.display = 'none';
+			}
+		}
+	} 
+}
+
+function HideFeedback(){
+	document.getElementById('FeedbackDiv').style.display = 'none';
+	ShowElements(true, 'input');
+	ShowElements(true, 'select');
+	ShowElements(true, 'object');
+	if (Finished == true){
+		Finish();
+	}
+}
+
+
+//GENERAL UTILITY FUNCTIONS AND VARIABLES
+
+//PAGE DIMENSION FUNCTIONS
+function PageDim(){
+//Get the page width and height
+	this.W = 600;
+	this.H = 400;
+	this.W = document.getElementsByTagName('body')[0].clientWidth;
+	this.H = document.getElementsByTagName('body')[0].clientHeight;
+}
+
+var pg = null;
+
+function GetPageXY(El) {
+	var XY = {x: 0, y: 0};
+	while(El){
+		XY.x += El.offsetLeft;
+		XY.y += El.offsetTop;
+		El = El.offsetParent;
+	}
+	return XY;
+}
+
+function GetScrollTop(){
+	if (document.documentElement && document.documentElement.scrollTop){
+		return document.documentElement.scrollTop;
+	}
+	else{
+		if (document.body){
+ 			return document.body.scrollTop;
+		}
+		else{
+			return window.pageYOffset;
+		}
+	}
+}
+
+function GetViewportHeight(){
+	if (window.innerWidth){
+		return window.innerWidth;
+	}
+	else{
+		return document.getElementsByTagName('body')[0].clientHeight;
+	}
+}
+
+function TopSettingWithScrollOffset(TopPercent){
+	var T = Math.floor(GetViewportHeight() * (TopPercent/100));
+	return GetScrollTop() + T; 
+}
+
+//CODE FOR AVOIDING LOSS OF DATA WHEN BACKSPACE KEY INVOKES history.back()
+var InTextBox = false;
+
+function SuppressBackspace(e){ 
+	if (InTextBox == true){return;}
+	if (C.ie) {
+		thisKey = window.event.keyCode;
+	}
+	else {
+		thisKey = e.keyCode;
+	}
+
+	var Suppress = false;
+
+	if (thisKey == 8) {
+		Suppress = true;
+	}
+
+	if (Suppress == true){
+		if (C.ie){
+			window.event.returnValue = false;	
+			window.event.cancelBubble = true;
+		}
+		else{
+			e.preventDefault();
+		}
+	}
+}
+
+if (C.ie){
+	document.attachEvent('onkeydown',SuppressBackspace);
+	window.attachEvent('onkeydown',SuppressBackspace);
+}
+else{
+	window.addEventListener('keypress',SuppressBackspace,false);
+}
+
+function ReduceItems(InArray, ReduceToSize){
+	var ItemToDump=0;
+	var j=0;
+	while (InArray.length > ReduceToSize){
+		ItemToDump = Math.floor(InArray.length*Math.random());
+		InArray.splice(ItemToDump, 1);
+	}
+}
+
+function Shuffle(InArray){
+	Temp = new Array();
+	var Len = InArray.length;
+
+	var j = Len;
+
+	for (var i=0; i<Len; i++){
+		Temp[i] = InArray[i];
+	}
+
+	for (i=0; i<Len; i++){
+		Num = Math.floor(j  *  Math.random());
+		InArray[i] = Temp[Num];
+
+		for (var k=Num; k < j; k++) {
+			Temp[k] = Temp[k+1];
+		}
+		j--;
+	}
+	return InArray;
+}
+
+function WriteToInstructions(Feedback) {
+//	Feedback = '<span class="FeedbackText">' + Feedback + '</span>';
+	document.getElementById('InstructionsDiv').innerHTML = Feedback;
+
+}
+
+
+
+
+function EscapeDoubleQuotes(InString){
+	return InString.replace(/"/g, '&quot;')
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		document.getElementsByTagName('button')[0].focus();
+	}
+}
+
+function TrimString(InString){
+        var x = 0;
+
+        if (InString.length != 0) {
+                while ((InString.charAt(InString.length - 1) == '\u0020') || (InString.charAt(InString.length - 1) == '\u000A') || (InString.charAt(InString.length - 1) == '\u000D')){
+                        InString = InString.substring(0, InString.length - 1)
+                }
+
+                while ((InString.charAt(0) == '\u0020') || (InString.charAt(0) == '\u000A') || (InString.charAt(0) == '\u000D')){
+                        InString = InString.substring(1, InString.length)
+                }
+
+                while (InString.indexOf('  ') != -1) {
+                        x = InString.indexOf('  ')
+                        InString = InString.substring(0, x) + InString.substring(x+1, InString.length)
+                 }
+
+                return InString;
+        }
+
+        else {
+                return '';
+        }
+}
+
+function FindLongest(InArray){
+	if (InArray.length < 1){return -1;}
+
+	var Longest = 0;
+	for (var i=1; i<InArray.length; i++){
+		if (InArray[i].length > InArray[Longest].length){
+			Longest = i;
+		}
+	}
+	return Longest;
+}
+
+//UNICODE CHARACTER FUNCTIONS
+function IsCombiningDiacritic(CharNum){
+	var Result = (((CharNum >= 0x0300)&&(CharNum <= 0x370))||((CharNum >= 0x20d0)&&(CharNum <= 0x20ff)));
+	Result = Result || (((CharNum >= 0x3099)&&(CharNum <= 0x309a))||((CharNum >= 0xfe20)&&(CharNum <= 0xfe23)));
+	return Result;
+}
+
+function IsCJK(CharNum){
+	return ((CharNum >= 0x3000)&&(CharNum < 0xd800));
+}
+
+//SETUP FUNCTIONS
+//BROWSER WILL REFILL TEXT BOXES FROM CACHE IF NOT PREVENTED
+function ClearTextBoxes(){
+	var NList = document.getElementsByTagName('input');
+	for (var i=0; i<NList.length; i++){
+		if ((NList[i].id.indexOf('Guess') > -1)||(NList[i].id.indexOf('Gap') > -1)){
+			NList[i].value = '';
+		}
+		if (NList[i].id.indexOf('Chk') > -1){
+			NList[i].checked = '';
+		}
+	}
+}
+
+//EXTENSION TO ARRAY OBJECT
+function Array_IndexOf(Input){
+	var Result = -1;
+	for (var i=0; i<this.length; i++){
+		if (this[i] == Input){
+			Result = i;
+		}
+	}
+	return Result;
+}
+Array.prototype.indexOf = Array_IndexOf;
+
+//IE HAS RENDERING BUG WITH BOTTOM NAVBAR
+function RemoveBottomNavBarForIE(){
+	if ((C.ie)&&(document.getElementById('Reading') != null)){
+		if (document.getElementById('BottomNavBar') != null){
+			document.getElementById('TheBody').removeChild(document.getElementById('BottomNavBar'));
+		}
+	}
+}
+
+
+
+
+//HOTPOTNET-RELATED CODE
+
+var HPNStartTime = (new Date()).getTime();
+var SubmissionTimeout = 30000;
+var Detail = ''; //Global that is used to submit tracking data
+
+function Finish(){
+//If there's a form, fill it out and submit it
+	if (document.store != null){
+		Frm = document.store;
+		Frm.starttime.value = HPNStartTime;
+		Frm.endtime.value = (new Date()).getTime();
+		Frm.mark.value = Score;
+		Frm.detail.value = Detail;
+		Frm.submit();
+	}
+}
+
+
+
+//JQUIZ CORE JAVASCRIPT CODE
+
+var CurrQNum = 0;
+var CorrectIndicator = ' Oui';
+var IncorrectIndicator = ' Non';
+var YourScoreIs = 'Votre score est de';
+var ContinuousScoring = true;
+var CorrectFirstTime = 'Questions r&#x00E9;pondues correctement au premier essai';
+var ShowCorrectFirstTime = false;
+var ShuffleQs = true;
+var ShuffleAs = true;
+var DefaultRight = 'Bonne r&#x00E9;ponse';
+var DefaultWrong = 'D&#x00E9;sol&#x00E9;, essayez &#x00E0; nouveau';
+var QsToShow = 9;
+var Score = 0;
+var Finished = false;
+var Qs = null;
+var QArray = new Array();
+var ShowingAllQuestions = false;
+var ShowAllQuestionsCaption = 'Afficher toutes les questions';
+var ShowOneByOneCaption = 'Voir les questions une par une';
+var State = new Array();
+var Feedback = '';
+var TimeOver = false;
+
+//The following variable can be used to add a message explaining that
+//the question is finished, so no further marking will take place.
+var strQuestionFinished = '';
+
+function CompleteEmptyFeedback(){
+	var QNum, ANum;
+	for (QNum=0; QNum<I.length; QNum++){
+//Only do this if not multi-select
+		if (I[QNum][2] != '3'){
+  		for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+  			if (I[QNum][3][ANum][1].length < 1){
+  				if (I[QNum][3][ANum][2] > 0){
+  					I[QNum][3][ANum][1] = DefaultRight;
+  				}
+  				else{
+  					I[QNum][3][ANum][1] = DefaultWrong;
+  				}
+  			}
+  		}
+		}
+	}
+}
+
+function SetUpQuestions(){
+	var AList = new Array(); 
+	var QList = new Array();
+	var i, j;
+	Qs = document.getElementById('Questions');
+	while (Qs.getElementsByTagName('li').length > 0){
+		QList.push(Qs.removeChild(Qs.getElementsByTagName('li')[0]));
+	}
+	var DumpItem = 0;
+	while (QsToShow < QList.length){
+		DumpItem = Math.floor(QList.length*Math.random());
+		for (j=DumpItem; j<(QList.length-1); j++){
+			QList[j] = QList[j+1];
+		}
+		QList.length = QList.length-1;
+	}
+	if (ShuffleQs == true){
+		QList = Shuffle(QList);
+	}
+	if (ShuffleAs == true){
+		var As;
+		for (var i=0; i<QList.length; i++){
+			As = QList[i].getElementsByTagName('ol')[0];
+			if (As != null){
+  			AList.length = 0;
+				while (As.getElementsByTagName('li').length > 0){
+					AList.push(As.removeChild(As.getElementsByTagName('li')[0]));
+				}
+				AList = Shuffle(AList);
+				for (j=0; j<AList.length; j++){
+					As.appendChild(AList[j]);
+				}
+			}
+		}
+	}
+	
+	for (i=0; i<QList.length; i++){
+		Qs.appendChild(QList[i]);
+		QArray[QArray.length] = QList[i];
+	}
+
+//Show the first item
+	QArray[0].style.display = '';
+	
+//Now hide all except the first item
+	for (i=1; i<QArray.length; i++){
+		QArray[i].style.display = 'none';
+	}		
+	SetQNumReadout();
+}
+
+function ChangeQ(ChangeBy){
+	if (((CurrQNum + ChangeBy) < 0)||((CurrQNum + ChangeBy) >= QArray.length)){return;}
+	QArray[CurrQNum].style.display = 'none';
+	CurrQNum += ChangeBy;
+	QArray[CurrQNum].style.display = '';
+	SetQNumReadout();
+//if there's a textbox, set the focus in it
+	if (QArray[CurrQNum].getElementsByTagName('input')[0] != null){
+		QArray[CurrQNum].getElementsByTagName('input')[0].focus();
+	}
+}
+
+function SetQNumReadout(){
+	document.getElementById('QNumReadout').innerHTML = (CurrQNum+1) + ' / ' + QArray.length;
+}
+
+I=new Array();
+I[0]=new Array();I[0][0]=100;
+I[0][1]='';
+I[0][2]='3';
+I[0][3]=new Array();
+I[0][3][0]=new Array('la variable ind\u00E9pendante','',0,0,1);
+I[0][3][1]=new Array('la variable d\u00E9pendante','',1,100,1);
+I[0][3][2]=new Array('le r\u00E9gresseur','',0,0,1);
+I[0][3][3]=new Array('la variable \u00E0 expliquer','',1,100,1);
+I[0][3][4]=new Array('la variable explicative','',0,0,1);
+I[1]=new Array();I[1][0]=100;
+I[1][1]='';
+I[1][2]='3';
+I[1][3]=new Array();
+I[1][3][0]=new Array('la variable ind\u00E9pendante','',0,0,1);
+I[1][3][1]=new Array('la variable d\u00E9pendante','',1,100,1);
+I[1][3][2]=new Array('le r\u00E9gresseur','',0,0,1);
+I[1][3][3]=new Array('la variable \u00E0 expliquer','',1,100,1);
+I[1][3][4]=new Array('la variable explicative','',0,0,1);
+I[1][3][5]=new Array('le crit\u00E8re de qualit\u00E9','',1,100,1);
+I[2]=new Array();I[2][0]=100;
+I[2][1]='';
+I[2][2]='3';
+I[2][3]=new Array();
+I[2][3][0]=new Array('une variable ind\u00E9pendante','',0,0,1);
+I[2][3][1]=new Array('une variable d\u00E9pendante','',1,100,1);
+I[2][3][2]=new Array('un r\u00E9gresseur','',0,0,1);
+I[2][3][3]=new Array('une variable \u00E0 expliquer','',1,100,1);
+I[2][3][4]=new Array(' une variable explicative','',0,0,1);
+I[2][3][5]=new Array('une r\u00E9ponse','',1,100,1);
+I[2][3][6]=new Array('un crit\u00E8re de qualit\u00E9','',1,100,1);
+I[3]=new Array();I[3][0]=100;
+I[3][1]='';
+I[3][2]='3';
+I[3][3]=new Array();
+I[3][3][0]=new Array('48','non, mais il y a 48 combinaisons des 4 facteurs si on voulait toutes les tester.',0,0,1);
+I[3][3][1]=new Array('4','non, et la constante?',0,0,1);
+I[3][3][2]=new Array('impossible d\'avoir un mod\u00E8le en 12 essais','il faut avoir au minimum 5 essais dans ce contexte',0,0,1);
+I[3][3][3]=new Array('5','- la constante - le coefficient du type de solution d\'extraction - le coefficient de la temp\u00E9rature de centrifugation - le coefficient de la vitesse de centrifugation - le coefficient du temps de centrifugation',1,100,1);
+I[4]=new Array();I[4][0]=100;
+I[4][1]='';
+I[4][2]='3';
+I[4][3]=new Array();
+I[4][3][0]=new Array('11','non , c\'est le ddl de SCE totale = 12 - 1 = 11 ',0,0,1);
+I[4][3][1]=new Array('7','oui, ddl de SCE reg = 5 - 1 = 4 ddl de SCE totale = 12 - 1 = 11 ddl SCE e = 11 - 4 = 7',1,100,1);
+I[4][3][2]=new Array('4','non, c\'est le ddl de SCE reg = 5 - 1 = 4',0,0,1);
+I[4][3][3]=new Array('6','',0,0,1);
+I[4][3][4]=new Array('impossible','',0,0,1);
+I[5]=new Array();I[5][0]=100;
+I[5][1]='';
+I[5][2]='3';
+I[5][3]=new Array();
+I[5][3][0]=new Array('On rentre en 1er le r\u00E9gresseur X qui est le plus corr\u00E9l\u00E9 \u00E0 la variable Y, puis on introduit le 2\u00E8me r\u00E9gresseur X le moins corr\u00E9l\u00E9 avec Y \u00E0 condition qu\'il soit le plus corr\u00E9l\u00E9 avec le 1er r\u00E9gresseur .','',0,0,1);
+I[5][3][1]=new Array('On analyse la matrice des corr\u00E9lations','',1,100,1);
+I[5][3][2]=new Array('On rentre en 1er le r\u00E9gresseur X qui est le plus corr\u00E9l\u00E9 \u00E0 la variable Y, puis on introduit le 2\u00E8me r\u00E9gresseur X le plus corr\u00E9l\u00E9 avec Y \u00E0 condition qu\'il soit le moins corr\u00E9l\u00E9 avec le 1er r\u00E9gresseur et qu\'il am\u00E9liore le plus possible le coefficient de d\u00E9termination miltiple. ','',1,100,1);
+I[5][3][3]=new Array('On rentre en 1er le r\u00E9gresseur X qui est le moins corr\u00E9l\u00E9 \u00E0 la variable Y, puis on introduit le 2\u00E8me r\u00E9gresseur X le moins corr\u00E9l\u00E9 avec Y \u00E0 condition qu\'il soit le plus corr\u00E9l\u00E9 avec le 1er r\u00E9gresseur .','',0,0,1);
+I[5][3][4]=new Array('On rentre en 1er le r\u00E9gresseur X qui est le plus corr\u00E9l\u00E9 \u00E0 la variable Y, puis on introduit le 2\u00E8me r\u00E9gresseur X le plus corr\u00E9l\u00E9 avec Y \u00E0 condition qu\'il soit le moins corr\u00E9l\u00E9 avec le 1er r\u00E9gresseur et qu\'il affecte le moins possible la valeur de la variance r\u00E9siduelle','',0,0,1);
+I[6]=new Array();I[6][0]=100;
+I[6][1]='';
+I[6][2]='3';
+I[6][3]=new Array();
+I[6][3][0]=new Array('le crit\u00E8re statistique de l\'ANOVA repr\u00E9sente un test bilat\u00E9ral','',0,0,1);
+I[6][3][1]=new Array('le crit\u00E8re statistique qui mesure l\'effet des r\u00E9gresseurs est un crit\u00E8re bilat\u00E9ral','',1,100,1);
+I[6][3][2]=new Array('le crit\u00E8re statistique de l\'ANOVA repr\u00E9sente un test unilat\u00E9ral','',1,100,1);
+I[6][3][3]=new Array('le crit\u00E8re statistique qui mesure l\'effet des r\u00E9gresseurs est un crit\u00E8re unilat\u00E9ral','',0,0,1);
+I[7]=new Array();I[7][0]=100;
+I[7][1]='';
+I[7][2]='3';
+I[7][3]=new Array();
+I[7][3][0]=new Array('la variable ind\u00E9pendante','',0,0,1);
+I[7][3][1]=new Array('la variable d\u00E9pendante','',1,100,1);
+I[7][3][2]=new Array('le r\u00E9gresseur','',0,0,1);
+I[7][3][3]=new Array('la variable \u00E0 expliquer','',1,100,1);
+I[7][3][4]=new Array('la variable explicative','',0,0,1);
+I[7][3][5]=new Array('la r\u00E9ponse','',1,100,1);
+I[8]=new Array();I[8][0]=100;
+I[8][1]='';
+I[8][2]='3';
+I[8][3]=new Array();
+I[8][3][0]=new Array('la variable ind\u00E9pendante','',1,100,1);
+I[8][3][1]=new Array('la variable d\u00E9pendante','',0,0,1);
+I[8][3][2]=new Array('le r\u00E9gresseur','',1,100,1);
+I[8][3][3]=new Array('la variable \u00E0 expliquer','',0,0,1);
+I[8][3][4]=new Array('la variable explicative','',1,100,1);
+
+
+function StartUp(){
+	RemoveBottomNavBarForIE();
+
+//If there's only one question, no need for question navigation controls
+	if (QsToShow < 2){
+		document.getElementById('QNav').style.display = 'none';
+	}
+	
+
+	
+
+	
+	CompleteEmptyFeedback();
+
+	SetUpQuestions();
+	ClearTextBoxes();
+	CreateStatusArray();
+	
+
+	
+//Check search string for q parameter
+	if (document.location.search.length > 0){
+		if (ShuffleQs == false){
+			var JumpTo = parseInt(document.location.search.substring(1,document.location.search.length))-1;
+			if (JumpTo <= QsToShow){
+				ChangeQ(JumpTo);
+			}
+		}
+	}
+}
+
+function ShowHideQuestions(){
+	FuncBtnOut(document.getElementById('ShowMethodButton'));
+	document.getElementById('ShowMethodButton').style.display = 'none';
+	if (ShowingAllQuestions == false){
+		for (var i=0; i<QArray.length; i++){
+				QArray[i].style.display = '';
+			}
+		document.getElementById('Questions').style.listStyleType = 'decimal';
+		document.getElementById('OneByOneReadout').style.display = 'none';
+		document.getElementById('ShowMethodButton').innerHTML = ShowOneByOneCaption;
+		ShowingAllQuestions = true;
+	}
+	else{
+		for (var i=0; i<QArray.length; i++){
+				if (i != CurrQNum){
+					QArray[i].style.display = 'none';
+				}
+			}
+		document.getElementById('Questions').style.listStyleType = 'none';
+		document.getElementById('OneByOneReadout').style.display = '';
+		document.getElementById('ShowMethodButton').innerHTML = ShowAllQuestionsCaption;
+		ShowingAllQuestions = false;	
+	}
+	document.getElementById('ShowMethodButton').style.display = 'inline';
+}
+
+function CreateStatusArray(){
+	var QNum, ANum;
+//For each item in the item array
+	for (QNum=0; QNum<I.length; QNum++){
+//Check if the question still exists (hasn't been nuked by showing a random selection)
+		if (document.getElementById('Q_' + QNum) != null){
+			State[QNum] = new Array();
+			State[QNum][0] = -1; //Score for this q; -1 shows question not done yet
+			State[QNum][1] = new Array(); //answers
+			for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+				State[QNum][1][ANum] = 0; //answer not chosen yet; when chosen, will store its position in the series of choices
+			}
+			State[QNum][2] = 0; //tries at this q so far
+			State[QNum][3] = 0; //incrementing percent-correct values of selected answers
+			State[QNum][4] = 0; //penalties incurred for hints
+			State[QNum][5] = ''; //Sequence of answers chosen by number
+		}
+		else{
+			State[QNum] = null;
+		}
+	}
+}
+
+
+
+
+
+function CheckMultiSelAnswer(QNum){
+//bail if question doesn't exist or exercise finished
+	if ((State[QNum].length < 1)||(Finished == true)){return;}
+
+//Increment the tries for this question
+	State[QNum][2]++;
+	
+	var ShouldBeChecked;
+	var Matches = 0;
+	State[QNum][5] += '|';
+	
+//Check if there are any mismatches
+	Feedback = '';
+	var CheckBox = null;
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		CheckBox = document.getElementById('Q_' + QNum + '_' + ANum + '_Chk');
+		if (CheckBox.checked == true){
+			State[QNum][5] += 'Y';
+		}
+		else{
+			State[QNum][5] += 'N';
+		}
+		ShouldBeChecked = (I[QNum][3][ANum][2] == 1);
+		if (ShouldBeChecked == CheckBox.checked){
+			Matches++;
+		}
+		else{
+			Feedback = I[QNum][3][ANum][1];
+		}
+	}
+//Add the hit readout
+	Feedback = Matches + ' / ' + I[QNum][3].length + '<br />' + Feedback;
+	if (Matches == I[QNum][3].length){
+//It's right
+		CalculateMultiSelQuestionScore(QNum);
+		if (ContinuousScoring == true){
+			CalculateOverallScore();
+			if ((ContinuousScoring == true)||(Finished == true)){
+				Feedback += '<br />' + YourScoreIs + ' ' + Score + '%.';
+				WriteToInstructions(YourScoreIs + ' ' + Score + '%.');
+			}
+		}
+	}
+//If it's wrong, no need to do anything but show the feedback
+	ShowMessage(Feedback);
+	
+//Check whether all questions are now done
+	CheckFinished();
+}
+
+function CalculateMultiSelQuestionScore(QNum){
+	var Tries = State[QNum][2];
+	var TotAns = State[QNum][1].length;
+	
+//Make sure it's not already complete
+	if (State[QNum][0] < 0){
+		State[QNum][0] = (TotAns - (Tries-1)) / TotAns;
+		if (State[QNum][0] < 0){
+			State[QNum][0] = 0;
+		}
+	}
+}
+
+
+
+function CalculateOverallScore(){
+	var TotalWeighting = 0;
+	var TotalScore = 0;
+	
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] > -1){
+				TotalWeighting += I[QNum][0];
+				TotalScore += (I[QNum][0] * State[QNum][0]);
+			}
+		}
+	}
+	Score = Math.floor((TotalScore/TotalWeighting)*100);
+}
+
+function CheckFinished(){
+	var FB = '';
+	var AllDone = true;
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] < 0){
+				AllDone = false;
+			}
+		}
+	}
+	if (AllDone == true){
+	
+//Report final score and submit if necessary
+		CalculateOverallScore();
+		FB = YourScoreIs + ' ' + Score + '%.';
+		if (ShowCorrectFirstTime == true){
+			var CFT = 0;
+			for (QNum=0; QNum<State.length; QNum++){
+				if (State[QNum] != null){
+					if (State[QNum][0] >= 1){
+						CFT++;
+					}
+				}
+			}
+			FB += '<br />' + CorrectFirstTime + ' ' + CFT + '/' + QsToShow;
+		}
+		WriteToInstructions(FB);
+		
+		Finished == true;
+
+		TimeOver = true;
+		Locked = true;
+		
+
+
+		Finished = true;
+		Detail = '<?xml version="1.0"?><hpnetresult><fields>';
+		for (QNum=0; QNum<State.length; QNum++){
+			if (State[QNum] != null){
+				if (State[QNum][5].length > 0){
+					Detail += '<field><fieldname>Question #' + (QNum+1) + '</fieldname><fieldtype>question-tracking</fieldtype><fieldlabel>Q ' + (QNum+1) + '</fieldlabel><fieldlabelid>QuestionTrackingField</fieldlabelid><fielddata>' + State[QNum][5] + '</fielddata></field>';
+				}
+			}
+		}
+		Detail += '</fields></hpnetresult>';
+		setTimeout('Finish()', SubmissionTimeout);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+//-->
+
+//]]>
+
+</script>
+
+
+</head>
+
+<body onload="StartUp()" id="TheBody">
+
+<!-- BeginTopNavButtons -->
+
+
+<div class="NavButtonBar" id="TopNavBar">
+
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index7.doc'; return false;"> Index </button>
+
+
+
+
+</div>
+
+
+
+<!-- EndTopNavButtons -->
+
+<div class="Titles">
+	<h2 class="ExerciseTitle">REGRESSIONS LINEAIRES SIMPLE et MULTIPLE </h2>
+	<h3 class="ExerciseSubtitle">Questions &#x00E0; choix multiple</h3>
+
+
+</div>
+
+<div id="InstructionsDiv" class="StdDiv">
+	<p id="Instructions">Choisissez la (les) bonne(s) r&#x00E9;ponse(s)</p>
+</div>
+
+
+
+
+<div id="MainDiv" class="StdDiv">
+ 
+<div id="QNav" class="QuestionNavigation">
+
+<p style="text-align: right;">
+<button id="ShowMethodButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ShowHideQuestions(); return false;">Afficher toutes les questions</button>
+</p>
+
+<div id="OneByOneReadout">
+<button id="PrevQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(-1); return false;">&lt;=</button>
+
+<span id="QNumReadout" class="QNum">&nbsp;</span>
+
+<button id="NextQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(1); return false;">=&gt;</button>
+<br />
+</div>
+
+</div>
+ 
+<ol class="QuizQuestions" id="Questions">
+<li class="QuizQuestion" id="Q_0" style="display: none;"><p class="QuestionText">Quand on &#x00E9;tudie dans 50 villes le taux d'un compos&#x00E9; polluant l'air et le nombre de malades atteints d'une maladie pouvant &#x00EA;tre li&#x00E9;e &#x00E0; ce compos&#x00E9;, le nombre de malades repr&#x00E9;sente</p><ol class="MSelAnswers"><li id="Q_0_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_0_Chk" class="MSelCheckbox" />la variable ind&#x00E9;pendante</div></form></li><li id="Q_0_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_1_Chk" class="MSelCheckbox" />la variable d&#x00E9;pendante</div></form></li><li id="Q_0_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_2_Chk" class="MSelCheckbox" />le r&#x00E9;gresseur</div></form></li><li id="Q_0_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_3_Chk" class="MSelCheckbox" />la variable &#x00E0; expliquer</div></form></li><li id="Q_0_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_4_Chk" class="MSelCheckbox" />la variable explicative</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(0)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_1" style="display: none;"><p class="QuestionText">Quand sur 100 parcelles sur lesquelles ont &#x00E9;t&#x00E9; test&#x00E9; 10 doses d'engrais, on &#x00E9;tudie la hauteur moyenne du ma&#x00EF;s &#x00E0; diff&#x00E9;rentes dates et le rendement apr&#x00E8;s r&#x00E9;colte, le rendement d'une parcelle repr&#x00E9;sente:</p><ol class="MSelAnswers"><li id="Q_1_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_0_Chk" class="MSelCheckbox" />la variable ind&#x00E9;pendante</div></form></li><li id="Q_1_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_1_Chk" class="MSelCheckbox" />la variable d&#x00E9;pendante</div></form></li><li id="Q_1_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_2_Chk" class="MSelCheckbox" />le r&#x00E9;gresseur</div></form></li><li id="Q_1_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_3_Chk" class="MSelCheckbox" />la variable &#x00E0; expliquer</div></form></li><li id="Q_1_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_4_Chk" class="MSelCheckbox" />la variable explicative</div></form></li><li id="Q_1_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_5_Chk" class="MSelCheckbox" />le crit&#x00E8;re de qualit&#x00E9;</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(1)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_2" style="display: none;"><p class="QuestionText">Quand on &#x00E9;tudie la texture d'une mousse de foie par d&#x00E9;gustation de 30 produits fabriqu&#x00E9;s en faisant varier la vitesse de cutterage, la dur&#x00E9;e et la temp&#x00E9;rature de cuisson des mousses, la texture repr&#x00E9;sente:</p><ol class="MSelAnswers"><li id="Q_2_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_0_Chk" class="MSelCheckbox" />une variable ind&#x00E9;pendante</div></form></li><li id="Q_2_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_1_Chk" class="MSelCheckbox" />une variable d&#x00E9;pendante</div></form></li><li id="Q_2_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_2_Chk" class="MSelCheckbox" />un r&#x00E9;gresseur</div></form></li><li id="Q_2_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_3_Chk" class="MSelCheckbox" />une variable &#x00E0; expliquer</div></form></li><li id="Q_2_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_4_Chk" class="MSelCheckbox" /> une variable explicative</div></form></li><li id="Q_2_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_5_Chk" class="MSelCheckbox" />une r&#x00E9;ponse</div></form></li><li id="Q_2_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_6_Chk" class="MSelCheckbox" />un crit&#x00E8;re de qualit&#x00E9;</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(2)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_3" style="display: none;"><p class="QuestionText">Les ent&#x00E9;rotoxines staphylococciques A (SEA) sont des prot&#x00E9;ines s&#x00E9;cr&#x00E9;t&#x00E9;es in situ dans les aliments contamin&#x00E9;s par des souches de staphylocoques toxinog&#x00E8;nes, responsables de toxi-infections alimentaires (TIA). Leur mise en &#x00E9;vidence est effectu&#x00E9;e par immunoenzymologie, apr&#x00E8;s pr&#x00E9;paration de l'&#x00E9;chantillon pour analyse. La pr&#x00E9;paration est r&#x00E9;alis&#x00E9;e par extraction aqueuse des ent&#x00E9;rotoxines compos&#x00E9;e d'une suite d'&#x00E9;tapes de broyage, d'acidification, de centrifugation et de d&#x00E9;lipidation.<br />Les exp&#x00E9;rimentateurs ont test&#x00E9;s les effets de 2 types de solution d'extraction, ils ont fait varier la temp&#x00E9;rature (3 temp&#x00E9;ratures), la vitesse (2 vitesses) et le temps de centrifugation (4 dur&#x00E9;es), et ont mesur&#x00E9; les quantit&#x00E9;s de SEA en ng/ml sur 12 pr&#x00E9;parations.<br />Dans cette &#x00E9;tude , si vous vouliez traiter les r&#x00E9;sultats d'essais par regression multiple, combien de coefficients rentrent dans le mod&#x00E8;le?</p><ol class="MSelAnswers"><li id="Q_3_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_0_Chk" class="MSelCheckbox" />48</div></form></li><li id="Q_3_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_1_Chk" class="MSelCheckbox" />4</div></form></li><li id="Q_3_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_2_Chk" class="MSelCheckbox" />impossible d'avoir un mod&#x00E8;le en 12 essais</div></form></li><li id="Q_3_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_3_Chk" class="MSelCheckbox" />5</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(3)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_4" style="display: none;"><p class="QuestionText">Des exp&#x00E9;rimentateurs ont test&#x00E9;s les effets de 2 types de solution d'extraction, ils ont fait varier la temp&#x00E9;rature (3 temp&#x00E9;ratures), la vitesse (2 vitesses) et le temps de centrifugation (4 dur&#x00E9;es), et ont mesur&#x00E9; les quantit&#x00E9;s de SEA en ng/ml sur 12 pr&#x00E9;parations. Quel serait le ddl de l'analyse statistique des effets des facteurs?<br /></p><ol class="MSelAnswers"><li id="Q_4_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_0_Chk" class="MSelCheckbox" />11</div></form></li><li id="Q_4_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_1_Chk" class="MSelCheckbox" />7</div></form></li><li id="Q_4_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_2_Chk" class="MSelCheckbox" />4</div></form></li><li id="Q_4_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_3_Chk" class="MSelCheckbox" />6</div></form></li><li id="Q_4_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_4_Chk" class="MSelCheckbox" />impossible</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(4)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_5" style="display: none;"><p class="QuestionText">Dans la regression ascendante pas &#x00E0; pas , l'ordre d'introduction des facteurs se fait de la fa&#x00E7;on suivante:</p><ol class="MSelAnswers"><li id="Q_5_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_0_Chk" class="MSelCheckbox" />On rentre en 1er le r&#x00E9;gresseur X qui est le plus corr&#x00E9;l&#x00E9; &#x00E0; la variable Y, puis on introduit le 2&#x00E8;me r&#x00E9;gresseur X le moins corr&#x00E9;l&#x00E9; avec Y &#x00E0; condition qu'il soit le plus corr&#x00E9;l&#x00E9; avec le 1er r&#x00E9;gresseur .</div></form></li><li id="Q_5_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_1_Chk" class="MSelCheckbox" />On analyse la matrice des corr&#x00E9;lations</div></form></li><li id="Q_5_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_2_Chk" class="MSelCheckbox" />On rentre en 1er le r&#x00E9;gresseur X qui est le plus corr&#x00E9;l&#x00E9; &#x00E0; la variable Y, puis on introduit le 2&#x00E8;me r&#x00E9;gresseur X le plus corr&#x00E9;l&#x00E9; avec Y &#x00E0; condition qu'il soit le moins corr&#x00E9;l&#x00E9; avec le 1er r&#x00E9;gresseur et qu'il am&#x00E9;liore le plus possible le coefficient de d&#x00E9;termination miltiple. </div></form></li><li id="Q_5_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_3_Chk" class="MSelCheckbox" />On rentre en 1er le r&#x00E9;gresseur X qui est le moins corr&#x00E9;l&#x00E9; &#x00E0; la variable Y, puis on introduit le 2&#x00E8;me r&#x00E9;gresseur X le moins corr&#x00E9;l&#x00E9; avec Y &#x00E0; condition qu'il soit le plus corr&#x00E9;l&#x00E9; avec le 1er r&#x00E9;gresseur .</div></form></li><li id="Q_5_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_4_Chk" class="MSelCheckbox" />On rentre en 1er le r&#x00E9;gresseur X qui est le plus corr&#x00E9;l&#x00E9; &#x00E0; la variable Y, puis on introduit le 2&#x00E8;me r&#x00E9;gresseur X le plus corr&#x00E9;l&#x00E9; avec Y &#x00E0; condition qu'il soit le moins corr&#x00E9;l&#x00E9; avec le 1er r&#x00E9;gresseur et qu'il affecte le moins possible la valeur de la variance r&#x00E9;siduelle</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(5)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_6" style="display: none;"><p class="QuestionText">Dans les analyses statistiques appliqu&#x00E9;es &#x00E0; la r&#x00E9;gression multiple:</p><ol class="MSelAnswers"><li id="Q_6_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_0_Chk" class="MSelCheckbox" />le crit&#x00E8;re statistique de l'ANOVA repr&#x00E9;sente un test bilat&#x00E9;ral</div></form></li><li id="Q_6_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_1_Chk" class="MSelCheckbox" />le crit&#x00E8;re statistique qui mesure l'effet des r&#x00E9;gresseurs est un crit&#x00E8;re bilat&#x00E9;ral</div></form></li><li id="Q_6_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_2_Chk" class="MSelCheckbox" />le crit&#x00E8;re statistique de l'ANOVA repr&#x00E9;sente un test unilat&#x00E9;ral</div></form></li><li id="Q_6_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_3_Chk" class="MSelCheckbox" />le crit&#x00E8;re statistique qui mesure l'effet des r&#x00E9;gresseurs est un crit&#x00E8;re unilat&#x00E9;ral</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(6)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_7" style="display: none;"><p class="QuestionText">Quand sur 100 parcelles sur lesquelles ont &#x00E9;t&#x00E9; test&#x00E9; 10 doses d'engrais, on &#x00E9;tudie la hauteur moyenne du ma&#x00EF;s &#x00E0; diff&#x00E9;rentes dates et le rendement apr&#x00E8;s r&#x00E9;colte, la hauteur moyenne moyenne du ma&#x00EF;s repr&#x00E9;sente:</p><ol class="MSelAnswers"><li id="Q_7_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_0_Chk" class="MSelCheckbox" />la variable ind&#x00E9;pendante</div></form></li><li id="Q_7_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_1_Chk" class="MSelCheckbox" />la variable d&#x00E9;pendante</div></form></li><li id="Q_7_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_2_Chk" class="MSelCheckbox" />le r&#x00E9;gresseur</div></form></li><li id="Q_7_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_3_Chk" class="MSelCheckbox" />la variable &#x00E0; expliquer</div></form></li><li id="Q_7_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_4_Chk" class="MSelCheckbox" />la variable explicative</div></form></li><li id="Q_7_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_5_Chk" class="MSelCheckbox" />la r&#x00E9;ponse</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(7)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_8" style="display: none;"><p class="QuestionText">Quand sur 100 parcelles sur lesquelles ont &#x00E9;t&#x00E9; test&#x00E9; 10 doses d'engrais, on &#x00E9;tudie la hauteur moyenne du ma&#x00EF;s &#x00E0; diff&#x00E9;rentes dates et le rendement apr&#x00E8;s r&#x00E9;colte, les doses d'engrais repr&#x00E9;sentent:</p><ol class="MSelAnswers"><li id="Q_8_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_0_Chk" class="MSelCheckbox" />la variable ind&#x00E9;pendante</div></form></li><li id="Q_8_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_1_Chk" class="MSelCheckbox" />la variable d&#x00E9;pendante</div></form></li><li id="Q_8_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_2_Chk" class="MSelCheckbox" />le r&#x00E9;gresseur</div></form></li><li id="Q_8_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_3_Chk" class="MSelCheckbox" />la variable &#x00E0; expliquer</div></form></li><li id="Q_8_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_4_Chk" class="MSelCheckbox" />la variable explicative</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(8)">V&#x00E9;rifier</button></li></ol>
+
+
+
+</div>
+
+
+
+<div class="Feedback" id="FeedbackDiv">
+<div class="FeedbackText" id="FeedbackContent"></div>
+<button id="FeedbackOKButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="HideFeedback(); return false;">&nbsp;OK&nbsp;</button>
+</div>
+
+<!-- BeginBottomNavButtons -->
+
+
+<div class="NavButtonBar" id="BottomNavBar">
+
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index7.doc'; return false;"> Index </button>
+
+
+
+
+</div>
+
+
+
+<!-- EndBottomNavButtons -->
+
+<!-- BeginSubmissionForm -->
+
+<!-- EndSubmissionForm -->
+
+</body>
+
+</html>

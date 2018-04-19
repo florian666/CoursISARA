@@ -1,0 +1,51 @@
+﻿Public Class Formulaire
+
+   'procédure événementielle associée au clic sur le bouton "Diviseurs" de l'IHM
+   'cette procédure affiche au final la liste des diviseurs dans la TextBox dédiée   
+ 
+   Private Sub BttnDiv_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDiviseurs.Click
+
+        Dim tableau(100) As Integer
+        Dim N, i As Integer
+
+        'récuperer N
+        N = ValeurDeN.Text
+        tableau = renvoie_tab_div(N)
+
+        'initialiser l'affichage
+        tbxListeDiv.Text = tableau(0)
+
+        'afficher liste
+        For i = 1 To tableau.Length - 1
+            tbxListeDiv.Text = tbxListeDiv.Text & " ; " & tableau(i)
+        Next i
+
+    End Sub
+
+    ****************************************************************************************************************
+
+   'procédure événementielle associée au clic sur le bouton "Somme" de l'IHM
+   'cette procédure affiche au final la somme des diviseurs dans la TextBox dédiée   
+
+    Private Sub BttnSomme_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSomme.Click
+
+        Dim somme As Integer
+        Dim tableau(100) As Integer
+        Dim N As Integer
+
+        'initialiser la somme
+        somme = 0
+
+        'récuperer N
+        N = ValeurDeN.Text
+        tableau = renvoie_tab_div(N)
+
+        'calculer la somme
+        somme = somme_tab(tableau, tableau.Length)
+
+        'afficher somme
+        tbxSommeDiv.Text = somme
+
+    End Sub
+
+End Class

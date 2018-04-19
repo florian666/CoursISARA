@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jbc-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>UNREGISTERED</dc:creator>
+    <dc:title>Identification bactérienne</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>5</version>
+
+<data>
+<title>Identification bactérienne</title>
+
+<reading>
+<include-reading>0</include-reading>
+<include-timer>0</include-timer>
+<time-limit>1</time-limit>
+<internal-reading>1</internal-reading>
+<path-to-reading></path-to-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions>
+
+
+<question-record>
+<question>Quelle est la famille F3 ? (noter le mot de passe fourni par la bonne réponse)</question>
+<must-select-all>0</must-select-all>
+<answer>
+<text>Pseudomonas et apparentés</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Staphylocoques</text>
+<correct>1</correct>
+<feedback>Oui, c&apos;est juste.
+mot de passe : gt9bxh</feedback>
+</answer>
+<answer>
+<text>Entérobactéries</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Streptocoques</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Vibrions</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Flore de Veillon : anaérobies strictes</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Xanthomonas</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Neisseria</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Clostridium</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Lactobacilles</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+<answer>
+<text>Bacillus</text>
+<correct>0</correct>
+<feedback>Non, c&apos;est faux</feedback>
+</answer>
+
+</question-record>
+</questions>
+</data>
+
+<hotpot-config-file>
+<jbc>
+<exercise-subtitle>Question à choix multiples</exercise-subtitle>
+<instructions>Choisir la  bonne réponse </instructions>
+<guess-correct>C&apos;est juste !</guess-correct>
+<guess-incorrect>Erreur, essaiez à nouveau</guess-incorrect>
+<next-ex-url>prochain_exercice.htm</next-ex-url>
+<send-email>0</send-email>
+<top-frame-size>25</top-frame-size><top-frame-units>%</top-frame-units>
+<continuous-scoring>1</continuous-scoring>
+<shuffle-questions>1</shuffle-questions>
+<shuffle-answers>1</shuffle-answers>
+<show-one-by-one>1</show-one-by-one>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>1</questions-to-show>
+<separate-javascript-file>0</separate-javascript-file>
+</jbc>
+
+<global>
+<your-score-is>Votre score est de :</your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>Réponses correctes dès la première fois : </correct-first-time>
+<remaining-time>Temps qui reste :</remaining-time>
+<start-reading>Début de lecture</start-reading>
+<show-reading-again>Afficher le texte à nouveau.</show-reading-again>
+<times-up>Ton temps est écoulé!</times-up>
+<click-to-show>Clique sur le bouton pour voir le texte.</click-to-show>
+<next-ex-caption>=&gt;</next-ex-caption>
+<back-caption>&lt;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>index.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial</font-face>
+<page-bg-color>#FFFFFF</page-bg-color>
+<title-color>#000066</title-color>
+<ex-bg-color>#80ffff</ex-bg-color>
+<text-color>#000066</text-color>
+<link-color>#0000ff</link-color>
+<vlink-color>#0000cc</vlink-color>
+<nav-bar-color>#333366</nav-bar-color>
+<formmail-url>http://your.server.address/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourplace.com</email>
+<name-please>Please enter your name:</name-please>
+<correct-first-time>Réponses correctes dès la première fois : </correct-first-time>
+<check-caption>Vérifier</check-caption>
+<ok-caption>OK</ok-caption>
+</global>
+</hotpot-config-file>
+</hotpot-jbc-file>

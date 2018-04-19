@@ -1,0 +1,1770 @@
+<?xml version="1.0"?>
+       <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+       <html xmlns="http://www.w3.org/1999/xhtml"
+             xml:lang="en"><head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to brigitte bottollier."></meta><meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC:Creator" content="brigitte bottollier" />
+<meta name="DC:Creator" content="UNREGISTERED" />
+<meta name="DC:Title" content="STATISTIQUE DESCRIPTIVE A  1 VARIABLE" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+
+<title>
+STATISTIQUE DESCRIPTIVE A 1 VARIABLE
+</title>
+
+<!-- Made with executable version 6.0 Release 3 Build 3 -->
+
+<!-- The following insertion allows you to add your own code directly to this head tag from the configuration screen -->
+
+
+
+<style type="text/css">
+
+
+/* This is the CSS stylesheet used in the exercise. */
+/* Elements in square brackets are replaced by data based on configuration settings when the exercise is built. */
+
+
+body{
+	font-family: "Comic Sans MS";
+	background-color: #a5a914;
+	color: #000000;
+ 
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: small;
+}
+
+p{
+	text-align: left;
+	margin: 0px;
+	font-size: small;
+}
+
+div,span,td{
+	font-size: small;
+	color: #000000;
+}
+
+.RTLText{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", "Comic Sans MS"; 
+}
+
+.CentredRTLText{
+	text-align: center;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Simplified Arabic", "Traditional Arabic", "Times New Roman", "Comic Sans MS"; 
+}
+
+button p.RTLText{
+	text-align: center;
+}
+
+.RTLGapBox{
+	text-align: right;
+	font-size: 150%;
+	direction: rtl;
+	font-family: "Times New Roman", "Comic Sans MS";
+}
+
+.Guess{
+	font-weight: bold;
+}
+
+.CorrectAnswer{
+	font-weight: bold;
+}
+
+div.Titles{
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+button{
+	display: inline;
+}
+
+.ExerciseTitle{
+	font-size: large;
+	color: #000000;
+}
+
+.ExerciseSubtitle{
+	color: #000000;
+}
+
+div#Timer{
+	padding: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+span#TimerText{
+	padding: 6px;
+	border-width: 1px;
+	border-style: solid;
+	font-weight: bold;
+	display: none;
+}
+
+span.Instructions{
+
+}
+
+div.ExerciseText{
+
+}
+
+.FeedbackText{
+	color: #000000;
+}
+
+span.LeftItem{
+	font-size: small;
+	color: #000000;
+}
+
+span.RightItem{
+	font-weight: bold;
+	font-size: small;
+	color: #000000;
+}
+
+span.CorrectMark{
+
+}
+
+div.Feedback {
+	background-color: #a5a914;
+	left: 33%;
+	width: 34%;
+	top: 33%;
+	z-index: 1;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	text-align: center;
+	color: #000000;
+	position: absolute;
+	display: none;
+	font-size: small;
+}
+
+
+
+
+div.ExerciseDiv{
+	color: #000000;
+}
+
+/* JMatch flashcard styles */
+table.FlashcardTable{
+	background-color: transparent;
+	color: #000000;
+	border-color: #000000;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 90%;
+	position: relative;
+	align: center;
+	padding: 0px;
+}
+
+table.FlashcardTable tr{
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Showing{
+	font-size: large;
+	text-align: center;
+	width: 50%;
+	display: table-cell;
+	padding: 2em;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+}
+
+table.FlashcardTable td.Hidden{
+	display: none;
+}
+
+/* JMix styles */
+div#SegmentDiv{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+a.ExSegment{
+	font-size: medium;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+span.RemainingWordList{
+	font-style: italic;
+}
+
+div.DropLine {
+	position: absolute;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	width: 80%;
+}
+
+/* JCloze styles */
+
+input{
+	font-family: "Comic Sans MS";
+	font-size: larger;
+}
+
+.ClozeWordList{
+	text-align: center;
+	font-weight: bold;
+}
+
+div.ClozeBody{
+	text-align: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	line-height: 2.0
+}
+
+span.GapSpan{
+	font-weight: bold;
+}
+
+/* JCross styles */
+
+table.CrosswordGrid{
+	margin: auto auto 1em auto;
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+table.CrosswordGrid td{
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+	font-size: large;
+	padding: 0px;
+	margin: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+table.CrosswordGrid td.BlankCell{
+	background-color: #000000;
+	color: #000000;
+}
+
+table.CrosswordGrid td.LetterOnlyCell{
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: bold;
+}
+
+table.CrosswordGrid td.NumLetterCell{
+	text-align: left;
+	vertical-align: top;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 1px;
+	font-weight: bold;
+}
+
+.NumLetterCellText{
+	cursor: pointer;
+}
+
+.GridNum{
+	vertical-align: super;
+	font-size: x-small;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+
+table#Clues{
+	margin: auto;
+	vertical-align: top;
+}
+
+table#Clues td{
+	vertical-align: top;
+}
+
+table.ClueList{
+  margin: auto;
+}
+
+td.ClueNum{
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+td.Clue{
+	text-align: left;
+}
+
+div#ClueEntry{
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+/* Keypad styles */
+
+div.Keypad{
+	text-align: center;
+}
+
+div.Keypad button{
+	font-family: "Comic Sans MS";
+	font-size: 120%;
+	background-color: #ffffff;
+	color: #000000;
+	width: 2em;
+}
+
+/* JQuiz styles */
+
+div.QuestionNavigation{
+	text-align: center;
+}
+
+.QNum{
+	margin: 0em 1em 0.5em 1em;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+textarea{
+	font-family: "Comic Sans MS";
+	font-size: larger;
+}
+
+.QuestionText{
+
+}
+
+.Answer{
+	font-size: 120%;
+	letter-spacing: 0.1em;
+}
+
+.Highlight{
+	color: #000000;
+	background-color: #ffff00;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+ol.QuizQuestions{
+	text-align: left;
+	list-style-type: none;
+}
+
+li.QuizQuestion{
+	padding: 1em;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+ol.MCAnswers{
+	text-align: left;
+	list-style-type: upper-alpha;
+	padding: 1em;
+}
+
+ol.MCAnswers li{
+	margin-bottom: 1em;
+}
+
+ol.MSelAnswers{
+	text-align: left;
+	list-style-type: lower-alpha;
+	padding: 1em;
+}
+
+div.ShortAnswer{
+	padding: 1em;
+}
+
+div.StdDiv{
+	background-color: fbdec4;
+	text-align: center;
+	font-size: small;
+	color: #000000;
+	padding: 8px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+	margin: 1px;
+}
+
+.FuncButton {
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: #000000;
+	background-color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonUp {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+
+	background-color: #000000;
+	color: fbdec4;
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+.FuncButtonDown {
+	color: fbdec4;
+	text-align: center;
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	background-color: #000000;
+	color: fbdec4;
+
+	border-width: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+	background-color: fbdec4;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: small;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	background-color: fbdec4;
+	color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #fdeee1;
+	border-top-color: #fdeee1;
+	border-right-color: #7d6f62;
+	border-bottom-color: #7d6f62;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #7d6f62;
+	border-top-color: #7d6f62;
+	border-right-color: #fdeee1;
+	border-bottom-color: #fdeee1;
+	color: fbdec4;
+	background-color: #000000;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+/*EndNavBarStyle*/
+
+a{
+	color: #0000ff;
+}
+
+a: visited{
+	color: #0000cc;
+}
+
+a:hover{
+	color: #0000ff;
+}
+
+div.CardStyle {
+	position: absolute;
+	font-family: "Comic Sans MS";
+	font-size: small;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	background-color: fbdec4;
+	left: -50px;
+	top: -50px;
+	overflow: visible;
+}
+
+.rtl{
+	text-align: right;
+	font-size: large;
+}
+
+
+</style>
+
+<script type="text/javascript">
+
+//<![CDATA[
+
+<!--
+
+
+function Client(){
+//if not a DOM browser, hopeless
+	this.min = false; if (document.getElementById){this.min = true;};
+
+	this.ua = navigator.userAgent;
+	this.name = navigator.appName;
+	this.ver = navigator.appVersion;  
+
+//Get data about the browser
+	this.mac = (this.ver.indexOf('Mac') != -1);
+	this.win = (this.ver.indexOf('Windows') != -1);
+
+//Look for Gecko
+	this.gecko = (this.ua.indexOf('Gecko') > 1);
+	if (this.gecko){
+		this.geckoVer = parseInt(this.ua.substring(this.ua.indexOf('Gecko')+6, this.ua.length));
+		if (this.geckoVer < 20020000){this.min = false;}
+	}
+	
+//Look for Firebird
+	this.firebird = (this.ua.indexOf('Firebird') > 1);
+	
+//Look for Safari
+	this.safari = (this.ua.indexOf('Safari') > 1);
+	if (this.safari){
+		this.gecko = false;
+	}
+	
+//Look for IE
+	this.ie = (this.ua.indexOf('MSIE') > 0);
+	if (this.ie){
+		this.ieVer = parseFloat(this.ua.substring(this.ua.indexOf('MSIE')+5, this.ua.length));
+		if (this.ieVer < 5.5){this.min = false;}
+	}
+	
+//Look for Opera
+	this.opera = (this.ua.indexOf('Opera') > 0);
+	if (this.opera){
+		this.operaVer = parseFloat(this.ua.substring(this.ua.indexOf('Opera')+6, this.ua.length));
+		if (this.operaVer < 7.04){this.min = false;}
+	}
+	if (this.min == false){
+		alert('Your browser may not be able to handle this page.');
+	}
+	
+//Special case for the horrible ie5mac
+	this.ie5mac = (this.ie&&this.mac&&(this.ieVer<6));
+}
+
+var C = new Client();
+
+//for (prop in C){
+//	alert(prop + ': ' + C[prop]);
+//}
+
+
+
+//CODE FOR HANDLING NAV BUTTONS AND FUNCTION BUTTONS
+
+//[strNavBarJS]
+function NavBtnOver(Btn){
+	if (Btn.className != 'NavButtonDown'){Btn.className = 'NavButtonUp';}
+}
+
+function NavBtnOut(Btn){
+	Btn.className = 'NavButton';
+}
+
+function NavBtnDown(Btn){
+	Btn.className = 'NavButtonDown';
+}
+//[/strNavBarJS]
+
+function FuncBtnOver(Btn){
+	if (Btn.className != 'FuncButtonDown'){Btn.className = 'FuncButtonUp';}
+}
+
+function FuncBtnOut(Btn){
+	Btn.className = 'FuncButton';
+}
+
+function FuncBtnDown(Btn){
+	Btn.className = 'FuncButtonDown';
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		if (document.getElementById('CheckButton2') != null){
+			document.getElementById('CheckButton2').focus();
+		}
+		else{
+			document.getElementsByTagName('button')[0].focus();
+		}
+	}
+}
+
+
+
+
+//CODE FOR HANDLING DISPLAY OF POPUP FEEDBACK BOX
+
+var topZ = 1000;
+
+function ShowMessage(Feedback){
+	var Output = Feedback + '<br /><br />';
+	document.getElementById('FeedbackContent').innerHTML = Output;
+	var FDiv = document.getElementById('FeedbackDiv');
+	topZ++;
+	FDiv.style.zIndex = topZ;
+	FDiv.style.top = TopSettingWithScrollOffset(30) + 'px';
+//IE can't focus a hidden div; Moz needs to focus before display to avoid jumping
+	if (C.gecko){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	FDiv.style.display = 'block';
+
+	ShowElements(false, 'input');
+	ShowElements(false, 'select');
+	ShowElements(false, 'object');
+	if (C.ie){
+		document.getElementById('FeedbackOKButton').focus();
+	}
+	
+//
+}
+
+function ShowElements(Show, TagName){
+//Special for IE bug -- hide all the form elements that will show through the popup
+	if (C.ie){
+		var Els = document.getElementsByTagName(TagName);
+		for (var i=0; i<Els.length; i++){
+			if (Show == true){
+				Els[i].style.display = 'inline';
+			}
+			else{
+				Els[i].style.display = 'none';
+			}
+		}
+	} 
+}
+
+function HideFeedback(){
+	document.getElementById('FeedbackDiv').style.display = 'none';
+	ShowElements(true, 'input');
+	ShowElements(true, 'select');
+	ShowElements(true, 'object');
+	if (Finished == true){
+		Finish();
+	}
+}
+
+
+//GENERAL UTILITY FUNCTIONS AND VARIABLES
+
+//PAGE DIMENSION FUNCTIONS
+function PageDim(){
+//Get the page width and height
+	this.W = 600;
+	this.H = 400;
+	this.W = document.getElementsByTagName('body')[0].clientWidth;
+	this.H = document.getElementsByTagName('body')[0].clientHeight;
+}
+
+var pg = null;
+
+function GetPageXY(El) {
+	var XY = {x: 0, y: 0};
+	while(El){
+		XY.x += El.offsetLeft;
+		XY.y += El.offsetTop;
+		El = El.offsetParent;
+	}
+	return XY;
+}
+
+function GetScrollTop(){
+	if (document.documentElement && document.documentElement.scrollTop){
+		return document.documentElement.scrollTop;
+	}
+	else{
+		if (document.body){
+ 			return document.body.scrollTop;
+		}
+		else{
+			return window.pageYOffset;
+		}
+	}
+}
+
+function GetViewportHeight(){
+	if (window.innerWidth){
+		return window.innerWidth;
+	}
+	else{
+		return document.getElementsByTagName('body')[0].clientHeight;
+	}
+}
+
+function TopSettingWithScrollOffset(TopPercent){
+	var T = Math.floor(GetViewportHeight() * (TopPercent/100));
+	return GetScrollTop() + T; 
+}
+
+//CODE FOR AVOIDING LOSS OF DATA WHEN BACKSPACE KEY INVOKES history.back()
+var InTextBox = false;
+
+function SuppressBackspace(e){ 
+	if (InTextBox == true){return;}
+	if (C.ie) {
+		thisKey = window.event.keyCode;
+	}
+	else {
+		thisKey = e.keyCode;
+	}
+
+	var Suppress = false;
+
+	if (thisKey == 8) {
+		Suppress = true;
+	}
+
+	if (Suppress == true){
+		if (C.ie){
+			window.event.returnValue = false;	
+			window.event.cancelBubble = true;
+		}
+		else{
+			e.preventDefault();
+		}
+	}
+}
+
+if (C.ie){
+	document.attachEvent('onkeydown',SuppressBackspace);
+	window.attachEvent('onkeydown',SuppressBackspace);
+}
+else{
+	window.addEventListener('keypress',SuppressBackspace,false);
+}
+
+function ReduceItems(InArray, ReduceToSize){
+	var ItemToDump=0;
+	var j=0;
+	while (InArray.length > ReduceToSize){
+		ItemToDump = Math.floor(InArray.length*Math.random());
+		InArray.splice(ItemToDump, 1);
+	}
+}
+
+function Shuffle(InArray){
+	Temp = new Array();
+	var Len = InArray.length;
+
+	var j = Len;
+
+	for (var i=0; i<Len; i++){
+		Temp[i] = InArray[i];
+	}
+
+	for (i=0; i<Len; i++){
+		Num = Math.floor(j  *  Math.random());
+		InArray[i] = Temp[Num];
+
+		for (var k=Num; k < j; k++) {
+			Temp[k] = Temp[k+1];
+		}
+		j--;
+	}
+	return InArray;
+}
+
+function WriteToInstructions(Feedback) {
+//	Feedback = '<span class="FeedbackText">' + Feedback + '</span>';
+	document.getElementById('InstructionsDiv').innerHTML = Feedback;
+
+}
+
+
+
+
+function EscapeDoubleQuotes(InString){
+	return InString.replace(/"/g, '&quot;')
+}
+
+function FocusAButton(){
+	if (document.getElementById('CheckButton1') != null){
+		document.getElementById('CheckButton1').focus();
+	}
+	else{
+		document.getElementsByTagName('button')[0].focus();
+	}
+}
+
+function TrimString(InString){
+        var x = 0;
+
+        if (InString.length != 0) {
+                while ((InString.charAt(InString.length - 1) == '\u0020') || (InString.charAt(InString.length - 1) == '\u000A') || (InString.charAt(InString.length - 1) == '\u000D')){
+                        InString = InString.substring(0, InString.length - 1)
+                }
+
+                while ((InString.charAt(0) == '\u0020') || (InString.charAt(0) == '\u000A') || (InString.charAt(0) == '\u000D')){
+                        InString = InString.substring(1, InString.length)
+                }
+
+                while (InString.indexOf('  ') != -1) {
+                        x = InString.indexOf('  ')
+                        InString = InString.substring(0, x) + InString.substring(x+1, InString.length)
+                 }
+
+                return InString;
+        }
+
+        else {
+                return '';
+        }
+}
+
+function FindLongest(InArray){
+	if (InArray.length < 1){return -1;}
+
+	var Longest = 0;
+	for (var i=1; i<InArray.length; i++){
+		if (InArray[i].length > InArray[Longest].length){
+			Longest = i;
+		}
+	}
+	return Longest;
+}
+
+//UNICODE CHARACTER FUNCTIONS
+function IsCombiningDiacritic(CharNum){
+	var Result = (((CharNum >= 0x0300)&&(CharNum <= 0x370))||((CharNum >= 0x20d0)&&(CharNum <= 0x20ff)));
+	Result = Result || (((CharNum >= 0x3099)&&(CharNum <= 0x309a))||((CharNum >= 0xfe20)&&(CharNum <= 0xfe23)));
+	return Result;
+}
+
+function IsCJK(CharNum){
+	return ((CharNum >= 0x3000)&&(CharNum < 0xd800));
+}
+
+//SETUP FUNCTIONS
+//BROWSER WILL REFILL TEXT BOXES FROM CACHE IF NOT PREVENTED
+function ClearTextBoxes(){
+	var NList = document.getElementsByTagName('input');
+	for (var i=0; i<NList.length; i++){
+		if ((NList[i].id.indexOf('Guess') > -1)||(NList[i].id.indexOf('Gap') > -1)){
+			NList[i].value = '';
+		}
+		if (NList[i].id.indexOf('Chk') > -1){
+			NList[i].checked = '';
+		}
+	}
+}
+
+//EXTENSION TO ARRAY OBJECT
+function Array_IndexOf(Input){
+	var Result = -1;
+	for (var i=0; i<this.length; i++){
+		if (this[i] == Input){
+			Result = i;
+		}
+	}
+	return Result;
+}
+Array.prototype.indexOf = Array_IndexOf;
+
+//IE HAS RENDERING BUG WITH BOTTOM NAVBAR
+function RemoveBottomNavBarForIE(){
+	if ((C.ie)&&(document.getElementById('Reading') != null)){
+		if (document.getElementById('BottomNavBar') != null){
+			document.getElementById('TheBody').removeChild(document.getElementById('BottomNavBar'));
+		}
+	}
+}
+
+
+
+
+//HOTPOTNET-RELATED CODE
+
+var HPNStartTime = (new Date()).getTime();
+var SubmissionTimeout = 30000;
+var Detail = ''; //Global that is used to submit tracking data
+
+function Finish(){
+//If there's a form, fill it out and submit it
+	if (document.store != null){
+		Frm = document.store;
+		Frm.starttime.value = HPNStartTime;
+		Frm.endtime.value = (new Date()).getTime();
+		Frm.mark.value = Score;
+		Frm.detail.value = Detail;
+		Frm.submit();
+	}
+}
+
+
+
+//JQUIZ CORE JAVASCRIPT CODE
+
+var CurrQNum = 0;
+var CorrectIndicator = ' Oui';
+var IncorrectIndicator = ' Non';
+var YourScoreIs = 'Votre score est de';
+var ContinuousScoring = true;
+var CorrectFirstTime = 'Questions r&#x00E9;pondues correctement au premier essai';
+var ShowCorrectFirstTime = true;
+var ShuffleQs = true;
+var ShuffleAs = true;
+var DefaultRight = 'Bonne r&#x00E9;ponse';
+var DefaultWrong = 'D&#x00E9;sol&#x00E9;, essayez &#x00E0; nouveau';
+var QsToShow = 33;
+var Score = 0;
+var Finished = false;
+var Qs = null;
+var QArray = new Array();
+var ShowingAllQuestions = false;
+var ShowAllQuestionsCaption = 'Afficher toutes les questions';
+var ShowOneByOneCaption = 'Voir les questions une par une';
+var State = new Array();
+var Feedback = '';
+var TimeOver = false;
+
+//The following variable can be used to add a message explaining that
+//the question is finished, so no further marking will take place.
+var strQuestionFinished = '';
+
+function CompleteEmptyFeedback(){
+	var QNum, ANum;
+	for (QNum=0; QNum<I.length; QNum++){
+//Only do this if not multi-select
+		if (I[QNum][2] != '3'){
+  		for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+  			if (I[QNum][3][ANum][1].length < 1){
+  				if (I[QNum][3][ANum][2] > 0){
+  					I[QNum][3][ANum][1] = DefaultRight;
+  				}
+  				else{
+  					I[QNum][3][ANum][1] = DefaultWrong;
+  				}
+  			}
+  		}
+		}
+	}
+}
+
+function SetUpQuestions(){
+	var AList = new Array(); 
+	var QList = new Array();
+	var i, j;
+	Qs = document.getElementById('Questions');
+	while (Qs.getElementsByTagName('li').length > 0){
+		QList.push(Qs.removeChild(Qs.getElementsByTagName('li')[0]));
+	}
+	var DumpItem = 0;
+	while (QsToShow < QList.length){
+		DumpItem = Math.floor(QList.length*Math.random());
+		for (j=DumpItem; j<(QList.length-1); j++){
+			QList[j] = QList[j+1];
+		}
+		QList.length = QList.length-1;
+	}
+	if (ShuffleQs == true){
+		QList = Shuffle(QList);
+	}
+	if (ShuffleAs == true){
+		var As;
+		for (var i=0; i<QList.length; i++){
+			As = QList[i].getElementsByTagName('ol')[0];
+			if (As != null){
+  			AList.length = 0;
+				while (As.getElementsByTagName('li').length > 0){
+					AList.push(As.removeChild(As.getElementsByTagName('li')[0]));
+				}
+				AList = Shuffle(AList);
+				for (j=0; j<AList.length; j++){
+					As.appendChild(AList[j]);
+				}
+			}
+		}
+	}
+	
+	for (i=0; i<QList.length; i++){
+		Qs.appendChild(QList[i]);
+		QArray[QArray.length] = QList[i];
+	}
+
+//Show the first item
+	QArray[0].style.display = '';
+	
+//Now hide all except the first item
+	for (i=1; i<QArray.length; i++){
+		QArray[i].style.display = 'none';
+	}		
+	SetQNumReadout();
+}
+
+function ChangeQ(ChangeBy){
+	if (((CurrQNum + ChangeBy) < 0)||((CurrQNum + ChangeBy) >= QArray.length)){return;}
+	QArray[CurrQNum].style.display = 'none';
+	CurrQNum += ChangeBy;
+	QArray[CurrQNum].style.display = '';
+	SetQNumReadout();
+//if there's a textbox, set the focus in it
+	if (QArray[CurrQNum].getElementsByTagName('input')[0] != null){
+		QArray[CurrQNum].getElementsByTagName('input')[0].focus();
+	}
+}
+
+function SetQNumReadout(){
+	document.getElementById('QNumReadout').innerHTML = (CurrQNum+1) + ' / ' + QArray.length;
+}
+
+I=new Array();
+I[0]=new Array();I[0][0]=100;
+I[0][1]='';
+I[0][2]='3';
+I[0][3]=new Array();
+I[0][3][0]=new Array('la moyenne de la s\u00E9rie exprim\u00E9e en variable centr\u00E9e r\u00E9duite a une moyenne \u00E9gale \u00E0 0 et une variance \u00E9gale \u00E0 1','Toutes les s\u00E9ries exprim\u00E9es en variable centr\u00E9e r\u00E9duite ont une moyenne \u00E9gale \u00E0 0 et une variance \u00E9gale \u00E0 1, quelque soit l\'allure de leur distribution.',0,0,1);
+I[0][3][1]=new Array('mode , moyenne et m\u00E9diane sont confondues','Oui, c\'est un bon indicateur',1,100,1);
+I[0][3][2]=new Array('Le coefficient d\'asym\u00E9trie de Pearson est \u00E9gal \u00E0 0 et le coefficient d\'aplatissement de Pearson est \u00E9gal \u00E0 3','Oui, c\'est la meilleure mesure',1,100,1);
+I[0][3][3]=new Array('Le coefficient d\'asym\u00E9trie de Pearson est \u00E9gal \u00E0 0 ou le coefficient d\'aplatissement de Pearson est \u00E9gal \u00E0 3','Non, les 2 doivent \u00EAtre v\u00E9rifi\u00E9s',0,0,1);
+I[0][3][4]=new Array('Le 2\u00E8me quartile et la m\u00E9diane sont confondus','Non, ce sont les m\u00EAmes param\u00E8tres',0,0,1);
+I[1]=new Array();I[1][0]=100;
+I[1][1]='';
+I[1][2]='3';
+I[1][3]=new Array();
+I[1][3][0]=new Array('La somme des carr\u00E9s est \u00E9gale \u00E0 la somme au carr\u00E9','',0,0,1);
+I[1][3][1]=new Array('La somme d\'une somme alg\u00E9brique est \u00E9gale \u00E0 la somme al\u00E9brique des sommes','',1,100,1);
+I[1][3][2]=new Array('Le produit de 2 sommes est \u00E9gal \u00E0 la somme des produit','',0,0,1);
+I[1][3][3]=new Array('<span style=\'mso-bidi-font-size:12.0pt\'>Le symbole</span><span style=\'mso-bidi-font-size:12.0pt;font-family:Symbol\'> S </span><span style=\'mso-bidi-font-size:12.0pt\'>est un op\u00E9rateur lin\u00E9aire</span> ','',1,100,1);
+I[2]=new Array();I[2][0]=100;
+I[2][1]='';
+I[2][2]='3';
+I[2][3]=new Array();
+I[2][3][0]=new Array('Un moment centr\u00E9 d\'ordre 1','',0,0,1);
+I[2][3][1]=new Array('un moment d\'inertie','',1,100,1);
+I[2][3][2]=new Array('un barycentre','',0,0,1);
+I[2][3][3]=new Array('la moyenne d\'une somme de carr\u00E9s des \u00E9carts des valeurs de la s\u00E9rie par rapport \u00E0 leur moyenne','',1,100,1);
+I[2][3][4]=new Array('Un moment centr\u00E9 d\'ordre 2','',1,100,1);
+I[2][3][5]=new Array('E(X\u00B2) - E (X)','',0,0,1);
+I[3]=new Array();I[3][0]=100;
+I[3][1]='';
+I[3][2]='3';
+I[3][3]=new Array();
+I[3][3][0]=new Array('\u00E9gale \u00E0 la somme des carr\u00E9s si toutes les valeurs de la s\u00E9rie sont \u00E9gales ','',0,0,1);
+I[3][3][1]=new Array('\u00E9gale \u00E0 la somme des carr\u00E9s si la moyenne de la s\u00E9rie est nulle','',1,100,1);
+I[3][3][2]=new Array('\u00E9gale \u00E0 la somme des carr\u00E9s si l\'\u00E9cart type de la s\u00E9rie est \u00E9gal \u00E0 1','',0,0,1);
+I[3][3][3]=new Array('nulle si toutes les valeurs de la s\u00E9rie sont \u00E9gales','',1,100,1);
+I[3][3][4]=new Array('\u00E9gale \u00E0 n\u00B2 si l\'\u00E9cart type de la s\u00E9rie est \u00E9gal \u00E0 1','',0,0,1);
+I[4]=new Array();I[4][0]=100;
+I[4][1]='';
+I[4][2]='3';
+I[4][3]=new Array();
+I[4][3][0]=new Array('est sensible au changement d\'\u00E9chelle uniquement','',0,0,1);
+I[4][3][1]=new Array('est sensible au changement d\'origine uniquement','',0,0,1);
+I[4][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle','',1,100,1);
+I[4][3][3]=new Array('est sensible aux valeurs extr\u00EAmes','',1,100,1);
+I[4][3][4]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle','',0,0,1);
+I[5]=new Array();I[5][0]=100;
+I[5][1]='';
+I[5][2]='3';
+I[5][3]=new Array();
+I[5][3][0]=new Array('est sensible au changement d\'\u00E9chelle uniquement','',0,0,1);
+I[5][3][1]=new Array('est sensible au changement d\'origine uniquement','',0,0,1);
+I[5][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle','',1,100,1);
+I[5][3][3]=new Array('est sensible aux valeurs extr\u00EAmes','',0,0,1);
+I[5][3][4]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle','',0,0,1);
+I[6]=new Array();I[6][0]=100;
+I[6][1]='';
+I[6][2]='3';
+I[6][3]=new Array();
+I[6][3][0]=new Array('est sensible au changement d\'\u00E9chelle uniquement','',0,0,1);
+I[6][3][1]=new Array('est sensible au changement d\'origine uniquement','',0,0,1);
+I[6][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle','',1,100,1);
+I[6][3][3]=new Array('est sensible aux valeurs extr\u00EAmes','',0,0,1);
+I[6][3][4]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle','',0,0,1);
+I[7]=new Array();I[7][0]=100;
+I[7][1]='';
+I[7][2]='3';
+I[7][3]=new Array();
+I[7][3][0]=new Array('est sensible au changement d\'\u00E9chelle uniquement','non, pas uniquement',0,0,1);
+I[7][3][1]=new Array('est sensible au changement d\'origine uniquement','non, pas uniquement',0,0,1);
+I[7][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle','oui, sa valeur sera affect\u00E9e par le changement d\'origine (d\u00E9calage) et le changement d\'unit\u00E9 (facteur multiplicatif)',1,100,1);
+I[7][3][3]=new Array('est sensible aux valeurs extr\u00EAmes','non, si dans une s\u00E9rie une des valeurs est anormalement basse ou haute, cela n\'affecte pas la valeur d\'un quantile, quel qu\'il soit.',0,0,1);
+I[7][3][4]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle','non, r\u00E9fl\u00E9chissez aux cons\u00E9quences d\'un d\u00E9calage des valeurs de la s\u00E9rie accompagn\u00E9 d\'une d\u00E9formation des valeurs par un facteur multiplicatif',0,0,1);
+I[8]=new Array();I[8][0]=100;
+I[8][1]='';
+I[8][2]='3';
+I[8][3]=new Array();
+I[8][3][0]=new Array('est sensible au changement d\'\u00E9chelle uniquement','',1,100,1);
+I[8][3][1]=new Array('est sensible au changement d\'origine uniquement','',0,0,1);
+I[8][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle','',0,0,1);
+I[8][3][3]=new Array('est sensible aux valeurs extr\u00EAmes','',1,100,1);
+I[8][3][4]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle','',0,0,1);
+I[9]=new Array();I[9][0]=100;
+I[9][1]='';
+I[9][2]='3';
+I[9][3]=new Array();
+I[9][3][0]=new Array('est sensible \u00E0 un m\u00EAme changement d\'\u00E9chelle uniquement','',0,0,1);
+I[9][3][1]=new Array('est sensible \u00E0 un m\u00EAme changement d\'origine uniquement','',0,0,1);
+I[9][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle identiques','',0,0,1);
+I[9][3][3]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle identiques','',1,100,1);
+I[10]=new Array();I[10][0]=100;
+I[10][1]='';
+I[10][2]='3';
+I[10][3]=new Array();
+I[10][3][0]=new Array('est sensible \u00E0 un m\u00EAme changement d\'\u00E9chelle uniquement','',1,100,1);
+I[10][3][1]=new Array('est sensible \u00E0 un m\u00EAme changement d\'origine uniquement','',0,0,1);
+I[10][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle identiques','',0,0,1);
+I[10][3][3]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle identiques','',1,100,1);
+I[11]=new Array();I[11][0]=100;
+I[11][1]='';
+I[11][2]='3';
+I[11][3]=new Array();
+I[11][3][0]=new Array('est sensible au changement d\'\u00E9chelle uniquement','',1,100,1);
+I[11][3][1]=new Array('est sensible au changement d\'origine uniquement','',0,0,1);
+I[11][3][2]=new Array('est sensible aux changements d\'origine et d\'\u00E9chelle','',0,0,1);
+I[11][3][3]=new Array('n\'est pas sensible aux changements d\'origine et d\'\u00E9chelle','',0,0,1);
+I[11][3][4]=new Array('est sensible aux valeurs extr\u00EAmes','',1,100,1);
+I[12]=new Array();I[12][0]=100;
+I[12][1]='';
+I[12][2]='3';
+I[12][3]=new Array();
+I[12][3][0]=new Array('dichotomique','',0,0,1);
+I[12][3][1]=new Array('qualitative ','',0,0,1);
+I[12][3][2]=new Array('discr\u00E8te','',1,100,1);
+I[12][3][3]=new Array('quantitative','',1,100,1);
+I[12][3][4]=new Array('continue','',0,0,1);
+I[12][3][5]=new Array('nominale','',0,0,1);
+I[12][3][6]=new Array('ordinale','',0,0,1);
+I[13]=new Array();I[13][0]=100;
+I[13][1]='';
+I[13][2]='3';
+I[13][3]=new Array();
+I[13][3][0]=new Array('dichotomique','',0,0,1);
+I[13][3][1]=new Array('qualitative ','',0,0,1);
+I[13][3][2]=new Array('discr\u00E8te','',0,0,1);
+I[13][3][3]=new Array('quantitative','',1,100,1);
+I[13][3][4]=new Array('continue','',1,100,1);
+I[13][3][5]=new Array('nominale','',0,0,1);
+I[13][3][6]=new Array('ordinale','',0,0,1);
+I[14]=new Array();I[14][0]=100;
+I[14][1]='';
+I[14][2]='3';
+I[14][3]=new Array();
+I[14][3][0]=new Array('dichotomique','',1,100,1);
+I[14][3][1]=new Array('qualitative ','',0,0,1);
+I[14][3][2]=new Array('discr\u00E8te','',0,0,1);
+I[14][3][3]=new Array('quantitative','',0,0,1);
+I[14][3][4]=new Array('continue','',0,0,1);
+I[14][3][5]=new Array('nominale','',0,0,1);
+I[14][3][6]=new Array('ordinale','',0,0,1);
+I[15]=new Array();I[15][0]=100;
+I[15][1]='';
+I[15][2]='3';
+I[15][3]=new Array();
+I[15][3][0]=new Array('dichotomique','',0,0,1);
+I[15][3][1]=new Array('qualitative ','',1,100,1);
+I[15][3][2]=new Array('discr\u00E8te','',0,0,1);
+I[15][3][3]=new Array('quantitative','',0,0,1);
+I[15][3][4]=new Array('continue','',0,0,1);
+I[15][3][5]=new Array('nominale','',1,100,1);
+I[15][3][6]=new Array('ordinale','',0,0,1);
+I[16]=new Array();I[16][0]=100;
+I[16][1]='';
+I[16][2]='3';
+I[16][3]=new Array();
+I[16][3][0]=new Array('dichotomique','',0,0,1);
+I[16][3][1]=new Array('qualitative ','',1,100,1);
+I[16][3][2]=new Array('discr\u00E8te','',0,0,1);
+I[16][3][3]=new Array('quantitative','',0,0,1);
+I[16][3][4]=new Array('continue','',0,0,1);
+I[16][3][5]=new Array('nominale','',0,0,1);
+I[16][3][6]=new Array('ordinale','',1,100,1);
+I[17]=new Array();I[17][0]=100;
+I[17][1]='';
+I[17][2]='3';
+I[17][3]=new Array();
+I[17][3][0]=new Array('dichotomique','',1,100,1);
+I[17][3][1]=new Array('qualitative ','',0,0,1);
+I[17][3][2]=new Array('discr\u00E8te','',0,0,1);
+I[17][3][3]=new Array('quantitative','',0,0,1);
+I[17][3][4]=new Array('continue','',0,0,1);
+I[17][3][5]=new Array('nominale','',0,0,1);
+I[17][3][6]=new Array('ordinale','',0,0,1);
+I[18]=new Array();I[18][0]=100;
+I[18][1]='';
+I[18][2]='3';
+I[18][3]=new Array();
+I[18][3][0]=new Array('dichotomique','',0,0,1);
+I[18][3][1]=new Array('qualitative ','',1,100,1);
+I[18][3][2]=new Array('discr\u00E8te','',0,0,1);
+I[18][3][3]=new Array('quantitative','',0,0,1);
+I[18][3][4]=new Array('continue','',0,0,1);
+I[18][3][5]=new Array('nominale','',1,100,1);
+I[18][3][6]=new Array('ordinale','',0,0,1);
+I[19]=new Array();I[19][0]=100;
+I[19][1]='';
+I[19][2]='3';
+I[19][3]=new Array();
+I[19][3][0]=new Array('dichotomique','',0,0,1);
+I[19][3][1]=new Array('qualitative ','',0,0,1);
+I[19][3][2]=new Array('discr\u00E8te','',1,100,1);
+I[19][3][3]=new Array('quantitative','',1,100,1);
+I[19][3][4]=new Array('continue','',0,0,1);
+I[19][3][5]=new Array('nominale','',0,0,1);
+I[19][3][6]=new Array('ordinale','',0,0,1);
+I[20]=new Array();I[20][0]=100;
+I[20][1]='';
+I[20][2]='3';
+I[20][3]=new Array();
+I[20][3][0]=new Array('une nouvelle moyenne \u00E9gale \u00E0 50.9','',1,100,1);
+I[20][3][1]=new Array('une nouvelle moyenne \u00E9gale \u00E0 50.36','',0,0,1);
+I[20][3][2]=new Array('un nouvel \u00E9cart type \u00E9gal \u00E0 4.91','',0,0,1);
+I[20][3][3]=new Array('un nouvel \u00E9cart type \u00E9gal \u00E0 8.17','',0,0,1);
+I[20][3][4]=new Array('un nouvel \u00E9cart type \u00E9gal \u00E0 3.78','',1,100,1);
+I[21]=new Array();I[21][0]=100;
+I[21][1]='';
+I[21][2]='3';
+I[21][3]=new Array();
+I[21][3][0]=new Array('La moyenne de l\'ensemble des 3 s\u00E9ries est \u00E9gale \u00E0 53.33','',1,100,1);
+I[21][3][1]=new Array('La moyenne de l\'ensemble des 3 s\u00E9ries est \u00E9gale \u00E0 50','',0,0,1);
+I[21][3][2]=new Array('La moyenne de l\'ensemble des 3 s\u00E9ries est \u00E9gale \u00E0 20','',0,0,1);
+I[21][3][3]=new Array('La moyenne de l\'ensemble des 3 s\u00E9ries est \u00E9gale \u00E0 300','',0,0,1);
+I[21][3][4]=new Array('L\'effectif total est \u00E9gal \u00E0 60','',1,100,1);
+I[22]=new Array();I[22][0]=100;
+I[22][1]='';
+I[22][2]='3';
+I[22][3]=new Array();
+I[22][3][0]=new Array('La SCE des moyennes entre elles est \u00E9gale \u00E0 350','non, ceci ne correspond qu\'\u00E0 la moyenne des 3 SCE',0,0,1);
+I[22][3][1]=new Array('La SCE des moyennes entre elles est \u00E9gale \u00E0 25500','non, on aboutit \u00E0 ce calcul si on confond SCE et variance',0,0,1);
+I[22][3][2]=new Array('La SCE des moyennes entre elles est \u00E9gale \u00E0 3333.33','',1,100,1);
+I[22][3][3]=new Array('La SCE des moyennes entre elles est \u00E9gale \u00E0 4383.33','non, c\'est la SCE totale',0,0,1);
+I[22][3][4]=new Array('La SCE des moyennes entre elles est \u00E9gale \u00E0 233.27','non, et la pond\u00E9ration?',0,0,1);
+I[23]=new Array();I[23][0]=100;
+I[23][1]='';
+I[23][2]='3';
+I[23][3]=new Array();
+I[23][3][0]=new Array('La SCE  li\u00E9e aux fluctuations al\u00E9atoires est \u00E9gale \u00E0 1050','',1,100,1);
+I[23][3][1]=new Array('La SCE li\u00E9e aux fluctuations al\u00E9atoires est \u00E9gale \u00E0 4383.33','non, c\'est la SCE de l\'ensemble des 60 valeurs par rapport \u00E0 la moyenne des 60 valeurs',0,0,1);
+I[23][3][2]=new Array('La SCE li\u00E9e aux fluctuations al\u00E9atoires est \u00E9gale \u00E0 25500 ','non, ce r\u00E9sultat vient d\'une confusion entre variance et SCE',0,0,1);
+I[23][3][3]=new Array('La SCE li\u00E9e aux fluctuations al\u00E9atoires est \u00E9gale \u00E0 175050','non, ceci est la somme des carr\u00E9s des 60 valeurs',0,0,1);
+I[23][3][4]=new Array('La SCE li\u00E9e aux fluctuations al\u00E9atoires est \u00E9gale \u00E0 8500','non, ce r\u00E9sultat vient d\'une confusion entre variance et SCE',0,0,1);
+I[24]=new Array();I[24][0]=100;
+I[24][1]='';
+I[24][2]='3';
+I[24][3]=new Array();
+I[24][3][0]=new Array('11.25','non, ceci est la moyenne des effectifs',0,0,1);
+I[24][3][1]=new Array('12.8','',1,100,1);
+I[24][3][2]=new Array('13','non, ceci est la moyenne des modalit\u00E9s',0,0,1);
+I[24][3][3]=new Array('144','',0,0,1);
+I[25]=new Array();I[25][0]=100;
+I[25][1]='';
+I[25][2]='3';
+I[25][3]=new Array();
+I[25][3][0]=new Array('168','non, ceci est la moyenne des carr\u00E9s',0,0,1);
+I[25][3][1]=new Array('2.04','non, ceci est l\'\u00E9cart type',0,0,1);
+I[25][3][2]=new Array('187.2','non, ceci est la SCE',0,0,1);
+I[25][3][3]=new Array('4.16','',1,100,1);
+I[26]=new Array();I[26][0]=100;
+I[26][1]='';
+I[26][2]='3';
+I[26][3]=new Array();
+I[26][3][0]=new Array('13','non, ceci est la m\u00E9diale',0,0,1);
+I[26][3][1]=new Array('12','oui, c\'est aussi le mode et la m\u00E9diane',1,100,1);
+I[26][3][2]=new Array('14','non, c\'est le 3\u00E8me quartile',0,0,1);
+I[27]=new Array();I[27][0]=100;
+I[27][1]='';
+I[27][2]='3';
+I[27][3]=new Array();
+I[27][3][0]=new Array('en tuyaux d\'orgues','',1,100,1);
+I[27][3][1]=new Array('en secteurs','',1,100,1);
+I[27][3][2]=new Array('en bandes','',1,100,1);
+I[27][3][3]=new Array('figurative','',1,100,1);
+I[27][3][4]=new Array('en b\u00E2tons','',0,0,1);
+I[27][3][5]=new Array('en escalier','',0,0,1);
+I[27][3][6]=new Array('un histogramme','',0,0,1);
+I[27][3][7]=new Array('une sigmo\u00EFde','',0,0,1);
+I[28]=new Array();I[28][0]=100;
+I[28][1]='';
+I[28][2]='3';
+I[28][3]=new Array();
+I[28][3][0]=new Array('en tuyaux d\'orgues','',1,100,1);
+I[28][3][1]=new Array('en secteurs','',1,100,1);
+I[28][3][2]=new Array('en bandes','',1,100,1);
+I[28][3][3]=new Array('figurative','',1,100,1);
+I[28][3][4]=new Array('en b\u00E2tons','',0,0,1);
+I[28][3][5]=new Array('en escalier','',0,0,1);
+I[28][3][6]=new Array('un histogramme','',0,0,1);
+I[28][3][7]=new Array('une sigmo\u00EFde','',0,0,1);
+I[29]=new Array();I[29][0]=100;
+I[29][1]='';
+I[29][2]='3';
+I[29][3]=new Array();
+I[29][3][0]=new Array('en tuyaux d\'orgues','',0,0,1);
+I[29][3][1]=new Array('en secteurs','',0,0,1);
+I[29][3][2]=new Array('en bandes','',0,0,1);
+I[29][3][3]=new Array('figurative','',0,0,1);
+I[29][3][4]=new Array('en b\u00E2tons','',1,100,1);
+I[29][3][5]=new Array('en escalier','',1,100,1);
+I[29][3][6]=new Array('un histogramme','',0,0,1);
+I[29][3][7]=new Array('une sigmo\u00EFde','',0,0,1);
+I[30]=new Array();I[30][0]=100;
+I[30][1]='';
+I[30][2]='3';
+I[30][3]=new Array();
+I[30][3][0]=new Array('en tuyaux d\'orgues','',0,0,1);
+I[30][3][1]=new Array('en secteurs','',0,0,1);
+I[30][3][2]=new Array('en bandes','',0,0,1);
+I[30][3][3]=new Array('figurative','',0,0,1);
+I[30][3][4]=new Array('en b\u00E2tons','',0,0,1);
+I[30][3][5]=new Array('en escalier','',0,0,1);
+I[30][3][6]=new Array('un histogramme','',1,100,1);
+I[30][3][7]=new Array('une sigmo\u00EFde','',1,100,1);
+I[31]=new Array();I[31][0]=100;
+I[31][1]='';
+I[31][2]='3';
+I[31][3]=new Array();
+I[31][3][0]=new Array('s\'exprime dans l\'unit\u00E9 de la variable','',0,0,1);
+I[31][3][1]=new Array('est un nombre sans dimension','',1,100,1);
+I[31][3][2]=new Array('doit \u00EAtre grand si les donn\u00E9es sont homog\u00E8nes','',0,0,1);
+I[31][3][3]=new Array('doit \u00EAtre petit si les donn\u00E9es sont homog\u00E8nes','',1,100,1);
+I[31][3][4]=new Array('mesure la dispersion des valeurs d\'une autour de sa moyenne','',1,100,1);
+I[32]=new Array();I[32][0]=100;
+I[32][1]='';
+I[32][2]='3';
+I[32][3]=new Array();
+I[32][3][0]=new Array('empiriquement si la variable est quantitative continue group\u00E9e en classes','',0,0,1);
+I[32][3][1]=new Array('empiriquement si la variable est quantitative discr\u00E8te','',1,100,1);
+I[32][3][2]=new Array('\u00E0 l\'aide des  formules  1/4 (n+1); 2/4(n+1) et 3/4 (n+1) si la s\u00E9rie est group\u00E9e en classes','',1,100,1);
+I[32][3][3]=new Array('\u00E0 l\'aide des  formules  1/4 (n+1); 2/4(n+1) et 3/4 (n+1) si la variable est quantitative discr\u00E8te','',0,0,1);
+
+
+function StartUp(){
+	RemoveBottomNavBarForIE();
+
+//If there's only one question, no need for question navigation controls
+	if (QsToShow < 2){
+		document.getElementById('QNav').style.display = 'none';
+	}
+	
+
+	
+
+	
+	CompleteEmptyFeedback();
+
+	SetUpQuestions();
+	ClearTextBoxes();
+	CreateStatusArray();
+	
+
+	
+//Check search string for q parameter
+	if (document.location.search.length > 0){
+		if (ShuffleQs == false){
+			var JumpTo = parseInt(document.location.search.substring(1,document.location.search.length))-1;
+			if (JumpTo <= QsToShow){
+				ChangeQ(JumpTo);
+			}
+		}
+	}
+}
+
+function ShowHideQuestions(){
+	FuncBtnOut(document.getElementById('ShowMethodButton'));
+	document.getElementById('ShowMethodButton').style.display = 'none';
+	if (ShowingAllQuestions == false){
+		for (var i=0; i<QArray.length; i++){
+				QArray[i].style.display = '';
+			}
+		document.getElementById('Questions').style.listStyleType = 'decimal';
+		document.getElementById('OneByOneReadout').style.display = 'none';
+		document.getElementById('ShowMethodButton').innerHTML = ShowOneByOneCaption;
+		ShowingAllQuestions = true;
+	}
+	else{
+		for (var i=0; i<QArray.length; i++){
+				if (i != CurrQNum){
+					QArray[i].style.display = 'none';
+				}
+			}
+		document.getElementById('Questions').style.listStyleType = 'none';
+		document.getElementById('OneByOneReadout').style.display = '';
+		document.getElementById('ShowMethodButton').innerHTML = ShowAllQuestionsCaption;
+		ShowingAllQuestions = false;	
+	}
+	document.getElementById('ShowMethodButton').style.display = 'inline';
+}
+
+function CreateStatusArray(){
+	var QNum, ANum;
+//For each item in the item array
+	for (QNum=0; QNum<I.length; QNum++){
+//Check if the question still exists (hasn't been nuked by showing a random selection)
+		if (document.getElementById('Q_' + QNum) != null){
+			State[QNum] = new Array();
+			State[QNum][0] = -1; //Score for this q; -1 shows question not done yet
+			State[QNum][1] = new Array(); //answers
+			for (ANum = 0; ANum<I[QNum][3].length; ANum++){
+				State[QNum][1][ANum] = 0; //answer not chosen yet; when chosen, will store its position in the series of choices
+			}
+			State[QNum][2] = 0; //tries at this q so far
+			State[QNum][3] = 0; //incrementing percent-correct values of selected answers
+			State[QNum][4] = 0; //penalties incurred for hints
+			State[QNum][5] = ''; //Sequence of answers chosen by number
+		}
+		else{
+			State[QNum] = null;
+		}
+	}
+}
+
+
+
+
+
+function CheckMultiSelAnswer(QNum){
+//bail if question doesn't exist or exercise finished
+	if ((State[QNum].length < 1)||(Finished == true)){return;}
+
+//Increment the tries for this question
+	State[QNum][2]++;
+	
+	var ShouldBeChecked;
+	var Matches = 0;
+	State[QNum][5] += '|';
+	
+//Check if there are any mismatches
+	Feedback = '';
+	var CheckBox = null;
+	for (var ANum=0; ANum<I[QNum][3].length; ANum++){
+		CheckBox = document.getElementById('Q_' + QNum + '_' + ANum + '_Chk');
+		if (CheckBox.checked == true){
+			State[QNum][5] += 'Y';
+		}
+		else{
+			State[QNum][5] += 'N';
+		}
+		ShouldBeChecked = (I[QNum][3][ANum][2] == 1);
+		if (ShouldBeChecked == CheckBox.checked){
+			Matches++;
+		}
+		else{
+			Feedback = I[QNum][3][ANum][1];
+		}
+	}
+//Add the hit readout
+	Feedback = Matches + ' / ' + I[QNum][3].length + '<br />' + Feedback;
+	if (Matches == I[QNum][3].length){
+//It's right
+		CalculateMultiSelQuestionScore(QNum);
+		if (ContinuousScoring == true){
+			CalculateOverallScore();
+			if ((ContinuousScoring == true)||(Finished == true)){
+				Feedback += '<br />' + YourScoreIs + ' ' + Score + '%.';
+				WriteToInstructions(YourScoreIs + ' ' + Score + '%.');
+			}
+		}
+	}
+//If it's wrong, no need to do anything but show the feedback
+	ShowMessage(Feedback);
+	
+//Check whether all questions are now done
+	CheckFinished();
+}
+
+function CalculateMultiSelQuestionScore(QNum){
+	var Tries = State[QNum][2];
+	var TotAns = State[QNum][1].length;
+	
+//Make sure it's not already complete
+	if (State[QNum][0] < 0){
+		State[QNum][0] = (TotAns - (Tries-1)) / TotAns;
+		if (State[QNum][0] < 0){
+			State[QNum][0] = 0;
+		}
+	}
+}
+
+
+
+function CalculateOverallScore(){
+	var TotalWeighting = 0;
+	var TotalScore = 0;
+	
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] > -1){
+				TotalWeighting += I[QNum][0];
+				TotalScore += (I[QNum][0] * State[QNum][0]);
+			}
+		}
+	}
+	Score = Math.floor((TotalScore/TotalWeighting)*100);
+}
+
+function CheckFinished(){
+	var FB = '';
+	var AllDone = true;
+	for (var QNum=0; QNum<State.length; QNum++){
+		if (State[QNum] != null){
+			if (State[QNum][0] < 0){
+				AllDone = false;
+			}
+		}
+	}
+	if (AllDone == true){
+	
+//Report final score and submit if necessary
+		CalculateOverallScore();
+		FB = YourScoreIs + ' ' + Score + '%.';
+		if (ShowCorrectFirstTime == true){
+			var CFT = 0;
+			for (QNum=0; QNum<State.length; QNum++){
+				if (State[QNum] != null){
+					if (State[QNum][0] >= 1){
+						CFT++;
+					}
+				}
+			}
+			FB += '<br />' + CorrectFirstTime + ' ' + CFT + '/' + QsToShow;
+		}
+		WriteToInstructions(FB);
+		
+		Finished == true;
+
+		TimeOver = true;
+		Locked = true;
+		
+
+
+		Finished = true;
+		Detail = '<?xml version="1.0"?><hpnetresult><fields>';
+		for (QNum=0; QNum<State.length; QNum++){
+			if (State[QNum] != null){
+				if (State[QNum][5].length > 0){
+					Detail += '<field><fieldname>Question #' + (QNum+1) + '</fieldname><fieldtype>question-tracking</fieldtype><fieldlabel>Q ' + (QNum+1) + '</fieldlabel><fieldlabelid>QuestionTrackingField</fieldlabelid><fielddata>' + State[QNum][5] + '</fielddata></field>';
+				}
+			}
+		}
+		Detail += '</fields></hpnetresult>';
+		setTimeout('Finish()', SubmissionTimeout);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+//-->
+
+//]]>
+
+</script>
+
+
+</head>
+
+<body onload="StartUp()" id="TheBody">
+
+<!-- BeginTopNavButtons -->
+
+
+<div class="NavButtonBar" id="TopNavBar">
+
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index1.doc'; return false;"> Index </button>
+
+
+
+
+</div>
+
+
+
+<!-- EndTopNavButtons -->
+
+<div class="Titles">
+	<h2 class="ExerciseTitle">STATISTIQUE DESCRIPTIVE A 1 VARIABLE</h2>
+	<h3 class="ExerciseSubtitle">Questions &#x00E0; choix multiple</h3>
+
+
+</div>
+
+<div id="InstructionsDiv" class="StdDiv">
+	<p id="Instructions">Choisissez la (les) bonne(s) r&#x00E9;ponse(s)</p>
+</div>
+
+
+
+
+<div id="MainDiv" class="StdDiv">
+ 
+<div id="QNav" class="QuestionNavigation">
+
+<p style="text-align: right;">
+<button id="ShowMethodButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ShowHideQuestions(); return false;">Afficher toutes les questions</button>
+</p>
+
+<div id="OneByOneReadout">
+<button id="PrevQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(-1); return false;">&lt;=</button>
+
+<span id="QNumReadout" class="QNum">&nbsp;</span>
+
+<button id="NextQButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOver(this)" onclick="ChangeQ(1); return false;">=&gt;</button>
+<br />
+</div>
+
+</div>
+ 
+<ol class="QuizQuestions" id="Questions">
+<li class="QuizQuestion" id="Q_0" style="display: none;"><p class="QuestionText">La distribution d'une variable al&#x00E9;atoire suit une loi de Gauss Laplace si :</p><ol class="MSelAnswers"><li id="Q_0_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_0_Chk" class="MSelCheckbox" />la moyenne de la s&#x00E9;rie exprim&#x00E9;e en variable centr&#x00E9;e r&#x00E9;duite a une moyenne &#x00E9;gale &#x00E0; 0 et une variance &#x00E9;gale &#x00E0; 1</div></form></li><li id="Q_0_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_1_Chk" class="MSelCheckbox" />mode , moyenne et m&#x00E9;diane sont confondues</div></form></li><li id="Q_0_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_2_Chk" class="MSelCheckbox" />Le coefficient d'asym&#x00E9;trie de Pearson est &#x00E9;gal &#x00E0; 0 et le coefficient d'aplatissement de Pearson est &#x00E9;gal &#x00E0; 3</div></form></li><li id="Q_0_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_3_Chk" class="MSelCheckbox" />Le coefficient d'asym&#x00E9;trie de Pearson est &#x00E9;gal &#x00E0; 0 ou le coefficient d'aplatissement de Pearson est &#x00E9;gal &#x00E0; 3</div></form></li><li id="Q_0_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_0_4_Chk" class="MSelCheckbox" />Le 2&#x00E8;me quartile et la m&#x00E9;diane sont confondus</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(0)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_1" style="display: none;"><p class="QuestionText">Cocher les affirmations exactes:</p><ol class="MSelAnswers"><li id="Q_1_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_0_Chk" class="MSelCheckbox" />La somme des carr&#x00E9;s est &#x00E9;gale &#x00E0; la somme au carr&#x00E9;</div></form></li><li id="Q_1_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_1_Chk" class="MSelCheckbox" />La somme d'une somme alg&#x00E9;brique est &#x00E9;gale &#x00E0; la somme al&#x00E9;brique des sommes</div></form></li><li id="Q_1_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_2_Chk" class="MSelCheckbox" />Le produit de 2 sommes est &#x00E9;gal &#x00E0; la somme des produit</div></form></li><li id="Q_1_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_1_3_Chk" class="MSelCheckbox" /><span style='mso-bidi-font-size:12.0pt'>Le symbole</span><span style='mso-bidi-font-size:12.0pt;font-family:Symbol'> S </span><span style='mso-bidi-font-size:12.0pt'>est un op&#x00E9;rateur lin&#x00E9;aire</span> </div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(1)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_2" style="display: none;"><p class="QuestionText">La variance d'une s&#x00E9;rie de n valeurs est aussi:</p><ol class="MSelAnswers"><li id="Q_2_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_0_Chk" class="MSelCheckbox" />Un moment centr&#x00E9; d'ordre 1</div></form></li><li id="Q_2_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_1_Chk" class="MSelCheckbox" />un moment d'inertie</div></form></li><li id="Q_2_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_2_Chk" class="MSelCheckbox" />un barycentre</div></form></li><li id="Q_2_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_3_Chk" class="MSelCheckbox" />la moyenne d'une somme de carr&#x00E9;s des &#x00E9;carts des valeurs de la s&#x00E9;rie par rapport &#x00E0; leur moyenne</div></form></li><li id="Q_2_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_4_Chk" class="MSelCheckbox" />Un moment centr&#x00E9; d'ordre 2</div></form></li><li id="Q_2_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_2_5_Chk" class="MSelCheckbox" />E(X&#x00B2;) - E (X)</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(2)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_3" style="display: none;"><p class="QuestionText">La somme des carr&#x00E9;s des &#x00E9;carts d'une s&#x00E9;rie de n valeurs est:</p><ol class="MSelAnswers"><li id="Q_3_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_0_Chk" class="MSelCheckbox" />&#x00E9;gale &#x00E0; la somme des carr&#x00E9;s si toutes les valeurs de la s&#x00E9;rie sont &#x00E9;gales </div></form></li><li id="Q_3_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_1_Chk" class="MSelCheckbox" />&#x00E9;gale &#x00E0; la somme des carr&#x00E9;s si la moyenne de la s&#x00E9;rie est nulle</div></form></li><li id="Q_3_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_2_Chk" class="MSelCheckbox" />&#x00E9;gale &#x00E0; la somme des carr&#x00E9;s si l'&#x00E9;cart type de la s&#x00E9;rie est &#x00E9;gal &#x00E0; 1</div></form></li><li id="Q_3_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_3_Chk" class="MSelCheckbox" />nulle si toutes les valeurs de la s&#x00E9;rie sont &#x00E9;gales</div></form></li><li id="Q_3_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_3_4_Chk" class="MSelCheckbox" />&#x00E9;gale &#x00E0; n&#x00B2; si l'&#x00E9;cart type de la s&#x00E9;rie est &#x00E9;gal &#x00E0; 1</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(3)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_4" style="display: none;"><p class="QuestionText">La moyenne arithm&#x00E9;tique d'une s&#x00E9;rie de n valeurs :</p><ol class="MSelAnswers"><li id="Q_4_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_0_Chk" class="MSelCheckbox" />est sensible au changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_4_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_1_Chk" class="MSelCheckbox" />est sensible au changement d'origine uniquement</div></form></li><li id="Q_4_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li><li id="Q_4_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_3_Chk" class="MSelCheckbox" />est sensible aux valeurs extr&#x00EA;mes</div></form></li><li id="Q_4_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_4_4_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(4)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_5" style="display: none;"><p class="QuestionText">La m&#x00E9;diane d'une s&#x00E9;rie de n valeurs :</p><ol class="MSelAnswers"><li id="Q_5_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_0_Chk" class="MSelCheckbox" />est sensible au changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_5_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_1_Chk" class="MSelCheckbox" />est sensible au changement d'origine uniquement</div></form></li><li id="Q_5_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li><li id="Q_5_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_3_Chk" class="MSelCheckbox" />est sensible aux valeurs extr&#x00EA;mes</div></form></li><li id="Q_5_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_5_4_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(5)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_6" style="display: none;"><p class="QuestionText">Le mode d'une s&#x00E9;rie de n valeurs :</p><ol class="MSelAnswers"><li id="Q_6_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_0_Chk" class="MSelCheckbox" />est sensible au changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_6_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_1_Chk" class="MSelCheckbox" />est sensible au changement d'origine uniquement</div></form></li><li id="Q_6_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li><li id="Q_6_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_3_Chk" class="MSelCheckbox" />est sensible aux valeurs extr&#x00EA;mes</div></form></li><li id="Q_6_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_6_4_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(6)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_7" style="display: none;"><p class="QuestionText">De fa&#x00E7;on g&#x00E9;n&#x00E9;rale un quantile d'une s&#x00E9;rie de n valeurs :</p><ol class="MSelAnswers"><li id="Q_7_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_0_Chk" class="MSelCheckbox" />est sensible au changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_7_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_1_Chk" class="MSelCheckbox" />est sensible au changement d'origine uniquement</div></form></li><li id="Q_7_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li><li id="Q_7_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_3_Chk" class="MSelCheckbox" />est sensible aux valeurs extr&#x00EA;mes</div></form></li><li id="Q_7_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_7_4_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(7)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_8" style="display: none;"><p class="QuestionText">Une variance calcul&#x00E9;e sur une s&#x00E9;rie de n valeurs :</p><ol class="MSelAnswers"><li id="Q_8_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_0_Chk" class="MSelCheckbox" />est sensible au changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_8_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_1_Chk" class="MSelCheckbox" />est sensible au changement d'origine uniquement</div></form></li><li id="Q_8_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li><li id="Q_8_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_3_Chk" class="MSelCheckbox" />est sensible aux valeurs extr&#x00EA;mes</div></form></li><li id="Q_8_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_8_4_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(8)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_9" style="display: none;"><p class="QuestionText">Le rapport de 2 variances de 2 &#x00E9;chantillons sur lesquels on mesure une m&#x00EA;me variable al&#x00E9;atoire :</p><ol class="MSelAnswers"><li id="Q_9_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_9_0_Chk" class="MSelCheckbox" />est sensible &#x00E0; un m&#x00EA;me changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_9_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_9_1_Chk" class="MSelCheckbox" />est sensible &#x00E0; un m&#x00EA;me changement d'origine uniquement</div></form></li><li id="Q_9_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_9_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle identiques</div></form></li><li id="Q_9_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_9_3_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle identiques</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(9)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_10" style="display: none;"><p class="QuestionText">La diff&#x00E9;rence de 2 moyennes de 2 &#x00E9;chantillons sur lesquels on mesure une m&#x00EA;me variable al&#x00E9;atoire:</p><ol class="MSelAnswers"><li id="Q_10_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_0_Chk" class="MSelCheckbox" />est sensible &#x00E0; un m&#x00EA;me changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_10_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_1_Chk" class="MSelCheckbox" />est sensible &#x00E0; un m&#x00EA;me changement d'origine uniquement</div></form></li><li id="Q_10_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle identiques</div></form></li><li id="Q_10_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_10_3_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle identiques</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(10)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_11" style="display: none;"><p class="QuestionText">Un moment centr&#x00E9; d'ordre 3 d'une s&#x00E9;rie de n valeurs :</p><ol class="MSelAnswers"><li id="Q_11_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_0_Chk" class="MSelCheckbox" />est sensible au changement d'&#x00E9;chelle uniquement</div></form></li><li id="Q_11_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_1_Chk" class="MSelCheckbox" />est sensible au changement d'origine uniquement</div></form></li><li id="Q_11_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_2_Chk" class="MSelCheckbox" />est sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li><li id="Q_11_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_3_Chk" class="MSelCheckbox" />n'est pas sensible aux changements d'origine et d'&#x00E9;chelle</div></form></li><li id="Q_11_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_11_4_Chk" class="MSelCheckbox" />est sensible aux valeurs extr&#x00EA;mes</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(11)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_12" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"Combien d'achats par correspondance faites-vous par an?" r&#x00E9;ponses possibles: " 1 - 2 - 3 - 4et+"<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_12_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_12_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_12_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_12_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_12_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_12_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_12_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_12_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(12)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_13" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"A chaque visite quel est le montant moyen de votre ticket de caisse?" r&#x00E9;ponses possibles: " &lt;30$ - 30 &#x00E0; 75$ - 75 &#x00E0; 115$ - 115$ et +"<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_13_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_13_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_13_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_13_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_13_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_13_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_13_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_13_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(13)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_14" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"Achetez-vous du th&#x00E9; vert?" r&#x00E9;ponses possibles: "oui - non"<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_14_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_14_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_14_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_14_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_14_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_14_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_14_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_14_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(14)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_15" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"En g&#x00E9;n&#x00E9;ral qui fait les courses chez vous?" r&#x00E9;ponses possibles: "vous - votre conjoint - les deux"<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_15_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_15_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_15_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_15_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_15_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_15_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_15_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_15_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(15)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_16" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"Monsieur, quelle est la taille de vos v&#x00EA;tements?" r&#x00E9;ponses possibles: "S - L - XL - XLS"<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_16_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_16_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_16_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_16_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_16_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_16_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_16_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_16_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(16)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_17" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"Vivez-vous?" r&#x00E9;ponses possibles: "seul(e) - en couple"<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_17_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_17_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_17_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_17_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_17_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_17_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_17_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_17_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(17)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_18" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"Dans quel d&#x00E9;partement vivez-vous?" pour la r&#x00E9;ponse inscrire dans une case par exemple: 69, 38 ...etc<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_18_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_18_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_18_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_18_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_18_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_18_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_18_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_18_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(18)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_19" style="display: none;"><p class="QuestionText">Voici une question relev&#x00E9;e dans une enqu&#x00EA;te sur la consommation des foyers. <br />"Combien de CD achetez-vous par an?" r&#x00E9;ponses possibles "0 - 1 &#x00E0; 3 - 4 &#x00E0; 6 - + de 6"<br />Dans cette question, la variable &#x00E9;tudi&#x00E9;e est de nature:</p><ol class="MSelAnswers"><li id="Q_19_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_0_Chk" class="MSelCheckbox" />dichotomique</div></form></li><li id="Q_19_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_1_Chk" class="MSelCheckbox" />qualitative </div></form></li><li id="Q_19_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_2_Chk" class="MSelCheckbox" />discr&#x00E8;te</div></form></li><li id="Q_19_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_3_Chk" class="MSelCheckbox" />quantitative</div></form></li><li id="Q_19_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_4_Chk" class="MSelCheckbox" />continue</div></form></li><li id="Q_19_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_5_Chk" class="MSelCheckbox" />nominale</div></form></li><li id="Q_19_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_19_6_Chk" class="MSelCheckbox" />ordinale</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(19)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_20" style="display: none;"><p class="QuestionText">Sur une s&#x00E9;rie de 10 valeurs vous avez obtenu une moyenne &#x00E9;gale &#x00E0; 50 et un &#x00E9;cart type &#x00E9;gal &#x00E0; 4. Mais vous vous apercevez que vous avez saisi comme derni&#x00E8;re valeur le nombre 45 &#x00E0; la place du nombre 54. Vous corrigez vos r&#x00E9;sultats et vous trouvez:</p><ol class="MSelAnswers"><li id="Q_20_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_0_Chk" class="MSelCheckbox" />une nouvelle moyenne &#x00E9;gale &#x00E0; 50.9</div></form></li><li id="Q_20_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_1_Chk" class="MSelCheckbox" />une nouvelle moyenne &#x00E9;gale &#x00E0; 50.36</div></form></li><li id="Q_20_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_2_Chk" class="MSelCheckbox" />un nouvel &#x00E9;cart type &#x00E9;gal &#x00E0; 4.91</div></form></li><li id="Q_20_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_3_Chk" class="MSelCheckbox" />un nouvel &#x00E9;cart type &#x00E9;gal &#x00E0; 8.17</div></form></li><li id="Q_20_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_20_4_Chk" class="MSelCheckbox" />un nouvel &#x00E9;cart type &#x00E9;gal &#x00E0; 3.78</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(20)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_21" style="display: none;"><p class="QuestionText">Vous &#x00EA;tes en pr&#x00E9;sence de 3 s&#x00E9;ries 1, 2 et 3 d'effectifs respectivement &#x00E9;gaux &#x00E0; 10, 20 et 30; de moyennes respectives &#x00E9;gales &#x00E0; 40, 50 et 60; de SCE respectivement &#x00E9;gales &#x00E0; 150, 300 et 600.</p><ol class="MSelAnswers"><li id="Q_21_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_0_Chk" class="MSelCheckbox" />La moyenne de l'ensemble des 3 s&#x00E9;ries est &#x00E9;gale &#x00E0; 53.33</div></form></li><li id="Q_21_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_1_Chk" class="MSelCheckbox" />La moyenne de l'ensemble des 3 s&#x00E9;ries est &#x00E9;gale &#x00E0; 50</div></form></li><li id="Q_21_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_2_Chk" class="MSelCheckbox" />La moyenne de l'ensemble des 3 s&#x00E9;ries est &#x00E9;gale &#x00E0; 20</div></form></li><li id="Q_21_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_3_Chk" class="MSelCheckbox" />La moyenne de l'ensemble des 3 s&#x00E9;ries est &#x00E9;gale &#x00E0; 300</div></form></li><li id="Q_21_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_21_4_Chk" class="MSelCheckbox" />L'effectif total est &#x00E9;gal &#x00E0; 60</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(21)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_22" style="display: none;"><p class="QuestionText">Vous &#x00EA;tes en pr&#x00E9;sence de 3 s&#x00E9;ries 1, 2 et 3 d'effectifs respectivement &#x00E9;gaux &#x00E0; 10, 20 et 30; de moyennes respectives &#x00E9;gales &#x00E0; 40, 50 et 60; de SCE respectivement &#x00E9;gales &#x00E0; 150, 300 et 600.</p><ol class="MSelAnswers"><li id="Q_22_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_0_Chk" class="MSelCheckbox" />La SCE des moyennes entre elles est &#x00E9;gale &#x00E0; 350</div></form></li><li id="Q_22_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_1_Chk" class="MSelCheckbox" />La SCE des moyennes entre elles est &#x00E9;gale &#x00E0; 25500</div></form></li><li id="Q_22_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_2_Chk" class="MSelCheckbox" />La SCE des moyennes entre elles est &#x00E9;gale &#x00E0; 3333.33</div></form></li><li id="Q_22_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_3_Chk" class="MSelCheckbox" />La SCE des moyennes entre elles est &#x00E9;gale &#x00E0; 4383.33</div></form></li><li id="Q_22_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_22_4_Chk" class="MSelCheckbox" />La SCE des moyennes entre elles est &#x00E9;gale &#x00E0; 233.27</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(22)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_23" style="display: none;"><p class="QuestionText">Vous &#x00EA;tes en pr&#x00E9;sence de 3 s&#x00E9;ries 1, 2 et 3 d'effectifs respectivement &#x00E9;gaux &#x00E0; 10, 20 et 30; de moyennes respectives &#x00E9;gales &#x00E0; 40, 50 et 60; de SCE respectivement &#x00E9;gales &#x00E0; 150, 300 et 600.</p><ol class="MSelAnswers"><li id="Q_23_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_0_Chk" class="MSelCheckbox" />La SCE li&#x00E9;e aux fluctuations al&#x00E9;atoires est &#x00E9;gale &#x00E0; 1050</div></form></li><li id="Q_23_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_1_Chk" class="MSelCheckbox" />La SCE li&#x00E9;e aux fluctuations al&#x00E9;atoires est &#x00E9;gale &#x00E0; 4383.33</div></form></li><li id="Q_23_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_2_Chk" class="MSelCheckbox" />La SCE li&#x00E9;e aux fluctuations al&#x00E9;atoires est &#x00E9;gale &#x00E0; 25500 </div></form></li><li id="Q_23_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_3_Chk" class="MSelCheckbox" />La SCE li&#x00E9;e aux fluctuations al&#x00E9;atoires est &#x00E9;gale &#x00E0; 175050</div></form></li><li id="Q_23_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_23_4_Chk" class="MSelCheckbox" />La SCE li&#x00E9;e aux fluctuations al&#x00E9;atoires est &#x00E9;gale &#x00E0; 8500</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(23)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_24" style="display: none;"><p class="QuestionText"><table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;<br /> border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'><tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> j<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> nj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xjnj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xj&#x00B2;nj<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 1<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 10<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 10<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 100<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 1000<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 12<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 15<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 180<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2160<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 3<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 14<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 12<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 168<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2352<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 4<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 16<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 8<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 128<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2048<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> total<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 52<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 45<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 576<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 7560<o:p></o:p></p></td> </tr></table><br />Dans cette s&#x00E9;rie group&#x00E9;e la moyenne est &#x00E9;gale &#x00E0; :</p><ol class="MSelAnswers"><li id="Q_24_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_0_Chk" class="MSelCheckbox" />11.25</div></form></li><li id="Q_24_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_1_Chk" class="MSelCheckbox" />12.8</div></form></li><li id="Q_24_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_2_Chk" class="MSelCheckbox" />13</div></form></li><li id="Q_24_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_24_3_Chk" class="MSelCheckbox" />144</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(24)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_25" style="display: none;"><p class="QuestionText"><table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;<br /> border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'><tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> j<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> nj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xjnj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xj&#x00B2;nj<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 1<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 10<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 10<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 100<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 1000<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 12<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 15<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 180<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2160<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 3<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 14<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 12<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 168<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2352<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 4<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 16<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 8<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 128<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2048<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> total<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 52<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 45<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 576<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 7560<o:p></o:p></p></td> </tr></table><br />Dans cette s&#x00E9;rie group&#x00E9;e la variance est &#x00E9;gale &#x00E0; :</p><ol class="MSelAnswers"><li id="Q_25_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_0_Chk" class="MSelCheckbox" />168</div></form></li><li id="Q_25_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_1_Chk" class="MSelCheckbox" />2.04</div></form></li><li id="Q_25_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_2_Chk" class="MSelCheckbox" />187.2</div></form></li><li id="Q_25_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_25_3_Chk" class="MSelCheckbox" />4.16</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(25)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_26" style="display: none;"><p class="QuestionText"><table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;<br /> border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'><tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> j<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> nj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xjnj<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> xj&#x00B2;nj<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 1<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 10<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 10<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 100<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 1000<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 12<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 15<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 180<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2160<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 3<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 14<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 12<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 168<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2352<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 4<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 16<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 8<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 128<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 2048<o:p></o:p></p></td> </tr> <tr> <td width=83 valign=top style='width:61.9pt;border:solid windowtext .5pt;<br /> border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> total<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 52<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 45<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 576<o:p></o:p></p></td> <td width=83 valign=top style='width:61.9pt;border-top:none;border-left:none;<br /> border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;<br /> mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;<br /> padding:0cm 3.5pt 0cm 3.5pt'><br /> <p class=MsoNormal align=center style='text-align:center'><br /> 7560<o:p></o:p></p></td> </tr></table><br />Dans cette s&#x00E9;rie group&#x00E9;e le 1er quartile est &#x00E9;gal &#x00E0; :</p><ol class="MSelAnswers"><li id="Q_26_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_0_Chk" class="MSelCheckbox" />13</div></form></li><li id="Q_26_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_1_Chk" class="MSelCheckbox" />12</div></form></li><li id="Q_26_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_26_2_Chk" class="MSelCheckbox" />14</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(26)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_27" style="display: none;"><p class="QuestionText">La (les) repr&#x00E9;sentation(s) graphique(s) que l'on peut utiliser pour une variable qualitative nominale est (sont):</p><ol class="MSelAnswers"><li id="Q_27_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_0_Chk" class="MSelCheckbox" />en tuyaux d'orgues</div></form></li><li id="Q_27_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_1_Chk" class="MSelCheckbox" />en secteurs</div></form></li><li id="Q_27_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_2_Chk" class="MSelCheckbox" />en bandes</div></form></li><li id="Q_27_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_3_Chk" class="MSelCheckbox" />figurative</div></form></li><li id="Q_27_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_4_Chk" class="MSelCheckbox" />en b&#x00E2;tons</div></form></li><li id="Q_27_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_5_Chk" class="MSelCheckbox" />en escalier</div></form></li><li id="Q_27_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_6_Chk" class="MSelCheckbox" />un histogramme</div></form></li><li id="Q_27_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_27_7_Chk" class="MSelCheckbox" />une sigmo&#x00EF;de</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(27)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_28" style="display: none;"><p class="QuestionText">La (les) repr&#x00E9;sentation(s) graphique(s) que l'on peut utiliser pour une variable qualitative ordinale est (sont):</p><ol class="MSelAnswers"><li id="Q_28_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_0_Chk" class="MSelCheckbox" />en tuyaux d'orgues</div></form></li><li id="Q_28_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_1_Chk" class="MSelCheckbox" />en secteurs</div></form></li><li id="Q_28_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_2_Chk" class="MSelCheckbox" />en bandes</div></form></li><li id="Q_28_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_3_Chk" class="MSelCheckbox" />figurative</div></form></li><li id="Q_28_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_4_Chk" class="MSelCheckbox" />en b&#x00E2;tons</div></form></li><li id="Q_28_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_5_Chk" class="MSelCheckbox" />en escalier</div></form></li><li id="Q_28_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_6_Chk" class="MSelCheckbox" />un histogramme</div></form></li><li id="Q_28_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_28_7_Chk" class="MSelCheckbox" />une sigmo&#x00EF;de</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(28)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_29" style="display: none;"><p class="QuestionText">La (les) repr&#x00E9;sentation(s) graphique(s) que l'on peut utiliser pour une variable quantitative discr&#x00E8;te est (sont):</p><ol class="MSelAnswers"><li id="Q_29_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_0_Chk" class="MSelCheckbox" />en tuyaux d'orgues</div></form></li><li id="Q_29_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_1_Chk" class="MSelCheckbox" />en secteurs</div></form></li><li id="Q_29_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_2_Chk" class="MSelCheckbox" />en bandes</div></form></li><li id="Q_29_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_3_Chk" class="MSelCheckbox" />figurative</div></form></li><li id="Q_29_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_4_Chk" class="MSelCheckbox" />en b&#x00E2;tons</div></form></li><li id="Q_29_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_5_Chk" class="MSelCheckbox" />en escalier</div></form></li><li id="Q_29_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_6_Chk" class="MSelCheckbox" />un histogramme</div></form></li><li id="Q_29_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_29_7_Chk" class="MSelCheckbox" />une sigmo&#x00EF;de</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(29)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_30" style="display: none;"><p class="QuestionText">La (les) repr&#x00E9;sentation(s) graphique(s) que l'on peut utiliser pour une variable quantitative continue est (sont):</p><ol class="MSelAnswers"><li id="Q_30_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_0_Chk" class="MSelCheckbox" />en tuyaux d'orgues</div></form></li><li id="Q_30_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_1_Chk" class="MSelCheckbox" />en secteurs</div></form></li><li id="Q_30_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_2_Chk" class="MSelCheckbox" />en bandes</div></form></li><li id="Q_30_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_3_Chk" class="MSelCheckbox" />figurative</div></form></li><li id="Q_30_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_4_Chk" class="MSelCheckbox" />en b&#x00E2;tons</div></form></li><li id="Q_30_5"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_5_Chk" class="MSelCheckbox" />en escalier</div></form></li><li id="Q_30_6"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_6_Chk" class="MSelCheckbox" />un histogramme</div></form></li><li id="Q_30_7"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_30_7_Chk" class="MSelCheckbox" />une sigmo&#x00EF;de</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(30)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_31" style="display: none;"><p class="QuestionText">Un coefficient de variation:</p><ol class="MSelAnswers"><li id="Q_31_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_0_Chk" class="MSelCheckbox" />s'exprime dans l'unit&#x00E9; de la variable</div></form></li><li id="Q_31_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_1_Chk" class="MSelCheckbox" />est un nombre sans dimension</div></form></li><li id="Q_31_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_2_Chk" class="MSelCheckbox" />doit &#x00EA;tre grand si les donn&#x00E9;es sont homog&#x00E8;nes</div></form></li><li id="Q_31_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_3_Chk" class="MSelCheckbox" />doit &#x00EA;tre petit si les donn&#x00E9;es sont homog&#x00E8;nes</div></form></li><li id="Q_31_4"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_31_4_Chk" class="MSelCheckbox" />mesure la dispersion des valeurs d'une autour de sa moyenne</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(31)">V&#x00E9;rifier</button></li>
+<li class="QuizQuestion" id="Q_32" style="display: none;"><p class="QuestionText">Pour calculer les quartiles d'une s&#x00E9;rie on d&#x00E9;termine d'abord les rangs du quartile :</p><ol class="MSelAnswers"><li id="Q_32_0"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_32_0_Chk" class="MSelCheckbox" />empiriquement si la variable est quantitative continue group&#x00E9;e en classes</div></form></li><li id="Q_32_1"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_32_1_Chk" class="MSelCheckbox" />empiriquement si la variable est quantitative discr&#x00E8;te</div></form></li><li id="Q_32_2"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_32_2_Chk" class="MSelCheckbox" />&#x00E0; l'aide des formules 1/4 (n+1); 2/4(n+1) et 3/4 (n+1) si la s&#x00E9;rie est group&#x00E9;e en classes</div></form></li><li id="Q_32_3"><form method="post" action="" onsubmit="return false;"><div><input type="checkbox" id="Q_32_3_Chk" class="MSelCheckbox" />&#x00E0; l'aide des formules 1/4 (n+1); 2/4(n+1) et 3/4 (n+1) si la variable est quantitative discr&#x00E8;te</div></form></li></ol><button class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)"  onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="CheckMultiSelAnswer(32)">V&#x00E9;rifier</button></li></ol>
+
+
+
+</div>
+
+
+
+<div class="Feedback" id="FeedbackDiv">
+<div class="FeedbackText" id="FeedbackContent"></div>
+<button id="FeedbackOKButton" class="FuncButton" onfocus="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseover="FuncBtnOver(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="HideFeedback(); return false;">&nbsp;OK&nbsp;</button>
+</div>
+
+<!-- BeginBottomNavButtons -->
+
+
+<div class="NavButtonBar" id="BottomNavBar">
+
+
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='index1.doc'; return false;"> Index </button>
+
+
+
+
+</div>
+
+
+
+<!-- EndBottomNavButtons -->
+
+<!-- BeginSubmissionForm -->
+
+<!-- EndSubmissionForm -->
+
+</body>
+
+</html>

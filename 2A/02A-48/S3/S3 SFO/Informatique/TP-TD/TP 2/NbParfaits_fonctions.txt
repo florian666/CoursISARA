@@ -1,0 +1,62 @@
+﻿Module Outils
+
+    'Fonction renvoyant (en sortie) le tableau des diviseurs d'un nombre passé en paramètre
+
+    Public Function renvoie_tab_div(ByVal N)
+
+        'ATTENTION : on utilise ici un TABLEAU DYNAMIQUE
+        '(car on ne connait pas à priori sa taille !!)
+
+        'Déclarer les variables (locales)
+        Dim div_teste As Integer
+        Dim reste As Integer
+        Dim tab_div() As Integer
+        Dim indice_tab As Integer
+
+        'Initialiser les variables
+        div_teste = 1
+        indice_tab = 0
+
+        'CORPS DU PROGRAMME
+        Do
+            reste = N Mod div_teste
+            'Si reste = 0, on stocke dans le tableau ; sinon on ne fait rien !
+            If reste = 0 Then
+                ' "ReDim" pour redimensionner (tableau dynamique)
+                ' "Preserve" pour conserver les valeurs du tableau à chaque redimensionnement
+                ReDim Preserve tab_div(indice_tab)
+                tab_div(indice_tab) = div_teste
+                indice_tab = indice_tab + 1
+            End If
+            'on incrémente le diviseur à tester
+            div_teste = div_teste + 1
+            'on continue si (div_teste-1) < N/2
+        Loop Until div_teste > N / 2
+
+        'Retourner le tableau rempli
+        Return tab_div
+
+    End Function
+
+    **********************************************************************************************
+
+    'Fonction renvoyant la somme d'un tableau
+    'Pour cette fonction, 2 paramètres : le tableau (paramètre 1), sa taille (paramètre 2)
+
+    Public Function somme_tab(ByVal tab, ByVal taille_tab)
+
+        Dim somme As Integer
+        Dim i As Integer
+
+        'Boucler sur chaque case du tableau
+        'et utiliser la variable "somme" comme accumulateur
+        For i = 0 To taille_tab - 1
+            somme = somme + tab(i)
+        Next i
+
+        'Retourner la valeur de la somme
+        Return somme
+
+    End Function
+
+End Module
