@@ -161,3 +161,102 @@ Renseignement du prélèvement :
 Flore résidente  
 Flore de contamination : germes de contamination dans les eaux douces et zones côtières  
 
+### a) La microflore résidente de l'eau  
+
+Phyto et zooplanton dans les eaux de surface  
+Tapis microbiens sur rochers ou sédiments  
+
+Bactéries phytosynthétiques sulfureuses et non sulfureuses  
+Contamination d'origine fécale  
+
+Cas du choléra : plusieurs litres de selles par jour contenant $10^{8}$ vibrions / ml  
+
+Voies de transmission à l'homme :  
+
+- l'ingestion : eau de boisson, eau de préparation des aliments  
+- les eaux chaudes sanitaires : bains, saunas, hammams  
+- les aérosols : système de climatisation, vapeurs  
+- la baignade : lacs, rivières, mer, piscines  
+
+### b) La microflore nuisible à l'eau  
+
+Les bactéries :  
+
+- *Salmonelles* : 2 espèces indentifiées ; variants strictement adaptés à l'Homme, ubiquiste  
+Sérotype : carte identité externe de la bactérie (3 antigène : O sommatique, H flagellaire, K Capsule)  
+2000 sérotypes connus  
+Complications : speticémies pulmonaires et méningites  
+- *Shigelles* : 4 espèces principales, + de 30 sérotypes ; symptômes variants, conséquences peu graves  
+- *E.Coli* pathogène : Hôte commun du tube digestif, certaines souches sont pathogènes ; STEC :Shiga Toxic E Coli  
+- *vibrions* : Genre Vibrio, 30 espèces aquatiques, 2 sérotypes pathogènes ; Réservoir océanique et relation avec le climat : la charge en vibrio du milieu marin suit les blooms planctoniques ; 
+- *legionelles* : 30% à 90% de tests de détections + dans l'eau stagnante avec sédiments entre 20 et 50°C ; Genre à 43 espèces, 1 espèce pathogène ; dose infectante : $10^{3}$  
+
+Cas particulier des flores présentes dans tous les milieux  
+Germes capables de se développer aussi bien dans les milieux inertes que sur les EV à partir de Matière Organique  
+
+FMAR : flore mésophile aérobie revivifiante ; recherche dans l'eau à température 22°C et 36°C  
+Coliformes : Entérobactériacés (30°C) => colliformes totaux (37°C) & colliformes Fécaux (44°C) & E choli (44°C) => objectif : trouver les contaminations fécales  
+Clostridium : germe anaérobie strict ; catégorie : sulfito réducteurs ; germe tellurique ; on recherche *C. perfringens*   
+
+Il ne faut pas de virus dans l'eau  
+
+Les virus  
+Les algues toxiques  
+Les protozoaires  
+
+# II Les microorganismes et l'humain  
+
+## 1 Introduction
+
+L'Humain fait partie des animaux supérieur  
+Au cours de son développement, l'animal passe par deux états "microbiens"  
+De la conception à la naissance, l'être vit dans un milieu (théoriquement) stérile  
+
+Les fonctions basiques d'un animal  
+
+Se nourir, produire de l'énergie, produire des déchets, se protéger, de déplacer, se reproduire  
+On va en déduire différents types de systèmes  
+5 écosystèmes  
+
+## 1 l'écosystème humain  
+
+### a) Généralités  
+
+Le corps comporte $10^{12/13}$ cellules  
+La peau abrite $10^{11/12}$ µorgas  
+L'intestin abrite $10^{13/14}$ µorgas  
+
+Le corps comporte plus de bactéries que de cellules  
+
+L'humain est un puissant émetteur de particules  
+Squames, cheveux, aérosols, éternuement, toux  
+
+Un humain émet entre $10^{5}$ et $3 * 10^{7}$ particules / min  
+Renouvellement de la peau chaque semaine  
+
+Flore basale, de base ou flore résidente  
+Abondante, elle concerne tout le monde, elle est en équilibre avec son hôte, elle est rarement pathogène  
+
+Flore normale de base :  
+Flore dominante : Nombreuses bactéries se nourissante des cellules mortes et des sécrétions  
+Protection contre les germes pathogènes : compétition, acidification, production de substances antibiotiques  
+
+Flore inconstante ou flore transitoire : variable selon les sujets, elle dépend de l'hygiène  
+
+*Staphylocoque*   
+
+### b) L'écosystème dermique  
+
+La peau d'un adulte représente une surface de $2m^{2}$  
+
+Le choix des savons que l'on va utiliser va orienter le dvpt de certaines populations de bactéries  
+
+les bactéries peuvent aller aussi jusqu'au bulbe du poil  
+Mais il est peu favorable aux bactéries car changement de milieu (humidification / désèchement)  
+
+La peau est légèrement acide (glandes sébacées)  
+La peau est salée et contient des lysosymes  
+
+
+
+
