@@ -22,8 +22,13 @@ Obligation de mettre en place une démarche qualité
 2 types de démarches :  
 
 - démarche de conformité : conformité par rapport à un cahier des charges  
-- démarce d'efficacité : système de management des entreprises (ISO9001, ISO14000)  
+- démarce d'efficacité : système de management des entreprises  
+ISO 9001 : norme réglementaire : satisfaction client  
+ISO 14000 : orienté environnement  
+ISO 22000 : combinaison ISO 9001 + HACCP (Analyse des dangers sur le process de fabrication)  
+Référenciel IFS ou BRC : exigé pour les grandes surfaces  
 
+Obligations réglementaires, motivation dans l'entreprise, image, démarcation, amélioration de la production, limiter les crise, sources d'économies  
 
 
 ## Histoire et visions de la qualité  
