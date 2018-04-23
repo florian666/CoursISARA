@@ -257,6 +257,16 @@ Mais il est peu favorable aux bactéries car changement de milieu (humidificatio
 La peau est légèrement acide (glandes sébacées)  
 La peau est salée et contient des lysosymes  
 
+### c) L'écosystème respiratoire  
 
+Peu favorable aux bactéroes
 
+Forte activité phgocytaire des macrophages  
+Extrème turbulence liée aux échanges gazeux  
+
+### d) L'écosystème bucco-dentaire
+
+Très peu favorable aux bactéries  
+
+La flore intestinale : 450 espèces différentes, composition assez stble pour chaque individu, variable en fonction de l'alimentation et de l'état de santé  
 
