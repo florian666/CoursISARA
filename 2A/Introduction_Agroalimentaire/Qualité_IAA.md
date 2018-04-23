@@ -30,6 +30,10 @@ Référenciel IFS ou BRC : exigé pour les grandes surfaces
 
 Obligations réglementaires, motivation dans l'entreprise, image, démarcation, amélioration de la production, limiter les crise, sources d'économies  
 
+État caractéristique, manière d'être bonne ou mauvaise  
+Aptitude à l'usage  
+La conformité aux spécifications  
+L'aptitude à satisfaire le clien  
 
 ## Histoire et visions de la qualité  
 
