@@ -35,6 +35,8 @@ Aptitude à l'usage
 La conformité aux spécifications  
 L'aptitude à satisfaire le clien  
 
+Acteurs de la qualité : entreprise, consommateurs, l'état, les établissements publics, les collectivités, les institutions internationales, les organismes de certification  
+
 ## Histoire et visions de la qualité  
 
 ## La qualité  
