@@ -39,6 +39,21 @@ Acteurs de la qualité : entreprise, consommateurs, l'état, les établissements
 
 ## Histoire et visions de la qualité  
 
+Moyen-Âge et renaissance  
+Les corporations ont leur propre étalonnage. Les mécènes imposent des cahiers des charges aux Artistes. Code de bonne conduite dans les arsenaux et les chantiers militaires  
+
+Fin du XIXeme siècle  
+
+Production puis tri des mauvaises pièces par le suite  
+Démarche issus de taylorisme avec un partage des tâches production / contrôle  
+Des contrôleurs vérifient le travail des ouvriers  
+
+DEMING W. Edwars  
+Il constate que l'opérateur sur la chaine n'intervient que pur **6%** dans la qualité finale alors que le **système organisationnel** y contribue à hauteur de **94%** : il faut travailler sur les processus et le management  
+Création de la roue de deming  
+Plan / Do / Check / Act  
+
+
 ## La qualité  
 
 ## Qu'est-ce que la qualité ?
