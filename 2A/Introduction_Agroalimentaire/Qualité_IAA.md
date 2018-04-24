@@ -133,6 +133,8 @@ Indicteurs _ tableaux de bords
 
 Information choisie, associé à un critère, destiné à en observer les évolutions, à intervalles définis => SMART  
 
+Gestion documentaire d'un SMQ  
+
 
 
 ## La qualité  
