@@ -82,6 +82,10 @@ Réponse :
 - construire et différencier la qualité  
 - assure la protection  
 
+Norme revue tout les 5 ans et met 2 ans à être republiée  
+
+Pour faire parti de la certification, on fait appel à une entreprise tiers de certification qui vont venir voir si l'ISO est respecté  
+Le COFRAC permet de donner des acréditations aux organismes de certifications pour qu'ils puissent certifier  
 
 
 ## La qualité  
