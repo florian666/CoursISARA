@@ -122,6 +122,8 @@ Système de management :
 
  Prévue pour tout organismes
 
+ Procédure de révision  
+ 
 ## La qualité  
 
 ## Qu'est-ce que la qualité ?
