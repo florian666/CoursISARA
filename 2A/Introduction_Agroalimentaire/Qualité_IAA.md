@@ -120,12 +120,14 @@ Système de management :
 - aptitude à fournir un produit conforme  
 - accroître ma satidfaction de ses clients  
 
- Prévue pour tout organismes
+Prévue pour tout organismes
 
- Procédure de révision  
+Procédure de révision  
  
- Les processus  
- 
+Les processus  
+Différents niveaux d'approche  
+
+
 ## La qualité  
 
 ## Qu'est-ce que la qualité ?
