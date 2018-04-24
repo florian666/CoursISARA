@@ -123,8 +123,13 @@ Système de management :
 Prévue pour tout organismes
 
 Architecture documentaire  
-
 Procédure de révision  
+
+Audit : examen méthodique et indépendant en vue de déterminer si les activités et résultats relatifs à la qualité satisferont aux dispositions préétablies et si ces dispositions sont mise en oeuvres de façon efficace et apte à atteindre les objectifs recherchés  
+- Audit interne : améliorer le fonctionnement et acrrître ma cnfiance interne  
+- Audit client : donner confiance au client  
+- audit par une organisation accrédité vis-à-vis du référentiel : prouver à l'ensemble des cleins nationaux et internationaux qu'ils peuvent avoir confiance  
+
  
 Les processus  
 Différents niveaux d'approche  

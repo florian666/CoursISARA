@@ -19,5 +19,8 @@ re : clean all
 send :
 	git add . && git commit -m "1" && git push
 
+eval : 
+	ssh-agent -s
+	ssh-add
 # phony
 .PHONY: all clean re
