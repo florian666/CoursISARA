@@ -127,6 +127,13 @@ Procédure de révision
 Les processus  
 Différents niveaux d'approche  
 
+3 types de proccessus  
+
+Indicteurs _ tableaux de bords  
+
+Information choisie, associé à un critère, destiné à en observer les évolutions, à intervalles définis => SMART  
+
+
 
 ## La qualité  
 
