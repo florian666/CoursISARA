@@ -102,7 +102,25 @@ Exigences impératives sur :
 - harmonisation des contrôles  
 => exigence de résultats  
 
+Droit européen : application totale ou directe à tous les états memebres de l'Union  
+Directives : transposable au droit national  
 
+Décrêts et arrêtés  
+
+Qualié pour le client :  
+
+- ce qu'il attend  
+- ce qu'il perçoit  
+- ce ui est différent de ce qu'il veut réellement  
+
+Besoin du client : perception des besoins réels  
+
+ISO 9001  
+Système de management :  
+- aptitude à fournir un produit conforme  
+- accroître ma satidfaction de ses clients  
+
+ Prévue pour tout organismes
 
 ## La qualité  
 
