@@ -87,6 +87,22 @@ Norme revue tout les 5 ans et met 2 ans à être republiée
 Pour faire parti de la certification, on fait appel à une entreprise tiers de certification qui vont venir voir si l'ISO est respecté  
 Le COFRAC permet de donner des acréditations aux organismes de certifications pour qu'ils puissent certifier  
 
+2000 normes publiées chaque année et autant d'enlevées  
+
+La réglementation  
+
+Fiwer ce qui est strictemet nécessaire au fonctionnement du marcjé  
+Garantir haut niveau de protection du consommateur  
+
+Exigences impératives sur :  
+- protection de la santé et de la sécurité du consommaeur  
+- information du consommateur  
+- la loyauté du concurent  
+- la protection de l'environnement  
+- harmonisation des contrôles  
+=> exigence de résultats  
+
+
 
 ## La qualité  
 
