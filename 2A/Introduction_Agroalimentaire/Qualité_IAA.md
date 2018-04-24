@@ -124,6 +124,8 @@ Système de management :
 
  Procédure de révision  
  
+ Les processus  
+ 
 ## La qualité  
 
 ## Qu'est-ce que la qualité ?
