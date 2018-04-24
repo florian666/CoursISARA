@@ -53,6 +53,36 @@ Il constate que l'opérateur sur la chaine n'intervient que pur **6%** dans la q
 Création de la roue de deming  
 Plan / Do / Check / Act  
 
+Diagramme en arrête  
+
+L'après guerre :  
+Les 30 glorieuses : En Europe, il suffit de produire pour vendre, absence de critère qualitatif  
+Le chox pétrolier : atteinte de l'équilibre "offre-demande" puis augmentation de la qualité pour se démarquer  
+
+1987 : publication des normes ISO en matière de gestion et de qualité  
+Normes révisées toute les 5 ans  
+
+Évolution de la qualité dans le temps  
+
+Âge du trie  
+Âge du contrôle  
+Âge de prévention 
+Âge du management  
+
+Qualité implicite / générique : caratcéristique de base, non spécifié, obligatoire pour commercialiser le produit (réglementation)  
+Qualité explicite : Caractéristique qui différencent le produit d'un autre sur le marché au delà des composantes obligatoires (stratégie de l'entreprise)  
+
+**La normalisation**   
+- norme est accessible au public  
+- elle constitue une règle du jeu non obligatoire  
+- elle est évolutive  
+
+Réponse :  
+- développer partenariat entre producteurs, distributeurs et vendeurs  
+- construire et différencier la qualité  
+- assure la protection  
+
+
 
 ## La qualité  
 
