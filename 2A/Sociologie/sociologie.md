@@ -151,3 +151,176 @@ Entretients : particulièrement compliqué : échange personne à personne
 Ne donne pas forcément une plus grande objectivité  
 Réponse au comment  
 
+Les données d'enquête ne sont pas une preuve, il faut faire parler les données, les analyser, les confronter à d'autres données  
+On aura des éléments de preuves qui vont venir valider ou non la théorie de départ  
+
+Il faut déconstruire le discours avant de l'analyser  
+
+- L'étape 1 : définition d'une question de départ, délimiter le sujet en se donnant des angles d'attaques dans le but de percevoir l'intérêt du sujet d'étude
+- L'étape 2 : Etape d'exploration, lire la littérature sur le sujet, entretients exploratoires pour entendre la parole des futurs enquêtés, rompre avec les préjugés, s'éloigner du sens commun  
+- L'étape 3 : Problèmatisation, je pose des questions de recherche  
+
+Ces étapes représentent des phases de ruptures
+
+- L'étape 4 : construction du modèle d'analyse : définir des hypothèses (réponses provisoires), étayé la pbmatique, apporte des éléments de réponse => construction d'indicateurs, définir le cadre théorique (concept) : tout les moyens statistiques, méthodologiques qui permettentde mettre en valeur les concepts, le rendre observable, objectivable  
+
+3 + 4 : constituent le temps de la construction théorique du sujet
+
+- L'étape 5 : phase du travail d'enquête : travailler sur l'échantillonnage, réfléchir au lieu de l'enquête, aurpès de qui puis fabriquer les instruments de l'enquête : on questionne les modalités du travail d'enquête  
+- L'étape 6 : analyse des infos, interprétation, repérer des tendances, des opositions  
+- L'étape 7 : construire la conclusion  
+
+5 + 6 + 7 : étapes de constatation  
+
+Quelques réflexions épistémologiques :  
+
+- l'illusion de la connaissance immédiate du monde social : toujours être capable d'objectiver ses propres relations sociales, il ne faut pas tomber dans les pièges du sens commun : préjugés ; adopter un principe d'objectivité, de relativité, posture de rupture ; compliqué car il faut aller contre-nature, contre le fruit de l'histoire. peut de gens sont capable de se lire  
+Les préjugés permettent une fonction sociale car ça permet la vie en société : relier les individus entre eux  
+- l'illusion d'un objet donné par le monde social : il n'existe pas naturellement dans la société des problèmes sociaux qui attendent d'être traités  
+Tous les problèmes sociaux ne sont pas des problèmes sociologiques car les pb sociaux ont une histoire  
+Le sociologue doit comprendre que le problème social qui n'a pas posé problème, pose problème et donc devient un problème sociologique  
+- l'illusion de la conscience des déterminations du fait social par ses acteurs et témoins : le sociologue ne peut pas entièrement croire les récits des individus  
+Aller au delà des mots et percevoir le sens caché  
+- l'illusion de la neutralité et de l'objectivité des techniques : les techniques, en soi, ne garantissent pas l'objectivit, la situation d'enquête n'est pas neutre, encore faut-il travailler à produire des instruments les plus pertinents possibles  
+
+## 2) Un point de vue historique pour éclairer les interractions entre individus et société  
+
+Philosophe très importants qui ont réfléchi sur la cité idéale  
+Discours plus normatif que positif  
+
+Nouvel essor au XVIIIeme : Hobbes, Rousseau, Montesquieu, Voltaire, Descartes  
+
+Sociologie : enfant de 2 révolutions :  
+- d'abord la révolution française comme déstabilisation politique (rupture avec l'ancien régime, nouvelle classe sociale : bourgeoisie), mais tellement compliqué à mettre en place qu'il y a eu instabilité (rois, empereurs)  
+- ensuite révolution industrielle : organisation et division du travail : fin du monde de l'artisanat pour l'invention de l'usine mais a des effets plutôt négatif : exode rural (précariser la main d'oeuvre, puis quelques révoltes, prolétariat), on rentre dans une société urbaine => inventer de nouveaux outils d'évaluations nouveaux outils  
+
+Penseurs qui ont besoin d'un nouvel outil pour comprendre la société nouvelle  
+
+### A) La sociologie du fait social : Émile Durkheim (1858-1917)
+
+Il fait parti des philosophes qui considèrent que la tradition philosophique ne comprenne pas le monde nouveau.
+1er sociologue : avec sa rigueur, idées innovantes, fait entrer la sociologie dans l'université  
+
+Émile est nait dans une famille juive très importante, intégrée : famille de rabins, de père en fils  
+Il affirme qu'il ne deviendra pas rabin car il ne croit pas en Dieu.  
+
+Questions phylosophiques, morales  
+ENS de la rudule : il rencontre des psys et aussi Jean Jaurès  
+Intègre l'université de Bordeau : ouvrages "De la division du travail social : étude sur l'organisation des sociétés supérieures" (1893), "Les règles de la méthode sociologique" (1895), "Le suicide : étude de sociologie" (1896)  
+Il est particulièrement bléssé par l'affaire Dreyffus  
+
+Fondateur de la ligue des droits de l'Homme  
+Meurt relativement jeune  
+
+#### I) Fait social et holisme méthodologique  
+
+La sociologie doit être une science qui doit être mise au service de la réforme sociale, pour l'intégration sociale  
+Pour lui, les sociétés modernes sont des sociétés qui sont confrontés à de gros pbs : cohésion, désunion, désinté gration sociale : société pathologique  
+
+Une société qui tient la route doit maintenir une solidarité entre individus  
+Nouvelle cohésion sociétale mais aussi coeur même du projet sociologique  
+Question intellectuelle et sociologique  
+
+La question : la réalité sociale, les faits sociaux : cet objet est irréductible à tout autre ordre de réalité : faits qui se produisent dans chaque société, produits de la société et ces faits n'existeraient pas si la société n'existerai pas  
+Définition :  
+- les faits sociaux se caractérisent par leur dimension d'extériorité par les individus  
+- les faits sociaux se caractérisent par leur dimension de cohercition d'où la notion de **holisme** : toute théorie que le tout prime sur toutes les parties  
+- tous les faits sociaux sont des faits collectifs mais tous les faits collectifs (instincts) ne sont pas des faits sociaux  
+
+Sociologie : science des faits sociaux : ce sont "des manières d'agir, de penser et de sentir, extérieur à l'individus et qui sont doués d'un pouvoir de cohercition en vertu duquel il s'impose à lui"  
+Les faits sociaux sont des phénomènes qui ont leur propre nature, irréductible à toute autre. On ne peut pas expliquer des faits sociaux que par des faits sociaux  
+
+#### II) La posture méthodologique  
+
+Énoncé des règles d'or :  
+
+- les faits sociaux ne peuvent être expliqués que par des faits sociaux => les causes d'une phénomène social sont à recherché ailleurs que dans la psychologie individuelle  
+- il faut considérer les faits sociaux comme des choses => adopter la même posture intellectuelle devant une nouvel objet que l'on ne connait pas, que l'on ne peut pas apréhender  
+- il faut écarter systématiquement toutes les pré-notions : face au crime ou au suicide, il faut absolument que le sociologue se défasse des jugements comme anormaux donc rester objectif  
+
+Est normal ce qui représente une régularité statistique : donc pour Durkheim : les crimes et les suicides sont normaux donc potentiellement étudiable, mais pour l'étudier, il va falloir se défaire  
+
+La seule manière de na pas tomber dans le piège moral, c'est d'envisager, est crime est reconnu comme crime ce qui caractérisé comme comportement déviant (criminel / non criminel)  
+Pour définir le crime, à chaque fois qu'il y a un comportement déviant, il y a réponse du collectif, on a la certitude que l'on est au coeur du phénomène social  
+Il n'est pas possible de définir universellement le crime ou ce qui est déviant  
+
+Durkheim défend un holisme social  
+Il va inventer une technique d'enquête : les statistiques => permet de mettre en évidence la régularité qui dépasse la simple addition individuelle, permet de traiter les faits sociaux comme des choses, il n'y a plus d'individus  
+Il va appliquer sa conception sociologique à l'étude du suicide et va monter qu'il s'agit d'un phénomène social et impacte la décision strictement individuelle donc du suicide  
+La cause de taux de suicides est régulière dans les sociétés -> prévisible statistiquement  
+
+Le fait de la permanence du taux de suicde, qui reste constant, aurait tendance à montrer qu'il y a un fait social au centre  
+Plus les gens sont intégrés, moins ils se suicident  
+
+#### III) La compréhension du fonctionnement social : les formes de solidarité  
+
+Qu'est-ce qui favorise ou pénalise la cohésion sociale ?
+Étude du rapport individus / société  
+
+Démontre la part du social  
+Il démontre pourquoi les sociétés mondernes sont des sociétés malades  
+Comprendre les raisons du malheur  
+
+**Concept d'institution** : système de valeurs et de normes, établi par la loi ou la coutûme, qui est commun à un groupe d'individus, struturant de façon durable, les relations inter-individuelles  
+**Concept d'intégration** : processus par lequel un individus devient membre d'un groupe social graĉe à l'établissement de liens sociaux, qui partagent des normes & valeurs d'une groupe social  
+**Liens sociaux** : plusieurs formes => les relations économiques, politiques et d'inter-individuel (famille, amis, travail)  
+**Cohesion sociale** : situation où les liens sociaux sont forts, là où les sentiments sont fort pour appartenir à une société, ce qui permet de vivre ensemble, sentiment d'appartenance à la société  
+**Anomie** : Toute situation sociale qui se caractérise par une absence ou un relâchement des règles/normes, les individus ont moins le sentiments d'appartenir à une société : situation sociale très grave  
+**Exclusion** : Processus de mise à l'écart de la société d'un individus ou d'un groupe de telle sorte que ce groupe occupe une position inférieure et extérieure par les autres membres de la société + stigmatisation  
+
+Solidarité = lien social et la division du travail  
+
+Il veut étudier, au travers d'un mécanisme, que la société parvienne à transformer, via la division du travail, à transformer le lien social et la manière d'être un individus  
+
+Pour étudier l'intégration sociale, Durkheim va utiliser un indicateur : le droit et la forme du droit : rend les individus plus libre ou intégrés  
+
+**Les sociétés à solidarité mécanique** : forme de solidarité que l'on appelait à l'époque comme primitive, société très communautaire, les individus sont très peu différents les uns des autres, ils se ressemblent tous socialement ; société intégrée par excès de similitude (aucune place pour la singularité) ; conscience collective très forte et s'impose durablement aux individus, pas de divisions du travail, pas de spécialisations ; le type de droit va être répréssif et très fortement sanctionnaire,n l'union se fait parce que la proximité des individus est très forte ; économie collective, propriété communautaire, répartition des tâches selon la tradition  
+
+**Les sociétés à solidarité organique** : prédomine dans les sociétés industrielles ou supérieures, se caractérise par une division du travail, différenciation d'une fonction sociale, propriété privée ; la cohésion se fait parce que tout les individus sont différents, complémentaires et inter-indépendants  
+La division du travail à remplacer la conscience collective et intègre les individus à la société en les spécialisant dans des activités complémentaires  
+Ces sociétés sont donc travaillés par nature avec l'indépendance et la complémentarité  
+
+Le but du droit est de faire réparer l'individu en vue de sa réintégration ultérieure  
+
+Quelle serait la société la plus idéale, dans laquelle l'individus a le plus de droits  
+
+La société idéale est la société moderne  
+le changement social modifie la nature sociale remettant en cause les coutûmes et les traditions  
+
+Pour Durkheim, les sociétés à solidarité mécanique sont les premières sociétés humaines  
+Le sentiment d'être individu nait de la transformation de la société  
+Pour lui, la différenciation sociale est la condition créatrice de la condition humaine  
+
+Il repère plusieurs variables par l'augmentation du nombre d'individus, l'augmentation de la densité matérielle, augmentation de la densité morale de la société (échanges intercuturels et commerce, compétition)  
+Le but est de s'arrêter sur les sociétés modernes, celles qui lui posent problèmes pour comprendre pourquoi le malheur des gens  
+Le problème des sociétés modernes est de concilier des choses contradictoires, on monte en solidarité mais on devient de plus en plus autonome == contradiction  
+
+La cohésion sociale est plus importante dans la société moderne  
+La morale républicaine peut permettre aux individus de se retrouver  
+Face au primat du "je", il faut favoriser le "nous", actuellement, on peut parle d'une injonction du "je"  
+
+Les sociétés contemporaines sont considérées comme un montée de l'individualisme : primat du "je" sur le "nous" (qui est individualisé)  
+Société statutaire qui se caractérise par un individualisme abstrait (droit et devoir, reconnait comme individus, mais droits abstraitsm mais on est inscrit dans des groupes statutaires forts)  
+
+Seconde modernité va se donner à voir, par un individualisme particulariste, qui met l'accent sur l'importance des choix indivduels, sur le choix à la différence, à l'identité personnelle (à la volonté de faire comme on l'entend)  
+Mais dans le même temps, on demande à être reconnu dans ses spécificités religieuse  
+Individualisme contemporain  
+
+Deux autres types d'individualisme contemporain :  
+- positif : individualisme des personnes qui ont les moyens de choisir leur vie, moyen financier ou autre d'être quelqu'un  
+- négatif : les gens qui n'ont pas les moyens d'être des individus raisonnables rationnels pour être des individus  
+
+### B) La sociologie de l'action sociale : Max Weber
+
+#### I) Action sociale et individualisme méthodologique  
+
+#### II) La posture méthodologique  
+
+#### III) Un texte essentiel "L'éthique protestante et l'esprit capitalisme"  
+
+#### IV) La compréhension du fonctionnemlent social : modernité et processus de rationalisation  
+
+
+
+
+
