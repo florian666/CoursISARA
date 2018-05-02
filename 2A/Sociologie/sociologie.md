@@ -310,11 +310,39 @@ Deux autres types d'individualisme contemporain :
 - positif : individualisme des personnes qui ont les moyens de choisir leur vie, moyen financier ou autre d'être quelqu'un  
 - négatif : les gens qui n'ont pas les moyens d'être des individus raisonnables rationnels pour être des individus  
 
-### B) La sociologie de l'action sociale : Max Weber
+### B) La sociologie de l'action sociale : Max Weber (1864-1920)
+
+Allemand né dans une famille industrielle et de famille protestante, il aurait souhaité d'être un homme politique. (théorie sur l'État, la bureaucratie) Il va penser la théorie politique  
+Encyclopédie ambulante : théorie de la politique, du religieux, de l'économie  
+Très grand penseur dans des champs très différents  
+
+Pays dont l'unification est très récente, pays en construction, les sciences sociales et les sciences historiques sont importantes  
+Weber va être au centre d'une fameuse polémique (querelle des méthodes) : va prendre la forme d'une discussion entre expliquer/comprendre et va utiliser ce contexte pour expliquer et définir la sociologie  
+Pour Dilthey, les sciences de l'esprit sont des sciences qui ne peuvent fonctionner que par interprétation et compréhension : sciences explicatives  
+Weber va dire que ces sciences sont des sciences compréhensives  
 
 #### I) Action sociale et individualisme méthodologique  
 
+Une formule : "Faire de la sociologie, c'est comprendre par là expliquer"  
+Science de la réalité  
+
+Déf : "Nous appelons sociologie ... une science qui se propose de comprendre par interprétation l'activité sociale et par là d'expliquer causalement son déroulement et ses effets. Nous entendons par activité, un comportement humain ... quand et pour autant que l'agent ou les agents lui communique un sens subjectif et par activité sociale, l'activité qui, d'après son sens visé par l'agent ou les agents se rapporte au comportement d'autrui par rapport auquel s'oriente son déroulement"
+
+C'est la science de l'activité sociale, par compréhension puis interprétation  
+
+Sociologie qui est plus individualisante, qui permet de se rendre compte de l'activité sociale en comprenant puis expliquant  
+
 #### II) La posture méthodologique  
+
+La méthode se caractérise par 3 grandes idées :  
+- Avec Weber, on est dans une démarche antidéterministe et antipositiviste, il s'interrèsse à l'activité sociale en tant que nos comportements dépendent en fonction des attentes des autres, ce qui l'intérèsse, ce sont les actions individuelles  
+On a donc quelqu'un qui s'intérresse aux individus et à leur autnomie  
+Il a une aversion pour tout les complexes holistiques, du déterminisme : ses causalités extérieures collectives ne sont que partielles. Weber va reprocher à Marx que seul l'économie est la construction de tout.  
+Rien n'est déterminé : sociologie individualiste ; individualisme méthodologique car il va nous dire les mentalités et les comportements se déterminent à cause des autres.
+Sociologie rationaliste : il va défendre une certaine conception de l'individu dans la société ; il défend que l'individu est un calculateur  
+Il faut aller au plus prés des individus et comprendre leur manière de calculer, d'avoir des stratégies et ainsi comprendre leur action ; mais comment ses actions s'inscrivent dans un champ de contraintes sociales.  
+Ce n'est pas tant les intentions des individus eux-même, c'est comment l'emsemble des choix individuels, des actions ,s'additionnent et donnent à voir un phénomène collectif global et donnc un sujet de sociologie  
+
 
 #### III) Un texte essentiel "L'éthique protestante et l'esprit capitalisme"  
 
@@ -324,3 +352,4 @@ Deux autres types d'individualisme contemporain :
 
 
 
+Texte : quelles sont les problématiques de ces textes ? Quelle sont les grandes questions de ces textes ? / Pointrez la thèse (point de vue que l'on défend et que l'on cherche à démontrer) / dégagez les arguments les plus importants  
