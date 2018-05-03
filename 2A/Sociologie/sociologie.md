@@ -342,14 +342,159 @@ Rien n'est déterminé : sociologie individualiste ; individualisme méthodologi
 Sociologie rationaliste : il va défendre une certaine conception de l'individu dans la société ; il défend que l'individu est un calculateur  
 Il faut aller au plus prés des individus et comprendre leur manière de calculer, d'avoir des stratégies et ainsi comprendre leur action ; mais comment ses actions s'inscrivent dans un champ de contraintes sociales.  
 Ce n'est pas tant les intentions des individus eux-même, c'est comment l'emsemble des choix individuels, des actions ,s'additionnent et donnent à voir un phénomène collectif global et donnc un sujet de sociologie  
-
+On étudie donc un sociologie qui part des individus dans sa globalité, ainsi que les phénomènes émergents  
+Cette sociologie compréhensive n'est en rien un psychologisme, c'est vraiment comprendre les processus de combinaisons  
+- Il défend une démarche de compréhension mais va rester celèbre pour la construction des types idéaux. Pour rendre compte des phénomènes sociaux et de la pluralité des actions ; toujours comprendre les motivations des individus.
+Il faut donc construire un modèle d'analyse, des outils coneptuels : un type idéal : reconstruction stylisée d'une réalité dont l'observateur a isolé les traits les plus significatifs. Outil théorique qui permet, face à la diversité des motifs individuels, de résumer les traits les plus saillants (un certain nombre de comportement) : **caricature savante**   
+- Objectivité et rapport aux valeurs : cette idée que l'objectivité ne peut se gagner qu'en interrogeant le rapport à nos propres valeurs  
+Il va dégager 4 types idéaux d'actions : 
+    - l'action rationnelle en finalité : l'individu conçoit un but et va mettre les moyens nécéssaires pour atteindre ses objectifs  
+    - l'action rationnelle en valeur : en fontion de la valeur de ce que l'on donne aux objets  
+    - l'action affective : action en fonction de l'humeur, des sentiments : action irréfléchie et irrationnelle  
+    - l'action traditionnelle : l'individus agirait sous le coup des coutûmes  
+Dans la plupart du temps : combianaison de ces types idéaux : il va déterminer la société à solidarité mécanique comme communalisation et va aussi parler de la sociation.  
+Dans une société, les relations sociales ne sont pas équilibrées, certains individus doivent se soumettre tandis que d'autres peuvent dominer et ordonner.  
+Ces relations peuvent résulter du simple usage de la forme physique et de la contrainte : du **pouvoir**; soit ces relations peuvent résulter d'une relation légitime : la **domination** ou autorité  
+Le **pouvoir** est la capcité de A, d'obtenir de B ce que B spontanément ne donnerait pas  
+La **domination** (ou l'autorité) est une volonté d'obéir : obéissance acceptée.  
+On a trois raisons :  
+    - domination de caractère traditionnel : on obéit en ce que l'on croit en la valeur de certaines règles ou de celui qui les porte.  
+    - domination de caractère carismatique : on se soumet parce qu'elle est porté par quelqu'un d'exceptionnel : cas des prophètes, des leaders par contre cette domination ne survit pas à la mort de la personne  
+    - domination de caractère rationnel : on se soumet parce que cette domination est faite de décréts, de loi, de règles démocratiques, croyance dans la légalité de réglements, on obéit à un ordre impersonnel, objectif  
 
 #### III) Un texte essentiel "L'éthique protestante et l'esprit capitalisme"  
 
+Livre publié en 1905 "Éthique protestante et esprit du capitalisme"  
+En quoi l'émergence du capitalisme a contribué à la moidernisation des sociétés occidentales ?  
+Système contre-productif : l'économie nait de l'économie  
+
+Hypothèses : tendance hyponomique : dans l'Allemagne de son époque, le pouvoir économique est entre les mains d'un certain nb de familles protestantes dans le Nord, le développement s'est fait d'abord vers le Nord. il y aurait donc une affinité culturelle entre la croyance religieuse (protestantisme - calvinisme) et l'éthique professionelle du capitalisme.  
+Comment ces pratiques culturelles sont à l'origine de pratiques capitalismes ?  
+Les catholiques ont un idéal de vie qui serait être hors du monde.  
+Les protestants disent l'inverse en vivant dans le monde : application de la règle monastique dans le monde et ne le rejettent pas. Ils n'idéalisent pas une vie hors du monde mais veulent vivre avec.  
+Calvin a inventé le dogme de la prédestination : il va théorisé l'idée que le Dieu de tout éternité a décidé qui seraient les élus et les damnés  
+On est face à des croyances qui ne peuvent changer la prédestination  
+Les artisans, banquiers calcinistes ont l'intuition qu'il faut travailler dans les affaires, mais s'il réussissent, c'est que Dieu est avec eux, ils vont être tentés que la réussité provient du tout puissant au dessus d'eux.  
+En dehors de travailler, bien travailler, gagner de l'argent (sale), réussir, ils sont aussi au dehors de la société par ce biais là (pas de loisirs, pas le droit de profiter de l'argent) on est donc dans un individualisme pessimiste  
+Cet argent va être donc réinvesti dans la société pour améliorer l'outil de travail, cette exigeance économique vient primo d'un principe religieux.  
+Le capitalisme va donc émerger dans les petites communautés calvinistes : avidité du gain sans limite. Mais ils vont inventer l'avidité avec méthodes, rigeurs : C'est la modération rationnelle de cette impulsion irrationnelle, recherche de profits toujours renouvelé par l'éthique de vie  
+
+Pourquoi leur éthique va avant tout converger avec le capitalisme ?
+
+La vocation est un devoir de réussite envers Dieu  
+Goût de l'épargne  
+L'autérité du train de vie (travailler, prier, étudier, investir l'épargne)  
+Ascétisme des moeurs : "le temps, c'est de l'argent"  
+La discipline au travail, la conscience professionnelle  
+Contrôle constant de soi  
+Accumulation de capital dans les capitaux propres de l'entreprise : l'accroissement de richesse n'est pas condamnable pourvu que l'on ne s'en serve pas  
+
 #### IV) La compréhension du fonctionnemlent social : modernité et processus de rationalisation  
 
+Ce qui intérrèsse Weber, en quoi le capitalisme dit quelque chose des conditions d'émergence des sociétés.  
+Le capitalisme est la modernité de l'époque  
+Le capitalisme est la forme de rationalisation du monde  
+Il se définit par une organisation rationnelle de l'activité économique : recherche du profit toujours renouvellé, prédictible, anticipé pour que le rpofit se reproduise  
+Il faut donc que l'entreprise s'organise pour que la rentabilité se reproduise  
+Il faut qu'un certain nb de conditions qui se mettent en place :  
+- il faut que l'entreprise se démarque et arrête d'être l'appendice de la famille (devienne autre chose qu'une affaire de famille), mise en place de status  
+- invention de la comptabilité rationnelle  
+- pour que le capitalisme se développe, il faut un contexte politique particulier : société moins rigide que celles traditionnelles, main d'oeuvre libre  
+
+La capitalisme est un trait de rationnalisation du monde moderne  
+Domaine politique et administratif : XVIeme : début des états nation, bureaucratique : reglements, lois, décrêts, début de processus de monarchie absolue, domaine de la connaissance  
+Processus de rationnalisation qui continue actuellement  
+
+Phénomène d'intellectualisation : explication scientifique du monde, rapport raisonné au monde  
+Désanchetement du monde : plus de Dieu car tout est expliqué (ou presque)  
+Ce processus de rationnalisation est lourd de conséquence : individus plus rationnels et plus raisonnable mais pas forcément plus heureux et vertueux, le sens de la mort, insatisafait de la nature  
+
+Marx : religion va mourir, mais passage par des quêtes individualisés de la religiosité (recherche d'individualité)  
+
+Dans l'histoire des sociétés occidentales :  
+- période caractérisé par la tradition, société holiste, domination traditionelles, société de status et principe hiérarchiques très forts  
+- émergence de la modernité, de société, de communauté : société organique, à domination légale rationnelle, monte un forme d'individualiste abstrait, démocratique, libéralisme politique (DHC), sécularisation, industrialisation, positivisme  
+- post modernité (ou seconde modernité ou modernité réflexive) : développement de l'individualisme, injonction faite aux individus de se comporter comme individus, crise des modèles institutionelles (détraditionnalisation, déconventionnalisation), reconnaissance des indentités  
+
+## 3) Individus et société : le processus de socialisation  
+
+### A) Approche générale
+
+Comment une simple collection d'individus forme-t-elle une société ? COmment chaqun d'entre nous devient-il capable d'intégrer une place ?  
+Parce que nous sommes socialisés, parce qu'il existe des dispositifs qui ont pour fonction d'assurer ce travail de socialisation.  
+
+On peut donc accpeter l'idée, qu'àtravers la socialisation, la société agit sur nous pour faire de nous des êtres sociaux, le concept de socialisation permet de comprendre comment on s'intègre dans une société et à faire de ce que l'on attend de nous. 
+
+**Socialisation** : processus par lequel on s'approprie, à travers des interractions, les normes/ valeurs / rôles qui régissent le fonctionnement de la vie en société.  
+La socialisation est l'ensemble des processus par lesquelles l'individu est construit, formé, modelé, façonné, fabriqué, conditionné par la société globale et locale dans laquelle on vit. Processus au cours desquels l'individu acquiert, apprend, intériorise, incorpore, intègre des façons de faire, de penser, d'être qui sont situés socialement.  
+
+La socilaisation permet de favoriser l'adaptation de l'individu à la société et maintenir un certain degrès de cohésion entre les membres de la société. Pour qu'il y ait socialisation, il faut des institutions, des processus de socialisation. On distingue 2 types de socialisation : la socialisation horizontale (même status (amis)) et la socialisation verticale (transmission inter-générationnel)  
+
+Dans toutes les sociétés, les individus ont différents statuts (ouvrier, cadre, père de famille). Le statuts d'un individu est la position occupée par un individu dans un cadre social donné, un individu peut occuper plusieurs stauts en même temps. Dans la société actuelle, chaque statut impose des rôles sociaux aux individus. Le status de "père" implique dans la société qu'il s'occupe de ses enfants (lol)  
+Les rôles sociaux sont les comportements attendus de l'individu par les personnes avec qui il entre en contact, compte tenu de son/ses status  
+Il existe des **systèmes de valeurs** : oriente le comportement des individus : s'impose comme des évidences, des références spontanées, ce qui est jugé estimable dans une société à un moment donné  
+Les **valeurs** s'incarnent dans des normes, des règles, dont le non-respect induit des sanctions  
+Les **normes** sont les règles de conduite auxquelles nous devons nous conformer pour être accpeté dans une société.  
+
+Ces règles peuvent prendre 2 formes :  
+- impératif : prescrit dans des lois  
+- coutûme  
+
+L'application des normes est assorti de sanctions : santions négatives (amende, condamnations) mais également punitions positives (celles qui renforcent l'appartenance à la société (bonne note))  
+Ces normes / vleurs sont intériorisés lors du processus éducatif lors du processus d'intériosation  
+
+### B) Divers processus de socialisation  
+
+On utilisera pluttôt "socialisation" qu'"éducation" (connotation morale)  
+
+#### I) Socialisation primaire  
+
+Correspond à la période de l'enfance, primaire et plurielle : l'enfant est pris simultanément en charges par plusieurs instances de socialisation (la famille, l'école, les crèches, les nounous, le groupe des pairs, les activités périscolaires, réseaux sociaux)  
+Cette socialisation a un impact durable et va permettre la construction de la personnalité et la manière d'être de futurs individus  
+Lors de cette socialisation, ui a lieu dès que l'enfant vient au monde, la famille va doter l'enfant d'un filtre par lequel l'enfant va comprendre son monde, ses expériences, mais surtout toutes les expériences futurs qui passeront ecore avec ce filtre : manière de voir, de penser  
+
+Une partie du travail socialisateur est encore en nous sous la forme d'un habitus : sytème de disposition intériorisé au plus profond de soi  
+
+Cette socialisation est durable du fait :  
+- à lieu dès les premiers âges de la vie quand la personnalité de l'enfant est la plus maléable  
+- cette socialisation primaire se fait dans un bain relationnel constant  
+- cette socialisation primaire se déroule dans un climat affectif très particulier, formtement connotée affectivement donc provoque un cadre affectif et intellectuel meilleur  
+
+La socialisation primaire est complexe car les acteurs ne vont pas tous dans le même sens  
+Au XIXeme : famille a le monopole puis après la famille va perdre ce monopole avec l'école (scolarisation obligatoire) puis montée en puissance des discours psycho-médico prescrivant aux mères la bonne manière d'éduquer  
+Le père na plus donc plus cette tout-puissance avec le droit  
+L'État va se donner les moyens d'avoir une prise des familles : l'école  
+L'accroissement du travail féminin, une partie du travail de socialisation va se faire à l'extérieur  
+
+En famille, l'enfant se construit avec la relation à l'autre, d'abord en famille, il prend conscience de lui et des autres, il acquiert le langage (ainsi que la culture véhiculée par la langue) et inhibe les pulsion / passion et extériorise  
+
+Différence école / famille :  
+- enfant teinté de particularisme, relation affective, apprécié pour ce qu'ils sont, les parents s'occupe de bcp de dimension de la socialisation  
+- l'école a permis de socialiser contre les familles : relations universalistes (enfants traités de manière égale), sevré d'affection, critère universelle d'évaluation, distance affective et sociale entre l'élève et le maitre  
+
+#### II) La socialisation secondaire  
+
+Intervient à la fin de l'enfance et va durer jusqu'à la mort, permet aux individus de s'intégrer à de nouveaux groupes (monde du travail, études (lycée, fac, enseignement supérieur), le monde associatif)  
+Processus d'intégration à des sous-groupes spécialisés  
+
+Comment ses nouvelles acquisitions vont pouvoir faire système avec la socialisation primaire ?  
+Socialisation I^aire^ et II^aire^ ne vont pas aller dans le même sens mais va être possible si elle relativise tout les produits de la socialisation I^aire^  
+
+Se réalise quand toute les exigences extérieures / toutes ces contraintes deviennent au deuxième plan  
+
+Monde plutôt homogène pour l'enfant avec I^aire^  
+II^aire^ va être plus fragmenté avec de nouvelles manières : travail de socialisation, singularisation par des symboles, des langages, des manières d'êtres  
+Mettre ensemble les sous-mondes => capacité d'adaptation utile  
+
+Cette capacité d'adaptation dépend d'une connaissance profonde des règles de l'espace social d'où on vient mais dépend aussi de la capacité de la capacité de mettre à distance et relativiser les différents sous-monde traversés  
+Elle suppose que l'on sache faire dans l'adaptation et la désadapation permanente quand on change de sous-monde  
+
+L'intériorisation des règles est plus sommaire, plus superficielle, moins profonde, on peut donc un peu se défaire de ses règles  
+On doit être capable de s'adapter mais aussi de se détacher de certains sous-mondes  
 
 
 
 
-Texte : quelles sont les problématiques de ces textes ? Quelle sont les grandes questions de ces textes ? / Pointrez la thèse (point de vue que l'on défend et que l'on cherche à démontrer) / dégagez les arguments les plus importants  
+
+
+Textes : quelles sont les problématiques de ces textes ? Quelle sont les grandes questions de ces textes ? / Pointrez la thèse (point de vue que l'on défend et que l'on cherche à démontrer) / dégagez les arguments les plus importants  
