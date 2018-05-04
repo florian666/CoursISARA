@@ -109,5 +109,6 @@ Conservation en chambre froide
 
 COnservation en atmosphère régulée  
 
-
 # V Mesures physico-chimiques de la qualité d'un fruit
+
+Mesure plus scientifique : teneur en acide, en sucre soluble, sa fermeté, couleur,
