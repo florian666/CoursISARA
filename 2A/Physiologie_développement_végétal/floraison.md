@@ -151,7 +151,37 @@ Période obscure : nyctipériode
 Par contre, si cette durée ne convient pas à la plante : Dyspériode  
 Ces plantes qui ont besoin de nuits longues et jours courts pour passer de l'état végétatif à l'état reproducteur  
 
-
 ## 2 Comportement photopériodiques des plantes  
 
+Les plantes indifférentes : quelque soit la durée relative de jour/nuit  
+Les plantes aphotiques : mise à fleurs réaliséeà l'obscurité complète  
+Les plantes héméropériodiques ou de jours longs : héméropériode supérieure à une certaine valeur seuil : plantes de printemps ou en été  
+Les plantes nyctipériodiques ou de jours courts : héméropériode inférieure à une certaine valeur seuil : plantes d'automne ou de début d'hiver  
+
+Le minimum trophique (mT)  
+Les plantes héméropériodiques absolues nécessitent bcp plus que le mT d'éclairement, les plantes préférentes ont des besoins du mT  
+
 ## 3 Caractéristique du photopériodisme  
+
+Les caractéristiques du photopériodisme :  
+
+- caractère inductif : irréversibilité, provoque l'induction florale  
+Ex : Xanthium : si 1 nuit longue puis nuits courtes : lancement de la floraison, plante JC  
+
+- Lieu de perception florale = les feuilles : transport du stimulus, pas de sens privilégié  
+
+- Greffage : transport du stimulus, contrôle hormonal  
+
+Pour q'une plante puisse faire sa mise-à-fleur, il y a des hormones mise en jeu : les GA~3~  
+Si on enlève des feuilles, la floraison se fera mieux  
+
+Pour avoir un état reproducteur, l'équilibre hormonal doit pencher du côté des gibbérellines  
+Les GA~3~ sont stimulatrices mais aussi peuvent être inhibitrice chez certaines plantes  
+Les cytokinine : stimulatrice  
+Les auxines : inhibitrice  
+L'étylène n'a pas d'effet flagrant mais peut inhiber  
+
+## 4 Mécanisme d'action
+
+Les radiations lumineuses efficaces  
+Pour les plantes JC : 630nm anhibe et 730nm stimule  
