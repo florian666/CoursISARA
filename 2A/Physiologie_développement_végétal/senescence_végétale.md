@@ -105,6 +105,9 @@ Ce type d'OGM peut avoir une durée de vie prolongée de 6 semaines
 
 Conservation en fruitier ventilé : procédé "artisanal" pour évacuer l'éthylène  
 
+Conservation en chambre froide  
+
+COnservation en atmosphère régulée  
 
 
 # V Mesures physico-chimiques de la qualité d'un fruit
