@@ -34,11 +34,75 @@ Synthèse d'énergie (car arrêt photosynthèse)
 Transformation des glucides : hydrolyse de l'amidon, augmentation tenur en saccharose, converstion glucides acides organiques, acides aminés  
 Seul un problème persiste : manque d'O~2~ et augmentation de la température => risque de fermentation (#alcool) durant la conservation  
 
+**Les fruits climactériques**  
 
+Intesification importante de la respiration  
+Rejet de CO~2~ et sonsommation d'O~2~ en augmentation jusqu'à un maximum : le maxi climactérique  
+Crise respiratoire : pomme, poire, avocat ; risque accru de fermentation en conservation  
+Synthèse d'étylène plus importante  
+Synchronisation de la crise respiratoire avec la production et émission d'éthylène => plus le fruit produit de l'éthylène, plus il va murir vite  
+Ces fruits sont très sensibles à un apport exogène d'éthylène  
 
+**Les fruits non climactériques**   
+
+Absence de crise respiratoire : cerise, orange, citron  
+Synthèse d'étylène moins importante  
+Peu de réaction via un apport exogène d'éthylène donc peu déterminant dans la maturation  
+
+**Évolution de l'équilibre homonale**  
+
+Synthèse d'éthylène et d'acide abscissique  
+Diminution des auxines et cytokinines  
+
+## 3 L'évolution des constituants organiques  
+
+Hydrolyse amidon au profit des sucres solubles  
+
+## 4 L'émission des substances aromatiques volatiles
+
+Molécule assez complexe à détecter, seulement par des méthodes lourdes  
+
+# 5 La synthèse des protéines enzymatiques  
+
+N'apporte rien en la qualité gustative du fruit  
+Les protéines enzymatique qui vont intervenir pour la fermeté sont de la famille des petinases et des cellulases  
+
+# 6 Perte de fermeté  
+
+Fruit qui devient souple à consommer   
+Les enzymes permettent de dégrader la peptines ainsi que la cellulose et l'hémi-cellulose (molécules qui rendent le fruit dure)
+
+# 7 Diminution des composés phénoliques
+
+Perte de richesse en tanins  
+
+# 8 La transpiration
+
+L'épiderme peut accumuler de la cuticule de pruine pour imperméabiliser le fruit    
+La transpiration, via son augmentatation, permet de ressentir plus d'arômes  
 
 # III Le contrôle génétique de la maturation
 
+## 1 Les gènes de maturation
+
+On a eu besoins de fruits qui puissent voyager donc bcp de recherches à faire  
+
+## 2 La transformation du génome 
+
+Le but : déclencher la maturation des fruits à volonté  
+
+- contrôle de l'amollissement de la chair (hydrolyse des pectines et celluloses)  
+- Contrôler la synthèse d'étylène (par apport exogène)  
+
+Génétiquement, on essaie de faire passer de méthionine à l'éthyle par intriduction de 2 gènes (S-adénosyl-méthionine & Acide 1-amiocyclopropane-1-carboxylique (ACC))  
+
+On arrive donc à avoir des tomates qui ne produisent pas d'étylènes, qui sont vertes, et peut arriver à maturité qi on ajoute de l'éthylène exogène  
+
+L'autre manière serait de bloquer (du moins, réduire) la synthèse d'éthylène par l'introduction d'un gène bactérien d'ACC désaminase  
+Ce type d'OGM peut avoir une durée de vie prolongée de 6 semaines  
+
 # IV La conservation après récolte
+
+
 
 # V Mesures physico-chimiques de la qualité d'un fruit
