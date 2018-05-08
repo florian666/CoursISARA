@@ -37,7 +37,7 @@ Seul un problème persiste : manque d'O~2~ et augmentation de la température =>
 **Les fruits climactériques**  
 
 Intesification importante de la respiration  
-Rejet de CO~2~ et sonsommation d'O~2~ en augmentation jusqu'à un maximum : le maxi climactérique  
+Rejet de CO~2~ et consommation d'O~2~ en augmentation jusqu'à un maximum : le maxi climactérique  
 Crise respiratoire : pomme, poire, avocat ; risque accru de fermentation en conservation  
 Synthèse d'étylène plus importante  
 Synchronisation de la crise respiratoire avec la production et émission d'éthylène => plus le fruit produit de l'éthylène, plus il va murir vite  
@@ -111,4 +111,10 @@ COnservation en atmosphère régulée
 
 # V Mesures physico-chimiques de la qualité d'un fruit
 
-Mesure plus scientifique : teneur en acide, en sucre soluble, sa fermeté, couleur,
+Mesure plus scientifique : teneur en acide, en sucre soluble, sa fermeté, test amidon  
+
+Appréciation objective de la qualité : calibre, forme, couleur  
+Robot Pimprenelle (1993)  
+Force sur la pomme : pénétromètre : pour connaitre le degrès de fermeté du fruit  
+Puis fruit pressé et jus comparé au poids de la pomme  => la jutosité  
+Puis une partie du jus passe devant un réfractomètre pour connaitre le taux de sucre  

@@ -19,7 +19,7 @@ re : clean all
 send :
 	git add . && git commit -m "1" && git push
 
-eval : 
+SSHeval : 
 	ssh-agent -s
 	ssh-add
 # phony
