@@ -56,6 +56,37 @@ Note des adventices et des prédateurs
 
 Double partitionnement de la face d'observation  
 
+Horizontal :  
+L1 : dernier passage de roue visible  
+L2 : avant dernier passage de roue (invisible en surface)  
+L3 : pas de passage de roue  
 
+Vertical :  
+H0 : surface  
+H1 : le semis  
+H2 : reprise de labour  
+H5 : travail du sol  
+H6 : Travaux de profondeur (défonçage, décompactage)  
+P1 : 
 
+Avec le non-labour, on remonte tout les horizons en allant à H5 : semis  
+
+Repérer la limite des horizons : couteau  
+
+Micro/macro-porosité  
+
+Horizon H5 :  
+
+- État O : terre fine abondante, mottes de petits calibres : dominance de F et SF, sans cavité important  
+- État C : pas d'éléments structuraux individualisés : dominance M et SD, sans cavité importante, effet de compactage de post-labour  
+- État B : peu de terre fine, mottes de gros calibre séparées par les vides, cavités structurales importantes  
+
+Avec le non-labour : état C avec fissuration des VdT   
+Bcp de fissurations C 2R et un peu de fissuration C R  
+
+Classement des mottes selon la structure - forme, estimer leur proportion pour chaque compoartiment et à l'échelle globale d'un horizon  
+Motte Gamma : grumeleuse  
+Motte Delta : tassée  
+
+Motte Phi : intermédiaire en Gamma et Delta  
 
