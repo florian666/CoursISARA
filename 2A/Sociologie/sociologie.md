@@ -492,9 +492,136 @@ Elle suppose que l'on sache faire dans l'adaptation et la désadapation permanen
 L'intériorisation des règles est plus sommaire, plus superficielle, moins profonde, on peut donc un peu se défaire de ses règles  
 On doit être capable de s'adapter mais aussi de se détacher de certains sous-mondes  
 
+**Textes** : quelles sont les problématiques de ces textes ? Quelle sont les grandes questions de ces textes ? / Pointrez la thèse (point de vue que l'on défend et que l'on cherche à démontrer) / dégagez les arguments les plus importants  
+
+#### III) La resocialisation  
+
+A lieu généralement à la sortie de la socialisation I^aire^ mais est différente de la II^aire^  
+Porte un programme social et politique et permet de reprogrammer les individus, elle est faite dans des institutions totale (ou totalitaire)  
+Pension, armée, asile psychatrique, camps, prison => objectif de couper brutalement l'individu de ce qu'il faisait antérieurement : rituel de resocialisation : couper les cheveux, changement de vêtements avec rayure  
+Moindre espace de sa vie est controlé : soumission attendue  
+
+Socialisation manifeste (volontaire et systématique) et socialisation latente (processus informels, sans en être conscient ; apprentissage méthodique & ordonnée ; apprentissage par la répétition de comportement)  
+
+Socialisation et manière d'éducation différente avec les générations donc conflit générationnel possible  
+
+Socialisation de classes : origine sociale des enfants  
+Pratique alimentaire et rapport au corps : position sociale des individus et des parents  
+Produits alimentaires consommés varaibles selon la classe sociale  
+Pour les femmes, le poids moyen décroit au fur et à mesure de la montée des classes sociales  
+
+Jeux plaisir chez les classes "inférieur" et plus on monte dans les classes : les jeux doivent devenir "éducatifs"  
+
+Une même génération qui appartient à la même classe sociale ne va pas être socialisé de la même manière  
+Premier conditionnement quand féminin/masculin : couleur bleu/rose  
+
+Distinction entre les loisirs dirigés vers la force, activités basés sur l'expression de soi  
+
+#### IV) Conflit de socialisation
+
+On peut voir apparaitre des conflits qui proviennent du fait qu'il va être soumi à des contraintes contradictoires aux influences de socialisation  
+Conflits entre les attentes de l'école, et les attentes de la famille  
+
+Certains échecs scolaires viennent de l'incomprehension des enfants aux attendus scolaires  
+
+### C) Élements complémentaires : 3 paradigmes explicatifs  
+
+
+Il existe des modèles qui s'opposent à la manière d'expliquer les processus de socialisation  
+But socialisation : adaptation individu à la société, préservation de l'ordre social  
+
+Enfant = cire molle  
+
+Socialisation a des effets quasiments irréversibles, les adapatations ultérieurs seront minoritaires  
+
+Processus reciproque, les enfants par leur attitudes determinent et midifiable par les experiences ulterieures  
+
+Theorie de l'habitus : *Pierre Bourdieu€ : principe generateur des prariques et des representarions d'un individu ou d'une classe d'individus, l'habitud edt constitué par l'incorporation des conditions sociales et des experiences passée nottamebt enfantines  Au coursndu proceds de socialisation primaire, les structures (classe sociale, valeurs) sont retraduites dans la famille et inscrite par la vie quotidienne dans la tête et le corps enfantin  
+
+Non consicence de l'incorporation : dimension corporelle  
+
+On ne se rend pas compte lorsque l'on agit, que l'on réfléchit ou que l'on parle quand on intériorise  
+
+"N'est jamais en effet l'oublie de l'histoire que l'histoire elle-même oublie"  
+
+L'histoire incorporée, faite nature, est par là oubliée en tant que telle  
+Présence agissante de tout le passé dont il est le produit  
+
+Troisième idée : des disposition irréversibles : habitus difficile à réprimer et quasi-irréversible  
+Classe de socialisation  
+Il existe des habitus individuels qui constituent autant de diversité singulière à l'intérieur de l'homogénéité produite par l'habitus de classe  
+
+Louis Chauvel : bcp d'expériences très marquantes ne se réalisent pas lors de la socialisation primaire mais dans des périodes postérieures = socialisation transitionnelle  
+
+Critique habitus  
+Pas de place pour l'influence, le changement  
+Capacité des acteurs à savoir jouer des règles, face au concept d'habitus : la métisse  
+
+## 4) Groupes sociaux, stratification et classe sociale  
+
+L'idée importante est celle que tout les sociologues s'accordent l'existence dans toute les sociétés humaines : stratification sociale, c-a-d des systèmes de différenciation sociale basée sur l'inégale distribution des ressources (symboliques ou matérielles) et des positions sociales.  
+
+Société fondée sur des groupes et ces groupes ont des rapports entre eux, qui sont plus ou moins riches en ressources matérielles ou sociales  
+
+Le but est d'étudier la spécificité de ses groupes, la composition et la nature des relations entre ces groupes  
+Chaque société définit en quelque sorte ces hiérarchies et donc ces inégalités  
+
+Quelques exemples de critère de différenciation dans les sociétés : selon le sexe, selon l'âge, selon les sous, selon le prestige et l'honneur  
+Système des castes en Indes : correspond à une forme d'organisation sociale extrème  
+Caste (*casta* pur, pureté) : groupes sociaux endogame (mariage qu'entre memebre d'une même caste) strictement hiérarchisés, fermés et strictement héréditaire  
+Contruction autour de la notion de pureté/répulsion, interdiction des contacts physiques, des repas avec tout autres individus avec une autre caste. Si un contact impur à lieu, procédé à un rite de purification (tribunaux de castes qui jugent les déviants)  
+
+Système des ordres en France ((société d'ancien régime (clergé, noblesse et tier-état), principe de structuration sur le prestige des fonctions sociales)  
+Ordres assez hermétiques  
+
+Société traditionnelle : stratification faite par un principe religieux, soit un principe de prestige, par naissance  
+La religion peut permettre une espérance idéologique  
+
+Les différents groupes sociaux sont donc hiérarchisés et occupent des positions plus ou moins importantes sur une échelle hiérarchique  
+Étudier la stratification sociale, c'est donc analyser comment une société est organisée selon quel critère elle hiérarchise les individus et les groupes sociaux. La spécificité ne hiérarchise pas selon un seul crit'air  
+
+Stratification sociale et hiérarchisation dit automatiquement inégalité durable entre les groupes sociaux  
+Comment se produisent les inégalités sociales et comment elles se reproduisent  
+
+Différence qui se traduit en terme d'avantage et de désavantage  
+Comment repérer des groupes sociaux, sur quoi repose la stratification sociale  
+
+### A) Stratification et classes sociales
+
+#### I) Le concept de classe sociale
+
+On a historiquement 2 grands courants historiques des classes sociales  
+
+Marx : premier grand théoricien : classes sociales = collectif struturé par une certaine position sociale dans le système économique  
+Il va défnir la position de ces classes par le fait d'être oui ou non propriétaire des moyens de production  
+Réfléxion sur la bi-partition de la société : défini à partir de la place occupée dans le processus de production = distinction entre possession ou non correspond au rapport sociaux de production  
+De là, il existerait donc 2 grandes classes sociales : la bourgeoisie capitaliste (propriétaire) et classe ouvrière qui loue sa force à la bourgeoisie  
+Le capitaliste achète la force à sa valeur d'échange, ce qu'il coûte, mais est inférieur à sa valeur d'usage, ce qu'il produit, cette différence est la source du profit  
+La position objective d'un groupe s'apelle une classe en soi, c-a-d c'est une classe virtuelle. La classe réelle pour Marx est la classe pour soi  
+
+3 critères extra-économique :  
+- liens sociaux struturés et soudés  
+- conscience de classe  
+- auto-organisation syndicale et politique du groupe  
+
+Gestion assymétrique du rapport de production à des conflits de classe  
+Rapport sociale conflictuel  
+Conscience de classe avec des interêts communs  
+
+Les classes sociales n'existent que dans une situation de conflit  
+Approche réaliste et approche marxiste sont la même chose  
+
+Analyse de Max Weber : approche pluri-dimentionnelle  
+Distinge des classes qui correspondent à l'ordre économique, il existe également des groupes statutaires qui corresponderait à l'ordre social  
+Les partis politiques correspondent à l'ordre politique  
+Classe = uniquement un même ensemble d'individus qui occupent la même position économique, regroupe les individus qui ont la même probabilité d'avoir accés à certains biens et services  
+
+Groupes statutaire : dans la société, en parralèle : classe économique et groupe statutaires sur l'honneur et le prestige  
+Les sociétés s'organisent autour de la considération sociale : style de vie, type d'instruction, prestige de la profession  
+
+Consitution des groupes statutaires  
+
+Les groupes statuaires en interne sont très homogènes mais à l'extérieur, c'est très hétérogène : tendance à l'endogamie sociale  
 
 
 
-
-
-Textes : quelles sont les problématiques de ces textes ? Quelle sont les grandes questions de ces textes ? / Pointrez la thèse (point de vue que l'on défend et que l'on cherche à démontrer) / dégagez les arguments les plus importants  
