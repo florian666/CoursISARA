@@ -623,5 +623,98 @@ Consitution des groupes statutaires
 
 Les groupes statuaires en interne sont très homogènes mais à l'extérieur, c'est très hétérogène : tendance à l'endogamie sociale  
 
+Regroupement des individus dans des classes  
 
+Lloyd et Warner : étude sur une ville entre 1941 et 1949  
+Les individus de cette ville vont être classés dans différentes strates à partir de 2 méthodes définies par les chercheurs :  
+- participation évaluée : mobilisation d'informateurs qui savent sur la ville, question sur la perception sur la stratification dans leur petite ville, classement des personnes => tableau synthétique  
+- indice statutaire : somme pondérée de diverses caractéristiques ordonnées selon des échelles hiérarchiques : profession, le revenu, le quartier habité et la nature de l'habitat  
+regroupement d'individus qui ont en commun, un même indice statutaire  
+
+Approche subjective et objective  
+Nous entendons par classe certaines catégories, classé en rapport inférieur ou supérieur  
+Structure en 6 classes dont l'unité repose sur l'identification sociale, le style de vie et le prestige  
+Une strate supérieur peut être moins riche qu'une autre  
+
+Classe supérieure, moyenne, inférieure avec les classes : supérieure supérieure, supérieure inférieure, moyenne supérieure, moyenne inférieure, inférieure supérieure et inférieure inférieure => caractéristique propre : unité interne, culture commune  
+
+Pierre Bourdieu : position objective des classes sociales, représentation subjective  
+Société avec des richesses sociales qui peuvent prendre des formes différentes  
+
+DIfférentes sortes de capitaux : capital économique (argent), capital social (ensemble des relations socialement utiles), symbolique (ensemble des rituels, pratiques liés à l'honneur et à la reconnaissance) et culturel (ensemble des qualifications intellectuelles, produites par le système scolaire, soit transmise par la famille. Ce capital peut exister sous 3 formes : à l'état incorporé, état objectif (bien culturel en possession) et biens scolaires (diplome))  
+
+Pour bourdieu, la société est un espace social  
+
+Bourdieu va repérer 3 grands groupes : classe dominante : possède ses 4 formes de richesse sociale, et surtout capable de donner les bonnes visions du monde (ce qui est bien / mal)  
+
+Petit bourgeoisie qui a une position moyenne : caractérisé par la bonne volonté culturelle  
+Classe populaire dominée en capital économique  
+
+Chaque classe est définie par un pricipe de cohérence pratique, par une position dans la société  
+
+Quelle définition peut-on donner d'une classe sociale ?  
+Def de Louis Chauvel : classes inégalement situées et inégalement doté dans le système productif
+
+#### II) Le concept de catégorie socioprofessionnelle (CSP ou PCS)  
+
+Rien à voir avec les classes sociales  
+Pour classer les individus dans un nb de catégories ui représentent une certaine homogénéité sociale  
+Seulement regroupement statistiques des individus qui n'ont que quelques points de ressemblance : revenu, patrimoine, diplôme  
+Première nomenclature date de 1954 avec modification en 1980 et 2000  
+
+Part dans la pop active des différentes PCS  
+1984, 2000, 2016
+Total agriculteur : 6,4% | 2,3% | 1,8%  
+Total artisan/commerçant/chef d'entreprise : 7.6% | 6% | 6.6%  
+Total cadre et profession intellectuelle supérieure : 8.4% | 12.6% | 17.8%  
+Total profession intermédiaire : 18.5% | 19.9% | 25.8%  
+Total employés : 26% | 29.9% | 27.4%  
+Total ouvrier : 31.5% | 27.9% | 20.3%  
+
+Raison de modification des grilles : struture sociale de l'emploi se modifie  
+Ne pas confondre classe sociale et PCS (nomenclature statique statistique)  
+
+Savoir qui est où (potier : artisan ou artiste)  
+
+#### III) Classe sociale et groupes sociaux dans la société contemporaine  
+
+**Premier groupe** : fin des paysans, de la civilisation paysanne  
+Caractéristique par le village  
+Vie sociale très structurée par ses dominance (notable, prêtre)  
+Tendance à l'agrandissement des exploitations, concentrations des productions dans une orientation economique spécifique  
+
+**Deuxièmes groupes** : les classes populaires, l'histoire d'une crise  
+30 glorieuses, modernisation, construction => penser qu'il n'y aurait plus de classes populaires avec l'expansion des classes moyennes, tertiarisation de l'économie, explosion scolaire et démocratisation, société salariale  
+Pourtant ces classes semblent perdurer ; caractérisation : petitesse de leur status professionnel et social, étroitesse de leurs ressources économiques, éloignement de toutes les formes du capital culturel mais surtout l'école  
+Adj : grp social par le chômage de masse, remise en cause de la société salariale qui destabilise la population  
+De moins en moins ouvrière mais se caractérise par ouvriers de services  
+Situation paradoxale : d'un côté : classe ou grp confronté au chômage, difficulté à l'emploi, précarisation ; mais de l'autre entrée relative aculturation avec entrée à l'école, culture de masse ; à la fois désenclavé mais touché par des processus de relégation/précarisation  
+
+Quels critères pour définir classes populaires ?  
+2 catégories de critères :  
+- culturologique : renvoit aux spécificités culturelles, mode de vie  
+- sociologique : lié à la position sociale du grp dans la société  
+
+Désignent donc des groupes qui se caractérise par 2 grands types de propriété : grps +/- dominés, manque de ressources par un status social bas dans l'échelle des professions, médiocrité du logement, insécurité de l'existence  
+Groupe séparé symboliquement par les grps les plus aisés, séparé par les normes dominantes  
+Traditionnellement, groupe tendance à la révolte  
+Importance et attachement au quartier  
+Rapport ambigüe à l'école  
+Mécanismes auto-protecteurs : mécanismes sociaux et mentaux, pour essayer de se protéger de la situation : solidarité, entraide  
+Catégorie ouvrière en déroute  
+Groupe qui demande bcp de sécurité, avec une moins grande acceptation de l'immigration  
+Grande préoccupation : chômage et pouvoir d'achat  
+
+2 grands types de clivage : fracture générationnelle, fracture territoriale (les ouvriers à l'est de France : vision autoritaire et fermé ; les ouvriers de l'ouest et d'Ile de France sont moins portés par ces revendications)  
+Rapport au politique : crise des strutures politiques traditionnelles : PC, syndicats et Église  
+Gaucho-Lepenisme : résultante d'un très fort sentiment de fragilité, défense dans la nationalisation de la cause  
+
+**Troisième groupe** : les classes moyennes, un ensemble flou et hétérogène  
+Désigne les ménages et les groupes sociaux qui n'appartiennent pas aux classes supérieures, ni aux classes inférieures (ouvriers)  
+Pourquoi les classes moyennes sont-elle si importantes dans notre société ?  
+Généralement, les classes moyennes portent la croissance économique, qui produisent et consomment ; classes qui stabilisent une société car ancienne classe populaire donc aucune envie de révolution ; ces classes portent une dynamique démocratique, valorisation des valeurs démocratiques  
+
+Groupe, durant des décennies : figure centrale, optimiste et stable, sécurisante : promesse d'ascencion sociale, d'abord aux enfants des catégories populaires, filet de sécurité pour la bourgeoisie qui descendait  
+Classes portent le progrés, nouveaux modes de consommation, mais aussi dans le changement des moeurs  
+Classes moyennes salariés qui sont pessimistes et classes moyennes anxieuses : tenté par le conservatisme et peuvent donner naissance à une sorte de vision rétrograde de l'État  
 
