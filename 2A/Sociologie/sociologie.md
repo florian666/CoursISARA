@@ -718,3 +718,4 @@ Groupe, durant des décennies : figure centrale, optimiste et stable, sécurisan
 Classes portent le progrés, nouveaux modes de consommation, mais aussi dans le changement des moeurs  
 Classes moyennes salariés qui sont pessimistes et classes moyennes anxieuses : tenté par le conservatisme et peuvent donner naissance à une sorte de vision rétrograde de l'État  
 
+Ralentissement de l'économie en défaveur des salaires, risque de déclassement des enfants  
