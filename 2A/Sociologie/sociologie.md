@@ -719,3 +719,90 @@ Classes portent le progrés, nouveaux modes de consommation, mais aussi dans le 
 Classes moyennes salariés qui sont pessimistes et classes moyennes anxieuses : tenté par le conservatisme et peuvent donner naissance à une sorte de vision rétrograde de l'État  
 
 Ralentissement de l'économie en défaveur des salaires, risque de déclassement des enfants  
+Difficulté d'accés au logement, crise et remise en cause de l'état providence : baisse de la redistribution et baisse de création d'emplois de fonctionnaires  
+
+Critère subjectif : auto-évaluation, demander aux individus où ils se situent dans l'échelle sociale  
+Critère sociologique : renvoit à la profession, aux valeurs et au mode de vie, expertise et relatif pouvoir organisationnel, classes plus ou moins doté en capital économique, mais globalement classe avec capital scolaire/culturel, forte aspiration à la mobilité sociale, la qualité de vie, les classes moyennes supérieures : gentrification de l'habitat, qui innove, fort attachement à la vision libertaire à l'égalitarisme, forte identification au sort et devenir de ses enfants, maintenir son niveau, ascension sociale, frustration entre position que l'on rêve mais qui devient de plus en plus possible à atteindre  
+Peur d'être en étau entre les plus pauvres et les plus riches qui sont encore plus riche ; peur de l'incertitude  
+Cette classe épargne bcp  
+Investissement énorme dans le militantisme et le tissus associatif, se développe en leur sein, un mouvement anti-européen, passage à la radicalité chez les plus jeunes, tentation pour les partis extrême-droite  
+Aucuns chercheurs ne nieront : extension du domaine du désavantage sociale : tendance des classes populaires à se précariser  
+
+La France demeure en classe mais moins importante qu'hier (avec l'école, la conso), dispartion de culture sociale, homgène à chaque groupe, mais on est de plus en plus en société de classe (sur d'autres points tels que la perduration des inégalités mais ces inégalités restent stables)  
+Les inégalités de patrimoine augmentent, mais celle de la santé aussi  
+Société de classe dont les supérieures veulent pas se mélanger  
+
+### B) Tel père, tel fils ? La mobilité sociale 
+
+Inégalités qui struturent différents groupes  
+En théorie, on est l'acteur de la desiné et du devenir, pas de status prédéfini  
+En théorie, les individus doivent pouvoir 'changer' de classe sociale  
+
+Dans quelle mesure en France, les status sociaux sont héritables ?  
+
+Autre manière d'étudier les classes sociales et leur reproduction dans la société  
+
+#### I) Mes tables de mobilité sociale  
+
+- La mobiltité sociale est la circulation des individus entre différentes positions de la hiérarchie sociale  
+- La mobilité sociale intra-générationnelle : désigne la mobilité au cours d'une vie, pour les individus d'une génération donnée  
+- La mobilité sociale inter-générationnelle : changement de status social des individus de la génération d'enfants par rapport aux individus de la génération des parents  
+- La mobilité sociale verticale : modification de la position sociale d'in individus dans la hiérarchie sociale = promotion  
+- La mobilité sociale descendante : implique une régréssion/déclassement/démotion sociale  
+
+Invention de l'instrument : table de mobilité, instruments statistiques qui permettent de mesure la monilité inter-générationnelle  
+Outils qui prends 2 formes :  
+- table de destinés : renseigne sur ce que deviennent les fils issus d'un groupe socio-professionnel donné (ex : Que deviennent 100 fils d'agri ?)  
+- table de recrutement : rensigne sur la position sociale des pères des individus composant un groupe socio-profesionnel (ex : D'où viennent 100 agri ?)  
+
+Permet de mesure la mobilité sociale  
+Limite : structure des positions sociales n'est pas toujours comparable d'une génération à l'autre, donne une image partiel de la société  
+
+#### II) Évolution de la mobilité sociale en France  
+
+Transmission du père vers le fils important en France  
+il existe une certaine mobilité sociale mais très inégale selon les CSP  
+Mais mouvement social vers des catégories socialement proches  
+
+Les CSP les plus mobiles sont celles des employés
+
+#### III) Les variables explicatives de la mobilité sociale  
+
+Röle des structures économiques : mobilité structurelle, évolution des emplois offerts impose une certaine mobilité sociale  
+En théorie, l'immigration est un facteur de mobilité sociale ascendante structurelle pour les autochtones  
+
+La famille transmet à ses membres un patrimoine culturel mais aussi des tratégies d'ascension social  
+Stratégie de reproduction sociale  
+
+Le rôle des femmes dans la mobilité des hommes : même effet que pour l'immagration  
+La struture de l'emploi des femmes n'est pas la même que pour les hommes  
+Le mariage a des effets sur la mobilité sociale des hommes  
+À diplôme égal, les hommes mariés ont un meilleur rendement de diplôme que les femmes, mais à l'inverse, les femmes celibataires ont un meilleur rendement de diplôme  
+
+L'homogamie sociale est le fait de chosir son conjoint dans la position social d'origine  
+
+Dernier facteur : l'école et le rôle de l'école : donne le moyen de la mobilité sociale  
+Est-ce que l'école reproduit, légitime les inégalités sociales ?  
+- École théorique : Pierre Bourdieu : l'école reprodurait et légitimerait les inégalités sociales de départ, quand l'enfant arrive à l'école : arrive avec plus ou moins de dispositions acquises en famille  
+L'école ne reconnait que ceux qui sont en affinité avec celle-ci  
+L'école est l'instrument de la reproduction sociale  
+Le capital culturel va au capital culturel  
+La fonction scolaire permet de trier et donc reproduire les inégalités sociales  
+- Ecole statistique : Max Weber : inégalités de réussites scolaires sont le résultat de stratégies familiales différentes  
+Stratégie de filière courte et rentable que études longues et possibilité d'échec pour se retrouver au même stade que les parents  
+
+Théories des années 60-70 : pour comprendre le rapport à l'école, faire le mix des 2 méthodes  
+
+Conclusion :  
+Faut-il nécéssairement plus de mobilité sociale ?  
+La mobilité sociale n'est pas forcément bien vécu par les individus car société mobile est une société incertaine (bcp vers le haut, mais aussi vers le bas), dans une société mobile, l'échec est un échec indivudel  
+Une société plus mobile n'est pas forcément plus égalitaire, car si tout le monde monte, d'autres descendent  
+Idéal démocratique et inégalité : les sociétés démocratiques reposent sur le principe d'égalité  
+Il ya plusieurs façons de définir l'égalité : égalité des droits devant la loi, égalité des chances, on donne le droit d'accéder à n'importe quelle position sociale ou à n'importe quel bien, mais en plus, on garanti à tous les mêmes chances d'accés au départ, égalité des positions, il s'agit d'assurer à chacun non pas les mêmes chances d'accés aux mêmes biens/positions mais un même accés (loi parité en politique)  
+
+les inégalités ne sont pas toujours injustes, et l'égalité n'est pas toujours juste ; traiter tout de la même manière ne veut pas forcément dire que tout le monde va à la même position, d'où l'idée de traiter les gens différement permet de combler ses inégalités, il vaut mieux viser l'équité, qui est plus juste mais ce qui est juste peut contredire la règle de l'égalité  
+
+
+
+
+
