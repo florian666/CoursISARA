@@ -721,8 +721,8 @@ Classes moyennes salariés qui sont pessimistes et classes moyennes anxieuses : 
 Ralentissement de l'économie en défaveur des salaires, risque de déclassement des enfants  
 Difficulté d'accés au logement, crise et remise en cause de l'état providence : baisse de la redistribution et baisse de création d'emplois de fonctionnaires  
 
-Critère subjectif : auto-évaluation, demander aux individus où ils se situent dans l'échelle sociale  
-Critère sociologique : renvoit à la profession, aux valeurs et au mode de vie, expertise et relatif pouvoir organisationnel, classes plus ou moins doté en capital économique, mais globalement classe avec capital scolaire/culturel, forte aspiration à la mobilité sociale, la qualité de vie, les classes moyennes supérieures : gentrification de l'habitat, qui innove, fort attachement à la vision libertaire à l'égalitarisme, forte identification au sort et devenir de ses enfants, maintenir son niveau, ascension sociale, frustration entre position que l'on rêve mais qui devient de plus en plus possible à atteindre  
+**Critère subjectif** : auto-évaluation, demander aux individus où ils se situent dans l'échelle sociale  
+**Critère sociologique** : renvoit à la profession, aux valeurs et au mode de vie, expertise et relatif pouvoir organisationnel, classes plus ou moins doté en capital économique, mais globalement classe avec capital scolaire/culturel, forte aspiration à la mobilité sociale, la qualité de vie, les classes moyennes supérieures : gentrification de l'habitat, qui innove, fort attachement à la vision libertaire à l'égalitarisme, forte identification au sort et devenir de ses enfants, maintenir son niveau, ascension sociale, frustration entre position que l'on rêve mais qui devient de plus en plus possible à atteindre  
 Peur d'être en étau entre les plus pauvres et les plus riches qui sont encore plus riche ; peur de l'incertitude  
 Cette classe épargne bcp  
 Investissement énorme dans le militantisme et le tissus associatif, se développe en leur sein, un mouvement anti-européen, passage à la radicalité chez les plus jeunes, tentation pour les partis extrême-droite  
@@ -752,6 +752,7 @@ Autre manière d'étudier les classes sociales et leur reproduction dans la soci
 
 Invention de l'instrument : table de mobilité, instruments statistiques qui permettent de mesure la monilité inter-générationnelle  
 Outils qui prends 2 formes :  
+
 - table de destinés : renseigne sur ce que deviennent les fils issus d'un groupe socio-professionnel donné (ex : Que deviennent 100 fils d'agri ?)  
 - table de recrutement : rensigne sur la position sociale des pères des individus composant un groupe socio-profesionnel (ex : D'où viennent 100 agri ?)  
 
@@ -768,7 +769,7 @@ Les CSP les plus mobiles sont celles des employés
 
 #### III) Les variables explicatives de la mobilité sociale  
 
-Röle des structures économiques : mobilité structurelle, évolution des emplois offerts impose une certaine mobilité sociale  
+**Rôle des structures économiques** : mobilité structurelle, évolution des emplois offerts impose une certaine mobilité sociale  
 En théorie, l'immigration est un facteur de mobilité sociale ascendante structurelle pour les autochtones  
 
 La famille transmet à ses membres un patrimoine culturel mais aussi des tratégies d'ascension social  
@@ -800,9 +801,4 @@ Une société plus mobile n'est pas forcément plus égalitaire, car si tout le 
 Idéal démocratique et inégalité : les sociétés démocratiques reposent sur le principe d'égalité  
 Il ya plusieurs façons de définir l'égalité : égalité des droits devant la loi, égalité des chances, on donne le droit d'accéder à n'importe quelle position sociale ou à n'importe quel bien, mais en plus, on garanti à tous les mêmes chances d'accés au départ, égalité des positions, il s'agit d'assurer à chacun non pas les mêmes chances d'accés aux mêmes biens/positions mais un même accés (loi parité en politique)  
 
-les inégalités ne sont pas toujours injustes, et l'égalité n'est pas toujours juste ; traiter tout de la même manière ne veut pas forcément dire que tout le monde va à la même position, d'où l'idée de traiter les gens différement permet de combler ses inégalités, il vaut mieux viser l'équité, qui est plus juste mais ce qui est juste peut contredire la règle de l'égalité  
-
-
-
-
-
+Les inégalités ne sont pas toujours injustes, et l'égalité n'est pas toujours juste ; traiter tout de la même manière ne veut pas forcément dire que tout le monde va à la même position, d'où l'idée de traiter les gens différement permet de combler ses inégalités, il vaut mieux viser l'équité, qui est plus juste mais ce qui est juste peut contredire la règle de l'égalité  
