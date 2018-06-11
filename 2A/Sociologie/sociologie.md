@@ -63,7 +63,7 @@ L'organisation des sociétés humaines doit être cherché ailleurs que dans les
 Il existe une seconde nature : celle sociale de l'homme = objet de la sociologie.  
 Ce qui relie les Hommes d'une société entre eux : coutûmes, valeurs, société, famille  
 
-Emile Durkheym : fondateur de la sociologie : part la plus déterminante et le plus noble de l'Homme  
+Emile Durkheim : fondateur de la sociologie : part la plus déterminante et le plus noble de l'Homme  
 Ce par quoi l'Homme devient véritablement Homme.  
 La sociologie va mettre ne doute et en cause tout ce qui relve de l'argument et les croyances biologico-naturaliste : don, hérédité ou la nature.  
 La croyance en l'hérédité est une bonne manière de justifié l'injustifiable dans la société, nier les règles sociales pour les inégalités sociales.  
